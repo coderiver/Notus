@@ -1,20 +1,17 @@
 @import "base";
 
-/* narrow+wide*/
+/* default layout */
 .l{
 	width:100% ;
 	display:inline-block;
-	margin-bottom:20px;
+
 	.l-col1{
 		float:left;
 		width:140px;
-		@include respond-to(wide) {width:171px;}
 	}
 	
 	.l-col2{
 		float:right;
 		width:820px;
-		@include respond-to(wide) {width:980px;}
 	}
 }
-cc	
