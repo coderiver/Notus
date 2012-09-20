@@ -1,4 +1,9 @@
 @import "base";
+/* HOW TO USE SPRITE 
+$icons-sprite-dimensions: true;
+@import "icons/*.png";
+.whatever{@include icons-sprite(badge_hit);}
+*/
 
 *{margin:0;padding:0;-webkit-text-size-adjust: none;}
 .out{
