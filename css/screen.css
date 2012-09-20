@@ -34,21 +34,21 @@ body {
 }
 
 /*resets*/
-/* line 22, ../sass/common.scss */
+/* line 21, ../sass/common.scss */
 a img, fieldset {
   border: none;
 }
 
-/* line 25, ../sass/common.scss */
+/* line 24, ../sass/common.scss */
 a {
   color: #00919e;
 }
-/* line 27, ../sass/common.scss */
+/* line 26, ../sass/common.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 31, ../sass/common.scss */
+/* line 30, ../sass/common.scss */
 .clr {
   clear: both;
   height: 1px;
