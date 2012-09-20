@@ -1,0 +1,52 @@
+/*когда включать версию для айфона*/
+/*когда включать широкую версию*/
+/* BACKGROUND GRADIENT */
+/* BACKGROUND SIZE */
+/* BOX SHADOW */
+/* BOX SIZING */
+/* OPACITY */
+/* ROTATE*/
+/* TRANSFORM  */
+/* TRANSITION */
+/* line 3, ../sass/common.scss */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: none;
+}
+
+/* line 4, ../sass/common.scss */
+.out {
+  width: 100%;
+}
+
+/* line 7, ../sass/common.scss */
+body {
+  font-family: Arial,sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+/*resets*/
+/* line 17, ../sass/common.scss */
+a img, fieldset {
+  border: none;
+}
+
+/* line 20, ../sass/common.scss */
+a {
+  color: #00919e;
+}
+/* line 22, ../sass/common.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 26, ../sass/common.scss */
+.clr {
+  clear: both;
+  height: 1px;
+  font-size: 1px;
+  line-height: 1px;
+}

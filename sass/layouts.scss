@@ -1,0 +1,151 @@
+@import "base";
+
+/* narrow+wide*/
+.l{
+	width:100% ;
+	display:inline-block;
+	margin-bottom:20px;
+	.l-col1{
+		float:left;
+		width:140px;
+		@include respond-to(wide) {width:171px;}
+	}
+	
+	.l-col2{
+		float:right;
+		width:820px;
+		@include respond-to(wide) {width:980px;}
+	}
+}
+
+/*alternative layout wide+narrow*/
+.l_widenarrow{
+	.l-col1{
+		width:650px;
+		@include respond-to(wide) {width:782px;}
+	}
+	.l-col2{
+		width:310px;
+		@include respond-to(wide) {width:375px;}
+	}
+}
+
+/* not quite columns, floating*/
+.l_nofloat{
+	.l-col1{
+		margin-right:30px;
+		margin-bottom:50px;
+		min-height:450px;
+	}
+	.l-col2{
+		float:none;
+		width:auto;
+		display:block;
+	}
+}
+.l-onethree{
+	.l-col1{
+		width:225px;
+		@include respond-to(wide) {width:272px;}
+	}
+	.l-col2{
+		float:right;
+		width:735px;
+		@include respond-to(wide) {width:876px;}
+	}
+}
+.l-twotwo{
+	.l-col1{
+		width:480px;
+		@include respond-to(wide) {width:576px;}
+	}
+	.l-col2{
+		float:right;
+		width:480px;
+		@include respond-to(wide) {width:576px;}
+	}
+}
+.l-threeone{
+	.l-col1{
+		width:735px;
+		@include respond-to(wide) {width:876px;}
+	}
+	.l-col2{
+		float:right;
+		width:225px;
+		@include respond-to(wide) {width:272px;}
+	}
+}
+.l-twooneone{
+	.l-col2,.l-col3{
+		width:225px;
+		@include respond-to(wide) {width:272px;}
+		float:left;
+		margin-right:30px;
+	}
+	.l-col3{
+		float:right;
+		margin:0;
+	}
+	.l-col1{
+		float:left;
+		margin-right:30px;
+		width:480px;
+		@include respond-to(wide) {width:576px;}
+	}
+}
+.l-twooneone_abs{
+	position:relative;
+	.l-col3{
+		position:absolute;
+		top:0;
+		right:0;
+	}
+	.l-col2{
+		position:absolute ;
+		top:0;
+		right:255px;
+		margin:0;
+		@include respond-to(wide) {right:302px;}
+	}
+}
+/* 1/4 column for site
+---------------------------------------- */
+.cols{
+	width:100%;
+	display:inline-block;
+	.col{
+		width:225px;
+		float:left;
+		margin-left:30px;
+		@include respond-to(wide) {width:272px;}
+		&:first-child{
+			margin-left:0;
+		}
+	}
+}
+.cols_spacebottom{
+	padding-bottom:20px;
+}
+/* form layouts
+---------------------------------------- */
+.layout_1in2{
+	width:310px;
+	@include respond-to(wide) {width:375px;}
+	float:left;
+	margin-right:29px;
+}
+.layout_1in2_right{
+	float:right;
+	margin-right:0;
+}
+/* popup
+---------------------------------------- */
+.popup__left,.popup__right{
+	width:323px;
+	@include respond-to(wide) {width:383px;}
+	float:left;
+}
+.popup__right{
+	float:right;
+}

@@ -1,0 +1,264 @@
+/*когда включать версию для айфона*/
+/*когда включать широкую версию*/
+/* BACKGROUND GRADIENT */
+/* BACKGROUND SIZE */
+/* BOX SHADOW */
+/* BOX SIZING */
+/* OPACITY */
+/* ROTATE*/
+/* TRANSFORM  */
+/* TRANSITION */
+/* narrow+wide*/
+/* line 4, ../sass/layouts.scss */
+.l {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+/* line 8, ../sass/layouts.scss */
+.l .l-col1 {
+  float: left;
+  width: 140px;
+}
+@media only screen and (min-width: 1180px) {
+  /* line 8, ../sass/layouts.scss */
+  .l .l-col1 {
+    width: 171px;
+  }
+}
+/* line 14, ../sass/layouts.scss */
+.l .l-col2 {
+  float: right;
+  width: 820px;
+}
+@media only screen and (min-width: 1180px) {
+  /* line 14, ../sass/layouts.scss */
+  .l .l-col2 {
+    width: 980px;
+  }
+}
+
+/*alternative layout wide+narrow*/
+/* line 23, ../sass/layouts.scss */
+.l_widenarrow .l-col1 {
+  width: 650px;
+}
+@media only screen and (min-width: 1180px) {
+  /* line 23, ../sass/layouts.scss */
+  .l_widenarrow .l-col1 {
+    width: 782px;
+  }
+}
+/* line 27, ../sass/layouts.scss */
+.l_widenarrow .l-col2 {
+  width: 310px;
+}
+@media only screen and (min-width: 1180px) {
+  /* line 27, ../sass/layouts.scss */
+  .l_widenarrow .l-col2 {
+    width: 375px;
+  }
+}
+
+/* not quite columns, floating*/
+/* line 35, ../sass/layouts.scss */
+.l_nofloat .l-col1 {
+  margin-right: 30px;
+  margin-bottom: 50px;
+  min-height: 450px;
+}
+/* line 40, ../sass/layouts.scss */
+.l_nofloat .l-col2 {
+  float: none;
+  width: auto;
+  display: block;
+}
+
+/* line 47, ../sass/layouts.scss */
+.l-onethree .l-col1 {
+  width: 225px;
+}
+@media only screen and (min-width: 1180px) {
+  /* line 47, ../sass/layouts.scss */
+  .l-onethree .l-col1 {
+    width: 272px;
+  }
+}
+/* line 51, ../sass/layouts.scss */
+.l-onethree .l-col2 {
+  float: right;
+  width: 735px;
+}
+@media only screen and (min-width: 1180px) {
+  /* line 51, ../sass/layouts.scss */
+  .l-onethree .l-col2 {
+    width: 876px;
+  }
+}
+
+/* line 58, ../sass/layouts.scss */
+.l-twotwo .l-col1 {
+  width: 480px;
+}
+@media only screen and (min-width: 1180px) {
+  /* line 58, ../sass/layouts.scss */
+  .l-twotwo .l-col1 {
+    width: 576px;
+  }
+}
+/* line 62, ../sass/layouts.scss */
+.l-twotwo .l-col2 {
+  float: right;
+  width: 480px;
+}
+@media only screen and (min-width: 1180px) {
+  /* line 62, ../sass/layouts.scss */
+  .l-twotwo .l-col2 {
+    width: 576px;
+  }
+}
+
+/* line 69, ../sass/layouts.scss */
+.l-threeone .l-col1 {
+  width: 735px;
+}
+@media only screen and (min-width: 1180px) {
+  /* line 69, ../sass/layouts.scss */
+  .l-threeone .l-col1 {
+    width: 876px;
+  }
+}
+/* line 73, ../sass/layouts.scss */
+.l-threeone .l-col2 {
+  float: right;
+  width: 225px;
+}
+@media only screen and (min-width: 1180px) {
+  /* line 73, ../sass/layouts.scss */
+  .l-threeone .l-col2 {
+    width: 272px;
+  }
+}
+
+/* line 80, ../sass/layouts.scss */
+.l-twooneone .l-col2, .l-twooneone .l-col3 {
+  width: 225px;
+  float: left;
+  margin-right: 30px;
+}
+@media only screen and (min-width: 1180px) {
+  /* line 80, ../sass/layouts.scss */
+  .l-twooneone .l-col2, .l-twooneone .l-col3 {
+    width: 272px;
+  }
+}
+/* line 86, ../sass/layouts.scss */
+.l-twooneone .l-col3 {
+  float: right;
+  margin: 0;
+}
+/* line 90, ../sass/layouts.scss */
+.l-twooneone .l-col1 {
+  float: left;
+  margin-right: 30px;
+  width: 480px;
+}
+@media only screen and (min-width: 1180px) {
+  /* line 90, ../sass/layouts.scss */
+  .l-twooneone .l-col1 {
+    width: 576px;
+  }
+}
+
+/* line 97, ../sass/layouts.scss */
+.l-twooneone_abs {
+  position: relative;
+}
+/* line 99, ../sass/layouts.scss */
+.l-twooneone_abs .l-col3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* line 104, ../sass/layouts.scss */
+.l-twooneone_abs .l-col2 {
+  position: absolute;
+  top: 0;
+  right: 255px;
+  margin: 0;
+}
+@media only screen and (min-width: 1180px) {
+  /* line 104, ../sass/layouts.scss */
+  .l-twooneone_abs .l-col2 {
+    right: 302px;
+  }
+}
+
+/* 1/4 column for site
+---------------------------------------- */
+/* line 114, ../sass/layouts.scss */
+.cols {
+  width: 100%;
+  display: inline-block;
+}
+/* line 117, ../sass/layouts.scss */
+.cols .col {
+  width: 225px;
+  float: left;
+  margin-left: 30px;
+}
+@media only screen and (min-width: 1180px) {
+  /* line 117, ../sass/layouts.scss */
+  .cols .col {
+    width: 272px;
+  }
+}
+/* line 122, ../sass/layouts.scss */
+.cols .col:first-child {
+  margin-left: 0;
+}
+
+/* line 127, ../sass/layouts.scss */
+.cols_spacebottom {
+  padding-bottom: 20px;
+}
+
+/* form layouts
+---------------------------------------- */
+/* line 132, ../sass/layouts.scss */
+.layout_1in2 {
+  width: 310px;
+  float: left;
+  margin-right: 29px;
+}
+@media only screen and (min-width: 1180px) {
+  /* line 132, ../sass/layouts.scss */
+  .layout_1in2 {
+    width: 375px;
+  }
+}
+
+/* line 138, ../sass/layouts.scss */
+.layout_1in2_right {
+  float: right;
+  margin-right: 0;
+}
+
+/* popup
+---------------------------------------- */
+/* line 144, ../sass/layouts.scss */
+.popup__left, .popup__right {
+  width: 323px;
+  float: left;
+}
+@media only screen and (min-width: 1180px) {
+  /* line 144, ../sass/layouts.scss */
+  .popup__left, .popup__right {
+    width: 383px;
+  }
+}
+
+/* line 149, ../sass/layouts.scss */
+.popup__right {
+  float: right;
+}
