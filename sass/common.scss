@@ -1,6 +1,6 @@
 @import "base";
-/* HOW TO USE SPRITE 
-$icons-sprite-dimensions: true;
+/* HOW TO USE SPRITES
+$icons-sprite-dimensions: true; - if we need size of sprite icons in css
 @import "icons/*.png";
 .whatever{@include icons-sprite(badge_hit);}
 */
