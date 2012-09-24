@@ -1,14 +1,7 @@
+@charset "IBM866";
 /*когда включать версию для айфона*/
 /*когда включать широкую версию*/
-/* BACKGROUND GRADIENT */
-/* BACKGROUND SIZE */
-/* BOX SHADOW */
-/* BOX SIZING */
-/* OPACITY */
-/* ROTATE*/
-/* TRANSFORM  */
-/* TRANSITION */
-/* default layout */
+/* default layout - EXAMPLE FOR NOW */
 /* line 4, ../sass/layouts.scss */
 .l {
   width: 100%;

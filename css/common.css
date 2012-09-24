@@ -1,57 +1,99 @@
+@charset "IBM866";
 /*когда включать версию для айфона*/
 /*когда включать широкую версию*/
-/* BACKGROUND GRADIENT */
-/* BACKGROUND SIZE */
-/* BOX SHADOW */
-/* BOX SIZING */
-/* OPACITY */
-/* ROTATE*/
-/* TRANSFORM  */
-/* TRANSITION */
-              /* HOW TO USE SPRITE 
-$icons-sprite-dimensions: true;
-@import "icons/*.png";
-.whatever{@include icons-sprite(badge_hit);}
-*/
-/* line 8, ../sass/common.scss */
+/* HOW TO USE SPRITES*/
+/*.whatever{@include sized-sprite($icons, badge_hit);}*/
+/* constants */
+/* line 11, ../sass/common.scss */
 * {
   margin: 0;
   padding: 0;
   -webkit-text-size-adjust: none;
 }
 
-/* line 9, ../sass/common.scss */
+/* line 12, ../sass/common.scss */
+header, footer, nav, aside {
+  display: block;
+}
+
+/* line 13, ../sass/common.scss */
 .out {
   width: 100%;
 }
 
-/* line 12, ../sass/common.scss */
+/* line 16, ../sass/common.scss */
 body {
   font-family: Arial,sans-serif;
   font-weight: normal;
   font-size: 12px;
   line-height: 1.2;
+  background: #f8f8f8;
 }
 
 /*resets*/
-/* line 22, ../sass/common.scss */
+/* line 26, ../sass/common.scss */
 a img, fieldset {
   border: none;
 }
 
-/* line 25, ../sass/common.scss */
+/* line 29, ../sass/common.scss */
 a {
   color: #00919e;
 }
-/* line 27, ../sass/common.scss */
+/* line 31, ../sass/common.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 31, ../sass/common.scss */
+/* line 35, ../sass/common.scss */
 .clr {
   clear: both;
   height: 1px;
   font-size: 1px;
   line-height: 1px;
+}
+
+/* top-menu*/
+/* line 43, ../sass/common.scss */
+.top-menu {
+  background: #f4f4f4;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f4f4f4), color-stop(100%, #e1e1e1));
+  background-image: -webkit-linear-gradient(top, #f4f4f4 0%, #e1e1e1 100%);
+  background-image: -moz-linear-gradient(top, #f4f4f4 0%, #e1e1e1 100%);
+  background-image: -o-linear-gradient(top, #f4f4f4 0%, #e1e1e1 100%);
+  background-image: linear-gradient(top, #f4f4f4 0%, #e1e1e1 100%);
+  text-align: center;
+}
+/* line 47, ../sass/common.scss */
+.top-menu ul {
+  list-style: none;
+  width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+}
+/* line 52, ../sass/common.scss */
+.top-menu ul li {
+  float: left;
+  font-size: 11px;
+  color: #4d4d4d;
+  height: 26px;
+  line-height: 26px;
+  border-right: 1px solid #fff;
+  box-shadow: -1px 0 0 #d8d8d8 inset;
+  width: 199px;
+}
+/* line 62, ../sass/common.scss */
+.top-menu ul a {
+  color: #4d4d4d;
+  text-decoration: none;
+  display: block;
+}
+
+/* line 69, ../sass/common.scss */
+.top-menu__arrow {
+  background: url('../img/icons-s1610114647.png') 0 -176px no-repeat;
+  width: 9px;
+  height: 26px;
+  display: inline-block;
+  margin-left: 0 0 -10px 5px;
 }

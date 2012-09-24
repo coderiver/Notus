@@ -1,11 +1,15 @@
 @import "base";
-/* HOW TO USE SPRITES
-$icons-sprite-dimensions: true; - if we need size of sprite icons in css
-@import "icons/*.png";
-.whatever{@include icons-sprite(badge_hit);}
-*/
+/* HOW TO USE SPRITES*/
+$icons: sprite-map("icons/*.png");
+/*.whatever{@include sized-sprite($icons, badge_hit);}*/
+
+
+/* constants */
+$main-width: 1000px;
+
 
 *{margin:0;padding:0;-webkit-text-size-adjust: none;}
+header,footer,nav,aside{display:block;}
 .out{
 	width:100%;
 }
@@ -16,6 +20,7 @@ body{
 	    size: 12px;
 	  	}
 	line-height:1.2;
+	background:#f8f8f8;
 }
 /*resets*/
 a img,fieldset{
@@ -33,5 +38,39 @@ a{
 	font-size:1px;
 	line-height:1px;
 	}
+
+/* top-menu*/
+.top-menu{
+	background:#f4f4f4;
+	@include background-image(linear-gradient(top, #f4f4f4 0, #e1e1e1 100%));
+	text-align: center;
+	ul{
+		list-style: none;
+		width:$main-width;
+		text-align: center;
+		margin: 0 auto;
+		li{
+			float: left;
+			font-size:11px;
+			color:#4d4d4d;
+			height:26px;
+			line-height:26px;
+			border-right: 1px solid #fff;
+			box-shadow:-1px 0 0 #d8d8d8 inset;
+			width:(-1+($main-width/5));
+			}
+		a{
+			color:#4d4d4d;
+			text-decoration:none;
+			display: block;
+		}
+	}
+}
+.top-menu__arrow{
+	@include sized-sprite($icons, menu-arrow);
+	display: inline-block;
+	margin-left:0 0 -10px 5px;
+}
+
 
 
