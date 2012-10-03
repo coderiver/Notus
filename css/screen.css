@@ -1476,6 +1476,11 @@ a:hover {
 }
 
 /* line 469, ../sass/main.scss */
+.deploy-text__holder {
+  padding-bottom: 1px;
+}
+
+/* line 470, ../sass/main.scss */
 .deploy__link {
   border-bottom: 1px dotted #90038C;
   color: #90038C;
@@ -1485,24 +1490,24 @@ a:hover {
   bottom: -18px;
   left: 25px;
 }
-/* line 477, ../sass/main.scss */
+/* line 478, ../sass/main.scss */
 .deploy__link:hover {
   border: none;
   padding-bottom: 1px;
 }
-/* line 481, ../sass/main.scss */
+/* line 482, ../sass/main.scss */
 .deploy__link .arr-down {
   position: absolute;
   right: -10px;
   top: 3px;
 }
 
-/* line 487, ../sass/main.scss */
+/* line 488, ../sass/main.scss */
 .deploy-text_closed {
   height: 40px;
 }
 
-/* line 488, ../sass/main.scss */
+/* line 489, ../sass/main.scss */
 .arr-down {
   background: url('../img/icons-sce732ed61f.png') 0 -439px no-repeat;
   width: 11px;

@@ -32,15 +32,33 @@ $(document).ready(function() {
 	});
 	$(".pr-viewed .caro").scrollableAddClones();
 
-
-	$('.stock .caro').scrollable({
-		next:'.stock .caro-next',
-		prev:'.stock .caro-prev',
+	$('#stock-1 .caro').scrollable({
+		next:'#stock-1 .caro-next',
+		prev:'#stock-1 .caro-prev',
 		circular:true
 	}).navigator({
-		navi:'.stock .caronav'
+		navi:'#stock-1 .caronav'
 	});
-	$(".stock .caro").scrollableAddClones();
+	$("#stock-1 .caro").scrollableAddClones();
+
+	$('#stock-2 .caro').scrollable({
+		next:'#stock-2 .caro-next',
+		prev:'#stock-2 .caro-prev',
+		circular:true
+	}).navigator({
+		navi:'#stock-2 .caronav'
+	});
+	$("#stock-2 .caro").scrollableAddClones();
+
+	$('#stock-3 .caro').scrollable({
+		next:'#stock-3 .caro-next',
+		prev:'#stock-3 .caro-prev',
+		circular:true
+	}).navigator({
+		navi:'#stock-3 .caronav'
+	});
+	$("#stock-3 .caro").scrollableAddClones();
+
 
 	
 	// tabs
