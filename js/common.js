@@ -59,8 +59,17 @@ $(document).ready(function() {
 	});
 	$("#stock-3 .caro").scrollableAddClones();
 
+	// suggest
+	$('.header__search-input').keyup(function(){
+		sit = $(this).val().length;
+		if (sit >= 3) {
+			$('.header__search .suggest').fadeIn(500);
+		};
+	});
+	$('.header__search-input').blur(function() {
+		$('.header__search .suggest').fadeOut(500);
+	});
 
-	
 	// tabs
 	$('.tabs__nav li').click(function(){
 		if (!($(this).hasClass('active'))) $(this).addClass('active').siblings().removeClass('active')
@@ -68,6 +77,18 @@ $(document).ready(function() {
 		return false;
 
 	});
+
+	// currency
+	$('.header__currency-selected').click(function(){
+		$(this).next('ul').show();
+		return false;
+	});
+	$('.header__currency ul a').click(function(){
+		$('.header__currency-selected').html($(this).html());
+		$(this).parent().parent('ul').hide();
+		return false;
+	});
+
 
 	//deploy-text
 	$('.deploy__link').click(function(){

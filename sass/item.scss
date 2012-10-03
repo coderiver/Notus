@@ -1,0 +1,147 @@
+@import "base";
+.l{
+	display: inline-block;
+	.l-col3{
+		float:left;
+		width:727px;
+	}
+	.l-col1{
+		float:right;
+		width:240px;
+	}
+}
+.bc-social{
+	display: inline-block;
+	padding: 3px 0 11px;
+}
+.bc{
+	float:left;
+	list-style-type: none;
+	overflow:hidden;
+	li{
+		float:left;
+		color:#000;
+		font-size:12px;
+		a{
+			color:#0078c6;
+		}
+		&:before{
+			content:"-";
+			padding:0 6px;
+		}
+		&:first-child:before{
+			content:"";
+			padding:0;
+		}
+	}
+}
+
+.btn{
+	@include background-image(linear-gradient(top, #1fbaea 0, #2696de 100%));
+	box-shadow:0 1px 0 0 rgba(255,255,255,0.5);
+	border:1px solid #2696de;
+	height:26px;
+	line-height:26px;
+	padding:0 8px;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	font-weight:bold;
+	text-shadow:#1798df 0 -1px 0;
+	border-radius:2px;
+	&:hover{
+		@include background-image(linear-gradient(top, #2696de 0, #1fbaea 100%));
+	}
+}
+
+
+.compare{
+	margin-bottom:23px;
+	h3{
+		color:#000;
+		font-size:18px;
+		font-weight:normal;
+		border-bottom:1px solid #d8d8d8;
+		box-shadow:0 1px 0 0 #fff;
+		padding-bottom:4px;
+	}
+	.compare__count{
+		padding:9px 0 8px 2px;
+		display: block;
+	}
+	ul{
+		margin-bottom:14px;
+	}
+	li{
+		list-style:none;
+		margin-bottom:5px;
+		a{
+
+		}
+	}
+	.compare__cansel{
+		display:inline-block;
+		@include sized-sprite($icons, "delete-01");
+		margin-left:4px;
+		vertical-align:middle;
+	}
+	.clear{
+		color:#158edc;
+		font-size:11px;
+		margin-left:10px;
+	}
+
+}
+
+.adv{
+	margin-bottom:18px;
+	img{vertical-align:top;}
+}
+
+.recommend{
+	background:#fff;
+	border:1px solid #e3e3e3;
+	border-radius:7px;
+	padding: 9px 13px;
+	text-align: center;
+	margin-bottom:20px;
+	h3{
+		font-size:18px;
+		font-weight:normal;
+		color:#000;
+	}
+	.recommend__item{
+		border-bottom:1px solid #e3e3e3;
+		padding:40px 0 20px;
+		h4{
+			font-size:14px;
+			font-weight: normal;
+			margin-bottom:19px;
+			a{
+				color:#158edc;
+			}
+		}
+		.price-block{
+			margin:0 auto;
+			float: none;
+			overflow: hidden;
+			strong{
+				font-weight:16px;
+				i{font-size:12px;}
+			}
+		}
+		&:last-child{border: none;}
+	}
+	.recommend__img{
+		margin-bottom:17px;
+		img{vertical-align: top;}
+	}
+}
+
+.product-block{
+	background:#fff;
+	border:1px solid #e3e3e3;
+	border-radius:5px;
+	.product{}
+	.product-tabs{}
+}
