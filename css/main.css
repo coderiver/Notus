@@ -1,9 +1,9 @@
 /*
 Syntax error: Undefined variable: "$main-width".
-        on line 48 of d:/User3/Documents/GitHub/Notus/sass/main.scss
+        on line 45 of d:/User3/Documents/GitHub/Notus/sass/main.scss
 
 Backtrace:
-d:/User3/Documents/GitHub/Notus/sass/main.scss:48
+d:/User3/Documents/GitHub/Notus/sass/main.scss:45
 C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/script/variable.rb:49:in `_perform'
 C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/script/node.rb:40:in `perform'
 C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/script/operation.rb:74:in `_perform'
@@ -88,4 +88,4 @@ C:/Ruby193/bin/compass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$main-width\".\A         on line 48 of d:/User3/Documents/GitHub/Notus/sass/main.scss"; }
+  content: "Syntax error: Undefined variable: \"$main-width\".\A         on line 45 of d:/User3/Documents/GitHub/Notus/sass/main.scss"; }
