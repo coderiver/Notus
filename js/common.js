@@ -24,6 +24,16 @@ $.fn.scrollableAddClones = function(addItems) {
 
 $(document).ready(function() {
 
+	// nav
+	$('.nav__item').hoverIntent(
+		function () {
+			$(this).children('.nav__drop').slideDown();
+		}, 
+		function () {
+			$(this).children('.nav__drop').slideUp();
+		}
+	);
+
 	// scrollable
 	$('.pr-viewed .caro').scrollable({
 		next:'.pr-viewed  .caro-next',
@@ -75,17 +85,16 @@ $(document).ready(function() {
 		if (!($(this).hasClass('active'))) $(this).addClass('active').siblings().removeClass('active')
 			.parents('.tabs').find('.tabs__box').eq($(this).index()).fadeIn(150).siblings('.tabs__box').hide();
 		return false;
-
 	});
 
 	// currency
 	$('.header__currency-selected').click(function(){
-		$(this).next('ul').show();
+		$(this).next('ul').show('fast');
 		return false;
 	});
 	$('.header__currency ul a').click(function(){
 		$('.header__currency-selected').html($(this).html());
-		$(this).parent().parent('ul').hide();
+		$(this).parent().parent('ul').hide('fast');
 		return false;
 	});
 

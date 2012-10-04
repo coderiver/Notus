@@ -56,12 +56,46 @@ a{
 	@include background-image(linear-gradient(top, #f4f4f4 0, #e1e1e1 100%));
 	text-align:center;
 	height:26px;
+	z-index:100;
+	position: relative;
 	ul{
 		list-style: none;
 		width:$main-width;
 		text-align: center;
 		margin: 0 auto;
 		display:inline-block;
+		.drop{
+			width:(18+($main-width/5));
+			text-align: left;
+			margin:0;
+			position: absolute;
+			top:0;
+			left:-11px;
+			padding:34px 0 21px;
+			@include background-image(linear-gradient(top, #fff 0, #f4f4f4 100%));
+			border:1px solid #b3b3bd;
+			box-shadow:0 3px 5px 0 rgba(0,0,0,0.6);
+			border-radius:0 0 5px 5px;
+			z-index:10;
+			display: none;
+			border-top:none;
+			li{
+				float: none;
+				height:auto;
+				border:none;
+				width:auto;
+				box-shadow:none;
+				padding:0 24px;
+				line-height:20px;
+				font-size:12px;
+				a{
+					text-decoration:underline;
+					color:#158edc;
+					background:none;
+					&:hover{text-decoration:none;;}
+				}
+			}
+		}
 	}
 	li{
 		float: left;
@@ -72,6 +106,14 @@ a{
 		border-right: 1px solid #fff;
 		box-shadow:-1px 0 0 #d8d8d8 inset;
 		width:(-2+($main-width/5));
+		position: relative;
+		&:hover{
+			a{
+				@include background-image(linear-gradient(top, #e5e5e5 0, #fff 100%));
+				margin:0 -10px
+			}
+			.drop{display: block;}
+		}
 		&:first-child{
 			border-left: 1px solid #fff;
 			box-shadow:-1px 0 0 #d8d8d8, -1px 0 0 #d8d8d8 inset;
@@ -80,8 +122,16 @@ a{
 			color:#4d4d4d;
 			text-decoration:none;
 			display: block;
-			&:hover{text-decoration:underline;}
+			position: relative;
+			z-index:20;
+			&:hover{
+				text-decoration:underline;
+			}
 		}
+	}
+	li.wo-drop:hover a{
+		margin:0;
+		background:none;
 	}
 	.top-menu__arrow{
 		@include sized-sprite($icons, menu-arrow);
@@ -366,7 +416,7 @@ a{
 			border-radius:7px 7px 0 0;
 			border-left-color:#7a7a7b;
 			border-right-color:#7a7a7b;
-			box-shadow:0 3px 5px 0 rgba(0,0,0,0.6);
+			/*box-shadow:0 3px 5px 0 rgba(0,0,0,0.6);*/
 			text-shadow:#fff 0 -1px 0;
 			color:#010101;
 			font-weight:bold;
@@ -376,7 +426,7 @@ a{
 			margin-top:-2px;
 		}
 	}
-	.nav__item:hover .nav__drop{display: block;}
+	/*.nav__item:hover .nav__drop{display: block;}*/
 	.active .nav__item-link{box-shadow:none;}
 	.nav__item.active{z-index:20;}
 	.nav__item1{
