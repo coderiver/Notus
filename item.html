@@ -6,19 +6,68 @@
 	<title>Notus</title>
 	<link rel="stylesheet" media="screen" href="css/screen.css" >
 	<script src="js/jquery.tools.min.js"></script>
+	<script src="js/jquery.hoverIntent.min.js"></script>
 	<script src="js/common.js"></script>
-
 </head>
 <body>
 
 <!-- BEGIN .top-menu -->
 	<nav class="top-menu">
 		<ul>
-			<li><a href="#">Оплата и доставка<i class="top-menu__arrow"></i></a></li>
-			<li><a href="#">Гарантия и сервис<i class="top-menu__arrow"></i></a></li>
-			<li><a href="#">Как сделать заказ<i class="top-menu__arrow"></i></a></li>
-			<li><a href="#">Контактная информация<i class="top-menu__arrow"></i></a></li>
-			<li><a href="#">Личный кабинет<i class="top-menu__key"></i></a></li>
+			<li>
+				<a href="#">Оплата и доставка<i class="top-menu__arrow"></i></a>
+				<ul class="drop">
+					<li><a href="#">Мобильные телефоны</a></li>
+					<li><a href="#">Смартфоны</a></li>
+					<li><a href="#">КПК</a></li>
+					<li><a href="#">Радиотелефоны</a></li>
+					<li><a href="#">Bluetooth-гарнитуры</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Гарантия и сервис<i class="top-menu__arrow"></i></a>
+				<ul class="drop">
+					<li><a href="#">Мобильные телефоны</a></li>
+					<li><a href="#">Смартфоны</a></li>
+					<li><a href="#">КПК</a></li>
+					<li><a href="#">Радиотелефоны</a></li>
+					<li><a href="#">Bluetooth-гарнитуры</a></li>
+					<li><a href="#">Аксессуары для телефонов</a></li>
+					<li><a href="#">Аксессуары для смартфонов</a></li>
+					<li><a href="#">Зарядные устройства</a></li>
+					<li><a href="#">Карты памяти</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Как сделать заказ<i class="top-menu__arrow"></i></a>
+				<ul class="drop">
+					<li><a href="#">Мобильные телефоны</a></li>
+					<li><a href="#">Смартфоны</a></li>
+					<li><a href="#">КПК</a></li>
+					<li><a href="#">Радиотелефоны</a></li>
+					<li><a href="#">Bluetooth-гарнитуры</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Контактная информация<i class="top-menu__arrow"></i></a>
+				<ul class="drop">
+					<li><a href="#">Мобильные телефоны</a></li>
+					<li><a href="#">Смартфоны</a></li>
+					<li><a href="#">КПК</a></li>
+					<li><a href="#">Радиотелефоны</a></li>
+					<li><a href="#">Bluetooth-гарнитуры</a></li>
+					<li><a href="#">Аксессуары для телефонов</a></li>
+					<li><a href="#">Аксессуары для смартфонов</a></li>
+					<li><a href="#">Зарядные устройства</a></li>
+					<li><a href="#">Карты памяти</a></li>
+					<li><a href="#">Мобильные телефоны</a></li>
+					<li><a href="#">Смартфоны</a></li>
+					<li><a href="#">КПК</a></li>
+					<li><a href="#">Радиотелефоны</a></li>
+					<li><a href="#">Bluetooth-гарнитуры</a></li>
+				</ul>
+			</li>
+			<li class="wo-drop"><a href="#" id="link-login">Личный кабинет<i class="top-menu__key"></i></a></li>
 		</ul>
 	</nav>
 <!-- END .top-menu -->
@@ -620,7 +669,86 @@
 	<div class="l">
 		<div class="l-col3">
 			<div class="product-block">
-				<div class="product"></div>
+				<div class="product">
+					<div class="product__media">
+						<div class="product__img">
+							<img src="img/pr-img-29.jpg" alt="">
+							<a href="#" class="product__zoom"></a>
+						</div>
+						<div class="product__preview"></div>
+					</div>
+					<div class="product__info">
+						<h1>Apple iMac 21,5" (MC509)</h1>
+						<div class="product__code">
+							Код товара: <b>4705</b>
+							<span class="in-stock">Есть в наличии</span>
+						</div>
+						<div class="product__rating">
+							<div>
+								<a href="#" class="star"></a>
+								<a href="#" class="star"></a>
+								<a href="#" class="star"></a>
+								<a href="#" class="star"></a>
+								<a href="#" class="star"></a>
+							</div>
+							<a href="#" class="rating-count">18 оценок</a>
+						</div>
+						<div class="product__color">
+							<dl>
+								<dt>Цвет:</dt>
+								<dd>
+									<ul>
+										<li><a href="#"></a></li>
+										<li><a href="#"></a></li>
+										<li><a href="#"></a></li>
+										<li><a href="#"></a></li>
+										<li><a href="#"></a></li>
+										<li><a href="#"></a></li>
+										<li><a href="#"></a></li>
+										<li><a href="#"></a></li>
+									</ul>
+								</dd>
+							</dl>
+							<a href="#" color="product__color-all">Все цвета</a>
+						</div>
+						<div class="product__btns">
+							<div class="price-block">
+								<strong>24 672 грн</strong>
+								<span>($1584)</span>
+							</div>
+							<a href="#" class="btn">Купить</a>
+						</div>
+						<div class="product__links">
+							<a href="#">Добавить к сравнению</a>
+							<a href="#">Добавить в вишлист</a>
+							<a href="#">Купить в кредит</a>
+						</div>
+						<div class="product__text">
+							<p>Экран: 10.1" (1024x600) WSVGA /Процессор: Intel Atom N455 (1.66 ГГц)/Объем оперативной памяти: 2 ГБ/Тип оперативной памяти:  DDR3/Чипсет: Intel NM10 Express/Жесткий диск:  320 ГБ/Графический адаптер: Интегрированный, Intel GMA 3150/Сетевые адаптеры: Wi-Fi </p>
+						</div>
+						<div class="product__gd">
+							<div class="product__gd-col">
+								<h3>Гарантия</h3>
+								<ul>
+									<li>Гарантия от производителя - 12 месяцев</li>
+									<li>обмен/возврат товара в течение 14 дней</li>
+								</ul>
+								<a href="#" class="product__gd-more">Подробнее</a>
+							</div>
+							<div class="product__gd-col">
+								<h3>Доставка</h3>
+								<ul>
+									<li>по Киеву — бесплатно</li>
+									<li>в регионы — 50 грн</li>
+								</ul>
+								<a href="#" class="product__gd-more">Подробнее</a>
+							</div>
+						</div>
+					</div>
+					<div class="product__social">
+						<img src="img/social.jpg" alt="">
+					</div>
+				</div>
 				<div class="product-tabs">
 					<!-- BEGIN .tabs -->
 					<div class="tabs">
@@ -740,6 +868,99 @@
 	</div>
 </footer>
 <!-- END .footer -->
+
+<!-- BEGIN .popups -->
+<div class="popup-wrapper"></div>
+<div class="popup" id="popup_login">
+	<a href="#" class="popup__close"></a>
+	<h3>Авторизация</h3>
+	<form action="#">
+		<div class="row">
+			<label for="id-001">Email</label>
+			<input type="text" id="id-001" class="input">
+			<i class="mark-ok"></i>
+		</div>
+		<div class="row">
+			<a href="#" id="link-restore-pass">Восстановить пароль</a>
+			<label for="id-002">Пароль</label>
+			<input type="password" id="id-002" class="input">
+			<i class="mark-err"></i>
+		</div>
+		<div class="row row_check row_remember">
+			<input type="checkbox" id="id-003">
+			<label for="id-003">Запомнить меня</label>
+			<input type="reset" class="btn btn_gray" value="Отмена">
+			<input type="submit" class="btn" value="Войти">
+		</div>
+	</form>
+	<div class="popup__reg">
+		<p>Нет учетной записи?</p>
+		<a href="#" class="btn">Зарегистрируйся</a>
+	</div>
+	<div class="popup__social">
+		<p>Войди, как пользователь социальной сети</p>
+		<ul>
+			<li><a href="#" class="social__gp">GooglePlus</a></li>
+			<li><a href="#" class="social__tw">Twitter</a></li>
+			<li><a href="#" class="social__fb">Facebook</a></li>
+			<li><a href="#" class="social__vk">Vkontakte</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="popup" id="popup__restore-pass">
+	<a href="#" class="popup__close"></a>
+	<h3>Восстановление пароля</h3>
+	<form action="#">
+		<div class="row">
+			<label for="id-004">Email указанный при регистрации</label>
+			<input type="text" id="id-004" class="input" placeholder="example@test.com">
+			<i class="mark-ok"></i>
+		</div>
+		<div class="row row_check">
+			<input type="checkbox" id="id-005">
+			<label for="id-005">Я не бот</label>
+			<input type="submit" class="btn" value="Отправить">
+		</div>
+	</form>
+</div>
+
+<div class="popup" id="popup__mess">
+	<a href="#" class="popup__close"></a>
+	<h3>Восстановление пароля</h3>
+	<div class="popup__mess">
+		<p>На указанный вами email отправлено письмо.</p>
+		<a href="#"  class="btn">ОК</a>
+	</div>
+</div>
+
+<div class="popup" id="popup__call">
+	<a href="#" class="popup__close"></a>
+	<h3>Обратный звонок</h3>
+	<form action="#">
+		<div class="row">
+			<label for="id-006">Телефон</label>
+			<input type="text" id="id-006" class="input" placeholder="+380671111111">
+			<i class="mark-ok"></i>
+		</div>
+		<div class="row">
+			<label for="id-006">Проверочный код</label>
+			<div class="popup__captcha">
+				<img src="img/captcha.jpg" alt="">
+			</div>
+		</div>
+		<div class="row">
+			<input type="password" id="id-002" class="input" placeholder="Введите текст">
+			<i class="mark-err"></i>
+		</div>
+		<div class="row row_check">
+			<input type="checkbox" id="id-007">
+			<label for="id-007">Я не бот</label>
+			<input type="submit" class="btn" value="Отправить">
+		</div>
+	</form>
+</div>
+<!-- END .popups -->
 
 </body>
 </html>

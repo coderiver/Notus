@@ -29,6 +29,8 @@ a{
 		text-decoration:none;
 	}
 }
+.fll{float:left;}
+.flr{float:right;}
 .clr{
 	clear:both;
 	height:1px;
@@ -56,7 +58,7 @@ a{
 	@include background-image(linear-gradient(top, #f4f4f4 0, #e1e1e1 100%));
 	text-align:center;
 	height:26px;
-	z-index:100;
+	z-index:1010;
 	position: relative;
 	ul{
 		list-style: none;
@@ -649,5 +651,4 @@ a{
 	.social-white__tw{@include sized-sprite($icons, icon_twitter);}
 	.social-white__fb{@include sized-sprite($icons, icon_facebook);}
 	.social-white__vk{@include sized-sprite($icons, icon_vkontakte);}
-}
-			
+}		

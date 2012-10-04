@@ -112,6 +112,29 @@ $(document).ready(function() {
 		return false;
 	});
 
+	// popup
+	$(".header__callback").click(function() {
+		$(".popup-wrapper").fadeIn();
+		$("#popup__call").slideDown();
+		return false
+	});
+	$("#link-login").click(function() {
+		$(".popup-wrapper").fadeIn();
+		$("#popup_login").slideDown();
+		return false
+	});
+	$("#link-restore-pass").click(function() {
+		$(".popup-wrapper").fadeIn();
+		$(".popup").slideUp();
+		$("#popup__restore-pass").slideDown();
+		return false
+	});
+	$(".popup-wrapper, .popup__close").click(function() {
+		$(".popup").slideUp();
+		$(".popup-wrapper").fadeOut();
+		return false
+	});
+
 /*	if($('.room__caroin').length>0){
 		asd = $('.room__caroin').scrollable({
 			next:'.room__next',

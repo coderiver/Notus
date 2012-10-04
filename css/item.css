@@ -1,11 +1,11 @@
 /*
 Syntax error: Undefined variable: "$icons".
-        on line 84 of d:/User3/Documents/GitHub/Notus/sass/item.scss, in `sized-sprite'
-        from line 84 of d:/User3/Documents/GitHub/Notus/sass/item.scss
+        on line 94 of d:/User3/Documents/GitHub/Notus/sass/item.scss, in `sized-sprite'
+        from line 94 of d:/User3/Documents/GitHub/Notus/sass/item.scss
 
 Backtrace:
-d:/User3/Documents/GitHub/Notus/sass/item.scss:84:in `sized-sprite'
-d:/User3/Documents/GitHub/Notus/sass/item.scss:84
+d:/User3/Documents/GitHub/Notus/sass/item.scss:94:in `sized-sprite'
+d:/User3/Documents/GitHub/Notus/sass/item.scss:94
 C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/script/variable.rb:49:in `_perform'
 C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/script/node.rb:40:in `perform'
 C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:255:in `block in visit_mixin'
@@ -88,4 +88,4 @@ C:/Ruby193/bin/compass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$icons\".\A         on line 84 of d:/User3/Documents/GitHub/Notus/sass/item.scss, in `sized-sprite'\A         from line 84 of d:/User3/Documents/GitHub/Notus/sass/item.scss"; }
+  content: "Syntax error: Undefined variable: \"$icons\".\A         on line 94 of d:/User3/Documents/GitHub/Notus/sass/item.scss, in `sized-sprite'\A         from line 94 of d:/User3/Documents/GitHub/Notus/sass/item.scss"; }
