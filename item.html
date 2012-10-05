@@ -7,6 +7,7 @@
 	<link rel="stylesheet" media="screen" href="css/screen.css" >
 	<script src="js/jquery.tools.min.js"></script>
 	<script src="js/jquery.hoverIntent.min.js"></script>
+	<script src="js/jquery.fancybox.pack.js"></script>
 	<script src="js/common.js"></script>
 </head>
 <body>
@@ -666,17 +667,70 @@
 		</ul>
 	</div>
 
+	<!--BEGIN .l -->
 	<div class="l">
+		<!--BEGIN .l-col3 -->
 		<div class="l-col3">
+			<!--BEGIN .product-block -->
 			<div class="product-block">
+				<!--BEGIN .product -->
 				<div class="product">
+					<!--BEGIN .product__media -->
 					<div class="product__media">
-						<div class="product__img">
+						<a href="img/pr-img-29.jpg" class="product__img img-fancy">
 							<img src="img/pr-img-29.jpg" alt="">
-							<a href="#" class="product__zoom"></a>
+							<span href="#" class="product__zoom"></span>
+						</a>
+						<!--BEGIN .preview -->
+						<div class="preview" id="preview">
+							<a class="caro-prev-l"></a>
+							<div class="caro">
+								<div class="slides">
+
+									<!--BEGIN .preview__items -->
+									<div class="preview__items slide">
+										<div class="preview__item">
+											<a href="img/pr-img-35.jpg"><img src="img/pr-img-30.jpg" alt=""></a>
+										</div>
+										<div class="preview__item">
+											<a href="img/pr-img-34.jpg"><img src="img/pr-img-31.jpg" alt=""></a>
+										</div>
+										<div class="preview__item">
+											<a href="img/pr-img-29.jpg"><img src="img/pr-img-32.jpg" alt=""></a>
+										</div>
+										<div class="preview__item preview__item_last">
+											<a href="img/pr-img-33.jpg"><img src="img/pr-img-33.jpg" alt=""></a>
+										</div>
+									</div>
+									<!--END .preview__items -->
+
+									<!--BEGIN .preview__items -->
+									<div class="preview__items slide">
+										<div class="preview__item">
+											<a href="img/pr-img-35.jpg"><img src="img/pr-img-30.jpg" alt=""></a>
+										</div>
+										<div class="preview__item">
+											<a href="img/pr-img-34.jpg"><img src="img/pr-img-31.jpg" alt=""></a>
+										</div>
+										<div class="preview__item">
+											<a href="img/pr-img-29.jpg"><img src="img/pr-img-32.jpg" alt=""></a>
+										</div>
+										<div class="preview__item preview__item_last">
+											<a href="img/pr-img-33.jpg"><img src="img/pr-img-33.jpg" alt=""></a>
+										</div>
+									</div>
+									<!--END .preview__items -->
+									
+								</div>
+							</div>
+							<a class="caro-next-l"></a>
 						</div>
-						<div class="product__preview"></div>
+						<!--END .preview -->
 					</div>
+					<!--END .product__media -->
+
+
+					<!--BEGIN .product__info -->
 					<div class="product__info">
 						<h1>Apple iMac 21,5" (MC509)</h1>
 						<div class="product__code">
@@ -684,11 +738,11 @@
 							<span class="in-stock">Есть в наличии</span>
 						</div>
 						<div class="product__rating">
-							<div>
-								<a href="#" class="star"></a>
-								<a href="#" class="star"></a>
-								<a href="#" class="star"></a>
-								<a href="#" class="star"></a>
+							<div class="stars">
+								<a href="#" class="star chosen"></a>
+								<a href="#" class="star chosen"></a>
+								<a href="#" class="star chosen"></a>
+								<a href="#" class="star chosen"></a>
 								<a href="#" class="star"></a>
 							</div>
 							<a href="#" class="rating-count">18 оценок</a>
@@ -697,37 +751,39 @@
 							<dl>
 								<dt>Цвет:</dt>
 								<dd>
-									<ul>
-										<li><a href="#"></a></li>
-										<li><a href="#"></a></li>
-										<li><a href="#"></a></li>
-										<li><a href="#"></a></li>
-										<li><a href="#"></a></li>
-										<li><a href="#"></a></li>
-										<li><a href="#"></a></li>
-										<li><a href="#"></a></li>
-									</ul>
+									<a href="#"><span style="background-color:#636363; border-color:#212121;"></span></a>
+									<a href="#"><span style="background-color:#ffffff; border-color:#bfbebe;"></span></a>
+									<a href="#"><span style="background-color:#65bbef; border-color:#478bb1;"></span></a>
+									<a href="#"><span style="background-color:#fe5771; border-color:#d5495f;"></span></a>
+									<a href="#"><span style="background-color:#d8f257; border-color:#a3b343;"></span></a>
+									<a href="#"><span style="background-color:#e93d3d; border-color:#b42f1e;"></span></a>
+									<a href="#"><span style="background-color:#fffc00; border-color:#dcba00;"></span></a>
+									<a href="#"><span style="background-color:#33c70c; border-color:#2b8305;"></span></a>
 								</dd>
 							</dl>
-							<a href="#" color="product__color-all">Все цвета</a>
+							<a href="#" class="product__color-all">Все цвета</a>
 						</div>
 						<div class="product__btns">
 							<div class="price-block">
-								<strong>24 672 грн</strong>
-								<span>($1584)</span>
+								<strong>12 311 <i>грн</i></strong>
+								<span>($1286)</span>
 							</div>
-							<a href="#" class="btn">Купить</a>
+							<a href="#" class="btn btn_buy">Купить</a>
 						</div>
 						<div class="product__links">
-							<a href="#">Добавить к сравнению</a>
-							<a href="#">Добавить в вишлист</a>
-							<a href="#">Купить в кредит</a>
+							<div class="product__links-col">
+								<a href="#"><i class="ico-scales"></i>Добавить к сравнению</a>
+								<a href="#"><i class="ico-heart"></i>Добавить в вишлист</a>
+							</div>
+							<div class="product__links-col">
+								<a href="#">Купить в кредит</a>
+							</div>
 						</div>
 						<div class="product__text">
 							<p>Экран: 10.1" (1024x600) WSVGA /Процессор: Intel Atom N455 (1.66 ГГц)/Объем оперативной памяти: 2 ГБ/Тип оперативной памяти:  DDR3/Чипсет: Intel NM10 Express/Жесткий диск:  320 ГБ/Графический адаптер: Интегрированный, Intel GMA 3150/Сетевые адаптеры: Wi-Fi </p>
 						</div>
 						<div class="product__gd">
-							<div class="product__gd-col">
+							<div class="product__gd-col1">
 								<h3>Гарантия</h3>
 								<ul>
 									<li>Гарантия от производителя - 12 месяцев</li>
@@ -735,7 +791,7 @@
 								</ul>
 								<a href="#" class="product__gd-more">Подробнее</a>
 							</div>
-							<div class="product__gd-col">
+							<div class="product__gd-col2">
 								<h3>Доставка</h3>
 								<ul>
 									<li>по Киеву — бесплатно</li>
@@ -745,10 +801,14 @@
 							</div>
 						</div>
 					</div>
+					<!--END .product__info -->
 					<div class="product__social">
 						<img src="img/social.jpg" alt="">
 					</div>
 				</div>
+				<!-- END .product -->
+
+				<!-- BEGIN .product-tabs -->
 				<div class="product-tabs">
 					<!-- BEGIN .tabs -->
 					<div class="tabs">
@@ -757,13 +817,121 @@
 							<li class="tabs__nav2"><a href="#">Характеристики</a></li>
 							<li class="tabs__nav3"><a href="#">Доставка и Гарантия</a></li>
 							<li class="tabs__nav4"><a href="#">Аксессуары</a></li>
-							<li class="tabs__nav4"><a href="#">Отзывы (2)</a></li>
-							<li class="tabs__nav4"><a href="#">Рекомендуемое ПО</a></li>
-							<li class="tabs__nav4"><a href="#">Задать вопрос</a></li>
+							<li class="tabs__nav5"><a href="#">Отзывы (2)</a></li>
+							<li class="tabs__nav6"><a href="#">Рекомендуемое ПО</a></li>
+							<li class="tabs__nav7"><a href="#">Задать вопрос</a></li>
 						</ul>
 						<div class="tabs__info">
-							<div class="tabs__box" style="display:block;"></div>
-							<div class="tabs__box" style="display:block;"></div>
+							<div class="tabs__box" style="display:block;">
+								<h2>Купить iMac, 21,5" (1920x1080) , Intel Core i3 (3.06 ГГц) / 4 ГБ / 500 ГБ (7200) / ATI Radeon HD 4670 256MB / DVD±RW (SuperMulti Double Layer) / Lan / Mac OS X 10.5 Leopard (MC508)</h2>
+								<h3>Большой экран со светодиодной подсветкой.</h3>
+								<p>iMac — это яркий 21,5-дюймовый широкий экран со светодиодной подсветкой и отношением ширины к высоте 16:9. Идеален для HD-видео.</p>
+
+								<h3>Беспроводные клавиатура и мышь Magic Mouse для iMac.</h3>
+								<p>iMac избавит ваш рабочий стол от беспорядка благодаря беспроводной клавиатуре и новой мыши Magic Mouse — первой в мире мыши Multi-Touch.</p>
+
+								<h3>Самый быстрый iMac.</h3>
+								<p>Теперь с новейшими процессорами Intel Core i3 с тактовой частотой от 3,06 ГГц и возможностью установки четырёхъядерных процессоров, которые увеличивают производительность почти вчетверо.</p>
+
+								<h3>И экологичный.</h3>
+								<p>Новый iMac отвечает требованиям ENERGY STAR 5.0 и имеет «Золотой сертификат» EPEAT. Он не содержит большинства вредных токсинов и изготовлен из материалов, пригодных для вторичной переработки.</p>
+							</div>
+							<div class="tabs__box tab__box_features">
+								<h2>Технические характеристики Apple iMac 21,5" (MC509)</h2>
+								<table class="t-features">
+									<tr>
+										<th>Экран:</th>
+										<td>глянцевый широкоформатный экран с диагональю 21.5 дюйма, со светодиодной подсветкой (LED-технология)</td>
+									</tr>
+									<tr>
+										<th>Разрешение экрана: </th>
+										<td>1920 x 1080 точек</td>
+									</tr>
+									<tr>
+										<th>Яркость:</th>
+										<td>330 cd/m2</td>
+									</tr>
+									<tr>
+										<th>Дополнительно:</th>
+										<td>угол наклона: 178° (IPS-технология)</td>
+									</tr>
+									<tr>
+										<th>Процессор:</th>
+										<td>четырехъядерный Intel Core i5 с тактовой частотой 2.7 ГГц</td>
+									</tr>
+									<tr>
+										<th>Кэш-память:</th>
+										<td>6 МБ, 3 уровня</td>
+									</tr>
+									<tr>
+										<th>Оперативная память:</th>
+										<td>4 ГБ (2 модуля по 2 ГБ) 1333 МГц DDR3 SDRAM; поддержка до 16 ГБ</td>
+									</tr>
+									<tr>
+										<th>Графика:</th>
+										<td>графический процессор AMD Radeon HD 6770 с 512 МБ GDDR5 памяти</td>
+									</tr>
+									<tr>
+										<th>Видео:</th>
+										<td>камера FaceTime HD; выход Mini DisplayPort с поддержкой соединений DVI, Dual-Link DVI и VGA (требуются адаптеры; продаются отдельно)</td>
+									</tr>
+									<tr>
+										<th>Дополнительно:</th>
+										<td>возможность подключения Apple LED Cinema Display</td>
+									</tr>
+									<tr>
+										<th>Жёсткий диск:</th>
+										<td>1 ТБ (Serial ATA 7200 об/мин)</td>
+									</tr>
+									<tr>
+										<th>Дисковод оптических дисков:</th>
+										<td>8-скоростной SuperDrive (DVD±R DL/DVD±RW/CD-RW), со щелевой загрузкой</td>
+									</tr>
+									<tr>
+										<th>Wi-Fi:</th>
+										<td>поддержка беспроводной сети AirPort Extreme Wi-Fi (на основании проекта спецификации IEEE 802.11n); совместимость со стандартом IEEE 802.11a/b/g</td>
+									</tr>
+									<tr>
+										<th>Bluetooth:</th>
+										<td>Bluetooth 2.1 + EDR (повышенная скорость передачи данных)</td>
+									</tr>
+									<tr>
+										<th>Организация сетей:</th>
+										<td>модуль 10/100/1000 BASE-T Gigabit Ethernet (разъём RJ-45)</td>
+									</tr>
+									<tr>
+										<th>Размеры:</th>
+										<td>528 x 451 x 19 мм</td>
+									</tr>
+									<tr>
+										<th>Вес:</th>
+										<td>9.3 кг.</td>
+									</tr>
+								</table>
+								<h2>Аудио:</h2>
+								<ul>
+									<li>Встроенные низкочастнотные динамики (17 Вт)</li>
+									<li>Разъём для наушников, комбинированный с аудиовходом (поддержка цифрового сигнала)</li>
+									<li>Линейный вход</li>
+									<li>Встроенный микрофон</li>
+									<li>Возможности подключения и расширения:</li>
+									<li>1 порт Thunderbolt (10 Гбит/сек)</li>
+									<li>Порт Gigabit Ethernet</li>
+									<li>1 порт FireWire 800</li>
+									<li>Порт Mini DisplayPort</li>
+									<li>4 порта USB 2.0 (до 480 Мбит/с)</li>
+									<li>Разъём для карт SDXC.</li>
+								</ul>
+								<h2>Комплектация:</h2>
+								<ul>
+									<li>Apple iMac MC812</li>
+									<li>Беспроводная клавиатура Apple Wireless Keyboard</li>
+									<li>Мышь Magic Mouse</li>
+									<li>Чистящая салфетка</li>
+									<li>Кабель питания</li>
+								</ul>
+								<p class="warranty">Гарантийный срок обслуживания: 12 месяцев.</p>
+							</div>
 							<div class="tabs__box" style="display:block;"></div>
 							<div class="tabs__box" style="display:block;"></div>
 							<div class="tabs__box" style="display:block;"></div>
@@ -773,9 +941,19 @@
 					</div>
 					<!-- END .tabs -->
 				</div>
+				<!-- END .product-tabs -->
+
 			</div>
-			<div></div>
+			<!--END .product-block -->
+
+			<div class="error-message">
+				<p>Если вы заметили ошибки, опечатки или неточности в описании товара, пожалуйста, <a href="#">сообщите нам.</a></p>
+			</div>
 		</div>
+		<!--END .l-col3 -->
+
+
+		<!--BEGIN .l-col1 -->
 		<div class="l-col1">
 			<div class="compare">
 				<h3>Папка сравнения</h3>
@@ -820,9 +998,10 @@
 					</div>
 				</div>
 			</div>
-
 		</div>
+		<!--END .l-col1 -->
 	</div>
+	<!--END .l -->
 
 	<div class="deploy-text deploy-text_closed">
 		<div class="deploy-text__holder">

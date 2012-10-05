@@ -24,6 +24,11 @@ $.fn.scrollableAddClones = function(addItems) {
 
 $(document).ready(function() {
 
+	// function element exists
+	jQuery.fn.exists = function() {
+		return $(this).length;
+	}
+
 	// nav
 	$('.nav__item').hoverIntent(
 		function () {
@@ -69,6 +74,14 @@ $(document).ready(function() {
 	});
 	$("#stock-3 .caro").scrollableAddClones();
 
+	$('#preview .caro').scrollable({
+		next:'#preview .caro-next-l',
+		prev:'#preview .caro-prev-l',
+		//circular:true
+	});
+	$("#preview .caro").scrollableAddClones();
+
+
 	// suggest
 	$('.header__search-input').keyup(function(){
 		sit = $(this).val().length;
@@ -80,12 +93,14 @@ $(document).ready(function() {
 		$('.header__search .suggest').fadeOut(500);
 	});
 
+
 	// tabs
 	$('.tabs__nav li').click(function(){
 		if (!($(this).hasClass('active'))) $(this).addClass('active').siblings().removeClass('active')
 			.parents('.tabs').find('.tabs__box').eq($(this).index()).fadeIn(150).siblings('.tabs__box').hide();
 		return false;
 	});
+
 
 	// currency
 	$('.header__currency-selected').click(function(){
@@ -112,6 +127,7 @@ $(document).ready(function() {
 		return false;
 	});
 
+
 	// popup
 	$(".header__callback").click(function() {
 		$(".popup-wrapper").fadeIn();
@@ -133,6 +149,38 @@ $(document).ready(function() {
 		$(".popup").slideUp();
 		$(".popup-wrapper").fadeOut();
 		return false
+	});
+
+
+// fancyBox
+	if ($(".img-fancy").exists()){
+		$(".img-fancy").fancybox({
+			wrapCSS    : 'fancybox-custom',
+			closeClick : true,
+			openEffect : 'elastic',
+			openSpeed  : 150,
+			closeEffect : 'elastic',
+			closeSpeed  : 150,
+			closeClick : true,
+			helpers : {
+				title : {
+					type : 'inside'
+				},
+				overlay : {
+					css : {
+						'background' : 'rgba(0,0,0,0.7)'
+					}
+				}
+			}
+		});
+	};
+
+
+// preview
+	$(".preview__item a").click(function() {
+		$(".product__img img").attr('src', $(this).attr('href'));
+		$(".product__img").attr('href', $(this).attr('href'));
+		return false;
 	});
 
 /*	if($('.room__caroin').length>0){
