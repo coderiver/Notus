@@ -696,3 +696,205 @@
 		margin-bottom:12px;
 	}
 }
+
+.basket{
+	border:3px solid #c9c9cE;
+	border-radius:7px;
+	box-shadow:0 4px 10px 0 rgba(0, 0, 0, 0.6);
+	background:#fff;
+	width:732px;
+	position: fixed;
+	top:50px;
+	left:50%;
+	margin-left:-392px;
+	z-index:1000;
+	padding:30px 26px;
+	display: none;
+	.basket__close{
+		@include sized-sprite($icons, "delete-03");
+		position:absolute;
+		top:20px;
+		right:12px;
+	}
+	h3{
+		font-size:24px;
+		font-weight:normal;
+		margin-bottom:12px;
+	}
+	.basket__title{
+		overflow:hidden;
+		font-size:13px;
+		border-bottom:1px solid #d8d8d8;
+		padding-bottom:7px;
+		div{float:left;}
+		.basket__col2{margin:0 0 0 187px;}
+		.basket__col3{margin:0 0 0 15px;}
+		.basket__col4{margin:0 0 0 50px;}
+	}
+	.basket__col2{width:295px;}
+	.basket__col3{width:95px;}
+	.basket__col4{width:90px;}
+	.basket__item{
+		border-bottom:1px solid #d8d8d8;
+		position:relative;
+		overflow:hidden;
+		padding:10px 0;
+		height:110px;
+		.close{
+			right:auto;
+			left:2px;
+			top:9px;
+			@include sized-sprite($icons, "delete-03");
+			position:absolute;
+			top:20px;
+			right:12px;
+		}
+	}
+	.basket__img{
+		float:left;
+		margin-left:20px;
+		text-align:center;
+		width:145px;
+		height:110px;
+		line-height:110px;
+		img{vertical-align: middle;}
+	}
+	.basket__inf{
+		float:left;
+		margin-left:10px;
+		width:313px;
+		padding-top:6px;
+		h4{
+			font-size:16px;
+			font-weight:normal;
+			margin-bottom: 10px;
+			a{}
+		}
+	}
+	.basket__price{
+		font-size:24px;
+		span{
+			font-size:18px;
+		}
+	}
+	.basket__counter{
+		float:left;
+		width:88px;
+		border:1px solid #dbdbdb;
+		border-radius:2px;
+		margin:7px 15px 0 0;
+		padding:2px;
+	}
+	.basket__counter-m, .basket__counter-p{
+		width:24px;
+		height:24px;
+		padding:0;
+		float:left;
+		line-height:23px;
+		text-align:center;
+		span{
+			display:inline-block;
+			vertical-align:middle;
+		}
+	}
+	.basket__counter-p span{
+		@include sized-sprite($icons, "plus-2");
+	}
+	.basket__counter-m span{
+		@include sized-sprite($icons, "minus");
+	}
+	.input-counter{
+		font-size:16px;
+		width:20px;
+		padding:3px 5px;
+		height:18px;
+		line-height:18px;
+		border-radius:2px;
+		float:left;
+		border:1px solid #c9c9c9;
+		text-align:center;
+		margin:0 2px;
+	}
+	.price-block{
+		float:left;
+		width:130px;
+		margin-top:7px;
+		strong{
+			width:88px;
+			i{}
+		}
+		span{
+			width:42px;
+		}
+	}
+	.basket__all{
+		overflow: hidden;
+		border-bottom:1px solid #d8d8d8;
+		padding: 20px 0 20px 3px;
+		.btn{
+			float:left;
+			height:30px;
+			line-height:30px;
+			width:124px;
+			font-size:14px;
+		}
+		.buy-more{
+			float:left;
+			margin:9px 0 0 32px;
+		}
+		.price-block{
+			float:right;
+			margin-top:1px;
+		}
+		.basket__total{
+			float:right;
+			font-size:18px;
+			font-weight:normal;
+			margin:7px 19px 0 0;
+		}
+	}
+	.basket__delivery{
+		float:left;
+		font-size:14px;
+		width:315px;
+		padding:9px 0 0 66px;
+		background:url(../img/car.png) no-repeat 9px 39px;
+		line-height:17px;
+	}
+	.basket__order{
+		float:right;
+		font-size:14px;
+		width:340px;
+		padding:9px 0 0;
+		line-height:17px;
+	}
+	.basket__phone{
+		background:#e3e3e3;
+		margin:7px 3px 0;
+		padding:5px 0 5px 8px;
+		overflow:hidden;
+		span{
+			float:left;
+			font-size:14px;
+			margin:5px 4px 0 0;
+		}
+		.input{
+			float:left;
+			border:1px solid #dbdbdb;
+			font-size:14px;
+			width:154px;
+			padding:2px 5px;
+			height:20px;
+			margin-right:4px;
+		}
+		.btn{
+			float:left;
+			font-size:14px;
+			width: 118px;
+		}
+	}
+}
+
+
+
+	
