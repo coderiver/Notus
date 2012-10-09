@@ -227,7 +227,10 @@
 		position: absolute;
 		top:20px;
 		cursor:pointer;
-		&.disabled{opacity:0.5;}
+		&.disabled{
+			opacity:0.4;
+			cursor:default;
+		}
 	}
 	.caro-prev-l{
 		@include sized-sprite($icons, "arr-3");
@@ -428,6 +431,7 @@
 		padding: 28px 20px 22px;
 		border:0;
 		background:none;
+		color:#3d3d3d;
 		h2{
 			font-size:14px;
 			color:#3d3d3d;
@@ -438,6 +442,40 @@
 			color:#3d3d3d;
 		}
 		p{margin-bottom: 12px;}
+	}
+	.add-tab{
+		list-style-type: none;
+		overflow: hidden;
+		font-size:13px;
+		height:23px;
+		margin-bottom:10px;
+		li{
+			float: left;
+			background:none!important;
+			padding:0!important;
+			margin:0 11px 0 0!important;
+			a{
+				text-decoration:none;
+				border-bottom:1px dotted #158edc;
+				display: block;
+				&:hover{
+					border:none;
+				}
+				margin:3px 0;
+
+			}
+		}
+		.active{
+			a{
+				background:#158edc;
+				color:#fff;
+				border-radius:3px;
+				text-decoration:none;
+				border:none;
+				padding:3px 10px;
+				margin:0;
+			}
+		}
 	}
 	.tab__box_features{
 	h2{margin-left:-5px;}
@@ -478,7 +516,42 @@
 		}
 	}
 
+	.tabs__box_guarant{
+		h2{
+			font-size:18px;
+			font-weight:bold;
+		}
+		h3{
+			font-size:14px;
+			font-weight:bold;
+			margin-bottom: 5px;
+		}
+		ul{
+			list-style: none;
+			margin-bottom:17px;
+		}
+		li{
+			background: url("../img/bullet.png") no-repeat 2px 6px;
+			margin-bottom: 4px;
+			padding: 0 0 0 12px;
+		}
+		.q-and-a{
+			margin-bottom:14px;
+		}
+		.question{
+			border-bottom:1px dotted #0078c6;
+			text-decoration:none;
 
+			&:hover{
+				border:none;
+				padding-bottom:1px;
+			}
+		}
+		.answer{
+			display:none;
+			margin-top:3px;
+		}
+	}
 }
 
 .error-message{
@@ -520,7 +593,10 @@
 	.caro-prev, .caro-next{top:75px;}
 	.caro-prev{left:7px;}
 	.caro-next{right:7px;}
-	.caro-prev.disabled, .caro-next.disabled{opacity: 0.5;}
+	.caro-prev.disabled, .caro-next.disabled{
+		opacity: 0.4;
+		cursor:default;
+	}
 }
 .discount-set{
 	.caro{
@@ -688,4 +764,157 @@
 			font-size:10px;
 		}
 	}
+}
+
+.gds{
+	position: relative;
+	.caro-prev, .caro-next{
+		top:50%;
+		margin-top:-30px;
+	}
+	.caro-prev{left:0;}
+	.caro-next{right:0;}
+	.caro-prev.disabled, .caro-next.disabled{
+		opacity:0.4;
+		cursor:default;
+	}
+	.caro{
+		height:543px;
+		margin:0 28px;
+		width:630px;
+	}
+	.gds__items{
+		width:630px;
+		height:543px;
+	}
+	.gds__item{
+		display:inline-block;
+		vertical-align:top;
+		width:150px;
+		margin-bottom:39px;
+		padding:0 3px 0 2px;
+	}
+	.gds__img{
+		text-align: center;
+		height:150px;
+		line-height:150px;
+		img{vertical-align: middle;}
+	}
+	h3{
+		text-align: center;
+		font-size:11px;
+		font-weight:normal;
+		margin-bottom:11px;
+		line-height:14px;
+	}
+	.gds__price{
+		height:26px;
+		line-height:26px;
+		width:106px;
+		margin:0 auto 6px;
+		text-align: center;
+		border-radius:3px;
+		background:#ffbb16;
+		font-size:15px;
+		span{
+			font-size:11px;
+			margin-left:3px;
+		}
+	}
+	.btn{
+		width:126px;
+		padding:0;
+		text-align: center;
+		width:104px;
+		margin:0 auto;
+		display:block;
+		height:23px;
+		line-height:23px;
+	}
+}
+
+.reviews{
+	.review{
+		color:#3c3c3c;
+		border-bottom:1px solid #cacaca;
+		margin-bottom:13px;
+		padding-bottom:21px;
+	}
+	.review__name{
+		font-size:14px;
+		font-weight:bold;
+		color:#000;
+	}
+	.review__text{
+		font-size:14px;
+		margin-bottom:4px;
+	}
+	.review__date{
+		font-size:11px;
+		color:#93939e;
+		margin-bottom:11px;
+		display: block;
+	}
+	.answer{
+		margin-top:22px;
+		padding-left:25px;
+	}
+	.answer__name{
+		font-size:12px;
+		font-weight:bold;
+		color:#158edc;
+	}
+	.answer__text{
+		font-size:11px;
+		line-height:1.35;
+		margin-bottom:4px;
+
+	}
+	.answer__date{
+		color:#93939e;
+		font-size:11px;
+		display: block;
+	}
+	.review__form{
+		margin-top:-4px;
+		padding-left:1px;
+		
+		h3{
+			color:#000;
+			font-size:18px;
+			font-weight:normal;
+			margin-bottom:9px;
+		}
+		textarea{
+			border-radius:2px;
+			color:#3c3c3c;
+			font-size:12px;
+			font-style:italic;
+			border:1px solid #c9c9c9;
+			padding:9px 9px;
+			height:55px;
+			width:663px;
+			margin-bottom:19px;
+		}
+		.btn{
+
+		}
+	}
+	.review__input{
+		overflow:hidden;
+		margin-bottom:19px;
+		input{
+			border:1px solid #c9c9c9;
+			padding:0 9px;
+			width:225px;
+			height:27px;
+			border-radius:2px;
+			color:#3c3c3c;
+			font-size:12px;
+			font-style:italic;
+			float:left;
+			margin-right:27px;
+		}
+	}
+
 }

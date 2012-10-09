@@ -29,6 +29,8 @@ $(document).ready(function() {
 		return $(this).length;
 	}
 
+
+
 	// nav
 	$('.nav__item').hoverIntent(
 		function () {
@@ -38,6 +40,8 @@ $(document).ready(function() {
 			$(this).children('.nav__drop').slideUp();
 		}
 	);
+
+
 
 	// scrollable
 	$('.pr-viewed .caro').scrollable({
@@ -76,27 +80,40 @@ $(document).ready(function() {
 
 	$('#preview .caro').scrollable({
 		next:'#preview .caro-next-l',
-		prev:'#preview .caro-prev-l',
+		prev:'#preview .caro-prev-l'
 	});
 	$("#preview .caro").scrollableAddClones();
 
 	$('#discount-set .caro').scrollable({
 		next:'#discount-set .caro-next',
-		prev:'#discount-set .caro-prev',
+		prev:'#discount-set .caro-prev'
 	});
 	$("#discount-set .caro").scrollableAddClones();
 
 	$('#goods1 .caro').scrollable({
 		next:'#goods1 .caro-next',
-		prev:'#goods1 .caro-prev',
+		prev:'#goods1 .caro-prev'
 	});
 	$("#goods1 .caro").scrollableAddClones();
 
 	$('#goods2 .caro').scrollable({
 		next:'#goods2 .caro-next',
-		prev:'#goods2 .caro-prev',
+		prev:'#goods2 .caro-prev'
 	});
 	$("#goods2 .caro").scrollableAddClones();
+
+	$('#gds1 .caro').scrollable({
+		next:'#gds1 .caro-next',
+		prev:'#gds1 .caro-prev'
+	});
+	$("#gds1 .caro").scrollableAddClones();
+
+	$('#gds2 .caro').scrollable({
+		next:'#gds2 .caro-next',
+		prev:'#gds2 .caro-prev'
+	});
+	$("#gds2 .caro").scrollableAddClones();
+
 
 
 	// suggest
@@ -111,12 +128,18 @@ $(document).ready(function() {
 	});
 
 
+
 	// tabs
 	$('.tabs__nav li').click(function(){
 		if (!($(this).hasClass('active'))) $(this).addClass('active').siblings().removeClass('active')
 			.parents('.tabs').find('.tabs__box').eq($(this).index()).fadeIn(150).siblings('.tabs__box').hide();
 		return false;
 	});
+	$('.q-and-a .question').click(function() {
+		$(this).next().slideToggle('fast');
+		return false;
+	});
+
 
 
 	// currency
@@ -131,6 +154,7 @@ $(document).ready(function() {
 	});
 
 
+
 	//deploy-text
 	$('.deploy__link').click(function(){
 		if ($(this).parent().hasClass('deploy-text_closed')){
@@ -143,6 +167,7 @@ $(document).ready(function() {
 		}
 		return false;
 	});
+
 
 
 	// popup
@@ -167,6 +192,8 @@ $(document).ready(function() {
 		$(".popup-wrapper").fadeOut();
 		return false
 	});
+
+
 
 	// basket
 	$(".header__basket").click(function() {
@@ -201,6 +228,7 @@ $(document).ready(function() {
 	});
 
 
+
 	// fancyBox
 	if ($(".img-fancy").exists()){
 		$(".img-fancy").fancybox({
@@ -225,12 +253,12 @@ $(document).ready(function() {
 	};
 
 
+
 // preview
 	$(".preview__item a").click(function() {
 		$(".product__img img").attr('src', $(this).attr('href'));
 		$(".product__img").attr('href', $(this).attr('href'));
 		return false;
 	});
-
 
 });
