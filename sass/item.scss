@@ -37,6 +37,7 @@
 }
 
 .btn{
+	background:#1fbaea;
 	@include background-image(linear-gradient(top, #1fbaea 0, #2696de 100%));
 	box-shadow:0 1px 1px 0 rgba(0,0,0,0.25);
 	border:1px solid #2696de;
@@ -52,15 +53,18 @@
 	cursor:pointer;
 	font-family:Arial,sans-serif;
 	&:hover{
+		background:#2696de;
 		@include background-image(linear-gradient(top, #2696de 0, #1fbaea 100%));
 	}
 }
 .btn_gray{
+	background:#bcbec0;
 	@include background-image(linear-gradient(top, #bcbec0 0, #b2b4b6 100%));
 	border-color:#b2b4b7;
 	color:#fff;
 	text-shadow:rgba(0,0,0,0.25) 0 -1px 0;
 	&:hover{
+		background:#b2b4b6;
 		@include background-image(linear-gradient(top, #b2b4b6 0, #bcbec0 100%));
 	}
 }
@@ -435,6 +439,46 @@
 		}
 		p{margin-bottom: 12px;}
 	}
+	.tab__box_features{
+	h2{margin-left:-5px;}
+	ul{
+		list-style:none;
+		margin-bottom:21px;
+		li{
+			background:url(../img/bullet-2.png) no-repeat 7px 6px;
+			padding-left:17px;
+			line-height:14px;
+			margin-bottom:10px;
+		}
+	}
+	.warranty{
+		color:#158edc;
+		font-weight:bold;
+	}
+	}
+	.t-features{
+		margin:0 -19px 18px;
+		font-size:12px;
+		border-collapse:separate;
+		border-spacing:0;
+		color:#3d3d3d;
+		th{
+			text-align:left;
+			vertical-align:top;
+			width:201px;
+			padding:5px 0 5px 25px;
+		}
+		td{
+			padding:5px 20px 5px 0;
+			vertical-align:top;
+		}
+		tr:nth-child(odd){
+			td{background:#f4f5f5;}
+			th{background:#f4f5f5;}
+		}
+	}
+
+
 }
 
 .error-message{
@@ -452,44 +496,6 @@
 			border:none;
 			padding-bottom:1px;
 		}
-	}
-}
-.tab__box_features{
-	h2{margin-left:-5px;}
-	ul{
-		list-style:none;
-		margin-bottom:21px;
-		li{
-			background:url(../img/bullet-2.png) no-repeat 7px 6px;
-			padding-left:17px;
-			line-height:14px;
-			margin-bottom:10px;
-		}
-	}
-	.warranty{
-		color:#158edc;
-		font-weight:bold;
-	}
-}
-.t-features{
-	margin:0 -19px 18px;
-	font-size:12px;
-	border-collapse:separate;
-    border-spacing:0;
-    color:#3d3d3d;
-	th{
-		text-align:left;
-		vertical-align:top;
-		width:201px;
-		padding:5px 0 5px 25px;
-	}
-	td{
-		padding:5px 20px 5px 0;
-		vertical-align:top;
-	}
-	tr:nth-child(odd){
-		td{background:#f4f5f5;}
-		th{background:#f4f5f5;}
 	}
 }
 
@@ -575,6 +581,7 @@
 	}
 	.discount-set__disc{
 		position: absolute;
+		background:#3ac7f6;
 		@include background-image(linear-gradient(left,#3ac7f6, #b1ebff 5%, #6cd8f5 10%, #3bc9ef 23%, #3bc9ef));
 		height:20px;
 		line-height:20px;
@@ -607,6 +614,7 @@
 			height: 30px;
 			line-height: 30px;
 			margin-bottom:7px;
+			text-align:center;
 		}
 	}
 	.discount-set__cost{

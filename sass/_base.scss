@@ -19,6 +19,7 @@ $break-large: 1180px; /*когда включать широкую версию*
     color: transparent;
 }
 
+$experimental-support-for-svg: true;
 
 @mixin image-size($path){
 width: image-width($path);

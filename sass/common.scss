@@ -74,6 +74,7 @@ a{
 			top:0;
 			left:-11px;
 			padding:34px 0 21px;
+			background:#fff;
 			@include background-image(linear-gradient(top, #fff 0, #f4f4f4 100%));
 			border:1px solid #b3b3bd;
 			box-shadow:0 3px 5px 0 rgba(0,0,0,0.6);
@@ -111,6 +112,7 @@ a{
 		position: relative;
 		&:hover{
 			a{
+				background:#e5e5e5;
 				@include background-image(linear-gradient(top, #e5e5e5 0, #fff 100%));
 				margin:0 -10px
 			}
@@ -153,6 +155,7 @@ a{
 	display:inline-block;
 	width:100%;
 	margin-bottom:11px;
+	background:#f8f8f8;
 	@include background-image(linear-gradient(#f8f8f8, #f8f8f8 70%, #efeff0 78%, #d3d4d7 93%, #cbccd0 99%, #c1c2c5));
 }
 	.header__holder{
@@ -222,6 +225,7 @@ a{
 			line-height:14px;
 			color:#6d6d6d;
 			height:14px;
+			outline:none;
 			&:focus{
 				border-color:#2697de;
 				box-shadow:0 0 0 1px #23a8e4 inset;
@@ -249,6 +253,7 @@ a{
 			border-radius:0 0 3px 3px;
 			padding:11px 14px;
 			display:none;
+			background:#fff;
 			@include background-image(linear-gradient(top, #fff 0, #f4f4f4 100%));
 			.item{
 				overflow: hidden;

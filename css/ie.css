@@ -1,4 +1,5 @@
-/* line 2, ../sass/ie.scss */
-.lteie8 body {
-  background: red;
+/* line 5, ../sass/ie.scss */
+.lteie8 .popup-wrapper {
+  background: #000;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
 }
