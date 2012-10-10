@@ -3296,67 +3296,74 @@ a:hover {
 }
 
 /* line 837, ../sass/item.scss */
-.reviews .review {
+.ask-questions .ask-qu {
   color: #3c3c3c;
   border-bottom: 1px solid #cacaca;
   margin-bottom: 13px;
   padding-bottom: 21px;
 }
 /* line 843, ../sass/item.scss */
-.reviews .review__name {
+.ask-questions .ask-qu__name {
   font-size: 14px;
   font-weight: bold;
   color: #000;
 }
 /* line 848, ../sass/item.scss */
-.reviews .review__text {
+.ask-questions .ask-qu__text {
   font-size: 14px;
   margin-bottom: 4px;
 }
 /* line 852, ../sass/item.scss */
-.reviews .review__date {
+.ask-questions .review__date {
   font-size: 11px;
   color: #93939e;
   margin-bottom: 11px;
   display: block;
 }
 /* line 858, ../sass/item.scss */
-.reviews .answer {
+.ask-questions .answer {
   margin-top: 22px;
   padding-left: 25px;
 }
 /* line 862, ../sass/item.scss */
-.reviews .answer__name {
+.ask-questions .answer__name {
   font-size: 12px;
   font-weight: bold;
   color: #158edc;
 }
 /* line 867, ../sass/item.scss */
-.reviews .answer__text {
+.ask-questions .answer__text {
   font-size: 11px;
   line-height: 1.35;
   margin-bottom: 4px;
 }
 /* line 873, ../sass/item.scss */
-.reviews .answer__date {
+.ask-questions .answer__date {
   color: #93939e;
   font-size: 11px;
   display: block;
 }
-/* line 878, ../sass/item.scss */
-.reviews .review__form {
+
+/* line 880, ../sass/item.scss */
+.review__form {
   margin-top: -4px;
   padding-left: 1px;
+  position: relative;
 }
-/* line 882, ../sass/item.scss */
-.reviews .review__form h3 {
-  color: #000;
-  font-size: 18px;
+/* line 884, ../sass/item.scss */
+.review__form h3 {
+  color: #000 !important;
+  font-size: 18px !important;
   font-weight: normal;
   margin-bottom: 9px;
 }
-/* line 888, ../sass/item.scss */
-.reviews .review__form textarea {
+/* line 890, ../sass/item.scss */
+.review__form .row-textarea {
+  margin-bottom: 19px;
+  position: relative;
+}
+/* line 894, ../sass/item.scss */
+.review__form textarea {
   border-radius: 2px;
   color: #3c3c3c;
   font-size: 12px;
@@ -3365,15 +3372,19 @@ a:hover {
   padding: 9px 9px;
   height: 55px;
   width: 663px;
+}
+/* line 905, ../sass/item.scss */
+.review__form .row {
   margin-bottom: 19px;
 }
-/* line 903, ../sass/item.scss */
-.reviews .review__input {
-  overflow: hidden;
-  margin-bottom: 19px;
+/* line 907, ../sass/item.scss */
+.review__form .row .col {
+  display: inline-block;
+  margin-right: 24px;
+  position: relative;
 }
-/* line 906, ../sass/item.scss */
-.reviews .review__input input {
+/* line 912, ../sass/item.scss */
+.review__form .row input {
   border: 1px solid #c9c9c9;
   padding: 0 9px;
   width: 225px;
@@ -3382,8 +3393,125 @@ a:hover {
   color: #3c3c3c;
   font-size: 12px;
   font-style: italic;
+}
+/* line 923, ../sass/item.scss */
+.review__form .review__opinion {
+  position: absolute;
+  right: 0;
+  top: 27px;
+}
+/* line 928, ../sass/item.scss */
+.review__form .error {
+  position: absolute;
+  bottom: -16px;
+  left: 1px;
+  color: #ff4200;
+}
+
+/* line 938, ../sass/item.scss */
+.reviews .review {
+  color: #3c3c3c;
+  border-bottom: 1px solid #cacaca;
+  margin-bottom: 13px;
+  padding-bottom: 16px;
+  padding-right: 125px;
+  position: relative;
+  min-height: 79px;
+}
+/* line 946, ../sass/item.scss */
+.reviews .review .review__opinion {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/* line 952, ../sass/item.scss */
+.reviews .review__name {
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+  display: block;
+  margin-bottom: 2px;
+}
+/* line 959, ../sass/item.scss */
+.reviews .review__text {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+/* line 963, ../sass/item.scss */
+.reviews .review__date {
+  font-size: 11px;
+  color: #93939e;
+  margin-bottom: 2px;
+  display: block;
+}
+/* line 969, ../sass/item.scss */
+.reviews .review__opinion {
+  font-size: 11px;
+  width: 100px;
+}
+/* line 972, ../sass/item.scss */
+.reviews .review__opinion strong {
+  font-weight: normal;
+}
+/* line 973, ../sass/item.scss */
+.reviews .review__opinion span {
+  color: #7c7c7c;
+}
+/* line 974, ../sass/item.scss */
+.reviews .review__opinion .stars {
+  margin-bottom: 7px;
+}
+/* line 975, ../sass/item.scss */
+.reviews .review__opinion .star {
+  display: inline-block;
+  background: url('../img/icons-sd1f5610746.png') 0 -311px no-repeat;
+  width: 17px;
+  height: 16px;
+}
+/* line 978, ../sass/item.scss */
+.reviews .review__opinion .star.chosen {
+  background: url('../img/icons-sd1f5610746.png') 0 -501px no-repeat;
+  width: 17px;
+  height: 16px;
+}
+/* line 981, ../sass/item.scss */
+.reviews .review__useful {
+  padding: 2px 0 0;
+}
+/* line 983, ../sass/item.scss */
+.reviews .review__useful span {
+  font-size: 11px;
+  color: #7c7c7c;
+  margin-right: 5px;
+}
+/* line 988, ../sass/item.scss */
+.reviews .review__useful .btn {
+  height: 20px;
+  line-height: 20px;
+  padding: 0 3px;
+  margin-right: 1px;
+}
+/* line 995, ../sass/item.scss */
+.reviews .review__nav {
+  overflow: hidden;
+  padding: 7px 0 28px;
+  border-bottom: 1px solid #cacaca;
+  margin-bottom: 12px;
+}
+/* line 1000, ../sass/item.scss */
+.reviews .review__nav ul {
+  list-style: none;
+  font-size: 12px;
+  border-right: 1px solid #ebebeb;
   float: left;
-  margin-right: 27px;
+  padding-right: 3px;
+  margin-right: 14px;
+}
+/* line 1008, ../sass/item.scss */
+.reviews .review__nav li {
+  float: left;
+  color: #000;
+  margin-right: 13px;
 }
 
 /* fancyBox v2.1.0 fancyapps.com | fancyapps.com/fancybox/#license */

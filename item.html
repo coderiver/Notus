@@ -508,7 +508,7 @@
 						</div>
 						<div class="nav__drop-holder">
 							<div class="nav__drop-col nav__drop-col2">
-								<h2 align="center"><a href="/Bytovaya-Tehnika-Melkaya-bytovaya-tehnika--2-32808">Мелкая бытовая техника</a></h2>
+								<h2><a href="/Bytovaya-Tehnika-Melkaya-bytovaya-tehnika--2-32808">Мелкая бытовая техника</a></h2>
 								<ul>
 									<li><a href="/Aerogrili">Аэрогрили</a></li>
 									<li><a href="/Blendery">Блендеры</a></li>
@@ -823,7 +823,7 @@
 							<li class="tabs__nav7"><a href="#">Задать вопрос</a></li>
 						</ul>
 						<div class="tabs__info">
-							<div class="tabs__box">
+							<div class="tabs__box" style="display:block;">
 								<h2>Купить iMac, 21,5" (1920x1080) , Intel Core i3 (3.06 ГГц) / 4 ГБ / 500 ГБ (7200) / ATI Radeon HD 4670 256MB / DVD±RW (SuperMulti Double Layer) / Lan / Mac OS X 10.5 Leopard (MC508)</h2>
 								<h3>Большой экран со светодиодной подсветкой.</h3>
 								<p>iMac — это яркий 21,5-дюймовый широкий экран со светодиодной подсветкой и отношением ширины к высоте 16:9. Идеален для HD-видео.</p>
@@ -934,7 +934,7 @@
 								<p class="warranty">Гарантийный срок обслуживания: 12 месяцев.</p>
 							</div>
 
-							<div class="tabs__box tabs__box_guarant"  style="display:block;">
+							<div class="tabs__box tabs__box_guarant">
 								<ul class="add-tab">
 									<li><a href="#">Доставка</a></li>
 									<li class="active"><a href="#">Гарантия и сервис</a></li>
@@ -1128,8 +1128,8 @@
 										</div>
 										<div class="review__useful">
 											<span>Был ли этот отзыв вам полезен?</span>
-											<a href="#">Да</a>
-											<a href="#">Нет</a>
+											<a href="#" class="btn">Да</a>
+											<a href="#" class="btn">Нет</a>
 										</div>
 									</div>
 									<div class="review">
@@ -1150,8 +1150,8 @@
 										</div>
 										<div class="review__useful">
 											<span>Был ли этот отзыв вам полезен?</span>
-											<a href="#">Да</a>
-											<a href="#">Нет</a>
+											<a href="#" class="btn">Да</a>
+											<a href="#" class="btn">Нет</a>
 										</div>
 									</div>
 									<div class="review__nav">
@@ -1166,9 +1166,15 @@
 									<div class="review__form">
 										<form action="#">
 											<h3>Оставить отзыв</h3>
-											<div class="review__input">
-												<input type="text" placeholder="Ваше имя">
-												<input type="text" placeholder="E-mail">
+											<div class="row">
+												<div class="col">
+													<input type="text" placeholder="Ваше имя">
+													<span class="error">Необходимо указать имя</span>
+												</div>
+												<div class="col">
+													<input type="text" placeholder="E-mail">
+													<span class="error">Неверный email</span>
+												</div>
 												<div class="review__opinion">
 													<strong>Оценка товара:</strong>
 													<div class="stars">
@@ -1180,7 +1186,10 @@
 													</div>
 												</div>
 											</div>
-											<textarea name="" cols="91" rows="3"></textarea>
+											<div class="row-textarea">
+												<textarea name="" cols="91" rows="3"></textarea>
+												<span class="error">Текст отзыва должен состоят из 50 символов минимум</span>
+											</div>
 											<input type="submit" class="btn" value="Отправить">
 										</form>
 									</div>
@@ -1238,13 +1247,13 @@
 							</div>
 							<div class="tabs__box">
 								<!--BEGIN .reviews -->
-								<div class="reviews">
-									<div class="review">
-										<strong class="review__name">Username</strong>
-										<div class="review__text">
+								<div class="ask-questions">
+									<div class="ask-qu">
+										<strong class="ask-qu__name">Username</strong>
+										<div class="ask-qu__text">
 											Куда звонить если я сдал товар в сервисный центр магазина и хочу уточнить, что с ним?
 										</div>
-										<span class="review__date">21 мая 2011 г.</span>
+										<span class="ask-qu__date">21 мая 2011 г.</span>
 										<div class="answer">
 											<strong class="answer__name">Notus</strong>
 											<div class="answer__text">
@@ -1253,21 +1262,27 @@
 											<span class="answer__date">22 мая 2011 г.</span>
 										</div>
 									</div>
-									<div class="review">
-										<strong class="review__name">Username</strong>
-										<div class="review__text">
+									<div class="ask-qu">
+										<strong class="ask-qu__name">Username</strong>
+										<div class="ask-qu__text">
 											В каких случаях гарантия не предоставляется?
 										</div>
-										<span class="review__date">21 мая 2011 г.</span>
+										<span class="ask-qu__date">21 мая 2011 г.</span>
 									</div>
 									<div class="review__form">
 										<form action="#">
-											<h3>Задать вопрос</h3>
-											<div class="review__input">
-												<input type="text" placeholder="Ваше имя">
-												<input type="text" placeholder="E-mail">
+											<h3>Оставить отзыв</h3>
+											<div class="row">
+												<div class="col">
+													<input type="text" placeholder="Ваше имя">
+												</div>
+												<div class="col">
+													<input type="text" placeholder="E-mail">
+												</div>
 											</div>
-											<textarea name="" cols="91" rows="3"></textarea>
+											<div class="row-textarea">
+												<textarea name="" cols="91" rows="3"></textarea>
+											</div>
 											<input type="submit" class="btn" value="Отправить">
 										</form>
 									</div>
