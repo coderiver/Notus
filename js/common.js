@@ -261,4 +261,19 @@ $(document).ready(function() {
 		return false;
 	});
 
+
+// accordion
+	$(".accordion-link").click(function() {
+		if ($(this).parent('li').hasClass('open')) {
+			$(this).parent('li').removeClass('open');
+			$(this).next('ul').slideUp();
+		}
+		else{
+			$(this).parent('li').addClass('open').siblings(".accordion li").removeClass('open');
+			$(".accordion ul").slideUp();
+			$(this).next('ul').slideDown();
+		};
+		return false;
+	});
+
 });

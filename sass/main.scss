@@ -534,6 +534,8 @@
 .deploy-text_closed{height:40px;}
 
 
+
+/* popup */
 .popup-wrapper{
 	position:fixed;
 	top:0;
@@ -544,7 +546,6 @@
 	z-index:998;
 	display: none;
 }
-
 .popup{
 	position: fixed;
 	top:50px;
@@ -697,6 +698,8 @@
 	}
 }
 
+
+/* basket */
 .basket{
 	border:3px solid #c9c9cE;
 	border-radius:7px;
@@ -894,7 +897,3 @@
 		}
 	}
 }
-
-
-
-	

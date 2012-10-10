@@ -2,16 +2,22 @@
 
 /* default layout - EXAMPLE FOR NOW */
 .l{
-	width:100% ;
 	display:inline-block;
-
-	.l-col1{
+	width:100%;
+	.l-col3-l{
 		float:left;
-		width:140px;
+		width:727px;
 	}
-	
-	.l-col2{
+	.l-col1-r{
 		float:right;
-		width:820px;
+		width:240px;
+	}
+	.l-col3-r{
+		float:right;
+		width:727px;
+	}
+	.l-col1-l{
+		float:left;
+		width:240px;
 	}
 }
