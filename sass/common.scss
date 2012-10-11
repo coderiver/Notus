@@ -576,6 +576,8 @@ a{
 		border-right:1px solid #4c4d55;
 		border-top:1px solid #9a9ca9;
 		box-shadow:1px 1px 0 0 rgba(255,255,255,0.3) inset, -1px 0 0 0 rgba(255,255,255,0.3) inset;
+		z-index:10;
+		position: relative;
 	}
 	.nav__drop{
 		background:#f8f8f8;
@@ -585,9 +587,10 @@ a{
 		position:absolute;
 		top:36px;
 		left:0;
-		box-shadow:0 5px 5px 0 rgba(0,0,0,0.6);
+		box-shadow:0 1px 7px 0 rgba(0,0,0,0.6);
 		border-radius:0 0 7px 7px;
 		display: none;
+		z-index:5;
 	}
 	.nav__drop-holder{overflow: hidden;}
 	.nav__drop-col{

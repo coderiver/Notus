@@ -1,4 +1,19 @@
 @import "base";
+
+.ico-scales{
+	@include sized-sprite($icons, "ico-scales");
+	position:absolute;
+	left:-25px;
+	top:1px;
+}
+.ico-heart{
+	@include sized-sprite($icons, "ico-heart");
+	position:absolute;
+	left:-23px;
+	top:2px;
+}
+
+
 .bc-social{
 	display:inline-block;
 	padding:3px 0 11px;
@@ -304,18 +319,6 @@
 				padding-bottom:1px;
 			}
 		}
-	}
-	.ico-scales{
-		@include sized-sprite($icons, "ico-scales");
-		position:absolute;
-		left:-25px;
-		top:1px;
-	}
-	.ico-heart{
-		@include sized-sprite($icons, "ico-heart");
-		position:absolute;
-		left:-23px;
-		top:2px;
 	}
 	.product__text{
 		font-size:11px;

@@ -3,6 +3,23 @@ $break-small: 500px; /*когда включать версию для айфо�
 $break-large: 1180px; /*когда включать широкую версию*/
 
 
+$experimental-support-for-svg: true;
+$mysprite-layout:smart;
+
+@mixin image-size($path){
+width: image-width($path);
+height: image-height($path);
+}
+
+@mixin sized-sprite($map, $sprite){
+background: sprite($map, $sprite) no-repeat;
+@include image-size(sprite-file($map, $sprite));
+}
+
+
+
+
+
 @mixin respond-to($media) {
   @if $media == pda {
     @media only screen and (max-width: $break-small) { @content; }
@@ -17,16 +34,4 @@ $break-large: 1180px; /*когда включать широкую версию*
     font: 0/0 a;
     text-shadow: none;
     color: transparent;
-}
-
-$experimental-support-for-svg: true;
-
-@mixin image-size($path){
-width: image-width($path);
-height: image-height($path);
-}
-
-@mixin sized-sprite($map, $sprite){
-background: sprite($map, $sprite) no-repeat;
-@include image-size(sprite-file($map, $sprite));
 }
