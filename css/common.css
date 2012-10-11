@@ -70,7 +70,7 @@ a:hover {
 
 /* line 49, ../sass/common.scss */
 .arr-right {
-  background: url('../img/icons-s88f6089571.png') 0 -133px no-repeat;
+  background: url('icons-s88f6089571.png') 0 -133px no-repeat;
   width: 7px;
   height: 10px;
   display: block;
@@ -78,7 +78,7 @@ a:hover {
 
 /* line 53, ../sass/common.scss */
 .arr-down {
-  background: url('../img/icons-s88f6089571.png') 0 -910px no-repeat;
+  background: url('icons-s88f6089571.png') 0 -910px no-repeat;
   width: 11px;
   height: 7px;
 }
@@ -279,7 +279,7 @@ a:hover {
 }
 /* line 188, ../sass/common.scss */
 .top-menu .top-menu__arrow {
-  background: url('../img/icons-s88f6089571.png') 0 -884px no-repeat;
+  background: url('icons-s88f6089571.png') 0 -884px no-repeat;
   width: 9px;
   height: 26px;
   display: inline-block;
@@ -287,7 +287,7 @@ a:hover {
 }
 /* line 193, ../sass/common.scss */
 .top-menu .top-menu__key {
-  background: url('../img/icons-s88f6089571.png') 0 -849px no-repeat;
+  background: url('icons-s88f6089571.png') 0 -849px no-repeat;
   width: 7px;
   height: 26px;
   display: inline-block;
@@ -320,7 +320,7 @@ a:hover {
 
 /* line 215, ../sass/common.scss */
 .header__logo {
-  background: url('../img/icons-s88f6089571.png') 0 0 no-repeat;
+  background: url('icons-s88f6089571.png') 0 0 no-repeat;
   width: 179px;
   height: 66px;
   float: left;
@@ -409,7 +409,7 @@ a:hover {
 .header__search .header__search-btn {
   border-radius: 2px;
   border: 1px solid #2696de;
-  background: url('../img/icons-s88f6089571.png') 0 -229px no-repeat;
+  background: url('icons-s88f6089571.png') 0 -229px no-repeat;
   width: 28px;
   height: 28px;
   box-shadow: 0 1px 0 0 #3bc9ef inset;
@@ -611,7 +611,7 @@ a:hover {
 /* line 435, ../sass/common.scss */
 .header__basket .header__basket-btn span {
   border-left: 1px solid #2696de;
-  background: url('../img/icons-s88f6089571.png') 0 -297px no-repeat;
+  background: url('icons-s88f6089571.png') 0 -297px no-repeat;
   width: 27px;
   height: 27px;
   float: right;
@@ -992,25 +992,25 @@ a:hover {
 }
 /* line 706, ../sass/common.scss */
 .social-white .social-white__rss {
-  background: url('../img/icons-s88f6089571.png') 0 -207px no-repeat;
+  background: url('icons-s88f6089571.png') 0 -207px no-repeat;
   width: 22px;
   height: 22px;
 }
 /* line 707, ../sass/common.scss */
 .social-white .social-white__tw {
-  background: url('../img/icons-s88f6089571.png') 0 -530px no-repeat;
+  background: url('icons-s88f6089571.png') 0 -530px no-repeat;
   width: 22px;
   height: 22px;
 }
 /* line 708, ../sass/common.scss */
 .social-white .social-white__fb {
-  background: url('../img/icons-s88f6089571.png') 0 -580px no-repeat;
+  background: url('icons-s88f6089571.png') 0 -580px no-repeat;
   width: 22px;
   height: 22px;
 }
 /* line 709, ../sass/common.scss */
 .social-white .social-white__vk {
-  background: url('../img/icons-s88f6089571.png') 0 -492px no-repeat;
+  background: url('icons-s88f6089571.png') 0 -492px no-repeat;
   width: 22px;
   height: 22px;
 }

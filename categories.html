@@ -9,6 +9,7 @@
 	<script src="js/jquery.tools.min.js"></script>
 	<script src="js/jquery.hoverIntent.min.js"></script>
 	<script src="js/jquery.fancybox.pack.js"></script>
+	<script src="js/jquery-ui-1.9.0.custom.min.js"></script>
 	<script src="js/common.js"></script>
 </head>
 <body>
@@ -812,6 +813,35 @@
 			</div>
 			<!--END .product-nav -->
 
+			<div class="filter-block filter-block_open">
+				<div class="filter-block__top">
+					<h2>По цене</h2>
+					<i class="arr"></i>
+				</div>
+				<div class="filter-block__content" style="display:block;">
+					<div class="scale"><div id="slider-range"></div></div>
+					<div class="scale-diapason">
+						<label for="scale-diapason__to">от</label>
+						<input type="text" placeholder="900" id="scale-diapason__to">
+						<label for="scale-diapason__from">до</label>
+						<input type="text" placeholder="30000" id="scale-diapason__from">
+						<span>грн.</span>
+						<a href="#" class="btn">Ok</a>
+					</div>
+					<a href="#" class="clear-filter">Сбросить фильтр</a>
+				</div>
+			</div>
+
+			<div class="filter-block">
+				<div class="filter-block__top">
+					<h2>По типу</h2>
+					<i class="arr"></i>
+				</div>
+				<div class="filter-block__content">
+					<a href="#" class="clear-filter">Сбросить фильтр</a>
+				</div>
+			</div>
+
 			<!--BEGIN .compare -->
 			<div class="compare">
 				<h3>Папка сравнения</h3>
@@ -825,6 +855,7 @@
 				<a href="#" class="clear">Очистить</a>
 			</div>
 			<!--END .compare -->
+
 
 			<!--BEGIN .article-block -->
 			<div class="article-block">

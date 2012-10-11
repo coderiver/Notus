@@ -253,6 +253,20 @@ $(document).ready(function() {
 	};
 
 
+//slider
+	$( "#slider-range" ).slider({
+		range: true,
+		values: [ 900, 30000 ],
+		min:0,
+		max:30000,
+		slide: function( event, ui ) {
+			$("#scale-diapason__to").val(ui.values[ 0 ]);
+			$("#scale-diapason__from").val(ui.values[ 1 ]);
+		}
+	});
+	$("#scale-diapason__to").val($( "#slider-range" ).slider( "values", 0 ));
+	$("#scale-diapason__from").val($( "#slider-range" ).slider( "values", 1 ));
+
 
 // preview
 	$(".preview__item a").click(function() {
