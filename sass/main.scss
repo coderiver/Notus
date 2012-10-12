@@ -139,6 +139,13 @@
 	.tabs__box{display: none;}
 }
 
+.white-bottom{
+	background:url(../img/bg-white.png) repeat-x;
+	position: absolute;
+	height:30px;
+	bottom:0;
+	width:100%;
+}
 
 /* category */
 .category{
@@ -176,13 +183,7 @@
 		@include transition-duration(300ms);
 		@include transition-timing-function(linear);
 	}
-	.white-bottom{
-		background:url(../img/bg-white.png) repeat-x;
-		position: absolute;
-		height:30px;
-		bottom:0;
-		width:239px;
-	}
+	.white-bottom{width:239px;}
 	.category__title{
 		font-size:14px;
 		color:#484954;

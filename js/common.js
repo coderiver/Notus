@@ -255,6 +255,20 @@ $(document).ready(function() {
 		return false;
 	});
 
+	$(".filter-block .filter-link").click(function(){
+		if ($(this).hasClass('filter-link_all')) {
+			$(this).parent().next().children('.options-list_all').slideDown();
+			$(this).html('популярные');
+			$(this).removeClass('filter-link_all');
+		}
+		else{
+			$(this).parent().next().children('.options-list_all').slideUp();
+			$(this).html('все');
+			$(this).addClass('filter-link_all');
+		}
+		return false;
+	});
+
 
 	// fancyBox
 	if ($(".img-fancy").exists()){
@@ -334,4 +348,19 @@ $(document).ready(function() {
 		return false;
 	});
 
+
+// bottom-panel
+$(".bottom-panel__btn").click(function() {
+	if ($(this).parent().hasClass('bottom-panel_hide')) {
+		$(this).parent().parent().animate({bottom:'0'});
+		$(this).parent().removeClass('bottom-panel_hide');
+	}
+	else{
+		$(this).parent().parent().animate({bottom:'-49px'});
+		$(this).parent().addClass('bottom-panel_hide');
+	};
+	return false;
+	});
 });
+
+

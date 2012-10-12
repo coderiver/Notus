@@ -8,6 +8,7 @@
 	border-radius:5px;
 	color:#3c3c3c;
 	padding-top:6px;
+	margin-bottom:25px;
 	h1{
 		font-size:24px;
 		font-weight:normal;
@@ -45,11 +46,11 @@
 					position: relative;
 				}
 				.arr{
-						display: block;
-						position: absolute;
-						top:10px;
-						right:8px;
-					}
+					display: block;
+					position: absolute;
+					top:10px;
+					right:8px;
+				}
 				.arr_t{@include sized-sprite($icons, "arr-8")}
 				.arr_b{@include sized-sprite($icons, "arr-9")}
 			}
@@ -90,13 +91,36 @@
 			background:url(../img/items-border.png);
 			display:inline-block;
 			margin-bottom:22px;
+			position: relative;
 		}
 		.categories__item{
 			float: left;
 			padding:0 5px;
 			margin-left:40px;
 			width:192px;
+			position: relative;
+			height:395px;
 			&:first-child{margin-left:0;}
+			&:hover{
+				.white-bottom{display: none;}
+			}
+		}
+		.categories__item-holder{
+			position: absolute;
+			top:0;
+			left:5px;
+			border-radius:5px;
+			height:395px;
+			overflow: hidden;
+			background:#fff;
+			@include transition-property(box-shadow);
+			@include transition-duration(300ms);
+			@include transition-timing-function(linear);
+			&:hover{
+				box-shadow:0 0 5px 0 rgba(0, 0, 0, 0.6);
+				z-index:10;
+				height:auto;
+			}
 		}
 		.categories__media{
 			width:172px;
@@ -150,7 +174,7 @@
 			background:#f87a08;
 			@include background-image(linear-gradient(left,#f8820b, #ffbb16 4%, #fc9e0f 8%, #f87d08 23%, #f87a08));
 		}
-		.categories__inf{}
+		.categories__inf{position: relative;}
 		.categories__title{
 			font-size:14px;
 			text-align:center;
@@ -218,7 +242,13 @@
 			font-size:11px;
 			li{margin-bottom:8px;}
 		}
-
+		.categories__brief{
+			position: relative;
+			width:145px;
+			margin:0 auto;
+			font-size:11px;
+			padding-bottom:10px;
+		}
 	}
 	.page-nav{
 		border-top:1px solid #ebebeb;
@@ -318,6 +348,7 @@
 	.disabled{
 		label{color:#a0a0a0;}
 	}
+	&.options-list_all{display: none;}
 }
 
 .article-block{
@@ -364,6 +395,14 @@
 			top:9px;
 			right:4px;
 			cursor:pointer;
+		}
+		.filter-link{
+			float: right;
+			text-decoration:none;
+			border-bottom:1px dotted #0078c6;
+			margin-top:3px;
+			margin-right:16px;
+			&:hover{border: none;}
 		}
 		&:hover{background:#ececec;}
 	}

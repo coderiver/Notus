@@ -624,9 +624,13 @@ a{
 				line-height:14px;
 			}
 			a{
+				display: block;
 				color:#158edc;
 				text-decoration:none;
-				&:hover{text-decoration:underline;}
+				&:hover{
+					background:#d8e8f2;
+					color:#18608c;
+				}
 			}
 		}
 	}
@@ -716,4 +720,70 @@ a{
 	.social-white__tw{@include sized-sprite($icons, icon_twitter);}
 	.social-white__fb{@include sized-sprite($icons, icon_facebook);}
 	.social-white__vk{@include sized-sprite($icons, icon_vkontakte);}
-}		
+}
+
+/* bottom-panel */
+.bottom-panel{
+	border-top:1px solid #2080bd;
+	box-shadow:0 1px 0 0 #79c4f2 inset;
+	background:#2696de url(../img/bg-cellule.png);
+	position:fixed;
+	bottom:0;
+	height:48px;
+	
+	width:100%;
+	z-index:100;
+	.bottom-panel__holder{
+		width:980px;
+		margin:0 auto;
+		position: relative;
+	}
+	.bottom-panel__btn{
+		position: absolute;
+		top:-38px;
+		right:30px;
+		border:1px solid #2080bd;
+		border-bottom:0;
+		box-shadow:0 1px 0 0 #79c4f2 inset, 1px 0 0 0 #79c4f2 inset, -1px 0 0 0 #79c4f2 inset;
+		background:#2696de url(../img/bg-cellule.png) 1px 1px;
+		height:38px;
+		width:44px;
+		border-radius:3px 3px 0 0;
+	}
+	.arr{
+		@include sized-sprite($icons, "arr-11");
+		display: block;
+		margin: 12px 0 0 11px;
+	}
+	strong{
+		font-size:16px;
+		color:#fff;
+		float: left;
+		line-height:48px;
+	}
+	.input-holder{
+		float: left;
+		background:#efedee;
+		border-radius:3px;
+		height:25px;
+		margin:12px 0 0 30px;
+
+		input{
+			border-radius:0 3px 3px 0;
+			border:none;
+			border-left:1px solid #2696de;
+			height:25px;
+			padding:0 9px;
+			width:135px;
+		}
+	}
+	.ico-mail{
+		@include sized-sprite($icons, mail);
+		float: left;
+		margin: 8px 6px 0 8px;
+	}
+	.btn{
+		float: left;
+		margin:12px 0 0 9px;
+	}
+}
