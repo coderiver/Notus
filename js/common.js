@@ -227,6 +227,33 @@ $(document).ready(function() {
 		return false;
 	});
 
+	
+	//filters
+	$('.filter-block__top').click(function(){
+		if ($(this).parent().hasClass('filter-block_open')) {
+			$(this).parent().removeClass('filter-block_open');
+			$(this).next().slideUp();
+		}
+		else{
+			$(this).parent().addClass('filter-block_open');
+			$(this).next().slideDown();
+		};
+		return false;
+	});
+
+	if ($(".options-list").exists()){
+		$(".options-list span:contains('(0)')").parent().parent().addClass('disabled');
+	}
+
+	$('.selected-filters .cancel').click(function(){
+		$(this).parent().remove();
+		return false;
+	});
+
+	$('.selected-filters .clear-filter').click(function(){
+		$(this).prev('ul').children('li').remove();
+		return false;
+	});
 
 
 	// fancyBox
@@ -254,19 +281,36 @@ $(document).ready(function() {
 
 
 //slider
-	$( "#slider-range" ).slider({
-		range: true,
-		values: [ 900, 30000 ],
-		min:0,
-		max:30000,
-		slide: function( event, ui ) {
-			$("#scale-diapason__to").val(ui.values[ 0 ]);
-			$("#scale-diapason__from").val(ui.values[ 1 ]);
-		}
-	});
-	$("#scale-diapason__to").val($( "#slider-range" ).slider( "values", 0 ));
-	$("#scale-diapason__from").val($( "#slider-range" ).slider( "values", 1 ));
+	if ($("#slider-price").exists()){
+		$( "#slider-price" ).slider({
+			range: true,
+			values: [ 900, 30000 ],
+			min:0,
+			max:30000,
+			slide: function( event, ui ) {
+				$("#scale-price__to").val(ui.values[ 0 ]);
+				$("#scale-price__from").val(ui.values[ 1 ]);
+			}
+		});
+		$("#scale-price__to").val($( "#slider-price" ).slider( "values", 0 ));
+		$("#scale-price__from").val($( "#slider-price" ).slider( "values", 1 ));
+	};
 
+	if ($("#slider-diagonal").exists()){
+		$( "#slider-diagonal" ).slider({
+			range: true,
+			values: [ 13, 15 ],
+			min:4,
+			max:20,
+			step:0.1,
+			slide: function( event, ui ) {
+				$("#scale-diagonal__to").val(ui.values[ 0 ]);
+				$("#scale-diagonal__from").val(ui.values[ 1 ]);
+			}
+		});
+		$("#scale-diagonal__to").val($( "#slider-diagonal" ).slider( "values", 0 ));
+		$("#scale-diagonal__from").val($( "#slider-diagonal" ).slider( "values", 1 ));
+	};
 
 // preview
 	$(".preview__item a").click(function() {
