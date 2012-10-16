@@ -13,7 +13,6 @@
 	top:2px;
 }
 
-
 .bc-social{
 	display:inline-block;
 	padding:3px 0 11px;
@@ -231,21 +230,6 @@
 			margin-left:5px;
 		}
 	}
-	.product__rating{
-		margin-bottom:14px;
-		.stars{display:inline-block;}
-		.star{
-			display:inline-block;
-			@include sized-sprite($icons, "star-gray-2");
-		}
-		.chosen{@include sized-sprite($icons, "star-2");}
-	}
-	.rating-count{
-		font-size:11px;
-		color:#3c3c3c;
-		text-decoration:underline;
-		margin-left:9px;
-	}
 	.product__color{
 		display:inline-block;
 		margin:0 0 14px;
@@ -349,6 +333,20 @@
 		a{font-size:11px;}
 	}
 	.product__social{margin-left:20px;}
+}
+.product__rating{
+	margin-bottom:14px;
+	.stars{display:inline-block;}
+	.star{
+		display:inline-block;
+		@include sized-sprite($icons, "star-gray-2");
+	}
+	.chosen{@include sized-sprite($icons, "star-2");}
+}
+.rating-count{
+	font-size:11px;
+	text-decoration:underline;
+	margin-left:9px;
 }
 .btn_buy{
 	height:30px;
