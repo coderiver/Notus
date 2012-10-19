@@ -97,7 +97,8 @@
 	}
 	.recommend__item{
 		border-bottom:1px solid #e3e3e3;
-		padding:40px 0 20px;
+		padding:35px 0 0;
+		margin-bottom:20px;
 		h4{
 			font-size:14px;
 			font-weight:normal;
@@ -105,7 +106,7 @@
 			a{color:#158edc;}
 		}
 		.price-block{
-			margin:0 auto;
+			margin:0 auto 20px;
 			float:none;
 			overflow:hidden;
 			strong{
@@ -114,6 +115,10 @@
 			}
 		}
 		&:last-child{border:none;}
+		.more{
+			font-size:11px;
+			color:#158edc;
+		}
 	}
 	.recommend__img{
 		margin-bottom:17px;

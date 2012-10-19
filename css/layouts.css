@@ -13,17 +13,29 @@
   width: 727px;
 }
 /* line 11, ../sass/layouts.scss */
-.l .l-col1-r {
-  float: right;
-  width: 240px;
-}
-/* line 15, ../sass/layouts.scss */
 .l .l-col3-r {
   float: right;
   width: 727px;
 }
-/* line 19, ../sass/layouts.scss */
+/* line 16, ../sass/layouts.scss */
 .l .l-col1-l {
   float: left;
   width: 240px;
+  margin-right: 15px;
+}
+/* line 21, ../sass/layouts.scss */
+.l .l-col1-r {
+  float: right;
+  width: 240px;
+  margin-left: 15px;
+}
+/* line 26, ../sass/layouts.scss */
+.l .l-col2-l {
+  float: left;
+  width: 490px;
+}
+/* line 30, ../sass/layouts.scss */
+.l .l-col2-r {
+  float: right;
+  width: 490px;
 }
