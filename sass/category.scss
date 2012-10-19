@@ -578,7 +578,12 @@
 	li{
 		padding:3px 0 0;
 		ul{padding-left:15px;}
-		li{padding:2px 0;}
+		li{
+			padding:2px 0;
+			a{
+				margin-left:15px;
+			}
+		}
 	}
 	a{
 		border-bottom:1px solid #158edc;
@@ -588,7 +593,11 @@
 		}
 	}
 	.open{
-		li a{color:#158edc;}
+		li a{
+			color:#158edc;
+			border:none;
+
+		}
 		a{
 			color:#158edc;
 			border-bottom:1px solid #158edc;
