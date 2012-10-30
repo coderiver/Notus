@@ -2,6 +2,7 @@
 /*когда включать широкую версию*/
 /* HOW TO USE SPRITES*/
 /*.whatever{@include sized-sprite($icons, badge_hit);}*/
+/* TRANSITION */
 /* line 3, ../sass/item.scss */
 .ico-scales {
   background: url('../img/icons-s9141ba0e0e.png') 0 -257px no-repeat;

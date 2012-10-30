@@ -21,6 +21,10 @@
 		font-weight:normal;
 		color:#000;
 		margin-left:31px;
+		span{
+			color: #999;
+			font-size: 60%;
+		}
 	}
 	.categories__top{
 		overflow:hidden;
@@ -678,6 +682,10 @@
 }
 
 .filter-block{
+	@include transition(all .3s ease-in-out);
+	&:hover{
+		background:rgba(black,.05);
+	}
 	.filter-block__top{
 		position:relative;
 		h2{
@@ -718,6 +726,9 @@
 		width:119px;
 	}
 	&.filter-block_open{
+		border-bottom: 1px solid #ccc;
+		box-shadow:0 1px 0 #fff;
+		margin-bottom: 10px;
 		.arr{@include sized-sprite($icons, "arr-10");}
 	}
 }

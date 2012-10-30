@@ -2,6 +2,7 @@
 /*когда включать широкую версию*/
 /* HOW TO USE SPRITES*/
 /*.whatever{@include sized-sprite($icons, badge_hit);}*/
+/* TRANSITION */
 /* line 5, ../sass/common.scss */
 * {
   margin: 0;
@@ -68,7 +69,7 @@ a:hover {
 
 /* line 43, ../sass/common.scss */
 .arr-right {
-  background: url('../img/icons-sd04bfc08ce.png') 0 -133px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -133px no-repeat;
   width: 7px;
   height: 10px;
   display: block;
@@ -76,7 +77,7 @@ a:hover {
 
 /* line 47, ../sass/common.scss */
 .arr-down {
-  background: url('../img/icons-sd04bfc08ce.png') 0 -988px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -1016px no-repeat;
   width: 11px;
   height: 7px;
 }
@@ -325,7 +326,7 @@ a:hover {
 }
 /* line 200, ../sass/common.scss */
 .top-menu .top-menu__arrow {
-  background: url('../img/icons-sd04bfc08ce.png') 0 -962px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -990px no-repeat;
   width: 9px;
   height: 26px;
   display: inline-block;
@@ -333,7 +334,7 @@ a:hover {
 }
 /* line 205, ../sass/common.scss */
 .top-menu .top-menu__key {
-  background: url('../img/icons-sd04bfc08ce.png') 0 -927px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -955px no-repeat;
   width: 7px;
   height: 26px;
   display: inline-block;
@@ -367,7 +368,7 @@ a:hover {
 
 /* line 227, ../sass/common.scss */
 .header__logo {
-  background: url('../img/icons-sd04bfc08ce.png') 0 0 no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 0 no-repeat;
   width: 179px;
   height: 66px;
   float: left;
@@ -456,7 +457,7 @@ a:hover {
 .header__search .header__search-btn {
   border-radius: 2px;
   border: 1px solid #2696de;
-  background: url('../img/icons-sd04bfc08ce.png') 0 -229px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -229px no-repeat;
   width: 28px;
   height: 28px;
   box-shadow: 0 1px 0 0 #3bc9ef inset;
@@ -661,7 +662,7 @@ a:hover {
 /* line 447, ../sass/common.scss */
 .header__basket .header__basket-btn span {
   border-left: 1px solid #2696de;
-  background: url('../img/icons-sd04bfc08ce.png') 0 -332px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -332px no-repeat;
   width: 27px;
   height: 27px;
   float: right;
@@ -1047,25 +1048,25 @@ a:hover {
 }
 /* line 722, ../sass/common.scss */
 .social-white .social-white__rss {
-  background: url('../img/icons-sd04bfc08ce.png') 0 -207px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -207px no-repeat;
   width: 22px;
   height: 22px;
 }
 /* line 723, ../sass/common.scss */
 .social-white .social-white__tw {
-  background: url('../img/icons-sd04bfc08ce.png') 0 -584px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -584px no-repeat;
   width: 22px;
   height: 22px;
 }
 /* line 724, ../sass/common.scss */
 .social-white .social-white__fb {
-  background: url('../img/icons-sd04bfc08ce.png') 0 -634px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -634px no-repeat;
   width: 22px;
   height: 22px;
 }
 /* line 725, ../sass/common.scss */
 .social-white .social-white__vk {
-  background: url('../img/icons-sd04bfc08ce.png') 0 -546px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -546px no-repeat;
   width: 22px;
   height: 22px;
 }
@@ -1103,7 +1104,7 @@ a:hover {
 }
 /* line 756, ../sass/common.scss */
 .bottom-panel .arr {
-  background: url('../img/icons-sd04bfc08ce.png') 0 -691px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -705px no-repeat;
   width: 22px;
   height: 14px;
   display: block;
@@ -1135,7 +1136,7 @@ a:hover {
 }
 /* line 783, ../sass/common.scss */
 .bottom-panel .ico-mail {
-  background: url('../img/icons-sd04bfc08ce.png') 0 -705px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -733px no-repeat;
   width: 12px;
   height: 10px;
   float: left;

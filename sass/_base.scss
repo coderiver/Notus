@@ -21,6 +21,21 @@ background: sprite($map, $sprite) no-repeat;
 @include image-size(sprite-file($map, $sprite));
 }
 
+/* TRANSITION */
+@mixin transition($what: all, $length: 1s, $easing: ease-in-out) {
+    -moz-transition:    $what $length $easing;
+    -webkit-transition: $what $length $easing;
+    -o-transition:      $what $length $easing;
+    -ms-transition:     $what $length $easing;
+    transition:         $what $length $easing;
+}
+@mixin animation($what: all, $length: 1s, $easing: ease-in-out) {
+    -moz-animatiom:    $what $length $easing 0s infinite normal;
+    -webkit-animation: $what $length $easing 0s infinite normal;
+    -o-animation:      $what $length $easing 0s infinite normal;
+    animation:         $what $length $easing 0s infinite normal;
+}
+
 
 
 

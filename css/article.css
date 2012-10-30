@@ -2,6 +2,7 @@
 /*когда включать широкую версию*/
 /* HOW TO USE SPRITES*/
 /*.whatever{@include sized-sprite($icons, badge_hit);}*/
+/* TRANSITION */
 /* news-archive */
 /* line 4, ../sass/article.scss */
 .news-archive {
@@ -76,7 +77,7 @@
   position: absolute;
   top: 4px;
   left: -12px;
-  background: url('../img/icons-sd04bfc08ce.png') 0 -1064px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -1092px no-repeat;
   width: 7px;
   height: 7px;
 }
@@ -95,7 +96,7 @@
 }
 /* line 77, ../sass/article.scss */
 .accordion .open a i {
-  background: url('../img/icons-sd04bfc08ce.png') 0 -1099px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -1127px no-repeat;
   width: 7px;
   height: 7px;
 }
@@ -129,7 +130,7 @@
 
 /* line 107, ../sass/article.scss */
 .arr-more {
-  background: url('../img/icons-sd04bfc08ce.png') 0 -1059px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -1087px no-repeat;
   width: 12px;
   height: 5px;
   display: inline-block;

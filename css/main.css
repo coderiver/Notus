@@ -2,6 +2,7 @@
 /*когда включать широкую версию*/
 /* HOW TO USE SPRITES*/
 /*.whatever{@include sized-sprite($icons, badge_hit);}*/
+/* TRANSITION */
 /* share */
 /* line 3, ../sass/main.scss */
 .share {
@@ -69,7 +70,7 @@
 
 /* line 55, ../sass/main.scss */
 .caro-prev {
-  background: url('../img/icons-sd04bfc08ce.png') 0 -375px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -375px no-repeat;
   width: 17px;
   height: 60px;
   left: 22px;
@@ -77,7 +78,7 @@
 
 /* line 59, ../sass/main.scss */
 .caro-next {
-  background: url('../img/icons-sd04bfc08ce.png') 0 -467px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -467px no-repeat;
   width: 17px;
   height: 60px;
   right: 22px;
@@ -483,13 +484,13 @@
 .stock .stock__rating .star {
   display: inline-block;
   margin-right: 2px;
-  background: url('../img/icons-sd04bfc08ce.png') 0 -857px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -885px no-repeat;
   width: 10px;
   height: 10px;
 }
 /* line 337, ../sass/main.scss */
 .stock .stock__rating .chosen {
-  background: url('../img/icons-sd04bfc08ce.png') 0 -847px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -875px no-repeat;
   width: 10px;
   height: 10px;
 }
@@ -796,7 +797,7 @@
 /* line 569, ../sass/main.scss */
 .popup .popup__close {
   position: absolute;
-  background: url('../img/icons-sd04bfc08ce.png') 0 -953px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -981px no-repeat;
   width: 9px;
   height: 9px;
   top: 7px;
@@ -856,13 +857,13 @@
 }
 /* line 618, ../sass/main.scss */
 .popup .mark-err {
-  background: url('../img/icons-sd04bfc08ce.png') 0 -806px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -834px no-repeat;
   width: 11px;
   height: 11px;
 }
 /* line 619, ../sass/main.scss */
 .popup .mark-ok {
-  background: url('../img/icons-sd04bfc08ce.png') 0 -666px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -680px no-repeat;
   width: 14px;
   height: 10px;
 }
@@ -929,25 +930,25 @@
 }
 /* line 669, ../sass/main.scss */
 .popup .popup__social li .social__gp {
-  background: url('../img/icons-sd04bfc08ce.png') 0 -101px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -101px no-repeat;
   width: 32px;
   height: 32px;
 }
 /* line 670, ../sass/main.scss */
 .popup .popup__social li .social__tw {
-  background: url('../img/icons-sd04bfc08ce.png') 0 -175px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -175px no-repeat;
   width: 32px;
   height: 32px;
 }
 /* line 671, ../sass/main.scss */
 .popup .popup__social li .social__fb {
-  background: url('../img/icons-sd04bfc08ce.png') 0 -435px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -435px no-repeat;
   width: 32px;
   height: 32px;
 }
 /* line 672, ../sass/main.scss */
 .popup .popup__social li .social__vk {
-  background: url('../img/icons-sd04bfc08ce.png') 0 -143px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -143px no-repeat;
   width: 32px;
   height: 32px;
 }
@@ -1002,7 +1003,7 @@
 }
 /* line 717, ../sass/main.scss */
 .basket .basket__close {
-  background: url('../img/icons-sd04bfc08ce.png') 0 -676px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -690px no-repeat;
   width: 15px;
   height: 15px;
   position: absolute;
@@ -1063,7 +1064,7 @@
   right: auto;
   left: 2px;
   top: 9px;
-  background: url('../img/icons-sd04bfc08ce.png') 0 -676px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -690px no-repeat;
   width: 15px;
   height: 15px;
   position: absolute;
@@ -1129,13 +1130,13 @@
 }
 /* line 804, ../sass/main.scss */
 .basket .basket__counter-p span {
-  background: url('../img/icons-sd04bfc08ce.png') 0 -1106px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -1134px no-repeat;
   width: 12px;
   height: 13px;
 }
 /* line 807, ../sass/main.scss */
 .basket .basket__counter-m span {
-  background: url('../img/icons-sd04bfc08ce.png') 0 -1127px no-repeat;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -1155px no-repeat;
   width: 12px;
   height: 3px;
 }
