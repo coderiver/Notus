@@ -1,83 +1,1132 @@
-/*
-Syntax error: Undefined variable: "$icons".
-        on line 3 of d:/User3/Documents/GitHub/Notus/sass/category.scss, in `sized-sprite'
-        from line 3 of d:/User3/Documents/GitHub/Notus/sass/category.scss
+/*когда включать версию для айфона*/
+/*когда включать широкую версию*/
+/* HOW TO USE SPRITES*/
+/*.whatever{@include sized-sprite($icons, badge_hit);}*/
+/* line 2, ../sass/category.scss */
+.ico-video {
+  background: url('../img/icons-s9141ba0e0e.png') 0 -314px no-repeat;
+  width: 19px;
+  height: 18px;
+  display: inline-block;
+  margin-right: 3px;
+  vertical-align: middle;
+}
 
-1: d:/User3/Documents/GitHub/Notus/sass/category.scss
+/* line 8, ../sass/category.scss */
+.in-store {
+  color: #0078c6;
+}
 
-Backtrace:
-d:/User3/Documents/GitHub/Notus/sass/category.scss:3:in `sized-sprite'
-d:/User3/Documents/GitHub/Notus/sass/category.scss:3
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/script/variable.rb:49:in `_perform'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/script/node.rb:40:in `perform'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:255:in `block in visit_mixin'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:255:in `map'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:255:in `visit_mixin'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `map'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:316:in `visit_rule'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `map'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:7:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/root_node.rb:20:in `render'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/engine.rb:315:in `_render'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/engine.rb:262:in `render'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `call'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `run_callback'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/path.rb:55:in `callback_action'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/path.rb:35:in `update'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/state/directory.rb:39:in `block in modified'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `each'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `modified'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/state/directory.rb:18:in `refresh'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `each'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `block in run'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `loop'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `run'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/monitor.rb:26:in `run'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm.rb:70:in `monitor'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/bin/compass:44:in `call'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
-C:/Ruby193/bin/compass:23:in `load'
-C:/Ruby193/bin/compass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$icons\".\A         on line 3 of d:/User3/Documents/GitHub/Notus/sass/category.scss, in `sized-sprite'\A         from line 3 of d:/User3/Documents/GitHub/Notus/sass/category.scss\A \A 1: d:/User3/Documents/GitHub/Notus/sass/category.scss"; }
+/* line 9, ../sass/category.scss */
+.out-store {
+  color: #f8890c;
+}
+
+/* categories */
+/* line 12, ../sass/category.scss */
+.categories {
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  color: #3c3c3c;
+  padding-top: 6px;
+  margin-bottom: 25px;
+}
+/* line 19, ../sass/category.scss */
+.categories h1 {
+  font-size: 24px;
+  font-weight: normal;
+  color: #000;
+  margin-left: 31px;
+}
+/* line 25, ../sass/category.scss */
+.categories .categories__top {
+  overflow: hidden;
+  padding: 8px 16px 11px 33px;
+}
+/* line 28, ../sass/category.scss */
+.categories .categories__top .sort {
+  float: left;
+}
+/* line 30, ../sass/category.scss */
+.categories .categories__top .sort dt {
+  float: left;
+  font-weight: bold;
+  color: #000;
+  margin: 4px 6px 0 0;
+}
+/* line 36, ../sass/category.scss */
+.categories .categories__top .sort dd {
+  float: left;
+}
+/* line 37, ../sass/category.scss */
+.categories .categories__top .sort ul {
+  list-style: none;
+}
+/* line 38, ../sass/category.scss */
+.categories .categories__top .sort li {
+  float: left;
+}
+/* line 39, ../sass/category.scss */
+.categories .categories__top .sort a {
+  display: block;
+  margin: 4px 11px;
+}
+/* line 44, ../sass/category.scss */
+.categories .categories__top .sort i {
+  display: none;
+}
+/* line 46, ../sass/category.scss */
+.categories .categories__top .sort .active a {
+  background: #ececec;
+  border-radius: 3px;
+  color: #000;
+  text-decoration: none;
+  padding: 4px 22px 4px 11px;
+  margin: 0;
+  position: relative;
+}
+/* line 55, ../sass/category.scss */
+.categories .categories__top .sort .active .arr {
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 8px;
+}
+/* line 61, ../sass/category.scss */
+.categories .categories__top .sort .active .arr_t {
+  background: url('../img/icons-s9141ba0e0e.png') 0 -1147px no-repeat;
+  width: 7px;
+  height: 4px;
+}
+/* line 62, ../sass/category.scss */
+.categories .categories__top .sort .active .arr_b {
+  background: url('../img/icons-s9141ba0e0e.png') 0 -1151px no-repeat;
+  width: 7px;
+  height: 4px;
+}
+/* line 65, ../sass/category.scss */
+.categories .categories__top .view {
+  float: right;
+  padding-top: 1px;
+}
+/* line 68, ../sass/category.scss */
+.categories .categories__top .view dt {
+  float: left;
+  color: #000;
+  margin-top: 3px;
+}
+/* line 73, ../sass/category.scss */
+.categories .categories__top .view dd {
+  float: left;
+}
+/* line 74, ../sass/category.scss */
+.categories .categories__top .view ul {
+  list-style: none;
+}
+/* line 75, ../sass/category.scss */
+.categories .categories__top .view li {
+  float: left;
+  margin-left: 13px;
+}
+/* line 79, ../sass/category.scss */
+.categories .categories__top .view li.active .view__list, .categories .categories__top .view li:hover .view__list {
+  background: url('../img/icons-s9141ba0e0e.png') 0 -895px no-repeat;
+  width: 20px;
+  height: 20px;
+}
+/* line 80, ../sass/category.scss */
+.categories .categories__top .view li.active .view__table, .categories .categories__top .view li:hover .view__table {
+  background: url('../img/icons-s9141ba0e0e.png') 0 -1067px no-repeat;
+  width: 20px;
+  height: 20px;
+}
+/* line 81, ../sass/category.scss */
+.categories .categories__top .view li.active .view__tile, .categories .categories__top .view li:hover .view__tile {
+  background: url('../img/icons-s9141ba0e0e.png') 0 -743px no-repeat;
+  width: 20px;
+  height: 20px;
+}
+/* line 84, ../sass/category.scss */
+.categories .categories__top .view a {
+  overflow: hidden;
+  text-indent: -9999px;
+  display: block;
+}
+/* line 89, ../sass/category.scss */
+.categories .categories__top .view .view__list {
+  background: url('../img/icons-s9141ba0e0e.png') 0 -935px no-repeat;
+  width: 20px;
+  height: 20px;
+}
+/* line 90, ../sass/category.scss */
+.categories .categories__top .view .view__table {
+  background: url('../img/icons-s9141ba0e0e.png') 0 -1047px no-repeat;
+  width: 20px;
+  height: 20px;
+}
+/* line 91, ../sass/category.scss */
+.categories .categories__top .view .view__tile {
+  background: url('../img/icons-s9141ba0e0e.png') 0 -915px no-repeat;
+  width: 20px;
+  height: 20px;
+}
+/* line 94, ../sass/category.scss */
+.categories .mark {
+  position: absolute;
+  top: 7px;
+  left: -2px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 20px;
+  height: 20px;
+  width: 96px;
+  text-align: center;
+  border-radius: 0 10px 10px 0;
+  background: #f00;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.4);
+}
+/* line 108, ../sass/category.scss */
+.categories .mark:hover .mark__popup {
+  display: block;
+}
+/* line 110, ../sass/category.scss */
+.categories .mark_new {
+  background: #f82b02;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iNTAlIiB4Mj0iMTAwJSIgeTI9IjUwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y4NDcwMCIvPjxzdG9wIG9mZnNldD0iNCUiIHN0b3AtY29sb3I9IiNmZmIyYjIiLz48c3RvcCBvZmZzZXQ9IjglIiBzdG9wLWNvbG9yPSIjZmE1NzVlIi8+PHN0b3Agb2Zmc2V0PSIyMyUiIHN0b3AtY29sb3I9IiNmNTAwMDAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmODJiMDIiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #f84700), color-stop(4%, #ffb2b2), color-stop(8%, #fa575e), color-stop(23%, #f50000), color-stop(100%, #f82b02));
+  background-image: -webkit-linear-gradient(left, #f84700, #ffb2b2 4%, #fa575e 8%, #f50000 23%, #f82b02);
+  background-image: -moz-linear-gradient(left, #f84700, #ffb2b2 4%, #fa575e 8%, #f50000 23%, #f82b02);
+  background-image: -o-linear-gradient(left, #f84700, #ffb2b2 4%, #fa575e 8%, #f50000 23%, #f82b02);
+  background-image: -ms-linear-gradient(left, #f84700, #ffb2b2 4%, #fa575e 8%, #f50000 23%, #f82b02);
+  background-image: linear-gradient(left, #f84700, #ffb2b2 4%, #fa575e 8%, #f50000 23%, #f82b02);
+}
+/* line 114, ../sass/category.scss */
+.categories .mark_best {
+  background: #1250cf;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iNTAlIiB4Mj0iMTAwJSIgeTI9IjUwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzU2ODdmYSIvPjxzdG9wIG9mZnNldD0iNCUiIHN0b3AtY29sb3I9IiMyOGI0ZjUiLz48c3RvcCBvZmZzZXQ9IjglIiBzdG9wLWNvbG9yPSIjMWE4YmUzIi8+PHN0b3Agb2Zmc2V0PSIyMyUiIHN0b3AtY29sb3I9IiMxMzYwZDQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxMjUwY2YiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #5687fa), color-stop(4%, #28b4f5), color-stop(8%, #1a8be3), color-stop(23%, #1360d4), color-stop(100%, #1250cf));
+  background-image: -webkit-linear-gradient(left, #5687fa, #28b4f5 4%, #1a8be3 8%, #1360d4 23%, #1250cf);
+  background-image: -moz-linear-gradient(left, #5687fa, #28b4f5 4%, #1a8be3 8%, #1360d4 23%, #1250cf);
+  background-image: -o-linear-gradient(left, #5687fa, #28b4f5 4%, #1a8be3 8%, #1360d4 23%, #1250cf);
+  background-image: -ms-linear-gradient(left, #5687fa, #28b4f5 4%, #1a8be3 8%, #1360d4 23%, #1250cf);
+  background-image: linear-gradient(left, #5687fa, #28b4f5 4%, #1a8be3 8%, #1360d4 23%, #1250cf);
+}
+/* line 118, ../sass/category.scss */
+.categories .mark_top {
+  background: #ffbb16;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iNTAlIiB4Mj0iMTAwJSIgeTI9IjUwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y4ZDExYSIvPjxzdG9wIG9mZnNldD0iNCUiIHN0b3AtY29sb3I9IiNmZmY4YWMiLz48c3RvcCBvZmZzZXQ9IjglIiBzdG9wLWNvbG9yPSIjZmZkZDY0Ii8+PHN0b3Agb2Zmc2V0PSIyMyUiIHN0b3AtY29sb3I9IiNmZmMwMTYiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmJiMTYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #f8d11a), color-stop(4%, #fff8ac), color-stop(8%, #ffdd64), color-stop(23%, #ffc016), color-stop(100%, #ffbb16));
+  background-image: -webkit-linear-gradient(left, #f8d11a, #fff8ac 4%, #ffdd64 8%, #ffc016 23%, #ffbb16);
+  background-image: -moz-linear-gradient(left, #f8d11a, #fff8ac 4%, #ffdd64 8%, #ffc016 23%, #ffbb16);
+  background-image: -o-linear-gradient(left, #f8d11a, #fff8ac 4%, #ffdd64 8%, #ffc016 23%, #ffbb16);
+  background-image: -ms-linear-gradient(left, #f8d11a, #fff8ac 4%, #ffdd64 8%, #ffc016 23%, #ffbb16);
+  background-image: linear-gradient(left, #f8d11a, #fff8ac 4%, #ffdd64 8%, #ffc016 23%, #ffbb16);
+}
+/* line 122, ../sass/category.scss */
+.categories .mark_action {
+  cursor: pointer;
+  background: #930991;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iNTAlIiB4Mj0iMTAwJSIgeTI9IjUwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2QwMzU5ZiIvPjxzdG9wIG9mZnNldD0iNCUiIHN0b3AtY29sb3I9IiNlYzM5YjgiLz48c3RvcCBvZmZzZXQ9IjglIiBzdG9wLWNvbG9yPSIjY2MyZmE3Ii8+PHN0b3Agb2Zmc2V0PSIyMyUiIHN0b3AtY29sb3I9IiNhOTIyOTQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5MzA5OTEiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #d0359f), color-stop(4%, #ec39b8), color-stop(8%, #cc2fa7), color-stop(23%, #a92294), color-stop(100%, #930991));
+  background-image: -webkit-linear-gradient(left, #d0359f, #ec39b8 4%, #cc2fa7 8%, #a92294 23%, #930991);
+  background-image: -moz-linear-gradient(left, #d0359f, #ec39b8 4%, #cc2fa7 8%, #a92294 23%, #930991);
+  background-image: -o-linear-gradient(left, #d0359f, #ec39b8 4%, #cc2fa7 8%, #a92294 23%, #930991);
+  background-image: -ms-linear-gradient(left, #d0359f, #ec39b8 4%, #cc2fa7 8%, #a92294 23%, #930991);
+  background-image: linear-gradient(left, #d0359f, #ec39b8 4%, #cc2fa7 8%, #a92294 23%, #930991);
+}
+/* line 126, ../sass/category.scss */
+.categories .mark_action:hover {
+  text-decoration: underline;
+}
+/* line 128, ../sass/category.scss */
+.categories .mark_discount {
+  background: #48c4ee;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iNTAlIiB4Mj0iMTAwJSIgeTI9IjUwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzNhYzdmNiIvPjxzdG9wIG9mZnNldD0iNCUiIHN0b3AtY29sb3I9IiNiMWViZmYiLz48c3RvcCBvZmZzZXQ9IjglIiBzdG9wLWNvbG9yPSIjN2JkY2Y3Ii8+PHN0b3Agb2Zmc2V0PSIyMyUiIHN0b3AtY29sb3I9IiMzYmM5ZWYiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0OGM0ZWUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #3ac7f6), color-stop(4%, #b1ebff), color-stop(8%, #7bdcf7), color-stop(23%, #3bc9ef), color-stop(100%, #48c4ee));
+  background-image: -webkit-linear-gradient(left, #3ac7f6, #b1ebff 4%, #7bdcf7 8%, #3bc9ef 23%, #48c4ee);
+  background-image: -moz-linear-gradient(left, #3ac7f6, #b1ebff 4%, #7bdcf7 8%, #3bc9ef 23%, #48c4ee);
+  background-image: -o-linear-gradient(left, #3ac7f6, #b1ebff 4%, #7bdcf7 8%, #3bc9ef 23%, #48c4ee);
+  background-image: -ms-linear-gradient(left, #3ac7f6, #b1ebff 4%, #7bdcf7 8%, #3bc9ef 23%, #48c4ee);
+  background-image: linear-gradient(left, #3ac7f6, #b1ebff 4%, #7bdcf7 8%, #3bc9ef 23%, #48c4ee);
+}
+/* line 132, ../sass/category.scss */
+.categories .mark_sale {
+  background: #f87a08;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iNTAlIiB4Mj0iMTAwJSIgeTI9IjUwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y4ODIwYiIvPjxzdG9wIG9mZnNldD0iNCUiIHN0b3AtY29sb3I9IiNmZmJiMTYiLz48c3RvcCBvZmZzZXQ9IjglIiBzdG9wLWNvbG9yPSIjZmM5ZTBmIi8+PHN0b3Agb2Zmc2V0PSIyMyUiIHN0b3AtY29sb3I9IiNmODdkMDgiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmODdhMDgiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #f8820b), color-stop(4%, #ffbb16), color-stop(8%, #fc9e0f), color-stop(23%, #f87d08), color-stop(100%, #f87a08));
+  background-image: -webkit-linear-gradient(left, #f8820b, #ffbb16 4%, #fc9e0f 8%, #f87d08 23%, #f87a08);
+  background-image: -moz-linear-gradient(left, #f8820b, #ffbb16 4%, #fc9e0f 8%, #f87d08 23%, #f87a08);
+  background-image: -o-linear-gradient(left, #f8820b, #ffbb16 4%, #fc9e0f 8%, #f87d08 23%, #f87a08);
+  background-image: -ms-linear-gradient(left, #f8820b, #ffbb16 4%, #fc9e0f 8%, #f87d08 23%, #f87a08);
+  background-image: linear-gradient(left, #f8820b, #ffbb16 4%, #fc9e0f 8%, #f87d08 23%, #f87a08);
+}
+/* line 136, ../sass/category.scss */
+.categories .mark__popup {
+  position: absolute;
+  border: 1px solid #b3b3bd;
+  border-radius: 3px;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Y0ZjRmNCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f4f4f4));
+  background-image: -webkit-linear-gradient(top, #ffffff 0%, #f4f4f4 100%);
+  background-image: -moz-linear-gradient(top, #ffffff 0%, #f4f4f4 100%);
+  background-image: -o-linear-gradient(top, #ffffff 0%, #f4f4f4 100%);
+  background-image: -ms-linear-gradient(top, #ffffff 0%, #f4f4f4 100%);
+  background-image: linear-gradient(top, #ffffff 0%, #f4f4f4 100%);
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.6);
+  color: #535353;
+  font-size: 11px;
+  left: -3px;
+  bottom: 32px;
+  padding: 5px 10px;
+  min-width: 82px;
+  display: none;
+  cursor: default;
+}
+/* line 150, ../sass/category.scss */
+.categories .mark__popup:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  margin-left: -10px;
+  bottom: -17px;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -284px no-repeat;
+  width: 20px;
+  height: 17px;
+}
+/* line 159, ../sass/category.scss */
+.categories .categories__code {
+  color: #a0a0a0;
+  font-size: 11px;
+}
+/* line 163, ../sass/category.scss */
+.categories .categories__title {
+  font-size: 14px;
+  line-height: 18px;
+}
+/* line 168, ../sass/category.scss */
+.categories .categories__price_two .price-block {
+  line-height: 29px;
+  border-radius: 0;
+}
+/* line 171, ../sass/category.scss */
+.categories .categories__price_two .price-block strong {
+  border-radius: 3px 0 0 0;
+  height: 29px;
+}
+/* line 175, ../sass/category.scss */
+.categories .categories__price_two .price-block span {
+  border-radius: 0 3px 0 0;
+  height: 29px;
+}
+/* line 180, ../sass/category.scss */
+.categories .categories__price_two .price-block_gray {
+  margin-top: 1px;
+}
+/* line 182, ../sass/category.scss */
+.categories .categories__price_two .price-block_gray strong {
+  border-radius: 0 0 0 3px;
+  text-decoration: line-through;
+}
+/* line 186, ../sass/category.scss */
+.categories .categories__price_two .price-block_gray span {
+  border-radius: 0 0 3px 0;
+  text-decoration: line-through;
+}
+/* line 192, ../sass/category.scss */
+.categories .price-block {
+  display: block;
+  float: none;
+  overflow: hidden;
+}
+/* line 196, ../sass/category.scss */
+.categories .price-block strong {
+  font-size: 16px;
+}
+/* line 197, ../sass/category.scss */
+.categories .price-block i {
+  font-size: 12px;
+}
+/* line 198, ../sass/category.scss */
+.categories .price-block span {
+  font-size: 10px;
+}
+/* line 201, ../sass/category.scss */
+.categories .price-block_gray strong {
+  background: #fff;
+  color: #a3a3a3;
+  box-shadow: 0 1px 0 0 #d9d9d9 inset, 0 -1px 0 0 #d9d9d9 inset, 1px 0 0 0 #d9d9d9 inset;
+}
+/* line 206, ../sass/category.scss */
+.categories .price-block_gray span {
+  background: #d9d9d9;
+  color: #fff;
+}
+/* line 211, ../sass/category.scss */
+.categories .categories__links {
+  list-style: none;
+  padding: 5px 0 0 24px;
+  font-size: 11px;
+}
+/* line 215, ../sass/category.scss */
+.categories .categories__links li {
+  margin-bottom: 8px;
+}
+/* line 217, ../sass/category.scss */
+.categories .categories__rating {
+  padding-bottom: 4px;
+  text-align: center;
+}
+/* line 220, ../sass/category.scss */
+.categories .categories__rating .stars {
+  vertical-align: middle;
+}
+/* line 223, ../sass/category.scss */
+.categories .categories__rating .categories__feedback {
+  position: relative;
+  color: #f00;
+  text-decoration: none;
+  vertical-align: middle;
+  margin-left: 4px;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 110%;
+}
+/* line 234, ../sass/category.scss */
+.categories .categories__tile {
+  display: inline-block;
+  padding: 0 18px;
+}
+/* line 237, ../sass/category.scss */
+.categories .categories__tile .categories__items {
+  background: url(../img/items-border.png);
+  display: inline-block;
+  margin-bottom: 22px;
+  position: relative;
+}
+/* line 243, ../sass/category.scss */
+.categories .categories__tile .categories__item {
+  float: left;
+  padding: 0 5px;
+  margin-left: 40px;
+  width: 192px;
+  position: relative;
+  height: 395px;
+}
+/* line 250, ../sass/category.scss */
+.categories .categories__tile .categories__item:first-child {
+  margin-left: 0;
+}
+/* line 252, ../sass/category.scss */
+.categories .categories__tile .categories__item:hover .white-bottom {
+  display: none;
+}
+/* line 255, ../sass/category.scss */
+.categories .categories__tile .categories__item-holder {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  border-radius: 5px;
+  height: 395px;
+  overflow: hidden;
+  background: #fff;
+  -webkit-transition-property: box-shadow;
+  -moz-transition-property: box-shadow;
+  -ms-transition-property: box-shadow;
+  -o-transition-property: box-shadow;
+  transition-property: box-shadow;
+  -webkit-transition-duration: 300ms;
+  -moz-transition-duration: 300ms;
+  -ms-transition-duration: 300ms;
+  -o-transition-duration: 300ms;
+  transition-duration: 300ms;
+  -webkit-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -ms-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
+}
+/* line 266, ../sass/category.scss */
+.categories .categories__tile .categories__item-holder:hover {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.6);
+  z-index: 10;
+  height: auto;
+}
+/* line 272, ../sass/category.scss */
+.categories .categories__tile .categories__media {
+  width: 172px;
+  margin: 0 auto 11px;
+  height: 172px;
+  line-height: 172px;
+  position: relative;
+  text-align: center;
+}
+/* line 279, ../sass/category.scss */
+.categories .categories__tile .categories__media img {
+  vertical-align: middle;
+  max-height: 172px;
+  max-width: 172px;
+}
+/* line 285, ../sass/category.scss */
+.categories .categories__tile .categories__title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+/* line 289, ../sass/category.scss */
+.categories .categories__tile .categories__price {
+  margin-bottom: 7px;
+  margin: 0 auto 7px;
+  width: 145px;
+}
+/* line 294, ../sass/category.scss */
+.categories .categories__tile .btn {
+  width: 143px;
+  margin: 0 auto 9px;
+  text-align: center;
+  padding: 0;
+  display: block;
+}
+/* line 301, ../sass/category.scss */
+.categories .categories__tile .categories__brief {
+  position: relative;
+  width: 145px;
+  margin: 0 auto;
+  font-size: 11px;
+  padding-bottom: 10px;
+}
+/* line 308, ../sass/category.scss */
+.categories .categories__tile .not-available {
+  margin: 0 0 0 26px;
+}
+/* line 311, ../sass/category.scss */
+.categories .categories__table {
+  padding: 0 18px;
+}
+/* line 313, ../sass/category.scss */
+.categories .categories__table .categories__items {
+  border-top: 1px solid #d8d8d8;
+}
+/* line 316, ../sass/category.scss */
+.categories .categories__table .categories__item {
+  position: relative;
+  border-bottom: 1px solid #d8d8d8;
+  vertical-align: middle;
+  height: 55px;
+}
+/* line 322, ../sass/category.scss */
+.categories .categories__table .categories__media {
+  text-align: center;
+  width: 56px;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 327, ../sass/category.scss */
+.categories .categories__table .categories__media img {
+  max-height: 55px;
+  max-width: 55px;
+}
+/* line 332, ../sass/category.scss */
+.categories .categories__table .categories__title {
+  font-size: 12px;
+  width: 272px;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 338, ../sass/category.scss */
+.categories .categories__table .categories__code {
+  width: 119px;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 343, ../sass/category.scss */
+.categories .categories__table .categories__price {
+  width: 139px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 55px;
+}
+/* line 350, ../sass/category.scss */
+.categories .categories__table .categories__price_two .price-block {
+  line-height: 19px;
+  border-radius: 0;
+}
+/* line 353, ../sass/category.scss */
+.categories .categories__table .categories__price_two .price-block strong {
+  border-radius: 3px 0 0 3px;
+  height: 19px;
+  font-size: 10px;
+}
+/* line 358, ../sass/category.scss */
+.categories .categories__table .categories__price_two .price-block span {
+  border-radius: 0 3px 3px 0;
+  height: 19px;
+  font-size: 14px;
+}
+/* line 364, ../sass/category.scss */
+.categories .categories__table .categories__price_two .price-block_gray {
+  margin-top: -1px;
+  text-align: left;
+}
+/* line 367, ../sass/category.scss */
+.categories .categories__table .categories__price_two .price-block_gray strong, .categories .categories__table .categories__price_two .price-block_gray span {
+  float: none;
+  display: inline-block;
+  text-decoration: line-through;
+  color: #a0a0a0;
+  font-size: 11px;
+  height: auto;
+  width: auto;
+  box-shadow: none;
+  background: none;
+}
+/* line 378, ../sass/category.scss */
+.categories .categories__table .categories__price_two .price-block_gray span {
+  font-size: 10px;
+  background: none;
+  margin-left: 6px;
+}
+/* line 385, ../sass/category.scss */
+.categories .categories__table .price-block {
+  width: 130px;
+  margin-top: 12px;
+}
+/* line 388, ../sass/category.scss */
+.categories .categories__table .price-block strong {
+  width: 88px;
+}
+/* line 391, ../sass/category.scss */
+.categories .categories__table .price-block span {
+  width: 42px;
+}
+/* line 395, ../sass/category.scss */
+.categories .categories__table .btn {
+  width: 88px;
+  vertical-align: middle;
+  text-align: center;
+  padding: 0;
+  display: inline-block;
+  font-size: 11px;
+  height: 32px;
+}
+/* line 404, ../sass/category.scss */
+.categories .categories__table .categories__not-available {
+  color: #a0a0a0;
+  font-size: 11px;
+  margin-left: 7px;
+}
+/* line 411, ../sass/category.scss */
+.categories .categories__list {
+  padding: 0 18px;
+}
+/* line 413, ../sass/category.scss */
+.categories .categories__list .categories__item {
+  position: relative;
+  border-top: 1px solid #d8d8d8;
+  padding: 5px 0 10px;
+}
+/* line 418, ../sass/category.scss */
+.categories .categories__list .categories__item-holder {
+  width: 100%;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+/* line 423, ../sass/category.scss */
+.categories .categories__list .categories__media-holder {
+  float: left;
+}
+/* line 425, ../sass/category.scss */
+.categories .categories__list .categories__media-holder .price-block {
+  width: 130px;
+}
+/* line 427, ../sass/category.scss */
+.categories .categories__list .categories__media-holder .price-block strong {
+  width: 88px;
+}
+/* line 428, ../sass/category.scss */
+.categories .categories__list .categories__media-holder .price-block span {
+  width: 42px;
+}
+/* line 431, ../sass/category.scss */
+.categories .categories__list .categories__media {
+  width: 135px;
+  height: 135px;
+  line-height: 135px;
+  position: relative;
+  text-align: center;
+  margin-bottom: 10px;
+}
+/* line 438, ../sass/category.scss */
+.categories .categories__list .categories__media img {
+  vertical-align: middle;
+  max-height: 135px;
+  max-width: 135px;
+}
+/* line 444, ../sass/category.scss */
+.categories .categories__list .categories__title {
+  font-size: 14px;
+  margin-bottom: 8px;
+  line-height: 18px;
+}
+/* line 449, ../sass/category.scss */
+.categories .categories__list .categories__inf {
+  padding: 7px 0 0;
+  margin-left: 140px;
+}
+/* line 453, ../sass/category.scss */
+.categories .categories__list .categories__inf-t {
+  display: inline-block;
+  width: 100%;
+  min-height: 96px;
+}
+/* line 458, ../sass/category.scss */
+.categories .categories__list .categories__inf-l {
+  float: left;
+}
+/* line 461, ../sass/category.scss */
+.categories .categories__list .categories__inf-r {
+  float: right;
+}
+/* line 465, ../sass/category.scss */
+.categories .categories__list .categories__price {
+  margin-bottom: 7px;
+  margin: 0 auto 7px;
+  width: 145px;
+}
+/* line 471, ../sass/category.scss */
+.categories .categories__list .btn {
+  width: 140px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  padding: 0;
+  display: block;
+  font-size: 14px;
+}
+/* line 480, ../sass/category.scss */
+.categories .categories__list .link-notify {
+  margin: 9px 0;
+  display: block;
+}
+/* line 484, ../sass/category.scss */
+.categories .categories__list .categories__links {
+  padding: 10px 0 0 0;
+}
+/* line 485, ../sass/category.scss */
+.categories .categories__list .categories__brief {
+  font-size: 11px;
+  margin-bottom: 3px;
+}
+/* line 489, ../sass/category.scss */
+.categories .categories__list .product__rating {
+  display: inline-block;
+  margin-right: 20px;
+}
+/* line 492, ../sass/category.scss */
+.categories .categories__list .product__rating .stars {
+  vertical-align: middle;
+}
+/* line 494, ../sass/category.scss */
+.categories .categories__list .rating-count {
+  margin-left: 4px;
+}
+/* line 498, ../sass/category.scss */
+.categories .page-nav {
+  border-top: 1px solid #ebebeb;
+  padding: 22px 0 26px;
+}
+
+/* line 505, ../sass/category.scss */
+.other-colors {
+  border: 1px solid #e7e7e7;
+  border-radius: 7px;
+  display: inline-block;
+  padding: 8px 0 5px;
+  margin-bottom: 5px;
+}
+/* line 511, ../sass/category.scss */
+.other-colors .other-colors__title {
+  font-weight: normal;
+  display: block;
+  margin: 0 0 9px 7px;
+}
+/* line 516, ../sass/category.scss */
+.other-colors .other-colors__list {
+  list-style: none;
+}
+/* line 518, ../sass/category.scss */
+.other-colors .other-colors__list li {
+  float: left;
+  width: 102px;
+  padding: 0 5px;
+  border-left: 1px solid #d8d8d8;
+}
+/* line 523, ../sass/category.scss */
+.other-colors .other-colors__list li:first-child {
+  border: none;
+}
+/* line 526, ../sass/category.scss */
+.other-colors .other-colors__img {
+  height: 102px;
+  line-height: 102px;
+}
+/* line 529, ../sass/category.scss */
+.other-colors .other-colors__img img {
+  max-width: 102px;
+  max-height: 102px;
+  vertical-align: middle;
+}
+/* line 535, ../sass/category.scss */
+.other-colors .price-block {
+  line-height: 15px;
+  width: 91px;
+  margin: 0 auto;
+}
+/* line 539, ../sass/category.scss */
+.other-colors .price-block strong {
+  font-size: 9px;
+  height: 15px;
+  width: 56px;
+}
+/* line 544, ../sass/category.scss */
+.other-colors .price-block span {
+  height: 15px;
+  font-size: 9px;
+  width: 35px;
+}
+
+/* line 553, ../sass/category.scss */
+.link-compare {
+  font-size: 11px;
+  margin: 0 0 6px 25px;
+  position: relative;
+}
+
+/* line 558, ../sass/category.scss */
+.link-notify, .link-credit {
+  text-decoration: none;
+  border-bottom: 1px dotted #0078C6;
+  font-size: 11px;
+}
+/* line 562, ../sass/category.scss */
+.link-notify:hover, .link-credit:hover {
+  border-bottom: 0;
+  padding-bottom: 1px;
+}
+
+/* line 568, ../sass/category.scss */
+.link-wishlist {
+  font-size: 11px;
+  margin: 0 0 6px 25px;
+  position: relative;
+}
+
+/* line 573, ../sass/category.scss */
+.not-available {
+  display: block;
+  color: #878787;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+/* line 579, ../sass/category.scss */
+.link-compare_active .ico-scales {
+  background: url('../img/icons-s9141ba0e0e.png') 0 -606px no-repeat;
+  width: 18px;
+  height: 13px;
+}
+
+/* line 580, ../sass/category.scss */
+.link-wishlist_active .ico-heart {
+  background: url('../img/icons-s9141ba0e0e.png') 0 -301px no-repeat;
+  width: 14px;
+  height: 13px;
+}
+
+/* line 582, ../sass/category.scss */
+.product-nav {
+  margin-bottom: 17px;
+}
+/* line 584, ../sass/category.scss */
+.product-nav h2 {
+  border-bottom: 1px solid #d8d8d8;
+  box-shadow: 0 1px 0 0 #fff;
+  color: #010101;
+  font-size: 18px;
+  font-weight: normal;
+  padding-bottom: 4px;
+}
+
+/* line 595, ../sass/category.scss */
+.accordion_products li {
+  padding: 3px 0 0;
+}
+/* line 597, ../sass/category.scss */
+.accordion_products li ul {
+  padding-left: 15px;
+}
+/* line 598, ../sass/category.scss */
+.accordion_products li li {
+  padding: 2px 0;
+}
+/* line 600, ../sass/category.scss */
+.accordion_products li li a {
+  margin-left: 15px;
+}
+/* line 605, ../sass/category.scss */
+.accordion_products a {
+  border-bottom: 1px solid #158edc;
+}
+/* line 607, ../sass/category.scss */
+.accordion_products a:hover {
+  border: none;
+  padding-bottom: 1px;
+}
+/* line 613, ../sass/category.scss */
+.accordion_products .open li a {
+  color: #158edc;
+  border: none;
+}
+/* line 618, ../sass/category.scss */
+.accordion_products .open a {
+  color: #158edc;
+  border-bottom: 1px solid #158edc;
+  padding: 0;
+}
+/* line 622, ../sass/category.scss */
+.accordion_products .open a i {
+  background: url('../img/icons-s9141ba0e0e.png') 0 -1123px no-repeat;
+  width: 7px;
+  height: 4px;
+}
+
+/* line 627, ../sass/category.scss */
+.options-list {
+  list-style: none;
+}
+/* line 629, ../sass/category.scss */
+.options-list li {
+  padding: 2px 0;
+  overflow: hidden;
+}
+/* line 632, ../sass/category.scss */
+.options-list li input {
+  float: left;
+  margin-right: 5px;
+  cursor: pointer;
+}
+/* line 637, ../sass/category.scss */
+.options-list li label {
+  float: left;
+  color: #158edc;
+  cursor: pointer;
+}
+/* line 642, ../sass/category.scss */
+.options-list li input:checked + label {
+  font-weight: bold;
+}
+/* line 645, ../sass/category.scss */
+.options-list li span {
+  color: #a0a0a0;
+  margin-left: 5px;
+}
+/* line 651, ../sass/category.scss */
+.options-list .disabled label {
+  color: #a0a0a0;
+}
+/* line 653, ../sass/category.scss */
+.options-list.options-list_all {
+  display: none;
+}
+
+/* line 656, ../sass/category.scss */
+.article-block {
+  color: #3c3c3c;
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  padding: 20px 15px 10px 20px;
+  margin-bottom: 20px;
+}
+/* line 663, ../sass/category.scss */
+.article-block h2 {
+  font-size: 20px;
+  font-weight: normal;
+  color: #000;
+  margin-bottom: 5px;
+}
+/* line 669, ../sass/category.scss */
+.article-block .article-block__item {
+  margin-bottom: 20px;
+}
+/* line 671, ../sass/category.scss */
+.article-block .article-block__item h3 {
+  font-size: 14px;
+  color: #0078c6;
+  font-weight: normal;
+  margin-bottom: 3px;
+}
+
+/* line 681, ../sass/category.scss */
+.filter-block .filter-block__top {
+  position: relative;
+}
+/* line 683, ../sass/category.scss */
+.filter-block .filter-block__top h2 {
+  font-size: 12px;
+  color: #61626f;
+  border-bottom: 1px solid #d8d8d8;
+  box-shadow: 0 1px 0 0 #fff;
+  font-weight: normal;
+  text-indent: 4px;
+  cursor: pointer;
+  line-height: 23px;
+  height: 23px;
+}
+/* line 694, ../sass/category.scss */
+.filter-block .filter-block__top .arr {
+  position: absolute;
+  background: url('../img/icons-s9141ba0e0e.png') 0 -1092px no-repeat;
+  width: 7px;
+  height: 7px;
+  top: 9px;
+  right: 4px;
+  cursor: pointer;
+}
+/* line 701, ../sass/category.scss */
+.filter-block .filter-block__top .filter-link {
+  float: right;
+  text-decoration: none;
+  border-bottom: 1px dotted #0078c6;
+  margin-top: 3px;
+  margin-right: 16px;
+}
+/* line 707, ../sass/category.scss */
+.filter-block .filter-block__top .filter-link:hover {
+  border: none;
+}
+/* line 709, ../sass/category.scss */
+.filter-block .filter-block__top:hover {
+  background: #ececec;
+}
+/* line 711, ../sass/category.scss */
+.filter-block .filter-block__content {
+  display: none;
+  padding: 10px 1px 20px;
+  overflow: hidden;
+}
+/* line 716, ../sass/category.scss */
+.filter-block .filter-block__col2 {
+  float: left;
+  width: 119px;
+}
+/* line 721, ../sass/category.scss */
+.filter-block.filter-block_open .arr {
+  background: url('../img/icons-s9141ba0e0e.png') 0 -1123px no-repeat;
+  width: 7px;
+  height: 4px;
+}
+
+/* line 725, ../sass/category.scss */
+.clear-filter {
+  text-decoration: none;
+  border-bottom: 1px dotted #0078c6;
+  font-size: 11px;
+}
+/* line 729, ../sass/category.scss */
+.clear-filter:hover {
+  border: none;
+  padding-bottom: 1px;
+}
+
+/* line 735, ../sass/category.scss */
+.scale {
+  padding: 5px 6px 30px;
+}
+
+/* line 736, ../sass/category.scss */
+.scale-diapason {
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+/* line 739, ../sass/category.scss */
+.scale-diapason label {
+  font-size: 12px;
+  color: #000;
+  float: left;
+  margin: 3px 5px 0 0;
+}
+/* line 745, ../sass/category.scss */
+.scale-diapason input {
+  float: left;
+  border: 1px solid #c9c9c9;
+  border-radius: 2px;
+  font-size: 12px;
+  color: #000;
+  height: 20px;
+  width: 55px;
+  padding: 0 6px;
+  margin-right: 5px;
+}
+/* line 756, ../sass/category.scss */
+.scale-diapason span {
+  float: left;
+  margin: 3px 5px 0 0;
+}
+/* line 760, ../sass/category.scss */
+.scale-diapason .btn {
+  float: left;
+  padding: 0 5px;
+  height: 20px;
+  line-height: 20px;
+}
+
+/* line 768, ../sass/category.scss */
+.selected-filters {
+  margin-bottom: 15px;
+}
+/* line 770, ../sass/category.scss */
+.selected-filters h2 {
+  border-bottom: 1px solid #D8D8D8;
+  box-shadow: 0 1px 0 0 #FFFFFF;
+  color: #010101;
+  font-size: 16px;
+  font-weight: normal;
+  padding-bottom: 4px;
+  margin-bottom: 10px;
+}
+/* line 779, ../sass/category.scss */
+.selected-filters span {
+  color: #61626f;
+  margin-left: 4px;
+}
+/* line 783, ../sass/category.scss */
+.selected-filters .selected-filters__list {
+  list-style: none;
+  padding: 10px 0 7px;
+}
+/* line 786, ../sass/category.scss */
+.selected-filters .selected-filters__list li {
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+/* line 792, ../sass/category.scss */
+.selected-filters .cancel {
+  background: url('../img/icons-s9141ba0e0e.png') 0 -670px no-repeat;
+  width: 9px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 12px;
+}
+/* line 797, ../sass/category.scss */
+.selected-filters .clear-filter {
+  margin-left: 4px;
+}

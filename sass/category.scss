@@ -214,6 +214,23 @@
 		font-size:11px;
 		li{margin-bottom:8px;}
 	}
+	.categories__rating{
+		padding-bottom: 4px;
+		text-align: center;
+		.stars{
+			vertical-align: middle;
+		}
+		.categories__feedback{
+			position: relative;
+			color: #f00;
+			text-decoration: none;
+			vertical-align: middle;
+			margin-left: 4px;
+			font-weight: bold;
+			display: inline-block;
+			font-size: 110%;
+		}
+	}
 	.categories__tile{
 		display:inline-block;
 		padding:0 18px;

@@ -1,86 +1,244 @@
-/*
-Syntax error: Undefined variable: "$icons".
-        on line 63 of c:/Users/Magi/Documents/GitHub/Notus/sass/article.scss, in `sized-sprite'
-        from line 63 of c:/Users/Magi/Documents/GitHub/Notus/sass/article.scss
+/*когда включать версию для айфона*/
+/*когда включать широкую версию*/
+/* HOW TO USE SPRITES*/
+/*.whatever{@include sized-sprite($icons, badge_hit);}*/
+/* news-archive */
+/* line 4, ../sass/article.scss */
+.news-archive {
+  margin-bottom: 25px;
+}
+/* line 6, ../sass/article.scss */
+.news-archive h2 {
+  font-size: 18px;
+  color: #000;
+  font-weight: normal;
+  border-bottom: 1px dotted #000;
+  display: inline;
+  margin-left: 4px;
+}
 
-Backtrace:
-c:/Users/Magi/Documents/GitHub/Notus/sass/article.scss:63:in `sized-sprite'
-c:/Users/Magi/Documents/GitHub/Notus/sass/article.scss:63
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/script/variable.rb:49:in `_perform'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/script/node.rb:40:in `perform'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:255:in `block in visit_mixin'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:255:in `map'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:255:in `visit_mixin'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `map'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:316:in `visit_rule'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `map'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:316:in `visit_rule'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `map'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:316:in `visit_rule'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `map'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:7:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/tree/root_node.rb:20:in `render'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/engine.rb:315:in `_render'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.1/lib/sass/engine.rb:262:in `render'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:68:in `perform'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/bin/compass:44:in `call'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
-C:/Ruby193/bin/compass:23:in `load'
-C:/Ruby193/bin/compass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$icons\".\A         on line 63 of c:/Users/Magi/Documents/GitHub/Notus/sass/article.scss, in `sized-sprite'\A         from line 63 of c:/Users/Magi/Documents/GitHub/Notus/sass/article.scss"; }
+/* accordion */
+/* line 17, ../sass/article.scss */
+.accordion {
+  list-style: none;
+  font-size: 12px;
+  line-height: 14px;
+  padding-top: 10px;
+}
+/* line 22, ../sass/article.scss */
+.accordion li {
+  padding: 2px 0 0;
+}
+/* line 24, ../sass/article.scss */
+.accordion li ul {
+  list-style: none;
+  padding-left: 30px;
+  display: none;
+}
+/* line 29, ../sass/article.scss */
+.accordion li li {
+  padding: 3px 0 4px;
+}
+/* line 31, ../sass/article.scss */
+.accordion li li a {
+  padding: 0;
+  margin: 0;
+  border: none;
+  text-decoration: underline;
+}
+/* line 36, ../sass/article.scss */
+.accordion li li a:hover {
+  text-decoration: none;
+  padding: 0;
+}
+/* line 41, ../sass/article.scss */
+.accordion li li.active a {
+  text-decoration: none;
+  color: #000;
+}
+/* line 47, ../sass/article.scss */
+.accordion a {
+  color: #158edc;
+  border-bottom: 1px dotted #158edc;
+  text-decoration: none;
+  position: relative;
+  margin-left: 15px;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+/* line 55, ../sass/article.scss */
+.accordion a:hover {
+  border: none;
+  padding-bottom: 1px;
+}
+/* line 59, ../sass/article.scss */
+.accordion a i {
+  position: absolute;
+  top: 4px;
+  left: -12px;
+  background: url('../img/icons-sd04bfc08ce.png') 0 -1064px no-repeat;
+  width: 7px;
+  height: 7px;
+}
+/* line 67, ../sass/article.scss */
+.accordion .open li a {
+  font-weight: normal;
+  color: #158edc;
+  padding: 0;
+}
+/* line 72, ../sass/article.scss */
+.accordion .open a {
+  font-weight: bold;
+  color: #000;
+  border: none;
+  padding-bottom: 1px;
+}
+/* line 77, ../sass/article.scss */
+.accordion .open a i {
+  background: url('../img/icons-sd04bfc08ce.png') 0 -1099px no-repeat;
+  width: 7px;
+  height: 7px;
+}
+
+/* news-subscribe */
+/* line 84, ../sass/article.scss */
+.news-subscribe {
+  margin-bottom: 25px;
+}
+/* line 86, ../sass/article.scss */
+.news-subscribe h2 {
+  font-size: 18px;
+  color: #010101;
+  font-weight: normal;
+  border-bottom: 1px solid #d8d8d8;
+  margin-bottom: 10px;
+  padding-bottom: 1px;
+}
+/* line 94, ../sass/article.scss */
+.news-subscribe .input {
+  height: 24px;
+  width: 220px;
+  margin-bottom: 10px;
+}
+/* line 99, ../sass/article.scss */
+.news-subscribe .btn {
+  height: 24px;
+  line-height: 24px;
+  font-size: 11px;
+}
+
+/* line 107, ../sass/article.scss */
+.arr-more {
+  background: url('../img/icons-sd04bfc08ce.png') 0 -1059px no-repeat;
+  width: 12px;
+  height: 5px;
+  display: inline-block;
+  margin-left: 2px;
+}
+
+/* news-articles */
+/* line 115, ../sass/article.scss */
+.news-articles {
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  color: #3c3c3c;
+  padding: 18px 26px;
+  margin-bottom: 18px;
+}
+/* line 122, ../sass/article.scss */
+.news-articles h1 {
+  color: #000;
+  font-size: 24px;
+  font-weight: normal;
+  border-bottom: 1px solid #d8d8d8;
+  padding-bottom: 14px;
+}
+/* line 129, ../sass/article.scss */
+.news-articles .news-articles__item {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #d8d8d8;
+}
+/* line 134, ../sass/article.scss */
+.news-articles .news-articles__img {
+  float: left;
+  margin: 15px 0;
+}
+/* line 137, ../sass/article.scss */
+.news-articles .news-articles__img img {
+  vertical-align: top;
+}
+/* line 139, ../sass/article.scss */
+.news-articles .news-articles__inf {
+  float: left;
+  padding: 15px 24px;
+  width: 490px;
+}
+/* line 143, ../sass/article.scss */
+.news-articles .news-articles__inf h2 {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 7px;
+}
+/* line 147, ../sass/article.scss */
+.news-articles .news-articles__inf h2 a {
+  color: #158edc;
+}
+/* line 149, ../sass/article.scss */
+.news-articles .news-articles__inf p {
+  line-height: 18px;
+}
+/* line 150, ../sass/article.scss */
+.news-articles .news-articles__inf .more {
+  display: inline-block;
+  margin-top: 2px;
+  color: #158edc;
+}
+/* line 156, ../sass/article.scss */
+.news-articles .page-nav {
+  padding: 18px 0 3px;
+}
+/* line 158, ../sass/article.scss */
+.news-articles .page-nav a {
+  color: #158edc;
+}
+
+/* article-news */
+/* line 164, ../sass/article.scss */
+.article-news {
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  color: #3c3c3c;
+  padding: 22px 29px 50px;
+  margin-bottom: 18px;
+}
+/* line 171, ../sass/article.scss */
+.article-news h1 {
+  font-size: 24px;
+  color: #000;
+  font-weight: normal;
+}
+/* line 176, ../sass/article.scss */
+.article-news .date {
+  color: #707070;
+  font-size: 11px;
+  display: block;
+  margin-bottom: 22px;
+}
+/* line 182, ../sass/article.scss */
+.article-news img {
+  margin: 0 auto 45px;
+  display: block;
+}
+/* line 186, ../sass/article.scss */
+.article-news p {
+  line-height: 18px;
+  margin-bottom: 18px;
+}
+/* line 191, ../sass/article.scss */
+.article-news .source {
+  margin-top: 32px;
+  display: block;
+}

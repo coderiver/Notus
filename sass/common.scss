@@ -1,11 +1,5 @@
 @import "base";
-/* HOW TO USE SPRITES*/
-$icons: sprite-map("icons/*.png");
-/*.whatever{@include sized-sprite($icons, badge_hit);}*/
 
-
-/* constants */
-$main-width: 1000px;
 
 
 *{margin:0;padding:0;-webkit-text-size-adjust: none;}
