@@ -349,10 +349,6 @@
 	}
 	.chosen{@include sized-sprite($icons, "star-2");}
 }
-.stars_red{
-	.star{@include sized-sprite($icons, "starred0");}
-	.chosen{@include sized-sprite($icons, "starred");}
-}
 .rating-count{
 	font-size:11px;
 	text-decoration:underline;
