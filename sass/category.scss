@@ -31,6 +31,7 @@
 		padding:8px 16px 11px 33px;
 		.sort{
 			float:left;
+			font-size: 90%;
 			dt{
 				float:left;
 				font-weight:bold;
@@ -501,6 +502,14 @@
 
 }
 
+.categories_narrow{
+	h1{
+		margin-left: 18px;
+	}
+	.categories__top{
+		padding-left: 18px;
+	}
+}
 
 .other-colors{
 	border:1px solid #e7e7e7;

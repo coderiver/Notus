@@ -4044,36 +4044,37 @@ a:hover {
 /* line 32, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__top .sort {
   float: left;
+  font-size: 90%;
 }
-/* line 34, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 35, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__top .sort dt {
   float: left;
   font-weight: bold;
   color: #000;
   margin: 4px 6px 0 0;
 }
-/* line 40, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 41, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__top .sort dd {
   float: left;
 }
-/* line 41, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 42, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__top .sort ul {
   list-style: none;
 }
-/* line 42, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 43, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__top .sort li {
   float: left;
 }
-/* line 43, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 44, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__top .sort a {
   display: block;
   margin: 4px 11px;
 }
-/* line 48, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 49, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__top .sort i {
   display: none;
 }
-/* line 50, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 51, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__top .sort .active a {
   background: #ececec;
   border-radius: 3px;
@@ -4083,92 +4084,92 @@ a:hover {
   margin: 0;
   position: relative;
 }
-/* line 59, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 60, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__top .sort .active .arr {
   display: block;
   position: absolute;
   top: 10px;
   right: 8px;
 }
-/* line 65, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 66, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__top .sort .active .arr_t {
   background: url('../img/icons-s9141ba0e0e.png') 0 -1147px no-repeat;
   width: 7px;
   height: 4px;
 }
-/* line 66, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 67, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__top .sort .active .arr_b {
   background: url('../img/icons-s9141ba0e0e.png') 0 -1151px no-repeat;
   width: 7px;
   height: 4px;
 }
-/* line 69, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 70, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__top .view {
   float: right;
   padding-top: 1px;
 }
-/* line 72, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 73, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__top .view dt {
   float: left;
   color: #000;
   margin-top: 3px;
 }
-/* line 77, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 78, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__top .view dd {
   float: left;
 }
-/* line 78, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 79, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__top .view ul {
   list-style: none;
 }
-/* line 79, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 80, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__top .view li {
   float: left;
   margin-left: 13px;
 }
-/* line 83, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 84, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__top .view li.active .view__list, .categories .categories__top .view li:hover .view__list {
   background: url('../img/icons-s9141ba0e0e.png') 0 -895px no-repeat;
   width: 20px;
   height: 20px;
 }
-/* line 84, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 85, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__top .view li.active .view__table, .categories .categories__top .view li:hover .view__table {
   background: url('../img/icons-s9141ba0e0e.png') 0 -1067px no-repeat;
   width: 20px;
   height: 20px;
 }
-/* line 85, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 86, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__top .view li.active .view__tile, .categories .categories__top .view li:hover .view__tile {
   background: url('../img/icons-s9141ba0e0e.png') 0 -743px no-repeat;
   width: 20px;
   height: 20px;
 }
-/* line 88, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 89, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__top .view a {
   overflow: hidden;
   text-indent: -9999px;
   display: block;
 }
-/* line 93, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 94, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__top .view .view__list {
   background: url('../img/icons-s9141ba0e0e.png') 0 -935px no-repeat;
   width: 20px;
   height: 20px;
 }
-/* line 94, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 95, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__top .view .view__table {
   background: url('../img/icons-s9141ba0e0e.png') 0 -1047px no-repeat;
   width: 20px;
   height: 20px;
 }
-/* line 95, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 96, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__top .view .view__tile {
   background: url('../img/icons-s9141ba0e0e.png') 0 -915px no-repeat;
   width: 20px;
   height: 20px;
 }
-/* line 98, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 99, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .mark {
   position: absolute;
   top: 7px;
@@ -4184,11 +4185,11 @@ a:hover {
   background: #f00;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.4);
 }
-/* line 112, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 113, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .mark:hover .mark__popup {
   display: block;
 }
-/* line 114, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 115, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .mark_new {
   background: #f82b02;
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iNTAlIiB4Mj0iMTAwJSIgeTI9IjUwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y4NDcwMCIvPjxzdG9wIG9mZnNldD0iNCUiIHN0b3AtY29sb3I9IiNmZmIyYjIiLz48c3RvcCBvZmZzZXQ9IjglIiBzdG9wLWNvbG9yPSIjZmE1NzVlIi8+PHN0b3Agb2Zmc2V0PSIyMyUiIHN0b3AtY29sb3I9IiNmNTAwMDAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmODJiMDIiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
@@ -4200,7 +4201,7 @@ a:hover {
   background-image: -ms-linear-gradient(left, #f84700, #ffb2b2 4%, #fa575e 8%, #f50000 23%, #f82b02);
   background-image: linear-gradient(left, #f84700, #ffb2b2 4%, #fa575e 8%, #f50000 23%, #f82b02);
 }
-/* line 118, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 119, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .mark_best {
   background: #1250cf;
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iNTAlIiB4Mj0iMTAwJSIgeTI9IjUwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzU2ODdmYSIvPjxzdG9wIG9mZnNldD0iNCUiIHN0b3AtY29sb3I9IiMyOGI0ZjUiLz48c3RvcCBvZmZzZXQ9IjglIiBzdG9wLWNvbG9yPSIjMWE4YmUzIi8+PHN0b3Agb2Zmc2V0PSIyMyUiIHN0b3AtY29sb3I9IiMxMzYwZDQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxMjUwY2YiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
@@ -4212,7 +4213,7 @@ a:hover {
   background-image: -ms-linear-gradient(left, #5687fa, #28b4f5 4%, #1a8be3 8%, #1360d4 23%, #1250cf);
   background-image: linear-gradient(left, #5687fa, #28b4f5 4%, #1a8be3 8%, #1360d4 23%, #1250cf);
 }
-/* line 122, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 123, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .mark_top {
   background: #ffbb16;
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iNTAlIiB4Mj0iMTAwJSIgeTI9IjUwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y4ZDExYSIvPjxzdG9wIG9mZnNldD0iNCUiIHN0b3AtY29sb3I9IiNmZmY4YWMiLz48c3RvcCBvZmZzZXQ9IjglIiBzdG9wLWNvbG9yPSIjZmZkZDY0Ii8+PHN0b3Agb2Zmc2V0PSIyMyUiIHN0b3AtY29sb3I9IiNmZmMwMTYiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmJiMTYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
@@ -4224,7 +4225,7 @@ a:hover {
   background-image: -ms-linear-gradient(left, #f8d11a, #fff8ac 4%, #ffdd64 8%, #ffc016 23%, #ffbb16);
   background-image: linear-gradient(left, #f8d11a, #fff8ac 4%, #ffdd64 8%, #ffc016 23%, #ffbb16);
 }
-/* line 126, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 127, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .mark_action {
   cursor: pointer;
   background: #930991;
@@ -4237,11 +4238,11 @@ a:hover {
   background-image: -ms-linear-gradient(left, #d0359f, #ec39b8 4%, #cc2fa7 8%, #a92294 23%, #930991);
   background-image: linear-gradient(left, #d0359f, #ec39b8 4%, #cc2fa7 8%, #a92294 23%, #930991);
 }
-/* line 130, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 131, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .mark_action:hover {
   text-decoration: underline;
 }
-/* line 132, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 133, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .mark_discount {
   background: #48c4ee;
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iNTAlIiB4Mj0iMTAwJSIgeTI9IjUwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzNhYzdmNiIvPjxzdG9wIG9mZnNldD0iNCUiIHN0b3AtY29sb3I9IiNiMWViZmYiLz48c3RvcCBvZmZzZXQ9IjglIiBzdG9wLWNvbG9yPSIjN2JkY2Y3Ii8+PHN0b3Agb2Zmc2V0PSIyMyUiIHN0b3AtY29sb3I9IiMzYmM5ZWYiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0OGM0ZWUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
@@ -4253,7 +4254,7 @@ a:hover {
   background-image: -ms-linear-gradient(left, #3ac7f6, #b1ebff 4%, #7bdcf7 8%, #3bc9ef 23%, #48c4ee);
   background-image: linear-gradient(left, #3ac7f6, #b1ebff 4%, #7bdcf7 8%, #3bc9ef 23%, #48c4ee);
 }
-/* line 136, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 137, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .mark_sale {
   background: #f87a08;
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iNTAlIiB4Mj0iMTAwJSIgeTI9IjUwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y4ODIwYiIvPjxzdG9wIG9mZnNldD0iNCUiIHN0b3AtY29sb3I9IiNmZmJiMTYiLz48c3RvcCBvZmZzZXQ9IjglIiBzdG9wLWNvbG9yPSIjZmM5ZTBmIi8+PHN0b3Agb2Zmc2V0PSIyMyUiIHN0b3AtY29sb3I9IiNmODdkMDgiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmODdhMDgiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
@@ -4265,7 +4266,7 @@ a:hover {
   background-image: -ms-linear-gradient(left, #f8820b, #ffbb16 4%, #fc9e0f 8%, #f87d08 23%, #f87a08);
   background-image: linear-gradient(left, #f8820b, #ffbb16 4%, #fc9e0f 8%, #f87d08 23%, #f87a08);
 }
-/* line 140, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 141, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .mark__popup {
   position: absolute;
   border: 1px solid #b3b3bd;
@@ -4288,7 +4289,7 @@ a:hover {
   display: none;
   cursor: default;
 }
-/* line 154, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 155, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .mark__popup:after {
   content: "";
   position: absolute;
@@ -4299,94 +4300,94 @@ a:hover {
   width: 20px;
   height: 17px;
 }
-/* line 163, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 164, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__code {
   color: #a0a0a0;
   font-size: 11px;
 }
-/* line 167, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 168, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__title {
   font-size: 14px;
   line-height: 18px;
 }
-/* line 172, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 173, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__price_two .price-block {
   line-height: 29px;
   border-radius: 0;
 }
-/* line 175, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 176, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__price_two .price-block strong {
   border-radius: 3px 0 0 0;
   height: 29px;
 }
-/* line 179, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 180, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__price_two .price-block span {
   border-radius: 0 3px 0 0;
   height: 29px;
 }
-/* line 184, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 185, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__price_two .price-block_gray {
   margin-top: 1px;
 }
-/* line 186, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 187, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__price_two .price-block_gray strong {
   border-radius: 0 0 0 3px;
   text-decoration: line-through;
 }
-/* line 190, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 191, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__price_two .price-block_gray span {
   border-radius: 0 0 3px 0;
   text-decoration: line-through;
 }
-/* line 196, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 197, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .price-block {
   display: block;
   float: none;
   overflow: hidden;
 }
-/* line 200, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 201, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .price-block strong {
   font-size: 16px;
 }
-/* line 201, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 202, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .price-block i {
   font-size: 12px;
 }
-/* line 202, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 203, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .price-block span {
   font-size: 10px;
 }
-/* line 205, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 206, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .price-block_gray strong {
   background: #fff;
   color: #a3a3a3;
   box-shadow: 0 1px 0 0 #d9d9d9 inset, 0 -1px 0 0 #d9d9d9 inset, 1px 0 0 0 #d9d9d9 inset;
 }
-/* line 210, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 211, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .price-block_gray span {
   background: #d9d9d9;
   color: #fff;
 }
-/* line 215, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 216, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__links {
   list-style: none;
   padding: 5px 0 0 24px;
   font-size: 11px;
 }
-/* line 219, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 220, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__links li {
   margin-bottom: 8px;
 }
-/* line 221, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 222, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__rating {
   padding-bottom: 4px;
   text-align: center;
 }
-/* line 224, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 225, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__rating .stars {
   vertical-align: middle;
 }
-/* line 227, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 228, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__rating .categories__feedback {
   position: relative;
   color: #f00;
@@ -4397,19 +4398,19 @@ a:hover {
   display: inline-block;
   font-size: 110%;
 }
-/* line 238, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 239, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__tile {
   display: inline-block;
   padding: 0 18px;
 }
-/* line 241, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 242, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__tile .categories__items {
   background: url(../img/items-border.png);
   display: inline-block;
   margin-bottom: 22px;
   position: relative;
 }
-/* line 247, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 248, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__tile .categories__item {
   float: left;
   padding: 0 5px;
@@ -4418,15 +4419,15 @@ a:hover {
   position: relative;
   height: 395px;
 }
-/* line 254, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 255, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__tile .categories__item:first-child {
   margin-left: 0;
 }
-/* line 256, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 257, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__tile .categories__item:hover .white-bottom {
   display: none;
 }
-/* line 259, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 260, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__tile .categories__item-holder {
   position: absolute;
   top: 0;
@@ -4451,13 +4452,13 @@ a:hover {
   -o-transition-timing-function: linear;
   transition-timing-function: linear;
 }
-/* line 270, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 271, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__tile .categories__item-holder:hover {
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.6);
   z-index: 10;
   height: auto;
 }
-/* line 276, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 277, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__tile .categories__media {
   width: 172px;
   margin: 0 auto 11px;
@@ -4467,24 +4468,24 @@ a:hover {
   position: relative;
   text-align: center;
 }
-/* line 284, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 285, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__tile .categories__media img {
   vertical-align: middle;
   max-height: 172px;
   max-width: 172px;
 }
-/* line 290, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 291, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__tile .categories__title {
   text-align: center;
   margin-bottom: 8px;
 }
-/* line 294, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 295, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__tile .categories__price {
   margin-bottom: 7px;
   margin: 0 auto 7px;
   width: 145px;
 }
-/* line 299, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 300, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__tile .btn {
   width: 143px;
   margin: 0 auto 9px;
@@ -4492,7 +4493,7 @@ a:hover {
   padding: 0;
   display: block;
 }
-/* line 306, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 307, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__tile .categories__brief {
   position: relative;
   width: 145px;
@@ -4500,80 +4501,80 @@ a:hover {
   font-size: 11px;
   padding-bottom: 10px;
 }
-/* line 313, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 314, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__tile .not-available {
   margin: 0 0 0 26px;
 }
-/* line 316, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 317, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__table {
   padding: 0 18px;
 }
-/* line 318, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 319, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__table .categories__items {
   border-top: 1px solid #d8d8d8;
 }
-/* line 321, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 322, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__table .categories__item {
   position: relative;
   border-bottom: 1px solid #d8d8d8;
   vertical-align: middle;
   height: 55px;
 }
-/* line 327, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 328, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__table .categories__media {
   text-align: center;
   width: 56px;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 332, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 333, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__table .categories__media img {
   max-height: 55px;
   max-width: 55px;
 }
-/* line 337, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 338, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__table .categories__title {
   font-size: 12px;
   width: 272px;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 343, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 344, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__table .categories__code {
   width: 119px;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 348, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 349, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__table .categories__price {
   width: 139px;
   display: inline-block;
   vertical-align: middle;
   height: 55px;
 }
-/* line 355, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 356, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__table .categories__price_two .price-block {
   line-height: 19px;
   border-radius: 0;
 }
-/* line 358, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 359, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__table .categories__price_two .price-block strong {
   border-radius: 3px 0 0 3px;
   height: 19px;
   font-size: 10px;
 }
-/* line 363, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 364, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__table .categories__price_two .price-block span {
   border-radius: 0 3px 3px 0;
   height: 19px;
   font-size: 14px;
 }
-/* line 369, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 370, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__table .categories__price_two .price-block_gray {
   margin-top: -1px;
   text-align: left;
 }
-/* line 372, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 373, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__table .categories__price_two .price-block_gray strong, .categories .categories__table .categories__price_two .price-block_gray span {
   float: none;
   display: inline-block;
@@ -4585,26 +4586,26 @@ a:hover {
   box-shadow: none;
   background: none;
 }
-/* line 383, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 384, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__table .categories__price_two .price-block_gray span {
   font-size: 10px;
   background: none;
   margin-left: 6px;
 }
-/* line 390, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 391, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__table .price-block {
   width: 130px;
   margin-top: 12px;
 }
-/* line 393, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 394, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__table .price-block strong {
   width: 88px;
 }
-/* line 396, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 397, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__table .price-block span {
   width: 42px;
 }
-/* line 400, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 401, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__table .btn {
   width: 88px;
   vertical-align: middle;
@@ -4614,45 +4615,45 @@ a:hover {
   font-size: 11px;
   height: 32px;
 }
-/* line 409, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 410, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__table .categories__not-available {
   color: #a0a0a0;
   font-size: 11px;
   margin-left: 7px;
 }
-/* line 416, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 417, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__list {
   padding: 0 18px;
 }
-/* line 418, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 419, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__list .categories__item {
   position: relative;
   border-top: 1px solid #d8d8d8;
   padding: 5px 0 10px;
 }
-/* line 423, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 424, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__list .categories__item-holder {
   width: 100%;
   display: inline-block;
   padding-bottom: 5px;
 }
-/* line 428, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 429, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__list .categories__media-holder {
   float: left;
 }
-/* line 430, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 431, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__list .categories__media-holder .price-block {
   width: 130px;
 }
-/* line 432, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 433, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__list .categories__media-holder .price-block strong {
   width: 88px;
 }
-/* line 433, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 434, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__list .categories__media-holder .price-block span {
   width: 42px;
 }
-/* line 436, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 437, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__list .categories__media {
   width: 135px;
   height: 135px;
@@ -4661,44 +4662,44 @@ a:hover {
   text-align: center;
   margin-bottom: 10px;
 }
-/* line 443, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 444, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__list .categories__media img {
   vertical-align: middle;
   max-height: 135px;
   max-width: 135px;
 }
-/* line 449, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 450, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__list .categories__title {
   font-size: 14px;
   margin-bottom: 8px;
   line-height: 18px;
 }
-/* line 454, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 455, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__list .categories__inf {
   padding: 7px 0 0;
   margin-left: 140px;
 }
-/* line 458, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 459, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__list .categories__inf-t {
   display: inline-block;
   width: 100%;
   min-height: 96px;
 }
-/* line 463, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 464, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__list .categories__inf-l {
   float: left;
 }
-/* line 466, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 467, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__list .categories__inf-r {
   float: right;
 }
-/* line 470, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 471, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__list .categories__price {
   margin-bottom: 7px;
   margin: 0 auto 7px;
   width: 145px;
 }
-/* line 476, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 477, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__list .btn {
   width: 140px;
   height: 30px;
@@ -4708,35 +4709,44 @@ a:hover {
   display: block;
   font-size: 14px;
 }
-/* line 485, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 486, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__list .link-notify {
   margin: 9px 0;
   display: block;
 }
-/* line 489, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 490, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__list .categories__links {
   padding: 10px 0 0 0;
 }
-/* line 490, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 491, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__list .categories__brief {
   font-size: 11px;
   margin-bottom: 3px;
 }
-/* line 494, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 495, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__list .product__rating {
   display: inline-block;
   margin-right: 20px;
 }
-/* line 497, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 498, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__list .product__rating .stars {
   vertical-align: middle;
 }
-/* line 499, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 500, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .categories .categories__list .rating-count {
   margin-left: 4px;
 }
 
-/* line 505, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 506, /Users/akella/Desktop/git/Notus/sass/category.scss */
+.categories_narrow h1 {
+  margin-left: 18px;
+}
+/* line 509, /Users/akella/Desktop/git/Notus/sass/category.scss */
+.categories_narrow .categories__top {
+  padding-left: 18px;
+}
+
+/* line 514, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .other-colors {
   border: 1px solid #e7e7e7;
   border-radius: 7px;
@@ -4744,84 +4754,84 @@ a:hover {
   padding: 8px 0 5px;
   margin-bottom: 5px;
 }
-/* line 511, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 520, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .other-colors .other-colors__title {
   font-weight: normal;
   display: block;
   margin: 0 0 9px 7px;
 }
-/* line 516, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 525, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .other-colors .other-colors__list {
   list-style: none;
 }
-/* line 518, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 527, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .other-colors .other-colors__list li {
   float: left;
   width: 102px;
   padding: 0 5px;
   border-left: 1px solid #d8d8d8;
 }
-/* line 523, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 532, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .other-colors .other-colors__list li:first-child {
   border: none;
 }
-/* line 526, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 535, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .other-colors .other-colors__img {
   height: 102px;
   line-height: 102px;
 }
-/* line 529, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 538, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .other-colors .other-colors__img img {
   max-width: 102px;
   max-height: 102px;
   vertical-align: middle;
 }
-/* line 535, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 544, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .other-colors .price-block {
   line-height: 15px;
   width: 91px;
   margin: 0 auto;
 }
-/* line 539, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 548, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .other-colors .price-block strong {
   font-size: 9px;
   height: 15px;
   width: 56px;
 }
-/* line 544, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 553, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .other-colors .price-block span {
   height: 15px;
   font-size: 9px;
   width: 35px;
 }
 
-/* line 553, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 562, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .link-compare {
   font-size: 11px;
   margin: 0 0 6px 25px;
   position: relative;
 }
 
-/* line 558, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 567, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .link-notify, .link-credit {
   text-decoration: none;
   border-bottom: 1px dotted #0078C6;
   font-size: 11px;
 }
-/* line 562, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 571, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .link-notify:hover, .link-credit:hover {
   border-bottom: 0;
   padding-bottom: 1px;
 }
 
-/* line 568, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 577, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .link-wishlist {
   font-size: 11px;
   margin: 0 0 6px 25px;
   position: relative;
 }
 
-/* line 573, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 582, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .not-available {
   display: block;
   color: #878787;
@@ -4829,25 +4839,25 @@ a:hover {
   text-transform: uppercase;
 }
 
-/* line 579, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 588, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .link-compare_active .ico-scales {
   background: url('../img/icons-s9141ba0e0e.png') 0 -606px no-repeat;
   width: 18px;
   height: 13px;
 }
 
-/* line 580, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 589, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .link-wishlist_active .ico-heart {
   background: url('../img/icons-s9141ba0e0e.png') 0 -301px no-repeat;
   width: 14px;
   height: 13px;
 }
 
-/* line 582, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 591, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .product-nav {
   margin-bottom: 17px;
 }
-/* line 584, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 593, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .product-nav h2 {
   border-bottom: 1px solid #d8d8d8;
   box-shadow: 0 1px 0 0 #fff;
@@ -4857,89 +4867,89 @@ a:hover {
   padding-bottom: 4px;
 }
 
-/* line 595, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 604, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .accordion_products li {
   padding: 3px 0 0;
 }
-/* line 597, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 606, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .accordion_products li ul {
   padding-left: 15px;
 }
-/* line 598, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 607, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .accordion_products li li {
   padding: 2px 0;
 }
-/* line 600, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 609, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .accordion_products li li a {
   margin-left: 15px;
 }
-/* line 605, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 614, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .accordion_products a {
   border-bottom: 1px solid #158edc;
 }
-/* line 607, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 616, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .accordion_products a:hover {
   border: none;
   padding-bottom: 1px;
 }
-/* line 613, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 622, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .accordion_products .open li a {
   color: #158edc;
   border: none;
 }
-/* line 618, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 627, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .accordion_products .open a {
   color: #158edc;
   border-bottom: 1px solid #158edc;
   padding: 0;
 }
-/* line 622, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 631, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .accordion_products .open a i {
   background: url('../img/icons-s9141ba0e0e.png') 0 -1123px no-repeat;
   width: 7px;
   height: 4px;
 }
 
-/* line 627, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 636, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .options-list {
   list-style: none;
 }
-/* line 629, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 638, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .options-list li {
   padding: 2px 0;
   overflow: hidden;
 }
-/* line 632, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 641, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .options-list li input {
   float: left;
   margin-right: 5px;
   cursor: pointer;
 }
-/* line 637, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 646, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .options-list li label {
   float: left;
   color: #158edc;
   cursor: pointer;
 }
-/* line 642, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 651, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .options-list li input:checked + label {
   font-weight: bold;
 }
-/* line 645, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 654, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .options-list li span {
   color: #a0a0a0;
   margin-left: 5px;
 }
-/* line 651, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 660, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .options-list .disabled label {
   color: #a0a0a0;
 }
-/* line 653, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 662, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .options-list.options-list_all {
   display: none;
 }
 
-/* line 656, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 665, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .article-block {
   color: #3c3c3c;
   background: #fff;
@@ -4948,18 +4958,18 @@ a:hover {
   padding: 20px 15px 10px 20px;
   margin-bottom: 20px;
 }
-/* line 663, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 672, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .article-block h2 {
   font-size: 20px;
   font-weight: normal;
   color: #000;
   margin-bottom: 5px;
 }
-/* line 669, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 678, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .article-block .article-block__item {
   margin-bottom: 20px;
 }
-/* line 671, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 680, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .article-block .article-block__item h3 {
   font-size: 14px;
   color: #0078c6;
@@ -4967,7 +4977,7 @@ a:hover {
   margin-bottom: 3px;
 }
 
-/* line 680, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 689, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .filter-block {
   -moz-transition: all 0.3s ease-in-out 1s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out 1s ease-in-out;
@@ -4975,15 +4985,15 @@ a:hover {
   -ms-transition: all 0.3s ease-in-out 1s ease-in-out;
   transition: all 0.3s ease-in-out 1s ease-in-out;
 }
-/* line 682, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 691, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .filter-block:hover {
   background: rgba(0, 0, 0, 0.05);
 }
-/* line 685, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 694, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .filter-block .filter-block__top {
   position: relative;
 }
-/* line 687, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 696, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .filter-block .filter-block__top h2 {
   font-size: 12px;
   color: #61626f;
@@ -4995,7 +5005,7 @@ a:hover {
   line-height: 23px;
   height: 23px;
 }
-/* line 698, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 707, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .filter-block .filter-block__top .arr {
   position: absolute;
   background: url('../img/icons-s9141ba0e0e.png') 0 -1092px no-repeat;
@@ -5005,7 +5015,7 @@ a:hover {
   right: 4px;
   cursor: pointer;
 }
-/* line 705, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 714, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .filter-block .filter-block__top .filter-link {
   float: right;
   text-decoration: none;
@@ -5013,68 +5023,68 @@ a:hover {
   margin-top: 3px;
   margin-right: 16px;
 }
-/* line 711, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 720, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .filter-block .filter-block__top .filter-link:hover {
   border: none;
 }
-/* line 713, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 722, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .filter-block .filter-block__top:hover {
   background: #ececec;
 }
-/* line 715, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 724, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .filter-block .filter-block__content {
   display: none;
   padding: 10px 1px 20px;
   overflow: hidden;
 }
-/* line 720, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 729, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .filter-block .filter-block__col2 {
   float: left;
   width: 119px;
 }
-/* line 724, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 733, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .filter-block.filter-block_open {
   border-bottom: 1px solid #ccc;
   box-shadow: 0 1px 0 #fff;
   margin-bottom: 10px;
 }
-/* line 728, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 737, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .filter-block.filter-block_open .arr {
   background: url('../img/icons-s9141ba0e0e.png') 0 -1123px no-repeat;
   width: 7px;
   height: 4px;
 }
 
-/* line 732, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 741, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .clear-filter {
   text-decoration: none;
   border-bottom: 1px dotted #0078c6;
   font-size: 11px;
 }
-/* line 736, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 745, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .clear-filter:hover {
   border: none;
   padding-bottom: 1px;
 }
 
-/* line 742, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 751, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .scale {
   padding: 5px 6px 30px;
 }
 
-/* line 743, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 752, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .scale-diapason {
   overflow: hidden;
   margin-bottom: 8px;
 }
-/* line 746, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 755, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .scale-diapason label {
   font-size: 12px;
   color: #000;
   float: left;
   margin: 3px 5px 0 0;
 }
-/* line 752, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 761, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .scale-diapason input {
   float: left;
   border: 1px solid #c9c9c9;
@@ -5086,12 +5096,12 @@ a:hover {
   padding: 0 6px;
   margin-right: 5px;
 }
-/* line 763, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 772, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .scale-diapason span {
   float: left;
   margin: 3px 5px 0 0;
 }
-/* line 767, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 776, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .scale-diapason .btn {
   float: left;
   padding: 0 5px;
@@ -5099,11 +5109,11 @@ a:hover {
   line-height: 20px;
 }
 
-/* line 775, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 784, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .selected-filters {
   margin-bottom: 15px;
 }
-/* line 777, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 786, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .selected-filters h2 {
   border-bottom: 1px solid #D8D8D8;
   box-shadow: 0 1px 0 0 #FFFFFF;
@@ -5113,23 +5123,23 @@ a:hover {
   padding-bottom: 4px;
   margin-bottom: 10px;
 }
-/* line 786, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 795, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .selected-filters span {
   color: #61626f;
   margin-left: 4px;
 }
-/* line 790, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 799, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .selected-filters .selected-filters__list {
   list-style: none;
   padding: 10px 0 7px;
 }
-/* line 793, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 802, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .selected-filters .selected-filters__list li {
   color: #000;
   font-weight: bold;
   margin-bottom: 3px;
 }
-/* line 799, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 808, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .selected-filters .cancel {
   background: url('../img/icons-s9141ba0e0e.png') 0 -670px no-repeat;
   width: 9px;
@@ -5137,7 +5147,7 @@ a:hover {
   display: inline-block;
   margin-right: 12px;
 }
-/* line 804, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 813, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .selected-filters .clear-filter {
   margin-left: 4px;
 }
