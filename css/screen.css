@@ -1085,7 +1085,7 @@ a:hover {
 }
 /* line 739, /Users/akella/Desktop/git/Notus/sass/common.scss */
 .bottom-panel .bottom-panel__holder {
-  width: 980px;
+  width: 100%;
   margin: 0 auto;
   position: relative;
 }
@@ -1093,7 +1093,7 @@ a:hover {
 .bottom-panel .bottom-panel__btn {
   position: absolute;
   top: -38px;
-  right: 30px;
+  right: 10px;
   border: 1px solid #2080bd;
   border-bottom: 0;
   box-shadow: 0 1px 0 0 #79c4f2 inset, 1px 0 0 0 #79c4f2 inset, -1px 0 0 0 #79c4f2 inset;
@@ -4949,7 +4949,21 @@ a:hover {
   display: none;
 }
 
-/* line 665, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 41, /Users/akella/Desktop/git/Notus/sass/_base.scss */
+.options-list_twocolumns:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* line 666, /Users/akella/Desktop/git/Notus/sass/category.scss */
+.options-list_twocolumns li {
+  float: left;
+  width: 49%;
+}
+
+/* line 671, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .article-block {
   color: #3c3c3c;
   background: #fff;
@@ -4958,18 +4972,18 @@ a:hover {
   padding: 20px 15px 10px 20px;
   margin-bottom: 20px;
 }
-/* line 672, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 678, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .article-block h2 {
   font-size: 20px;
   font-weight: normal;
   color: #000;
   margin-bottom: 5px;
 }
-/* line 678, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 684, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .article-block .article-block__item {
   margin-bottom: 20px;
 }
-/* line 680, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 686, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .article-block .article-block__item h3 {
   font-size: 14px;
   color: #0078c6;
@@ -4977,7 +4991,7 @@ a:hover {
   margin-bottom: 3px;
 }
 
-/* line 689, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 695, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .filter-block {
   -moz-transition: all 0.3s ease-in-out 1s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out 1s ease-in-out;
@@ -4985,15 +4999,15 @@ a:hover {
   -ms-transition: all 0.3s ease-in-out 1s ease-in-out;
   transition: all 0.3s ease-in-out 1s ease-in-out;
 }
-/* line 691, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 697, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .filter-block:hover {
   background: rgba(0, 0, 0, 0.05);
 }
-/* line 694, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 700, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .filter-block .filter-block__top {
   position: relative;
 }
-/* line 696, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 702, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .filter-block .filter-block__top h2 {
   font-size: 12px;
   color: #61626f;
@@ -5005,7 +5019,7 @@ a:hover {
   line-height: 23px;
   height: 23px;
 }
-/* line 707, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 713, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .filter-block .filter-block__top .arr {
   position: absolute;
   background: url('../img/icons-s9141ba0e0e.png') 0 -1092px no-repeat;
@@ -5015,7 +5029,7 @@ a:hover {
   right: 4px;
   cursor: pointer;
 }
-/* line 714, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 720, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .filter-block .filter-block__top .filter-link {
   float: right;
   text-decoration: none;
@@ -5023,68 +5037,68 @@ a:hover {
   margin-top: 3px;
   margin-right: 16px;
 }
-/* line 720, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 726, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .filter-block .filter-block__top .filter-link:hover {
   border: none;
 }
-/* line 722, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 728, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .filter-block .filter-block__top:hover {
   background: #ececec;
 }
-/* line 724, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 730, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .filter-block .filter-block__content {
   display: none;
   padding: 10px 1px 20px;
   overflow: hidden;
 }
-/* line 729, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 735, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .filter-block .filter-block__col2 {
   float: left;
   width: 119px;
 }
-/* line 733, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 739, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .filter-block.filter-block_open {
   border-bottom: 1px solid #ccc;
   box-shadow: 0 1px 0 #fff;
   margin-bottom: 10px;
 }
-/* line 737, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 743, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .filter-block.filter-block_open .arr {
   background: url('../img/icons-s9141ba0e0e.png') 0 -1123px no-repeat;
   width: 7px;
   height: 4px;
 }
 
-/* line 741, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 747, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .clear-filter {
   text-decoration: none;
   border-bottom: 1px dotted #0078c6;
   font-size: 11px;
 }
-/* line 745, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 751, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .clear-filter:hover {
   border: none;
   padding-bottom: 1px;
 }
 
-/* line 751, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 757, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .scale {
   padding: 5px 6px 30px;
 }
 
-/* line 752, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 758, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .scale-diapason {
   overflow: hidden;
   margin-bottom: 8px;
 }
-/* line 755, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 761, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .scale-diapason label {
   font-size: 12px;
   color: #000;
   float: left;
   margin: 3px 5px 0 0;
 }
-/* line 761, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 767, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .scale-diapason input {
   float: left;
   border: 1px solid #c9c9c9;
@@ -5096,12 +5110,12 @@ a:hover {
   padding: 0 6px;
   margin-right: 5px;
 }
-/* line 772, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 778, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .scale-diapason span {
   float: left;
   margin: 3px 5px 0 0;
 }
-/* line 776, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 782, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .scale-diapason .btn {
   float: left;
   padding: 0 5px;
@@ -5109,11 +5123,11 @@ a:hover {
   line-height: 20px;
 }
 
-/* line 784, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 790, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .selected-filters {
   margin-bottom: 15px;
 }
-/* line 786, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 792, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .selected-filters h2 {
   border-bottom: 1px solid #D8D8D8;
   box-shadow: 0 1px 0 0 #FFFFFF;
@@ -5123,23 +5137,23 @@ a:hover {
   padding-bottom: 4px;
   margin-bottom: 10px;
 }
-/* line 795, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 801, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .selected-filters span {
   color: #61626f;
   margin-left: 4px;
 }
-/* line 799, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 805, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .selected-filters .selected-filters__list {
   list-style: none;
   padding: 10px 0 7px;
 }
-/* line 802, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 808, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .selected-filters .selected-filters__list li {
   color: #000;
   font-weight: bold;
   margin-bottom: 3px;
 }
-/* line 808, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 814, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .selected-filters .cancel {
   background: url('../img/icons-s9141ba0e0e.png') 0 -670px no-repeat;
   width: 9px;
@@ -5147,7 +5161,7 @@ a:hover {
   display: inline-block;
   margin-right: 12px;
 }
-/* line 813, /Users/akella/Desktop/git/Notus/sass/category.scss */
+/* line 819, /Users/akella/Desktop/git/Notus/sass/category.scss */
 .selected-filters .clear-filter {
   margin-left: 4px;
 }

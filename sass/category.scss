@@ -661,7 +661,13 @@
 	}
 	&.options-list_all{display:none;}
 }
-
+.options-list_twocolumns{
+	@include clr;
+	li{
+		float: left;
+		width: 49%;
+	}
+}
 .article-block{
 	color:#3c3c3c;
 	background:#fff;

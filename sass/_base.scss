@@ -37,7 +37,15 @@ background: sprite($map, $sprite) no-repeat;
 }
 
 
-
+@mixin clr{
+  &:after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    }
+}
 
 
 @mixin respond-to($media) {

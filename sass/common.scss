@@ -737,14 +737,14 @@ a{
 	width:100%;
 	z-index:100;
 	.bottom-panel__holder{
-		width:980px;
+		width:100%;
 		margin:0 auto;
 		position: relative;
 	}
 	.bottom-panel__btn{
 		position: absolute;
 		top:-38px;
-		right:30px;
+		right:10px;
 		border:1px solid #2080bd;
 		border-bottom:0;
 		box-shadow:0 1px 0 0 #79c4f2 inset, 1px 0 0 0 #79c4f2 inset, -1px 0 0 0 #79c4f2 inset;
