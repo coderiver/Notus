@@ -917,7 +917,16 @@
 		margin-right: 13px;
 	}
 }
-
+.page-nav_topright{
+	border: none;
+	float: right;
+	text-align: right;
+	padding: 6px 14px 0 0;
+}
+.page-nav_category{
+	border-top:1px solid #ebebeb;
+	padding:22px 0 26px;
+}
 /* reviews */
 .reviews{
 	.review{
