@@ -257,12 +257,12 @@ $(document).ready(function() {
 
 	$(".filter-block .filter-link").click(function(){
 		if ($(this).hasClass('filter-link_all')) {
-			$(this).parent().next().children('.options-list_all').slideDown();
+			$(this).prev('.options-list_all').slideDown();
 			$(this).html('популярные');
 			$(this).removeClass('filter-link_all');
 		}
 		else{
-			$(this).parent().next().children('.options-list_all').slideUp();
+			$(this).prev('.options-list_all').slideUp();
 			$(this).html('все');
 			$(this).addClass('filter-link_all');
 		}

@@ -1,3 +1,4 @@
+@charset "IBM866";
 /*когда включать версию для айфона*/
 /*когда включать широкую версию*/
 /* HOW TO USE SPRITES*/
@@ -104,7 +105,6 @@ a:hover {
   background-image: -webkit-linear-gradient(top, #1fbaea 0%, #2696de 100%);
   background-image: -moz-linear-gradient(top, #1fbaea 0%, #2696de 100%);
   background-image: -o-linear-gradient(top, #1fbaea 0%, #2696de 100%);
-  background-image: -ms-linear-gradient(top, #1fbaea 0%, #2696de 100%);
   background-image: linear-gradient(top, #1fbaea 0%, #2696de 100%);
   background-repeat: repeat-x;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.25), 0 1px 0 0 rgba(255, 255, 255, 0.25) inset;
@@ -127,17 +127,14 @@ a:hover {
   background-position: 0 -30px;
   -webkit-transition-property: background-position;
   -moz-transition-property: background-position;
-  -ms-transition-property: background-position;
   -o-transition-property: background-position;
   transition-property: background-position;
   -webkit-transition-duration: 0.1s;
   -moz-transition-duration: 0.1s;
-  -ms-transition-duration: 0.1s;
   -o-transition-duration: 0.1s;
   transition-duration: 0.1s;
   -webkit-transition-timing-function: linear;
   -moz-transition-timing-function: linear;
-  -ms-transition-timing-function: linear;
   -o-transition-timing-function: linear;
   transition-timing-function: linear;
 }
@@ -151,7 +148,6 @@ a:hover {
   background-image: -webkit-linear-gradient(top, #bcbec0 0%, #b2b4b6 100%);
   background-image: -moz-linear-gradient(top, #bcbec0 0%, #b2b4b6 100%);
   background-image: -o-linear-gradient(top, #bcbec0 0%, #b2b4b6 100%);
-  background-image: -ms-linear-gradient(top, #bcbec0 0%, #b2b4b6 100%);
   background-image: linear-gradient(top, #bcbec0 0%, #b2b4b6 100%);
   background-repeat: repeat-x;
   border-color: #b2b4b7;
@@ -172,7 +168,6 @@ a:hover {
   background-image: -webkit-linear-gradient(top, #eeeeee 0%, #d9d9d9 100%);
   background-image: -moz-linear-gradient(top, #eeeeee 0%, #d9d9d9 100%);
   background-image: -o-linear-gradient(top, #eeeeee 0%, #d9d9d9 100%);
-  background-image: -ms-linear-gradient(top, #eeeeee 0%, #d9d9d9 100%);
   background-image: linear-gradient(top, #eeeeee 0%, #d9d9d9 100%);
   background-repeat: repeat-x;
   border-color: #cacaca;
@@ -193,7 +188,6 @@ a:hover {
   background-image: -webkit-linear-gradient(top, #ffbb16 0%, #f89e10 100%);
   background-image: -moz-linear-gradient(top, #ffbb16 0%, #f89e10 100%);
   background-image: -o-linear-gradient(top, #ffbb16 0%, #f89e10 100%);
-  background-image: -ms-linear-gradient(top, #ffbb16 0%, #f89e10 100%);
   background-image: linear-gradient(top, #ffbb16 0%, #f89e10 100%);
   text-shadow: #fd900a 0 -1px 0;
 }
@@ -212,7 +206,6 @@ a:hover {
   background-image: -webkit-linear-gradient(top, #f4f4f4 0%, #e1e1e1 100%);
   background-image: -moz-linear-gradient(top, #f4f4f4 0%, #e1e1e1 100%);
   background-image: -o-linear-gradient(top, #f4f4f4 0%, #e1e1e1 100%);
-  background-image: -ms-linear-gradient(top, #f4f4f4 0%, #e1e1e1 100%);
   background-image: linear-gradient(top, #f4f4f4 0%, #e1e1e1 100%);
   text-align: center;
   height: 26px;
@@ -243,7 +236,6 @@ a:hover {
   background-image: -webkit-linear-gradient(top, #ffffff 0%, #f4f4f4 100%);
   background-image: -moz-linear-gradient(top, #ffffff 0%, #f4f4f4 100%);
   background-image: -o-linear-gradient(top, #ffffff 0%, #f4f4f4 100%);
-  background-image: -ms-linear-gradient(top, #ffffff 0%, #f4f4f4 100%);
   background-image: linear-gradient(top, #ffffff 0%, #f4f4f4 100%);
   border: 1px solid #b3b3bd;
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.6);
@@ -294,7 +286,6 @@ a:hover {
   background-image: -webkit-linear-gradient(top, #e5e5e5 0%, #ffffff 100%);
   background-image: -moz-linear-gradient(top, #e5e5e5 0%, #ffffff 100%);
   background-image: -o-linear-gradient(top, #e5e5e5 0%, #ffffff 100%);
-  background-image: -ms-linear-gradient(top, #e5e5e5 0%, #ffffff 100%);
   background-image: linear-gradient(top, #e5e5e5 0%, #ffffff 100%);
   margin: 0 -10px;
 }
@@ -354,7 +345,6 @@ a:hover {
   background-image: -webkit-linear-gradient(#f8f8f8, #f8f8f8 70%, #efeff0 78%, #d3d4d7 93%, #cbccd0 99%, #c1c2c5);
   background-image: -moz-linear-gradient(#f8f8f8, #f8f8f8 70%, #efeff0 78%, #d3d4d7 93%, #cbccd0 99%, #c1c2c5);
   background-image: -o-linear-gradient(#f8f8f8, #f8f8f8 70%, #efeff0 78%, #d3d4d7 93%, #cbccd0 99%, #c1c2c5);
-  background-image: -ms-linear-gradient(#f8f8f8, #f8f8f8 70%, #efeff0 78%, #d3d4d7 93%, #cbccd0 99%, #c1c2c5);
   background-image: linear-gradient(#f8f8f8, #f8f8f8 70%, #efeff0 78%, #d3d4d7 93%, #cbccd0 99%, #c1c2c5);
 }
 
@@ -486,7 +476,6 @@ a:hover {
   background-image: -webkit-linear-gradient(top, #ffffff 0%, #f4f4f4 100%);
   background-image: -moz-linear-gradient(top, #ffffff 0%, #f4f4f4 100%);
   background-image: -o-linear-gradient(top, #ffffff 0%, #f4f4f4 100%);
-  background-image: -ms-linear-gradient(top, #ffffff 0%, #f4f4f4 100%);
   background-image: linear-gradient(top, #ffffff 0%, #f4f4f4 100%);
 }
 /* line 317, ../sass/common.scss */
@@ -610,7 +599,6 @@ a:hover {
   background-image: -webkit-linear-gradient(top, #1fbaea 0%, #2697de 100%);
   background-image: -moz-linear-gradient(top, #1fbaea 0%, #2697de 100%);
   background-image: -o-linear-gradient(top, #1fbaea 0%, #2697de 100%);
-  background-image: -ms-linear-gradient(top, #1fbaea 0%, #2697de 100%);
   background-image: linear-gradient(top, #1fbaea 0%, #2697de 100%);
   color: #fff;
 }
@@ -643,7 +631,6 @@ a:hover {
   background-image: -webkit-linear-gradient(top, #34b8e9 0%, #2697df 100%);
   background-image: -moz-linear-gradient(top, #34b8e9 0%, #2697df 100%);
   background-image: -o-linear-gradient(top, #34b8e9 0%, #2697df 100%);
-  background-image: -ms-linear-gradient(top, #34b8e9 0%, #2697df 100%);
   background-image: linear-gradient(top, #34b8e9 0%, #2697df 100%);
   border-radius: 2px;
   border: 1px solid #2696de;
@@ -685,7 +672,6 @@ a:hover {
   background-image: -webkit-linear-gradient(top, #9697a1 0%, #575866 100%);
   background-image: -moz-linear-gradient(top, #9697a1 0%, #575866 100%);
   background-image: -o-linear-gradient(top, #9697a1 0%, #575866 100%);
-  background-image: -ms-linear-gradient(top, #9697a1 0%, #575866 100%);
   background-image: linear-gradient(top, #9697a1 0%, #575866 100%);
   border-radius: 7px 7px 0 0;
   list-style: none;
@@ -725,7 +711,6 @@ a:hover {
   background-image: -webkit-linear-gradient(top, #e5e5e5 0%, #f8f8f8 100%);
   background-image: -moz-linear-gradient(top, #e5e5e5 0%, #f8f8f8 100%);
   background-image: -o-linear-gradient(top, #e5e5e5 0%, #f8f8f8 100%);
-  background-image: -ms-linear-gradient(top, #e5e5e5 0%, #f8f8f8 100%);
   background-image: linear-gradient(top, #e5e5e5 0%, #f8f8f8 100%);
   height: 26px;
   margin-top: -2px;
@@ -871,7 +856,6 @@ a:hover {
   background-image: -webkit-linear-gradient(top, #9697a1 0%, #575866 100%);
   background-image: -moz-linear-gradient(top, #9697a1 0%, #575866 100%);
   background-image: -o-linear-gradient(top, #9697a1 0%, #575866 100%);
-  background-image: -ms-linear-gradient(top, #9697a1 0%, #575866 100%);
   background-image: linear-gradient(top, #9697a1 0%, #575866 100%);
   border-radius: 0 7px 0 0;
   border-right: 1px solid #4c4d55;
@@ -1085,7 +1069,7 @@ a:hover {
 }
 /* line 739, ../sass/common.scss */
 .bottom-panel .bottom-panel__holder {
-  width: 100%;
+  width: 1000px;
   margin: 0 auto;
   position: relative;
 }
