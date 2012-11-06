@@ -352,11 +352,11 @@ $(document).ready(function() {
 // bottom-panel
 $(".bottom-panel__btn").click(function() {
 	if ($(this).parent().hasClass('bottom-panel_hide')) {
-		$(this).parent().parent().animate({bottom:'0'});
+		$(this).parent().animate({bottom:'0'});
 		$(this).parent().removeClass('bottom-panel_hide');
 	}
 	else{
-		$(this).parent().parent().animate({bottom:'-49px'});
+		$(this).parent().animate({bottom:'-49px'});
 		$(this).parent().addClass('bottom-panel_hide');
 	};
 	return false;

@@ -1240,13 +1240,21 @@
 .search-categiries .filter-block .filter-block__content {
   padding: 0 0 0 17px;
 }
-/* line 883, ../sass/category.scss */
+/* line 884, ../sass/category.scss */
+.search-categiries .filter-block .filter-block__content li.active {
+  font-weight: bold;
+}
+/* line 885, ../sass/category.scss */
+.search-categiries .filter-block .filter-block__content a:hover {
+  font-weight: bold;
+}
+/* line 887, ../sass/category.scss */
 .search-categiries .filter-block.filter-block_open {
   border: none;
   box-shadow: none;
   margin-bottom: 12px;
 }
-/* line 890, ../sass/category.scss */
+/* line 894, ../sass/category.scss */
 .search-categiries .options-list a {
   text-decoration: none;
 }
