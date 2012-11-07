@@ -13,6 +13,28 @@
 		margin-bottom:23px;
 		margin-left:15px;
 	}
+	.stock{
+		.caro{
+			width:643px;
+			margin:0 26px;
+		}
+		.stock__items{width:643px;}
+		.stock__item{
+			margin:0 7px 28px;
+			padding-top:5px;
+		}
+	}
+	.caro-prev{left:0;}
+	.caro-next{right:0;}
+	.disabled{opacity:0.4;}
+}
+.stock__remove{
+	@include sized-sprite($icons, "delete-03");
+	position: absolute;
+	top:66px;
+	right:10px;
+	z-index:20;
+	cursor:pointer;
 }
 .cabinet__block{
 	border-bottom:1px solid #e3e3e3;
