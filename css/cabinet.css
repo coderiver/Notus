@@ -160,3 +160,33 @@
 .cabinet__block_contact dt, .cabinet__block_contact dd {
   margin-bottom: 8px;
 }
+
+/* line 115, ../sass/cabinet.scss */
+.cabinet-nav {
+  list-style: none;
+  margin-bottom: 34px;
+}
+/* line 118, ../sass/cabinet.scss */
+.cabinet-nav li {
+  height: 23px;
+  line-height: 23px;
+  margin-bottom: 1px;
+}
+/* line 123, ../sass/cabinet.scss */
+.cabinet-nav a {
+  color: #0078c6;
+  text-decoration: underline;
+  display: inline-block;
+  padding: 0 7px;
+}
+/* line 128, ../sass/cabinet.scss */
+.cabinet-nav a:hover {
+  text-decoration: none;
+}
+/* line 130, ../sass/cabinet.scss */
+.cabinet-nav .active a {
+  background: #dbdbdb;
+  border-radius: 3px;
+  color: #000;
+  text-decoration: none;
+}

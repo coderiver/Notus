@@ -112,3 +112,25 @@
 	dd{font-weight:bold;}
 	dt,dd{margin-bottom:8px;}
 }
+.cabinet-nav{
+	list-style:none;
+	margin-bottom:34px;
+	li{
+		height:23px;
+		line-height:23px;
+		margin-bottom:1px;
+	}
+	a{
+		color:#0078c6;
+		text-decoration:underline;
+		display:inline-block;
+		padding:0 7px;
+		&:hover{text-decoration:none;}
+	}
+	.active a{
+		background:#dbdbdb;
+		border-radius:3px;
+		color:#000;
+		text-decoration:none;
+	}
+}
