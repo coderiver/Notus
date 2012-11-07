@@ -3,6 +3,7 @@
 
 
 *{margin:0;padding:0;-webkit-text-size-adjust: none;}
+button,input::-moz-focus-inner {padding:0; border:0}
 header,footer,nav,aside{display:block;}
 body{
 	font:{
