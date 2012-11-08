@@ -50,7 +50,7 @@
 
 /* line 31, ../sass/cabinet.scss */
 .stock__remove {
-  background: url('../img/icons-s73ecb7935b.png') 0 -690px no-repeat;
+  background: url('../img/icons-s179da87fc0.png') 0 -705px no-repeat;
   width: 15px;
   height: 15px;
   position: absolute;
@@ -337,7 +337,7 @@
 }
 /* line 238, ../sass/cabinet.scss */
 .cabinet__form .delete {
-  background: url('../img/icons-s73ecb7935b.png') 0 -990px no-repeat;
+  background: url('../img/icons-s179da87fc0.png') 0 -1005px no-repeat;
   width: 9px;
   height: 9px;
   position: relative;
@@ -384,4 +384,210 @@
 /* line 269, ../sass/cabinet.scss */
 .cabinet__form .row-button .change-pass:hover {
   border-color: transparent;
+}
+
+/* comprare */
+/* line 276, ../sass/cabinet.scss */
+.comprare {
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  color: #3c3c3c;
+  padding: 12px 12px;
+}
+/* line 282, ../sass/cabinet.scss */
+.comprare h1 {
+  font-size: 24px;
+  color: #000;
+  font-weight: normal;
+  margin: 0 0 10px 10px;
+}
+/* line 288, ../sass/cabinet.scss */
+.comprare .comprare__nav {
+  width: 100%;
+  display: inline-block;
+  margin: 0 0 10px 10px;
+}
+/* line 292, ../sass/cabinet.scss */
+.comprare .comprare__nav dt {
+  float: left;
+  font-weight: bold;
+  color: #000;
+  margin: 2px 13px 0 0;
+}
+/* line 298, ../sass/cabinet.scss */
+.comprare .comprare__nav dd {
+  float: left;
+}
+/* line 301, ../sass/cabinet.scss */
+.comprare .comprare__nav ul {
+  list-style: none;
+}
+/* line 304, ../sass/cabinet.scss */
+.comprare .comprare__nav li {
+  float: left;
+  text-decoration: underline;
+  color: #158edc;
+  cursor: pointer;
+  line-height: 18px;
+  margin: 2px 12px;
+}
+/* line 311, ../sass/cabinet.scss */
+.comprare .comprare__nav li:hover {
+  text-decoration: none;
+}
+/* line 313, ../sass/cabinet.scss */
+.comprare .comprare__nav .active {
+  color: #010101;
+  border-radius: 3px;
+  background: #ececec;
+  text-decoration: none;
+  margin: 0;
+  padding: 2px 12px;
+}
+/* line 320, ../sass/cabinet.scss */
+.comprare .comprare__nav .active a {
+  text-decoration: none;
+  color: #010101;
+}
+/* line 326, ../sass/cabinet.scss */
+.comprare table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-top: 1px solid #e3e3e3;
+}
+/* line 331, ../sass/cabinet.scss */
+.comprare th {
+  width: 100px;
+  padding: 11px 0 11px 15px;
+  vertical-align: top;
+}
+/* line 336, ../sass/cabinet.scss */
+.comprare .th-btn {
+  position: relative;
+}
+/* line 338, ../sass/cabinet.scss */
+.comprare .th-btn .btn {
+  white-space: nowrap;
+  font-size: 11px;
+  position: absolute;
+  height: 21px;
+  line-height: 21px;
+  left: -14px;
+  padding: 0;
+  top: 2px;
+}
+/* line 349, ../sass/cabinet.scss */
+.comprare td {
+  width: 143px;
+  padding: 11px 16px;
+  vertical-align: top;
+}
+/* line 354, ../sass/cabinet.scss */
+.comprare .tl-item {
+  width: 120px;
+  padding: 0 0 3px;
+  height: auto;
+}
+/* line 359, ../sass/cabinet.scss */
+.comprare .tl-item__del {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  z-index: 20;
+  background: url('../img/icons-s179da87fc0.png') 0 -705px no-repeat;
+  width: 15px;
+  height: 15px;
+}
+/* line 366, ../sass/cabinet.scss */
+.comprare .tl-item__del:hover {
+  background: url('../img/icons-s179da87fc0.png') 0 -670px no-repeat;
+  width: 15px;
+  height: 15px;
+}
+/* line 370, ../sass/cabinet.scss */
+.comprare .tl-item__media {
+  width: 114px;
+  height: 125px;
+  line-height: 125px;
+  margin-bottom: 3px;
+}
+/* line 375, ../sass/cabinet.scss */
+.comprare .tl-item__media img {
+  max-height: 100px;
+  max-width: 114px;
+}
+/* line 380, ../sass/cabinet.scss */
+.comprare .item__rating {
+  padding-bottom: 10px;
+}
+/* line 381, ../sass/cabinet.scss */
+.comprare .tl-item__title {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+/* line 385, ../sass/cabinet.scss */
+.comprare .item__price {
+  width: 117px;
+  margin-bottom: 5px;
+}
+/* line 389, ../sass/cabinet.scss */
+.comprare .price-block {
+  width: 117px;
+  float: none;
+  overflow: hidden;
+  margin: 0 auto;
+}
+/* line 394, ../sass/cabinet.scss */
+.comprare .price-block strong {
+  width: 73px;
+  font-size: 12px;
+}
+/* line 398, ../sass/cabinet.scss */
+.comprare .price-block span {
+  width: 44px;
+  font-size: 10px;
+}
+/* line 403, ../sass/cabinet.scss */
+.comprare .available {
+  color: #0078c6;
+  font-size: 12px;
+}
+/* line 407, ../sass/cabinet.scss */
+.comprare .btn {
+  font-size: 14px;
+  width: 115px;
+  margin-top: 4px;
+  margin-bottom: 7px;
+}
+/* line 413, ../sass/cabinet.scss */
+.comprare .rating-count {
+  font-size: 12px;
+  margin: 0;
+}
+
+/* line 418, ../sass/cabinet.scss */
+.comprare__text {
+  border-top: 1px solid #e3e3e3;
+  text-align: left;
+  color: #000;
+  line-height: 17px;
+}
+/* line 423, ../sass/cabinet.scss */
+.comprare__text td {
+  font-size: 10px;
+  color: #3c3c3c;
+}
+/* line 427, ../sass/cabinet.scss */
+.comprare__text td:nth-child(even) {
+  background: #fafafa;
+}
+/* line 429, ../sass/cabinet.scss */
+.comprare__text tr:nth-child(even) td, .comprare__text tr:nth-child(even) th, .comprare__text th:nth-child(even) td, .comprare__text th:nth-child(even) th {
+  background: #ededed;
+}
+/* line 430, ../sass/cabinet.scss */
+.comprare__text tr:nth-child(even) td:nth-child(even), .comprare__text tr:nth-child(even) th:nth-child(even), .comprare__text th:nth-child(even) td:nth-child(even), .comprare__text th:nth-child(even) th:nth-child(even) {
+  background: #e8e8e8;
 }

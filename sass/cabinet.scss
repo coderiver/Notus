@@ -270,3 +270,164 @@
 		}
 	}
 }
+
+
+/* comprare */
+.comprare{
+	background:#fff;
+	border: 1px solid #e3e3e3;
+	border-radius: 5px;
+	color: #3c3c3c;
+	padding:12px 12px;
+	h1{
+		font-size:24px;
+		color:#000;
+		font-weight:normal;
+		margin: 0 0 10px 10px;
+	}
+	.comprare__nav{
+		width:100%;
+		display: inline-block;
+		margin:0 0 10px 10px;
+		dt{
+			float: left;
+			font-weight:bold;
+			color:#000;
+			margin:2px 13px 0 0;
+		}
+		dd{
+			float: left;
+		}
+		ul{
+			list-style: none;
+		}
+		li{
+			float: left;
+			text-decoration: underline;
+			color:#158edc;
+			cursor:pointer;
+			line-height:18px;
+			margin:2px 12px;
+			&:hover{text-decoration: none;}
+		}
+		.active{
+			color:#010101;
+			border-radius:3px;
+			background:#ececec;
+			text-decoration: none;
+			margin:0;
+			padding:2px 12px;
+			a{
+				text-decoration: none;
+				color:#010101;
+			}
+		}
+	}
+	table{
+		border-collapse: collapse;
+		border-spacing: 0;
+		border-top:1px solid #e3e3e3;
+	}
+	th{
+		width:100px;
+		padding:11px 0 11px 15px;
+		vertical-align: top;
+	}
+	.th-btn{
+		position: relative;
+		.btn{
+			white-space:nowrap;
+			font-size:11px;
+			position: absolute;
+			height: 21px;
+			line-height:21px;
+			left: -14px;
+			padding: 0;
+			top: 2px;
+		}
+	}
+	td{
+		width:143px;
+		padding:11px 16px;
+		vertical-align:top;
+	}
+	.tl-item{
+		width:120px;
+		padding:0 0 3px;
+		height:auto;
+	}
+	.tl-item__del{
+		position: absolute;
+		top:0;
+		right:0;
+		cursor:pointer;
+		z-index:20;
+		@include sized-sprite($icons, "delete-03");
+		&:hover{
+			@include sized-sprite($icons, "delete-03_hover");
+		}
+	}
+	.tl-item__media{
+		width:114px;
+		height:125px;
+		line-height:125px;
+		margin-bottom:3px;
+		img{
+			max-height: 100px;
+			max-width: 114px;
+		}
+	}
+	.item__rating{padding-bottom:10px;}
+	.tl-item__title{
+		font-size:12px;
+		margin-bottom: 10px;
+	}
+	.item__price{
+		width:117px;
+		margin-bottom: 5px;
+	}
+	.price-block{
+		width:117px;
+		float:none;
+		overflow: hidden;
+		margin:0 auto;
+		strong{
+			width:73px;
+			font-size:12px;
+		}
+		span{
+			width:44px;
+			font-size:10px;
+		}
+	}
+	.available{
+		color:#0078c6;
+		font-size:12px;
+	}
+	.btn{
+		font-size:14px;
+		width:115px;
+		margin-top:4px;
+		margin-bottom:7px;
+	}
+	.rating-count{
+		font-size:12px;
+		margin:0;
+	}
+}
+.comprare__text{
+	border-top:1px solid #e3e3e3;
+	text-align:left;
+	color:#000;
+	line-height:17px;
+	td{
+		font-size:10px;
+		color:#3c3c3c;
+	}
+	td:nth-child(even){background:#fafafa;}
+	tr:nth-child(even), th:nth-child(even){
+		td,th{background:#ededed;}
+		td:nth-child(even), th:nth-child(even){background:#e8e8e8;}
+	}
+
+}

@@ -358,6 +358,12 @@ $(document).ready(function() {
 	});
 
 
+//comprare
+	$('.comprare .tl-item__del').click(function(){
+		$(this).parent().parent().remove();
+	});
+
+
 // accordion
 	$(".accordion-link").click(function() {
 		if ($(this).parent('li').hasClass('open')) {
