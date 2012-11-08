@@ -706,42 +706,53 @@
 							<dd>artoflogic</dd>
 						<dt>Телефон:</dt>
 							<dd>
-								<span>+380509234761</span>
-								<span class="another">еще один</span>
+								<div class="same-inf">
+									<span>+380509234761</span>
+									<div class="delete"></div>
+								</div>
+								<input class="input" type="text" style="display:none;" >
+								<span class="another another_phone">еще один</span>
 							</dd>
 						<dt class="row-address">Адрес :</dt>
 							<dd class="row-address">
-								<span>ул. Героев Сталинграда, 9, кв. 83,<br>
-									г. Симферополь, АР Крым,<br>
-									Украина,<br>
-									95047
-								</span>
-
-								<select class="select" name="" id="town">
-									<option value="">Семфирополь</option>
-									<option value="">Киев</option>
-									<option value="">Харьков</option>
-								</select>
-								<label for="town">Город</label>
-								<div class="col col_big">
-									<input class="input" type="text">
-									<label for="">Улица</label>
+								<div class="same-inf">
+									<span>ул. Героев Сталинграда, 9, кв. 83,<br>
+										г. Симферополь, АР Крым,<br>
+										Украина,<br>
+										95047
+									</span>
+									<div class="delete"></div>
 								</div>
-								<div class="col">
-									<input class="input" type="text">
-									<label for="">Номер дома</label>
+								<div class="row-address-inf">
+									<select class="select" name="" id="town">
+										<option value="">Семфирополь</option>
+										<option value="">Киев</option>
+										<option value="">Харьков</option>
+									</select>
+									<label for="town">Город</label>
+									<div class="col col_big">
+										<input class="input" type="text">
+										<label for="">Улица</label>
+									</div>
+									<div class="col">
+										<input class="input" type="text">
+										<label for="">Номер дома</label>
+									</div>
+									<div class="col">
+										<input class="input" type="text">
+										<label for="">Номер квартиры</label>
+									</div>
+									<textarea class="input" name="" id="" cols="30" rows="10"></textarea>
+									<label for="">Дополнительная информация</label>
 								</div>
-								<div class="col">
-									<input class="input" type="text">
-									<label for="">Номер квартиры</label>
-								</div>
-								<textarea class="input" name="" id="" cols="30" rows="10"></textarea>
-								<label for="">Дополнительная информация</label>
 								<span class="another">еще один</span>
 							</dd>
 					</dl>
-					<input type="submit" class="btn" value="Сохранить">
-					<input type="reset" value="Отменить">
+					<div class="row-button">
+						<input type="submit" class="btn" value="Сохранить">
+						<a href="#" class="cancel">Отменить</a>
+					</div>
+					<div class="row-button"><a href="#" class="change-pass">Изменить пароль</a></div>
 				</form>
 				
 			</div>

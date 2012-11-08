@@ -250,7 +250,7 @@ $(document).ready(function() {
 
 	if ($(".options-list").exists()){
 		$(".options-list span:contains('(0)')").parent().parent().addClass('disabled');
-	}
+	};
 
 	$('.selected-filters .cancel, .compare__cansel').click(function(){
 		$(this).parent().remove();
@@ -300,6 +300,23 @@ $(document).ready(function() {
 		});
 	};
 
+
+//another
+	$('.cabinet__form .another').click(function(){
+		$(this).prev().clone().insertBefore($(this)).show();
+	});
+
+
+// vishlist delete item
+	$('.stock__remove').click(function(){
+		$(this).parent().remove();
+	});
+
+
+// vishlist delete item
+	$('.cabinet__form .delete').click(function(){
+		$(this).parent().remove();
+	});
 
 //slider
 	if ($("#slider-price").exists()){
@@ -356,12 +373,6 @@ $(document).ready(function() {
 	});
 
 
-// vishlist delete item
-	$('.stock__remove').click(function(){
-		$(this).parent().remove();
-	});
-
-
 // bottom-panel
 	$(".bottom-panel__btn").click(function() {
 		if ($(this).parent().hasClass('bottom-panel_hide')) {
@@ -373,7 +384,10 @@ $(document).ready(function() {
 			$(this).parent().addClass('bottom-panel_hide');
 		};
 		return false;
-		});
 	});
+
+});
+
+
 
 

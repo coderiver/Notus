@@ -50,7 +50,7 @@
 
 /* line 31, ../sass/cabinet.scss */
 .stock__remove {
-  background: url('../img/icons-s9141ba0e0e.png') 0 -690px no-repeat;
+  background: url('../img/icons-s73ecb7935b.png') 0 -690px no-repeat;
   width: 15px;
   height: 15px;
   position: absolute;
@@ -242,13 +242,19 @@
 /* line 165, ../sass/cabinet.scss */
 .cabinet__form dd {
   color: #000;
-  margin-bottom: 30px;
+  margin-bottom: 29px;
 }
 /* line 168, ../sass/cabinet.scss */
-.cabinet__form dd span {
-  display: block;
+.cabinet__form dd .same-inf {
+  position: relative;
+  margin-bottom: 13px;
 }
-/* line 170, ../sass/cabinet.scss */
+/* line 171, ../sass/cabinet.scss */
+.cabinet__form dd .same-inf span {
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 177, ../sass/cabinet.scss */
 .cabinet__form .input {
   width: 207px;
   padding: 2px 8px;
@@ -259,9 +265,10 @@
   line-height: 16px;
   height: 16px;
   font-style: normal;
-  margin: -3px 0 0 -5px;
+  margin: -3px 0 15px -5px;
+  display: block;
 }
-/* line 182, ../sass/cabinet.scss */
+/* line 190, ../sass/cabinet.scss */
 .cabinet__form .select {
   height: 22px;
   border: 1px solid #c9c9c9;
@@ -270,59 +277,111 @@
   color: #5e5e5e;
   width: 215px;
   padding-left: 8px;
-  margin-left: -5px;
+  margin: 0 0 0 -5px;
 }
-/* line 192, ../sass/cabinet.scss */
+/* line 200, ../sass/cabinet.scss */
 .cabinet__form .another {
   color: #158edc;
   border-bottom: 1px dotted;
   cursor: pointer;
   display: inline-block;
-  margin-top: 4px;
+  position: relative;
+  top: -9px;
 }
-/* line 198, ../sass/cabinet.scss */
+/* line 207, ../sass/cabinet.scss */
 .cabinet__form .another:hover {
   border-color: transparent;
 }
-/* line 201, ../sass/cabinet.scss */
+/* line 210, ../sass/cabinet.scss */
 .cabinet__form dt.row-address {
   color: #000;
 }
-/* line 203, ../sass/cabinet.scss */
+/* line 212, ../sass/cabinet.scss */
 .cabinet__form dd.row-address label {
   display: block;
   color: #5e5e5e;
   margin: 9px 0;
 }
-/* line 208, ../sass/cabinet.scss */
-.cabinet__form dd.row-address span {
-  margin-bottom: 13px;
+/* line 217, ../sass/cabinet.scss */
+.cabinet__form dd.row-address .input {
+  margin-bottom: 0;
 }
-/* line 209, ../sass/cabinet.scss */
-.cabinet__form dd.row-address .another {
-  margin: 0;
-}
-/* line 211, ../sass/cabinet.scss */
+/* line 219, ../sass/cabinet.scss */
 .cabinet__form textarea.input {
   width: 421px;
   padding: 8px;
   height: 83px;
+  clear: both;
 }
-/* line 216, ../sass/cabinet.scss */
+/* line 225, ../sass/cabinet.scss */
 .cabinet__form .col {
   float: left;
   width: 99px;
   margin-right: 8px;
 }
-/* line 220, ../sass/cabinet.scss */
+/* line 229, ../sass/cabinet.scss */
 .cabinet__form .col .input {
   width: 81px;
 }
-/* line 222, ../sass/cabinet.scss */
+/* line 231, ../sass/cabinet.scss */
 .cabinet__form .col_big {
   width: 225px;
 }
-/* line 224, ../sass/cabinet.scss */
+/* line 233, ../sass/cabinet.scss */
 .cabinet__form .col_big .input {
   width: 207px;
+}
+/* line 236, ../sass/cabinet.scss */
+.cabinet__form .row-address-inf .col label {
+  margin-bottom: 9px;
+}
+/* line 238, ../sass/cabinet.scss */
+.cabinet__form .delete {
+  background: url('../img/icons-s73ecb7935b.png') 0 -990px no-repeat;
+  width: 9px;
+  height: 9px;
+  position: relative;
+  top: 3px;
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+}
+/* line 246, ../sass/cabinet.scss */
+.cabinet__form .delete:hover {
+  opacity: 0.7;
+}
+/* line 248, ../sass/cabinet.scss */
+.cabinet__form .row-button {
+  margin: 0 0 28px 135px;
+}
+/* line 250, ../sass/cabinet.scss */
+.cabinet__form .row-button .btn {
+  padding: 0 22px;
+  height: 29px;
+  line-height: 29px;
+}
+/* line 255, ../sass/cabinet.scss */
+.cabinet__form .row-button .cancel {
+  color: #158edc;
+  font-size: 14px;
+  border-bottom: 1px dotted;
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 32px;
+}
+/* line 262, ../sass/cabinet.scss */
+.cabinet__form .row-button .cancel:hover {
+  border-color: transparent;
+}
+/* line 264, ../sass/cabinet.scss */
+.cabinet__form .row-button .change-pass {
+  color: #158edc;
+  border-bottom: 1px dotted;
+  cursor: pointer;
+  text-decoration: none;
+}
+/* line 269, ../sass/cabinet.scss */
+.cabinet__form .row-button .change-pass:hover {
+  border-color: transparent;
 }
