@@ -109,6 +109,18 @@ $(document).ready(function() {
 	});
 	$("#goods2 .caro").scrollableAddClones();
 
+	$('#goods3 .caro').scrollable({
+		next:'#goods3 .caro-next',
+		prev:'#goods3 .caro-prev'
+	});
+	$("#goods3 .caro").scrollableAddClones();
+
+	$('#goods4 .caro').scrollable({
+		next:'#goods4 .caro-next',
+		prev:'#goods4 .caro-prev'
+	});
+	$("#goods4 .caro").scrollableAddClones();
+
 	$('#gds1 .caro').scrollable({
 		next:'#gds1 .caro-next',
 		prev:'#gds1 .caro-prev'
@@ -360,7 +372,9 @@ $(document).ready(function() {
 
 //comprare
 	$('.comprare .tl-item__del').click(function(){
+		tname = $(this).parent().parent().attr('class');
 		$(this).parent().parent().remove();
+		var tdd2 = $('.comprare__text').find("."+tname).remove();
 	});
 
 

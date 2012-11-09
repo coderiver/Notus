@@ -534,8 +534,8 @@
 }
 
 
-/* three-tabs */
-.three-tabs{
+/* goods-tabs */
+.goods-tabs{
 	margin-bottom:15px;
 	.tabs{
 		.tabs__nav1{width:248px;}
@@ -543,7 +543,14 @@
 		.tabs__nav3{width:248px;}
 	}
 }
-
+.goods-tabs_4{
+	.tabs{
+		.tabs__nav1{width:194px;}
+		.tabs__nav2{width:186px;}
+		.tabs__nav3{width:185px;}
+		.tabs__nav4{width:186px;}
+	}
+}
 .icon-qu{
 	@include sized-sprite($icons, "question");
 	position: absolute;
@@ -552,7 +559,10 @@
 }
 .discount-set, .goods{
 	position: relative;
-	.caro-prev, .caro-next{top:75px;}
+	.caro-prev, .caro-next{
+		top:75px;
+		z-index:5;
+	}
 	.caro-prev{left:7px;}
 	.caro-next{right:7px;}
 	.caro-prev.disabled, .caro-next.disabled{

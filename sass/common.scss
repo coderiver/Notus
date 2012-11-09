@@ -48,6 +48,14 @@ a{
 .arr-down{
 	@include sized-sprite($icons, "arrow-down");
 }
+.h3{
+	border-bottom: 1px solid #d8d8d8;
+	box-shadow: 0 1px 0 0 #fff;
+	color: #000;
+	font-size: 18px;
+	font-weight: normal;
+	padding-bottom: 4px;
+}
 
 
 /* forms */

@@ -329,12 +329,13 @@
 		border-top:1px solid #e3e3e3;
 	}
 	th{
-		width:100px;
+		width:84px;
 		padding:11px 0 11px 15px;
 		vertical-align: top;
 	}
 	.th-btn{
 		position: relative;
+		height:100px;
 		.btn{
 			white-space:nowrap;
 			font-size:11px;
@@ -355,6 +356,7 @@
 		width:120px;
 		padding:0 0 3px;
 		height:auto;
+		margin-left:11px;
 	}
 	.tl-item__del{
 		position: absolute;
