@@ -653,7 +653,7 @@
 .tb-item .item__price_two .price-block span {
   border-radius: 0 3px 3px 0;
   height: 19px;
-  font-size: 14px;
+  font-size: 10px;
 }
 /* line 431, ../sass/category.scss */
 .tb-item .item__price_two .price-block_gray {
