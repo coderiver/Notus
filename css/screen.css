@@ -6349,8 +6349,16 @@ a:hover {
   display: inline-block;
 }
 /* line 107, ../sass/order.scss */
+.delivery .input_212 {
+  width: 204px;
+}
+/* line 108, ../sass/order.scss */
 .delivery .input_125 {
   width: 118px;
+}
+/* line 109, ../sass/order.scss */
+.delivery .input_69 {
+  width: 61px;
 }
 /* line 110, ../sass/order.scss */
 .delivery .input_30 {
@@ -6359,55 +6367,59 @@ a:hover {
   margin-right: 3px;
 }
 /* line 115, ../sass/order.scss */
-.delivery .input_212 {
-  width: 204px;
-}
-/* line 118, ../sass/order.scss */
 .delivery .row_radio {
   margin-bottom: 3px;
   position: relative;
 }
-/* line 121, ../sass/order.scss */
+/* line 118, ../sass/order.scss */
 .delivery .row_radio .radio {
   float: left;
   margin: 2px 7px 0 2px;
 }
-/* line 125, ../sass/order.scss */
+/* line 122, ../sass/order.scss */
 .delivery .row_radio label {
   width: 290px;
   margin: 0;
 }
-/* line 129, ../sass/order.scss */
+/* line 126, ../sass/order.scss */
 .delivery .row_radio .input {
   position: absolute;
   right: 0;
   top: -4px;
 }
-/* line 134, ../sass/order.scss */
+/* line 131, ../sass/order.scss */
 .delivery .row_radio span {
   margin-left: 22px;
 }
-/* line 138, ../sass/order.scss */
+/* line 135, ../sass/order.scss */
 .delivery .row-group {
   padding-top: 15px;
 }
-/* line 141, ../sass/order.scss */
+/* line 138, ../sass/order.scss */
 .delivery .row-group .row label {
   margin-top: -2px;
 }
-/* line 146, ../sass/order.scss */
+/* line 143, ../sass/order.scss */
 .delivery .row_radio-group {
   padding: 9px 0;
 }
-/* line 148, ../sass/order.scss */
-.delivery .row_radio-group .row_radio {
-  margin-bottom: 12px;
+/* line 145, ../sass/order.scss */
+.delivery .row_radio-group .row {
+  margin: -8px 0 14px 22px;
 }
-/* line 150, ../sass/order.scss */
+/* line 147, ../sass/order.scss */
+.delivery .row_radio-group .row label {
+  width: 175px;
+}
+/* line 149, ../sass/order.scss */
+.delivery .row_radio-group .row_radio {
+  margin: 0 0 12px;
+}
+/* line 151, ../sass/order.scss */
 .delivery .row_radio-group .row_radio label {
   width: auto;
 }
-/* line 153, ../sass/order.scss */
+/* line 154, ../sass/order.scss */
 .delivery .row_btn {
   padding: 0 32px 0 165px;
   position: absolute;
@@ -6415,7 +6427,7 @@ a:hover {
   bottom: 16px;
   height: 71px;
 }
-/* line 160, ../sass/order.scss */
+/* line 161, ../sass/order.scss */
 .delivery .btn {
   font-size: 14px;
   height: 49px;
@@ -6427,7 +6439,7 @@ a:hover {
   text-align: left;
   border-radius: 4px;
 }
-/* line 170, ../sass/order.scss */
+/* line 171, ../sass/order.scss */
 .delivery .btn .btn__arr {
   background: url('../img/icons-s226e74a8da.png') 0 -66px no-repeat;
   width: 34px;
@@ -6437,25 +6449,25 @@ a:hover {
   right: 15px;
   top: 6px;
 }
-/* line 178, ../sass/order.scss */
+/* line 179, ../sass/order.scss */
 .delivery .link-legal {
   margin-left: 129px;
 }
 
-/* line 182, ../sass/order.scss */
+/* line 183, ../sass/order.scss */
 .mark-blue {
   color: #22a9e5!important;
   display: inline;
   font-style: normal;
 }
 
-/* line 188, ../sass/order.scss */
+/* line 189, ../sass/order.scss */
 .terms {
   width: 474px;
   float: right;
 }
 
-/* line 192, ../sass/order.scss */
+/* line 193, ../sass/order.scss */
 .terms__order, .terms__delivery {
   background: #f2f2f2;
   border: 1px solid #e3e3e3;
@@ -6463,7 +6475,7 @@ a:hover {
   color: #000;
 }
 
-/* line 198, ../sass/order.scss */
+/* line 199, ../sass/order.scss */
 .terms__order {
   margin-bottom: 9px;
   padding: 7px 0;
@@ -6471,23 +6483,23 @@ a:hover {
   font-size: 14px;
   font-weight: bold;
 }
-/* line 204, ../sass/order.scss */
+/* line 205, ../sass/order.scss */
 .terms__order h2 {
   font-size: 18px;
 }
-/* line 208, ../sass/order.scss */
+/* line 209, ../sass/order.scss */
 .terms__order strong {
   font-size: 21px;
   color: #22a9e5;
   font-weight: normal;
 }
 
-/* line 214, ../sass/order.scss */
+/* line 215, ../sass/order.scss */
 .terms__delivery {
   padding: 12px 6px 0 12px;
   min-height: 351px;
 }
-/* line 217, ../sass/order.scss */
+/* line 218, ../sass/order.scss */
 .terms__delivery h2 {
   font-size: 14px;
   color: #000;
@@ -6495,98 +6507,106 @@ a:hover {
   line-height: 1.1;
   margin: 0 6px 8px 0;
 }
-/* line 224, ../sass/order.scss */
+/* line 225, ../sass/order.scss */
 .terms__delivery h3 {
   font-size: 13px;
   margin-bottom: 5px;
 }
-/* line 228, ../sass/order.scss */
+/* line 229, ../sass/order.scss */
 .terms__delivery ul {
   list-style: none;
   font-size: 11px;
   padding: 0 0 0 15px;
   margin-bottom: 14px;
 }
-/* line 234, ../sass/order.scss */
+/* line 235, ../sass/order.scss */
 .terms__delivery li {
   background: url(../img/bullet.png) no-repeat 0 4px;
   padding: 0 0 0 7px;
   margin-bottom: 2px;
 }
-/* line 238, ../sass/order.scss */
+/* line 239, ../sass/order.scss */
 .terms__delivery li span {
   display: block;
   margin: 6px 0 0 17px;
 }
-/* line 242, ../sass/order.scss */
+/* line 243, ../sass/order.scss */
 .terms__delivery li a {
   color: #22A9E5;
   text-decoration: none;
   border-bottom: 1px dotted;
 }
-/* line 246, ../sass/order.scss */
+/* line 247, ../sass/order.scss */
 .terms__delivery li a:hover {
   border-color: transparent;
 }
 
-/* line 253, ../sass/order.scss */
+/* line 254, ../sass/order.scss */
 .order {
   margin: 22px 0 30px;
   display: inline-block;
   width: 100%;
 }
-/* line 257, ../sass/order.scss */
+/* line 258, ../sass/order.scss */
 .order .order__holder {
   padding: 13px 15px 11px;
   background: #fff;
   border-radius: 5px;
   border: 1px solid #e3e3e3;
 }
-/* line 263, ../sass/order.scss */
+/* line 264, ../sass/order.scss */
 .order h2 {
   font-size: 18px;
   margin: 0 15px 6px;
 }
-/* line 267, ../sass/order.scss */
+/* line 268, ../sass/order.scss */
 .order .ot {
   border-collapse: collapse;
   border-spacing: 0;
   width: 968px;
 }
-/* line 271, ../sass/order.scss */
+/* line 272, ../sass/order.scss */
 .order .ot th {
   font-size: 14px;
   font-weight: normal;
   padding-bottom: 5px;
 }
-/* line 276, ../sass/order.scss */
+/* line 277, ../sass/order.scss */
 .order .ot td {
   font-size: 14px;
   border-top: 1px solid #e3e3e3;
   text-align: center;
   height: 60px;
 }
-/* line 282, ../sass/order.scss */
+/* line 283, ../sass/order.scss */
 .order .ot .ot__col1 {
   width: 80px;
   padding-left: 15px;
 }
-/* line 286, ../sass/order.scss */
+/* line 287, ../sass/order.scss */
 .order .ot .ot__col2 {
   text-align: left;
   width: 430px;
   padding-left: 25px;
 }
-/* line 291, ../sass/order.scss */
+/* line 292, ../sass/order.scss */
 .order .ot .ot__col3 {
   width: 151px;
 }
-/* line 294, ../sass/order.scss */
+/* line 295, ../sass/order.scss */
 .order .ot .ot__col4 {
   padding-right: 15px;
   width: 252px;
 }
-/* line 298, ../sass/order.scss */
+/* line 300, ../sass/order.scss */
+.order .ot .ot_col2_delivery strong {
+  font-weight: normal;
+  font-size: 18px;
+  color: #3c3c3c;
+  display: inline-block;
+  margin-left: 260px;
+}
+/* line 308, ../sass/order.scss */
 .order .ot .ot__num {
   width: 28px;
   height: 20px;
@@ -6599,52 +6619,57 @@ a:hover {
   font-weight: normal;
   color: #6b6b6b;
 }
-/* line 310, ../sass/order.scss */
+/* line 320, ../sass/order.scss */
 .order .ot .price-block {
   float: none;
   display: inline-block;
   width: 130px;
 }
-/* line 314, ../sass/order.scss */
+/* line 324, ../sass/order.scss */
 .order .ot .price-block span {
   width: 40px;
 }
-/* line 315, ../sass/order.scss */
+/* line 325, ../sass/order.scss */
 .order .ot .price-block strong {
   font-weight: bold;
   font-size: 16px;
 }
-/* line 318, ../sass/order.scss */
+/* line 328, ../sass/order.scss */
 .order .ot .price-block strong i {
   font-size: 12px;
 }
+/* line 334, ../sass/order.scss */
+.order .ot .price-block_delivery strong {
+  border-radius: 3px;
+  width: 130px;
+}
 
-/* line 325, ../sass/order.scss */
+/* line 341, ../sass/order.scss */
 .order__bcol1 {
   float: left;
   margin-left: 446px;
   padding-top: 10px;
 }
-/* line 329, ../sass/order.scss */
+/* line 345, ../sass/order.scss */
 .order__bcol1 strong {
   font-size: 18px;
   color: #000;
   display: block;
   margin-bottom: 1px;
 }
-/* line 335, ../sass/order.scss */
+/* line 351, ../sass/order.scss */
 .order__bcol1 span {
   font-size: 14px;
   color: #7b7b7b;
   display: block;
   margin-bottom: 9px;
 }
-/* line 341, ../sass/order.scss */
+/* line 357, ../sass/order.scss */
 .order__bcol1 a {
   font-size: 12px;
   color: #0078c6;
 }
-/* line 345, ../sass/order.scss */
+/* line 361, ../sass/order.scss */
 .order__bcol1 .loader {
   display: inline-block;
   background: url('../img/icons-s226e74a8da.png') 0 -193px no-repeat;
@@ -6654,13 +6679,22 @@ a:hover {
   top: 3px;
   margin-right: 4px;
 }
+/* line 368, ../sass/order.scss */
+.order__bcol1 .with-delivery {
+  color: #000;
+  margin-bottom: 2px;
+}
+/* line 371, ../sass/order.scss */
+.order__bcol1 .with-delivery em {
+  font-weight: bold;
+}
 
-/* line 353, ../sass/order.scss */
+/* line 374, ../sass/order.scss */
 .order__bcol2 {
   float: right;
   width: 222px;
 }
-/* line 356, ../sass/order.scss */
+/* line 377, ../sass/order.scss */
 .order__bcol2 .price-block {
   width: 175px;
   float: none;
@@ -6668,7 +6702,7 @@ a:hover {
   margin-bottom: 9px;
   border-radius: 0;
 }
-/* line 362, ../sass/order.scss */
+/* line 383, ../sass/order.scss */
 .order__bcol2 .price-block strong {
   width: 110px;
   font-weight: bold;
@@ -6677,11 +6711,11 @@ a:hover {
   font-size: 20px;
   border-radius: 0 0 0 3px;
 }
-/* line 369, ../sass/order.scss */
+/* line 390, ../sass/order.scss */
 .order__bcol2 .price-block strong i {
   font-size: 14px;
 }
-/* line 373, ../sass/order.scss */
+/* line 394, ../sass/order.scss */
 .order__bcol2 .price-block span {
   width: 65px;
   height: 47px;
@@ -6689,7 +6723,7 @@ a:hover {
   border-radius: 0 0 3px 0;
   font-size: 14px;
 }
-/* line 382, ../sass/order.scss */
+/* line 403, ../sass/order.scss */
 .order__bcol2 .promo-star {
   background: url('../img/icons-s226e74a8da.png') 0 -178px no-repeat;
   width: 16px;
@@ -6699,11 +6733,11 @@ a:hover {
   position: relative;
   top: 2px;
 }
-/* line 389, ../sass/order.scss */
+/* line 410, ../sass/order.scss */
 .order__bcol2 a {
   color: #0077cd;
 }
-/* line 393, ../sass/order.scss */
+/* line 414, ../sass/order.scss */
 .order__bcol2 .order__credit {
   font-weight: bold;
   margin-top: 7px;

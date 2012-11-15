@@ -104,16 +104,13 @@
 			display: inline-block;
 		}
 	}
-	.input_125{
-		width:118px;
-	}
+	.input_212{width:204px;}
+	.input_125{width:118px;}
+	.input_69{width:61px;}
 	.input_30{
 		width:26px;
 		padding:4px 2px;
 		margin-right:3px;
-	}
-	.input_212{
-		width:204px;
 	}
 	.row_radio{
 		margin-bottom:3px;
@@ -145,8 +142,12 @@
 	}
 	.row_radio-group{
 		padding:9px 0;
+		.row{
+			margin: -8px 0 14px 22px;
+			label{width:175px;}
+		}
 		.row_radio{
-			margin-bottom: 12px;
+			margin:0 0 12px;
 			label{width:auto;}
 		} 
 	}
@@ -295,6 +296,15 @@
 			padding-right:15px;
 			width:252px;
 		}
+		.ot_col2_delivery{
+			strong{
+				font-weight:normal;
+				font-size:18px;
+				color:#3c3c3c;
+				display: inline-block;
+				margin-left: 260px;
+			}
+		}
 		.ot__num{
 			width:28px;
 			height:20px;
@@ -318,6 +328,12 @@
 				i{
 					font-size:12px;
 				}
+			}
+		}
+		.price-block_delivery{
+			strong{
+				border-radius:3px;
+				width:130px;
 			}
 		}
 	}
@@ -348,6 +364,11 @@
 		position: relative;
 		top:3px;
 		margin-right:4px;
+	}
+	.with-delivery{
+		color:#000;
+		margin-bottom:2px;
+		em{font-weight:bold;}
 	}
 }
 .order__bcol2{

@@ -37,8 +37,8 @@
 
 	<div class="bc-social">
 		<ul class="bc">
-			<li class="actual">Кому доставить</li>
-			<li>Куда доставить</li>
+			<li><a href="#">Кому доставить</a></li>
+			<li class="actual">Куда доставить</li>
 			<li>Как оплатить</li>
 			<li>Проверка заказа</li>
 		</ul>
@@ -48,55 +48,32 @@
 	<div class="l">
 		<!--BEGIN .delivery -->
 		<div class="delivery">
-			<h1>Кому доставить</h1>
-			<p>Четыре простых шага не более 2-х мин. вашего времени</p>
+			<h1>Куда доставить</h1>
 			<form action="#">
-				<div class="row">
-					<label for="">Ваша электронная почта</label>
-					<input type="text" placeholder="example@mail.ru" class="input">
-				</div>
-				<div class="row row_radio">
-					<input type="radio" class="radio"><label for="">Вы новый покупатель</label>
-				</div>
-				<div class="row row_radio">
-					<input type="radio" class="radio"><label for="">Вы уже у нас покупали? Введите пароль</label>
-					<input type="text" value="" class="input input_125">
-				</div>
-				<div class="row row_radio">
-					<input type="radio" class="radio"><label for="">Вы не хотите  вводить свою эл. почту</label>
-				</div>
-				<div class="row-group">
-					<div class="row">
-						<label for="">Ваше имя и фамилия<span>чтобы знать как к вам обращаться</span></label>
-						<input type="text" value="Сидоров Иван" class="input">
+				<div class="row_radio-group">
+					<div class="row row_radio">
+						<input type="radio" class="radio" id="id-001"><label for="id-001">Доставка на склад Новой Почты</label>
+						<span>укажите ближайший к Вам склад Новой Почты</span>
 					</div>
 					<div class="row">
-						<label for="">Телефон<span>на который позвонит курьер</span></label>
-						<input type="text" value="063" class="input input_30">
-						<input type="text" value="7654321" class="input input_212">
+						<label for="">Номер склада</label>
+						<input type="text"  class="input input_69">
+					</div>
+					<div class="row row_radio">
+						<input type="radio" class="radio" id="id-002"><label for="id-002">Адресная доставка по Украине</label>
+						<span>осуществляется курьерской службой Новая Почта</span>
+					</div>
+					<div class="row">
+						<label for="">Улица, дом, квартира</label>
+						<input type="text"  class="input">
 					</div>
 				</div>
-				<div class="row">
-					<label for="">Ваш город</label>
-					<div class="select">
-						<div class="btn select__btn"><i class="select__arr"></i></div>
-						<div>Киев</div>
-						<select name="" id="">
-							<option value="">Киев</option>
-							<option value="">Львов</option>
-							<option value="">Харьков</option>
-							<option value="">Одесса</option>
-						</select>
-					</div>
-					
-					<span>Ваш заказ будет доставлен не позже <em class="mark-blue">30 ноября</em></span>
-				</div>
+				
 				<div class="row_btn">
 					<button class="btn">К следующему шагу: 
-						Выбрать способ доставки 
+						Выбрать способ оплаты 
 						<span class="btn__arr"></span>
 					</button>
-					<a href="#">Оформить на юридическое лицо</a>
 				</div>
 				
 			</form>
@@ -176,16 +153,26 @@
 							</div>
 						</td>
 					</tr>
+					<tr>
+						<td class="ot__col1"></td>
+						<td class="ot__col2 ot_col2_delivery"><strong>Доставка</strong></td>
+						<td class="ot__col3"></td>
+						<td class="ot__col4">
+							<div class="price-block price-block_delivery">
+								<strong>30 <i>грн</i></strong>
+							</div>
+						</td>
+					</tr>
 				</table>
 			</div>
 			<div class="order__bcol1">
 				<strong>Общая стоимость заказа</strong>
-				<span>Без учета доставки</span>
-				<a href="#"><i class="loader"></i> Изменить состав заказа</a>
+				<span class="with-delivery">Включая стоимость доставки</span>
+				<span class="with-delivery">Заказ будет доставлен <em class="mark-blue">1 ноября</em></span>
 			</div>
 			<div class="order__bcol2">
 				<div class="price-block">
-					<strong>7 873 <i>грн</i></strong>
+					<strong>7 903 <i>грн</i></strong>
 					<span>$980</span>
 				</div>
 				<a href="#"><i class="promo-star"></i>У меня есть промо-код</a>
