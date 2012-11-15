@@ -228,7 +228,6 @@
 
 .order{
 	margin-top:22px;
-	
 	.order__holder{
 		padding: 13px 15px;
 		background:#fff;
@@ -288,4 +287,11 @@
 			strong{font-weight:bold;}
 		}
 	}
+}
+.order__bcol1{
+	float:left;
+	margin-left:446px;
+}
+.order__bcol2{
+	float:right;
 }
