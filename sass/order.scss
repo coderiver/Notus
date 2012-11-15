@@ -261,6 +261,10 @@
 		border-radius:5px;
 		border:1px solid #e3e3e3;
 	}
+	h1{
+		font-size:24px;
+		color:#494949;
+	}
 	h2{
 		font-size:18px;
 		margin:0 15px 6px;
@@ -414,5 +418,93 @@
 	.order__credit{
 		font-weight:bold;
 		margin-top:7px;
+	}
+}
+.order_big{
+	.order__holder{
+		padding-top:18px;
+	}
+	h2{
+		margin-left:13px;
+	}
+	h1{
+		margin-left:13px;
+		margin-bottom: 14px;
+	}
+}
+
+.recount{
+	border-top: 1px solid #e3e3e3;
+	margin: 0 0 29px;
+	.btn-recount{
+		font-size:16px;
+		background:#d9d9d9;
+		border-radius:0 0 3px 3px;
+		width:130px;
+		text-align: center;
+		height:29px;
+		line-height:29px;
+		margin:0 75px 0 auto;
+		display: block;
+		cursor:pointer;
+	}
+}
+
+.forgot{
+	border-top: 1px solid #e3e3e3;
+	border-bottom: 1px solid #e3e3e3;
+	display: inline-block;
+	width:100%;
+	position: relative;
+	padding: 9px 0 47px;
+	.btn{
+		font-size:11px;
+		position: absolute;
+		bottom:15px;
+		left:0;
+		height: 24px;
+		line-height:1;
+	}
+}
+
+.order__inf{
+	font-size:14px;
+	color:#7a7a7a;
+	float:right;
+	width:453px;
+	padding: 2px 0 0;
+	p{
+		margin-bottom:12px;
+	}
+	.btn{
+		left:516px;
+		padding: 0 17px;
+	}
+}
+
+.forgot-form{
+	float: left;
+	width: 400px;
+	h2{
+		margin-bottom:16px;
+	}
+	form{
+		padding: 0 0 0 13px;
+	}
+	.row{
+		display: inline-block;
+		width:100%;
+		.check{
+			float:left;
+			margin-right: 7px;
+		}
+		label{
+			float:left;
+			font-size:14px;
+		}
+	}
+	.btn{
+		left:14px;
+		padding: 0 4px;
 	}
 }
