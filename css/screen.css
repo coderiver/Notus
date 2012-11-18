@@ -6748,26 +6748,30 @@ a:hover {
   margin-top: 7px;
 }
 
-/* line 424, ../sass/order.scss */
+/* line 423, ../sass/order.scss */
+.order_big {
+  margin-bottom: 10px;
+}
+/* line 425, ../sass/order.scss */
 .order_big .order__holder {
   padding-top: 18px;
 }
-/* line 427, ../sass/order.scss */
+/* line 428, ../sass/order.scss */
 .order_big h2 {
   margin-left: 13px;
 }
-/* line 430, ../sass/order.scss */
+/* line 431, ../sass/order.scss */
 .order_big h1 {
   margin-left: 13px;
   margin-bottom: 14px;
 }
 
-/* line 436, ../sass/order.scss */
+/* line 437, ../sass/order.scss */
 .recount {
   border-top: 1px solid #e3e3e3;
   margin: 0 0 29px;
 }
-/* line 439, ../sass/order.scss */
+/* line 440, ../sass/order.scss */
 .recount .btn-recount {
   font-size: 16px;
   background: #d9d9d9;
@@ -6781,7 +6785,7 @@ a:hover {
   cursor: pointer;
 }
 
-/* line 453, ../sass/order.scss */
+/* line 454, ../sass/order.scss */
 .forgot {
   border-top: 1px solid #e3e3e3;
   border-bottom: 1px solid #e3e3e3;
@@ -6790,7 +6794,7 @@ a:hover {
   position: relative;
   padding: 9px 0 47px;
 }
-/* line 460, ../sass/order.scss */
+/* line 461, ../sass/order.scss */
 .forgot .btn {
   font-size: 11px;
   position: absolute;
@@ -6800,7 +6804,7 @@ a:hover {
   line-height: 1;
 }
 
-/* line 470, ../sass/order.scss */
+/* line 471, ../sass/order.scss */
 .order__inf {
   font-size: 14px;
   color: #7a7a7a;
@@ -6808,48 +6812,175 @@ a:hover {
   width: 453px;
   padding: 2px 0 0;
 }
-/* line 476, ../sass/order.scss */
+/* line 477, ../sass/order.scss */
 .order__inf p {
   margin-bottom: 12px;
 }
-/* line 479, ../sass/order.scss */
+/* line 480, ../sass/order.scss */
 .order__inf .btn {
   left: 516px;
   padding: 0 17px;
 }
 
-/* line 485, ../sass/order.scss */
+/* line 486, ../sass/order.scss */
 .forgot-form {
   float: left;
   width: 400px;
 }
-/* line 488, ../sass/order.scss */
+/* line 489, ../sass/order.scss */
 .forgot-form h2 {
   margin-bottom: 16px;
 }
-/* line 491, ../sass/order.scss */
+/* line 492, ../sass/order.scss */
 .forgot-form form {
   padding: 0 0 0 13px;
 }
-/* line 494, ../sass/order.scss */
+/* line 495, ../sass/order.scss */
 .forgot-form .row {
   display: inline-block;
   width: 100%;
 }
-/* line 497, ../sass/order.scss */
+/* line 498, ../sass/order.scss */
 .forgot-form .row .check {
   float: left;
   margin-right: 7px;
 }
-/* line 501, ../sass/order.scss */
+/* line 502, ../sass/order.scss */
 .forgot-form .row label {
   float: left;
   font-size: 14px;
 }
-/* line 506, ../sass/order.scss */
+/* line 507, ../sass/order.scss */
 .forgot-form .btn {
   left: 14px;
   padding: 0 4px;
+}
+
+/* line 512, ../sass/order.scss */
+.btn_confirm {
+  height: 47px;
+  line-height: 47px;
+  font-size: 18px;
+  width: 311px;
+  padding: 0;
+  text-align: center;
+  margin: 14px 140px 7px auto;
+  display: block;
+}
+
+/* line 523, ../sass/order.scss */
+.sp-offer h2 {
+  font-size: 18px;
+  color: #000;
+  margin: 0 0 1px 40px;
+}
+/* line 528, ../sass/order.scss */
+.sp-offer p {
+  font-size: 15px;
+  color: #000;
+  margin-left: 40px;
+}
+/* line 533, ../sass/order.scss */
+.sp-offer .sp-offer__inf {
+  float: left;
+  width: 633px;
+}
+/* line 537, ../sass/order.scss */
+.sp-offer .sp-offer__img {
+  float: left;
+  width: 320px;
+  padding-right: 15px;
+  text-align: center;
+}
+/* line 542, ../sass/order.scss */
+.sp-offer .sp-offer__img img {
+  vertical-align: middle;
+}
+/* line 544, ../sass/order.scss */
+.sp-offer .sp-offer__holder {
+  display: inline-block;
+  width: 968px;
+  background: #fff;
+  border: 1px solid #E3E3E3;
+  border-radius: 5px;
+  padding: 30px 15px 11px;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+/* line 553, ../sass/order.scss */
+.sp-offer .sp-offer__holder h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 0;
+}
+/* line 558, ../sass/order.scss */
+.sp-offer .sp-offer__holder p {
+  margin-left: 0;
+}
+/* line 564, ../sass/order.scss */
+.sp-offer .sp-offer__holder .btn {
+  font-size: 18px;
+  width: 134px;
+  padding: 0;
+  height: 39px;
+  float: none;
+  display: block;
+}
+/* line 572, ../sass/order.scss */
+.sp-offer .sp-offer__holder .days-counter {
+  float: right;
+}
+
+/* line 583, ../sass/order.scss */
+.days-counter .days-counter__d,
+.days-counter .days-counter__h,
+.days-counter .days-counter__m {
+  float: left;
+}
+/* line 584, ../sass/order.scss */
+.days-counter .days-counter__d div,
+.days-counter .days-counter__h div,
+.days-counter .days-counter__m div {
+  float: left;
+  border: 1px solid #000;
+  border-radius: 2px;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2E1YTVhNSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #a5a5a5));
+  background-image: -webkit-linear-gradient(top, #ffffff 0%, #a5a5a5 100%);
+  background-image: -moz-linear-gradient(top, #ffffff 0%, #a5a5a5 100%);
+  background-image: -o-linear-gradient(top, #ffffff 0%, #a5a5a5 100%);
+  background-image: linear-gradient(top, #ffffff 0%, #a5a5a5 100%);
+  height: 28px;
+  width: 20px;
+  text-align: center;
+  line-height: 28px;
+  font-size: 27px;
+  margin: 0 1px 0 0;
+  font-family: "Myriad pro Semibold", 'Myriad Pro', Helvetica, Arial, sans-serif;
+  text-shadow: white 1px 1px 0, white -1px -1px 0, white 1px -1px 0, white -1px 1px 0;
+}
+/* line 598, ../sass/order.scss */
+.days-counter .days-counter__d span,
+.days-counter .days-counter__h span,
+.days-counter .days-counter__m span {
+  display: block;
+  color: #777;
+  font-size: 12px;
+  text-align: center;
+}
+/* line 607, ../sass/order.scss */
+.days-counter .days-counter__d {
+  color: #ea0000;
+  margin-right: 13px;
+}
+/* line 610, ../sass/order.scss */
+.days-counter .days-counter__d span {
+  color: #777;
+}
+/* line 614, ../sass/order.scss */
+.days-counter .days-counter__h {
+  margin-right: 2px;
 }
 
 /* fancyBox v2.1.0 fancyapps.com | fancyapps.com/fancybox/#license */
