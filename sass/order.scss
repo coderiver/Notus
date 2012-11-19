@@ -41,6 +41,7 @@
 	.row{
 		display: inline-block;
 		width:100%;
+		position: relative;
 		margin-bottom: 8px;
 		label{
 			font-size:14px;
@@ -448,6 +449,7 @@
 		margin:0 75px 0 auto;
 		display: block;
 		cursor:pointer;
+		border:0;
 	}
 }
 
@@ -495,6 +497,7 @@
 	.row{
 		display: inline-block;
 		width:100%;
+		position: relative;
 		.check{
 			float:left;
 			margin-right: 7px;
@@ -605,6 +608,7 @@
 			float:left;
 			border:1px solid #000;
 			border-radius:2px;
+			background:#a5a5a5;
 			@include background-image(linear-gradient(top, #fff 0, #a5a5a5 100%));
 			height:28px;
 			width:20px;
@@ -614,12 +618,14 @@
 			margin:0 1px 0 0;
 			font-family:"Myriad pro Semibold", 'Myriad Pro', Helvetica, Arial, sans-serif;
 			text-shadow:#fff 1px 1px 0, #fff -1px -1px 0, #fff 1px -1px 0,#fff -1px 1px 0;
+			vertical-align: middle;
 		}
 		span{
 			display:block;
 			color:#777;
 			font-size:12px;
 			text-align:center;
+			clear: both;
 		}
 		float:left;
 
@@ -635,4 +641,31 @@
 		margin-right:2px;
 	}
 	.days-counter__m{}
+}
+
+.st-well-ico{
+	position: absolute;
+	@include sized-sprite($icons, 'well');
+	top:6px;
+	right:-19px;
+	display: none;
+}
+.st-well{
+	.st-well-ico{
+		display: block;
+	}
+}
+.st-err{
+	padding-bottom:6px;
+	.input{
+		border-color:#fe2222;
+	}
+	strong{
+		color:#fe2222;
+		font-size:10px;
+		font-weight:normal;
+		position: absolute;
+		bottom:-6px;
+		left:195px;
+	}
 }
