@@ -520,6 +520,7 @@
 	display:block;
 }
 .sp-offer{
+	margin-bottom:30px;
 	h2{
 		font-size:18px;
 		color:#000;
@@ -536,10 +537,16 @@
 	}
 	.sp-offer__img{
 		float:left;
-		width:320px;
-		padding-right:15px;
+		width:255px;
+		padding-right:80px;
 		text-align:center;
-		img{vertical-align:middle;}
+		overflow:hidden;
+		line-height:151px;
+		img{
+			vertical-align:middle;
+			min-height:151px;
+			max-width:255px;
+		}
 	}
 	.sp-offer__holder{
 		display: inline-block;
@@ -547,19 +554,20 @@
 		background:#fff;
 		border: 1px solid #E3E3E3;
 		border-radius: 5px;
-		padding: 30px 15px 11px;
+		padding: 30px 15px 24px;
 		font-size:16px;
-		margin-bottom:5px;
+		margin-top:5px;
 		h2{
 			font-size:16px;
 			font-weight:bold;
-			margin-left:0;
+			margin:0 0 3px;
 		}
 		p{
-			margin-left:0;
+			margin:0 0 10px;
 		}
 		strong{
-			
+			display:block;
+			margin-bottom:10px;	
 		}
 		.btn{
 			font-size:18px;
@@ -568,16 +576,28 @@
 			height:39px;
 			float:none;
 			display:block;
+			margin-bottom:14px;
 		}
-		.days-counter{
+		.days-counter-holder{
 			float:right;
+			padding: 7px 35px 0 0;
+			p{margin-bottom:3px;}
+		}
+	}
+	.check-row{
+		font-size:14px;
+		padding-left:5px;
+		input{
+			position:relative;
+			top:2px;
 		}
 	}
 }
-.days-counter{
-	.days-counter-holder{
-
+.days-counter-holder{
+	p{margin-bottom:3px;}
 	}
+.days-counter{
+	
 	.days-counter__d,
 	.days-counter__h,
 	.days-counter__m{
