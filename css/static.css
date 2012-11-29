@@ -1,0 +1,65 @@
+@charset "IBM866";
+/*когда включать версию для айфона*/
+/*когда включать широкую версию*/
+/* HOW TO USE SPRITES*/
+/*.whatever{@include sized-sprite($icons, badge_hit);}*/
+/* TRANSITION */
+/* line 2, ../sass/static.scss */
+.four-priority {
+  width: 240px;
+  height: 211px;
+  margin-bottom: 18px;
+}
+
+/* line 7, ../sass/static.scss */
+.breadcrumbs {
+  margin-top: 20px;
+}
+
+/* line 10, ../sass/static.scss */
+.product-block {
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  margin: 4px 0 11px;
+  padding: 30px 15px 40px 35px;
+  color: #494949;
+  font-size: 12px;
+  line-height: 16px;
+}
+/* line 21, ../sass/static.scss */
+.product-block b {
+  font-size: 12px;
+  color: #494949;
+  display: inline-block;
+  margin: 10px 0 20px;
+}
+/* line 27, ../sass/static.scss */
+.product-block h3 {
+  font: 18px Arial, sans-serif;
+  color: #0078C6;
+  padding: 0;
+  margin: 0px 0 20px;
+}
+/* line 33, ../sass/static.scss */
+.product-block h3 + b {
+  margin: 0 0 20px;
+}
+/* line 37, ../sass/static.scss */
+.product-block p {
+  margin: 15px 0;
+}
+/* line 40, ../sass/static.scss */
+.product-block p span {
+  color: #E47911;
+  font-weight: bold;
+}
+/* line 44, ../sass/static.scss */
+.product-block ul {
+  padding-left: 40px;
+  margin-bottom: 15px;
+}
+/* line 47, ../sass/static.scss */
+.product-block ul li {
+  line-height: 20px;
+}
