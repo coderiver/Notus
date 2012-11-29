@@ -1,3 +1,4 @@
+@charset "IBM866";
 /*когда включать версию для айфона*/
 /*когда включать широкую версию*/
 /* HOW TO USE SPRITES*/
@@ -77,7 +78,7 @@
   position: absolute;
   top: 4px;
   left: -12px;
-  background: url('../img/icons-s9141ba0e0e.png') 0 -1092px no-repeat;
+  background: url('../img/icons-sdc4ea6f2dd.png') 0 -1202px no-repeat;
   width: 7px;
   height: 7px;
 }
@@ -96,7 +97,7 @@
 }
 /* line 77, ../sass/article.scss */
 .accordion .open a i {
-  background: url('../img/icons-s9141ba0e0e.png') 0 -1127px no-repeat;
+  background: url('../img/icons-sdc4ea6f2dd.png') 0 -1237px no-repeat;
   width: 7px;
   height: 7px;
 }
@@ -130,7 +131,7 @@
 
 /* line 107, ../sass/article.scss */
 .arr-more {
-  background: url('../img/icons-s9141ba0e0e.png') 0 -1087px no-repeat;
+  background: url('../img/icons-sdc4ea6f2dd.png') 0 -1197px no-repeat;
   width: 12px;
   height: 5px;
   display: inline-block;

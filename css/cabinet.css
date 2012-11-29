@@ -50,7 +50,7 @@
 
 /* line 31, ../sass/cabinet.scss */
 .stock__remove {
-  background: url('../img/icons-s179da87fc0.png') 0 -705px no-repeat;
+  background: url('../img/icons-sdc4ea6f2dd.png') 0 -783px no-repeat;
   width: 15px;
   height: 15px;
   position: absolute;
@@ -337,7 +337,7 @@
 }
 /* line 238, ../sass/cabinet.scss */
 .cabinet__form .delete {
-  background: url('../img/icons-s179da87fc0.png') 0 -1005px no-repeat;
+  background: url('../img/icons-sdc4ea6f2dd.png') 0 -1083px no-repeat;
   width: 9px;
   height: 9px;
   position: relative;
@@ -498,13 +498,13 @@
   right: 0;
   cursor: pointer;
   z-index: 20;
-  background: url('../img/icons-s179da87fc0.png') 0 -705px no-repeat;
+  background: url('../img/icons-sdc4ea6f2dd.png') 0 -783px no-repeat;
   width: 15px;
   height: 15px;
 }
 /* line 368, ../sass/cabinet.scss */
 .comprare .tl-item__del:hover {
-  background: url('../img/icons-s179da87fc0.png') 0 -670px no-repeat;
+  background: url('../img/icons-sdc4ea6f2dd.png') 0 -748px no-repeat;
   width: 15px;
   height: 15px;
 }
