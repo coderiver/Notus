@@ -1,15 +1,9 @@
 @import "base";
 .product-block .static{
-	background:#fff;
-	border:1px solid #e3e3e3;
-	border-radius:5px;
-	margin:4px 0 11px;
 	padding:30px 15px 40px 35px; 
 	color: #494949;
 	font-size: 12px;
-	line-height: 16px;
-	.product{}
-	.product-tabs{}	
+	line-height: 16px;	
 }
 .four-priority{
 	width: 240px;
@@ -19,22 +13,19 @@
 .breadcrumbs{
 	margin-top: 20px;
 }
+
 .product-block{
 	background:#fff;
 	border:1px solid #e3e3e3;
 	border-radius:5px;
 	margin:4px 0 11px;
-	padding:30px 15px 40px 35px; 
-	color: #494949;
-	font-size: 12px;
-	line-height: 16px;
 	.product{}
 	.product-tabs{}
 	b{
 		font-size: 12px;
 		color: #494949;
 		display: inline-block;
-		margin: 10px 0 20px;
+		margin: 10px 0;
 	}
 	h3{
 		font: 18px Arial, sans-serif;
@@ -54,7 +45,7 @@
 		font-weight: bold;
 	}
 	ul{
-		padding-left: 40px;
+		margin-left: 20px;
 		margin-bottom: 15px;
 		li{
 			line-height: 20px;
@@ -63,3 +54,52 @@
 
 }
 
+.static{
+	.conteiner__img{
+
+		img{
+			width: 600px;
+			height: 420px;	
+			margin: 0 40px;	
+		}
+
+	}
+}
+
+.blue{
+	color: #007CA4;
+}
+ul.list_img {
+  list-style: none;
+  	li{
+    	background: url(../img/2.png) no-repeat 0px 0px;
+    	p{
+    		margin: 0;
+    		padding: 0px 0 5px 25px;
+    	}
+  	}
+}
+.wrap-easy-button{
+	text-align: center;
+	margin: 40px 0 20px;
+	
+}
+a.easy-button{
+	background: #bc1212;
+	background: -moz-linear-gradient(top,  #bc1212 0%, #ef2804 50%, #b51712 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bc1212), color-stop(50%,#ef2804), color-stop(100%,#b51712));
+	background: -webkit-linear-gradient(top,  #bc1212 0%,#ef2804 50%,#b51712 100%);
+	background: -o-linear-gradient(top,  #bc1212 0%,#ef2804 50%,#b51712 100%);
+	background: -ms-linear-gradient(top,  #bc1212 0%,#ef2804 50%,#b51712 100%);
+	background: linear-gradient(to bottom,  #bc1212 0%,#ef2804 50%,#b51712 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc1212', endColorstr='#b51712',GradientType=0 );
+
+	padding: 15px 10px;
+	color: #fff;
+ 	text-decoration: none;	
+ 	border-radius: 8px;
+ 	border: 1px solid #B51712;
+ 	font-size: 16px;
+ 	font-weight: bold;
+
+}
