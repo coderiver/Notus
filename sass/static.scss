@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import "base";
 .four-priority{
 	width: 240px;
@@ -54,3 +55,73 @@
 
 
 
+=======
+@import "base";
+.product-block .static{
+	background:#fff;
+	border:1px solid #e3e3e3;
+	border-radius:5px;
+	margin:4px 0 11px;
+	padding:30px 15px 40px 35px; 
+	color: #494949;
+	font-size: 12px;
+	line-height: 16px;
+	.product{}
+	.product-tabs{}	
+}
+.four-priority{
+	width: 240px;
+	height: 211px;
+	margin-bottom: 18px;
+}
+.breadcrumbs{
+	margin-top: 20px;
+}
+.product-block{
+	background:#fff;
+	border:1px solid #e3e3e3;
+	border-radius:5px;
+	margin:4px 0 11px;
+	padding:30px 15px 40px 35px; 
+	color: #494949;
+	font-size: 12px;
+	line-height: 16px;
+	.product{}
+	.product-tabs{}
+	b{
+		font-size: 12px;
+		color: #494949;
+		display: inline-block;
+		margin: 10px 0 20px;
+	}
+	h3{
+		font: 18px Arial, sans-serif;
+		color: #0078C6;
+		padding:0;
+		margin: 0px 0 20px;
+
+		+ b{
+			margin: 0 0 20px;
+		}
+	}	
+	p{
+		margin: 15px 0;
+	}	
+	p span{
+		color: #E47911;
+		font-weight: bold;
+	}
+	ul{
+		padding-left: 40px;
+		margin-bottom: 15px;
+		li{
+			line-height: 20px;
+		}
+	}
+
+}
+
+
+
+
+>>>>>>> end garant-i-servus
