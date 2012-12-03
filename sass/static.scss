@@ -37,6 +37,18 @@
 			margin: 0 0 20px;
 		}
 	}	
+	h4{
+		font-size: 12px;
+		color: #007CA4;
+		display: inline-block;
+		margin: 10px 0;
+	}
+	span h4{
+		font-size: 12px;
+		color: #007CA4;
+		display: inline-block;
+		margin: 0;		
+	}
 	p{
 		margin: 15px 0;
 	}	
@@ -53,10 +65,8 @@
 	}
 
 }
-
 .static{
 	.conteiner__img{
-
 		img{
 			width: 600px;
 			height: 420px;	
@@ -65,24 +75,9 @@
 
 	}
 }
-
-.blue{
-	color: #007CA4;
-}
-ul.list_img {
-  list-style: none;
-  	li{
-    	background: url(../img/2.png) no-repeat 0px 0px;
-    	p{
-    		margin: 0;
-    		padding: 0px 0 5px 25px;
-    	}
-  	}
-}
 .wrap-easy-button{
 	text-align: center;
-	margin: 40px 0 20px;
-	
+	margin: 40px 0 20px;	
 }
 a.easy-button{
 	background: #bc1212;
@@ -93,7 +88,6 @@ a.easy-button{
 	background: -ms-linear-gradient(top,  #bc1212 0%,#ef2804 50%,#b51712 100%);
 	background: linear-gradient(to bottom,  #bc1212 0%,#ef2804 50%,#b51712 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc1212', endColorstr='#b51712',GradientType=0 );
-
 	padding: 15px 10px;
 	color: #fff;
  	text-decoration: none;	
@@ -101,5 +95,4 @@ a.easy-button{
  	border: 1px solid #B51712;
  	font-size: 16px;
  	font-weight: bold;
-
 }
