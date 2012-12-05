@@ -148,6 +148,11 @@ $(document).ready(function() {
 
 
 
+//form validation
+	$('#order-form').validate();
+
+
+
 // tabs
 	$('.tabs__nav li').click(function(){
 		if (!($(this).hasClass('active'))) $(this).addClass('active').siblings().removeClass('active')
