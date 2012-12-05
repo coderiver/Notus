@@ -7511,78 +7511,70 @@ a:hover {
   margin-top: 20px;
 }
 
-/* line 17, ../sass/static.scss */
-.product-block {
-  background: #fff;
-  border: 1px solid #e3e3e3;
-  border-radius: 5px;
-  margin: 4px 0 11px;
-}
-/* line 24, ../sass/static.scss */
-.product-block b {
+/* line 19, ../sass/static.scss */
+.static b {
   font-size: 12px;
   color: #494949;
   display: inline-block;
   margin: 10px 0;
 }
-/* line 30, ../sass/static.scss */
-.product-block h3 {
+/* line 25, ../sass/static.scss */
+.static h3 {
   font: 18px Arial, sans-serif;
   color: #0078C6;
   padding: 0;
   margin: 0px 0 20px;
 }
-/* line 36, ../sass/static.scss */
-.product-block h3 + b {
+/* line 31, ../sass/static.scss */
+.static h3 + b {
   margin: 0 0 20px;
 }
-/* line 40, ../sass/static.scss */
-.product-block h4 {
+/* line 35, ../sass/static.scss */
+.static h4 {
   font-size: 12px;
   color: #007CA4;
   display: inline-block;
   margin: 10px 0;
 }
-/* line 46, ../sass/static.scss */
-.product-block span h4 {
+/* line 41, ../sass/static.scss */
+.static span h4 {
   font-size: 12px;
   color: #007CA4;
   display: inline-block;
   margin: 0;
 }
-/* line 52, ../sass/static.scss */
-.product-block p {
+/* line 47, ../sass/static.scss */
+.static p {
   margin: 15px 0;
 }
-/* line 55, ../sass/static.scss */
-.product-block p span {
+/* line 50, ../sass/static.scss */
+.static p span {
   color: #E47911;
   font-weight: bold;
 }
-/* line 59, ../sass/static.scss */
-.product-block ul {
+/* line 54, ../sass/static.scss */
+.static ul {
   margin-left: 20px;
   margin-bottom: 15px;
 }
-/* line 62, ../sass/static.scss */
-.product-block ul li {
+/* line 57, ../sass/static.scss */
+.static ul li {
   line-height: 20px;
 }
-
-/* line 70, ../sass/static.scss */
+/* line 62, ../sass/static.scss */
 .static .conteiner__img img {
   width: 600px;
   height: 420px;
   margin: 0 40px;
 }
 
-/* line 78, ../sass/static.scss */
+/* line 71, ../sass/static.scss */
 .wrap-easy-button {
   text-align: center;
   margin: 40px 0 20px;
 }
 
-/* line 82, ../sass/static.scss */
+/* line 75, ../sass/static.scss */
 a.easy-button {
   background: #bc1212;
   background: -moz-linear-gradient(top, #bc1212 0%, #ef2804 50%, #b51712 100%);

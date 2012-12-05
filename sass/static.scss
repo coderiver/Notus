@@ -14,13 +14,8 @@
 	margin-top: 20px;
 }
 
-.product-block{
-	background:#fff;
-	border:1px solid #e3e3e3;
-	border-radius:5px;
-	margin:4px 0 11px;
-	.product{}
-	.product-tabs{}
+.static{
+
 	b{
 		font-size: 12px;
 		color: #494949;
@@ -63,9 +58,6 @@
 			line-height: 20px;
 		}
 	}
-
-}
-.static{
 	.conteiner__img{
 		img{
 			width: 600px;
@@ -75,6 +67,7 @@
 
 	}
 }
+
 .wrap-easy-button{
 	text-align: center;
 	margin: 40px 0 20px;	
