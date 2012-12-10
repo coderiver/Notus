@@ -149,9 +149,20 @@ $(document).ready(function() {
 
 
 //form validation
-	$('#order-form').validate();
 
-
+	$('#order-form .btn').click(function(){
+		var errnum = 0;
+		$('#order-form .required').each(function(){
+			if($(this).val() == ""){
+				$(this).parent('.row').removeClass('st-well').addClass('st-err')
+				errnum++;
+			}
+			else{
+				$(this).parent('.row').addClass('st-well').removeClass('st-err')
+			}
+		});
+		if (errnum != 0) {return false;}
+	});
 
 // tabs
 	$('.tabs__nav li').click(function(){

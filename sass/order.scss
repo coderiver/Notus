@@ -656,16 +656,20 @@
 	}
 }
 .st-err{
-	padding-bottom:6px;
+	/*padding-bottom:6px;*/
 	.input{
 		border-color:#fe2222;
 	}
-	strong{
-		color:#fe2222;
-		font-size:10px;
-		font-weight:normal;
-		position: absolute;
-		bottom:-6px;
-		left:195px;
+	.t-err__mess{
+		display: block;
 	}
+}
+.t-err__mess{
+	color:#fe2222;
+	font-size:10px;
+	font-weight:normal;
+	position: absolute;
+	bottom:-10px;
+	left:195px;
+	display: none;
 }

@@ -825,18 +825,24 @@
 
 /* line 658, ../sass/order.scss */
 .st-err {
-  padding-bottom: 6px;
+  /*padding-bottom:6px;*/
 }
 /* line 660, ../sass/order.scss */
 .st-err .input {
   border-color: #fe2222;
 }
 /* line 663, ../sass/order.scss */
-.st-err strong {
+.st-err .t-err__mess {
+  display: block;
+}
+
+/* line 667, ../sass/order.scss */
+.t-err__mess {
   color: #fe2222;
   font-size: 10px;
   font-weight: normal;
   position: absolute;
-  bottom: -6px;
+  bottom: -10px;
   left: 195px;
+  display: none;
 }

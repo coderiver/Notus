@@ -50,10 +50,12 @@
 		<div class="delivery">
 			<h1>Кому доставить</h1>
 			<p>Четыре простых шага не более 2-х мин. вашего времени</p>
-			<form action="#">
+			<form action="#" id="order-form">
 				<div class="row">
 					<label for="">Ваша электронная почта</label>
-					<input type="text" placeholder="example@mail.ru" class="input">
+					<input type="text" placeholder="example@mail.ru" class="input required">
+					<div class="st-well-ico"></div>
+					<strong class="t-err__mess">Введите электронную почту</strong>
 				</div>
 				<div class="row row_radio">
 					<input type="radio" class="radio"><label for="">Вы новый покупатель</label>
@@ -61,6 +63,8 @@
 				<div class="row row_radio">
 					<input type="radio" class="radio"><label for="">Вы уже у нас покупали? Введите пароль</label>
 					<input type="text" value="" class="input input_125">
+					<div class="st-well-ico"></div>
+					<strong class="t-err__mess">Введите пароль</strong>
 				</div>
 				<div class="row row_radio">
 					<input type="radio" class="radio"><label for="">Вы не хотите  вводить свою эл. почту</label>
@@ -68,12 +72,16 @@
 				<div class="row-group">
 					<div class="row">
 						<label for="">Ваше имя и фамилия<span>чтобы знать как к вам обращаться</span></label>
-						<input type="text" value="Сидоров Иван" class="input">
+						<input type="text" value="Сидоров Иван" class="input required">
+						<div class="st-well-ico"></div>
+						<strong class="t-err__mess">Введите имя и фамилию</strong>
 					</div>
 					<div class="row">
 						<label for="">Телефон<span>на который позвонит курьер</span></label>
-						<input type="text" value="063" class="input input_30">
-						<input type="text" value="7654321" class="input input_212">
+						<input type="text" value="063" class="input input_30 required">
+						<input type="text" value="7654321" class="input input_212 required">
+						<div class="st-well-ico"></div>
+						<strong class="t-err__mess">Введите телефон в виде 063 7654321</strong>
 					</div>
 				</div>
 				<div class="row">
