@@ -309,35 +309,81 @@
 			}
 		}
 	}
-	.product__text{
-		font-size:11px;
-		color:#555;
-		margin-bottom:17px;
-	}
-	.product__gd{
-		display:inline-block;
-		.product__gd-col1, .product__gd-col2{
-			float:left;
-			width:168px;
-			margin-right:6px;
-		}
-		.product__gd-col2{width:142px;}
-		h3{
-			font-size:14px;
-			margin-bottom:4px;
-		}
-		ul{
-			list-style:none;
-			font-size:11px;
-		}
-		li{
-			background:url(../img/bullet.png) no-repeat 4px 4px;
-			padding:0 0 0 10px;
-			margin-bottom:4px;
-		}
-		a{font-size:11px;}
-	}
 	.product__social{margin-left:20px;}
+}
+.product__text{
+	font-size:11px;
+	color:#555;
+	margin-bottom:17px;
+}
+.product__gd{
+	display:inline-block;
+	.product__gd-col1, .product__gd-col2{
+		float:left;
+		width:168px;
+		margin-right:6px;
+	}
+	.product__gd-col2{width:142px;}
+	h3{
+		font-size:14px;
+		margin-bottom:4px;
+	}
+	ul{
+		list-style:none;
+		font-size:11px;
+	}
+	li{
+		background:url(../img/bullet.png) no-repeat 4px 4px;
+		padding:0 0 0 10px;
+		margin-bottom:4px;
+	}
+	a{font-size:11px;}
+}
+.product__2cols{
+	display: inline-block;
+	width: 100%; 
+}
+.product__war-del{
+	margin-right: 13px;
+	width: 161px;
+	float: left;
+	color: #494949;
+	font-size: 11px;
+	margin-bottom: 16px;
+	h3{
+		font-size: 16px;
+		color: #494949;
+		margin-bottom: 16px;
+	}
+	.garanty span{color:#e47911;}
+	ul{
+		margin:11px 0;
+		padding-left: 30px;
+	}
+	p{margin:11px 0; }
+}
+.product__q-order{
+	float: left;
+	width: 140px;
+	color: #494949;
+	font-size: 11px;
+	h3{
+		font-size: 14px;
+		color: #494949;
+		margin-bottom: 16px;
+	}
+	.input_order{
+		border: 1px solid #888888;
+		font-size: 11px;
+		width: 136px;
+		padding: 2px 1px;
+		margin-bottom: 2px;
+	}
+	.btn{
+		width: 140px;
+		height: 32px;
+		font-size: 14px;
+	}
 }
 .product__rating{
 	margin-bottom:14px;
@@ -369,20 +415,25 @@
 	.tabs{
 		font-size:11px;
 		margin:0 -1px;
-		.tabs__nav1{width:80px;}
+		/*.tabs__nav1{width:80px;}
 		.tabs__nav2{width:117px;}
 		.tabs__nav3{width:141px;}
 		.tabs__nav4{width:96px;}
 		.tabs__nav5{width:97px;}
 		.tabs__nav6{width:137px;}
-		.tabs__nav7{width:107px;}
+		.tabs__nav7{width:107px;}*/
+		
 		.tabs__nav{
 			height:32px;
-			li a{
-				height:31px;
-				line-height:31px;
+			li{
+				width: 188px; 
+				a{
+					height:31px;
+					line-height:31px;
+				}
 			}
 			li.active a{height:33px;}
+			.tabs__nav4{width: 187px; }
 		}
 	}
 	.tabs__info{
