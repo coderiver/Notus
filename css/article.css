@@ -78,7 +78,7 @@
   position: absolute;
   top: 4px;
   left: -12px;
-  background: url('../img/icons-sdc4ea6f2dd.png') 0 -1202px no-repeat;
+  background: url('../img/icons-s9af740e787.png') 0 -230px no-repeat;
   width: 7px;
   height: 7px;
 }
@@ -97,7 +97,7 @@
 }
 /* line 77, ../sass/article.scss */
 .accordion .open a i {
-  background: url('../img/icons-sdc4ea6f2dd.png') 0 -1237px no-repeat;
+  background: url('../img/icons-s9af740e787.png') 0 -223px no-repeat;
   width: 7px;
   height: 7px;
 }
@@ -131,7 +131,7 @@
 
 /* line 107, ../sass/article.scss */
 .arr-more {
-  background: url('../img/icons-sdc4ea6f2dd.png') 0 -1197px no-repeat;
+  background: url('../img/icons-s9af740e787.png') 0 -237px no-repeat;
   width: 12px;
   height: 5px;
   display: inline-block;

@@ -379,9 +379,10 @@ $(document).ready(function() {
 	};
 
 // preview
-	$(".preview__item a").click(function() {
-		$(".product__img img").attr('src', $(this).attr('href'));
-		$(".product__img").attr('href', $(this).attr('href'));
+	$(".preview__item").click(function() {
+		var prevlink = $(this).children().attr('href');
+		$(".product__img img").attr('src', prevlink);
+		$(".product__img").attr('href', prevlink);
 		return false;
 	});
 

@@ -39,11 +39,9 @@ background: sprite($map, $sprite) no-repeat;
 
 @mixin clr{
   &:after{
-    content: ".";
-    display: block;
-    height: 0;
+    content: "";
+    display: table;
     clear: both;
-    visibility: hidden;
     }
 }
 

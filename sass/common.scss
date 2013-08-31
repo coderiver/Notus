@@ -1,7 +1,4 @@
 @import "base";
-
-
-
 *{margin:0;padding:0;-webkit-text-size-adjust: none;}
 button,input::-moz-focus-inner {padding:0; border:0}
 header,footer,nav,aside{display:block;}
@@ -119,6 +116,52 @@ a{
 	@include background-image(linear-gradient(top, #ffbb16 0, #f89e10 100%));
 	text-shadow:#fd900a 0 -1px 0;
 	&:hover{background-color:#f89e10;}
+}
+.btn_purple{
+	border-color:#b35d8d;
+	@include background-image(linear-gradient(top, #b94d91 0, #972264 100%));
+	text-shadow:rgba(0,0,0,.52) 0 -1px 0;
+	&:hover{background-color:#972264;}
+}
+
+/* links */
+.ico-scales{
+	@include sized-sprite($icons, "ico-scales");
+	position:absolute;
+	left:-25px;
+	top:1px;
+}
+.ico-heart{
+	@include sized-sprite($icons, "ico-heart");
+	position:absolute;
+	left:-23px;
+	top:2px;
+}
+.ico-video-review{
+	@include sized-sprite($icons, "ico-video");
+	position:absolute;
+	left:-20px;
+	top:-1px;
+}
+.link-compare, .link-wishlist, .link-video-review{
+	font-size:11px;
+	position:relative;
+	border-bottom: 1px dotted #158EDC;
+	text-decoration: none;
+	margin-left: 24px;
+	&:hover{
+		border-color:transparent;
+	}
+}
+.link-compare_active .ico-scales{@include sized-sprite($icons, "ico-scales-active");}
+.link-wishlist_active .ico-heart{@include sized-sprite($icons, "ico-heart-active");}
+.link-notify, .link-credit, .link-blue{
+	text-decoration:none;
+	border-bottom:1px dotted #0078C6;
+	font-size:11px;
+	&:hover{
+		border-color:transparent;
+	}
 }
 
 /* .top-menu */
