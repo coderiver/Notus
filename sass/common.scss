@@ -143,6 +143,11 @@ a{
 	left:-20px;
 	top:-1px;
 }
+.ico-user{
+	@include sized-sprite($icons, "ico-user");
+	display: inline-block;
+	vertical-align: middle;
+}
 .link-compare, .link-wishlist, .link-video-review{
 	font-size:11px;
 	position:relative;
