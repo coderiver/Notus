@@ -4,7 +4,8 @@ $break-large: 1180px; //когда включать широкую версию
 $main-width: 1000px;
 
 // HOW TO USE SPRITES
-$icons: sprite-map("icons/*.png");
+$icons: sprite-map("icons/*.png", $spacing: 20px);
+// $layout: smart
 //.whatever{@include sized-sprite($icons, badge_hit);}
 
 

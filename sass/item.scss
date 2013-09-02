@@ -759,14 +759,14 @@
 		.tabs__nav{
 			height:32px;
 			li{
-				width: 152px;
+				width: 125px;
 				a{
 					height:31px;
 					line-height:31px;
 				}
 			}
 			li.active a{height:33px;}
-			.tabs__nav1{width: 151px; }
+			.tabs__nav5{width: 142px; }
 		}
 	}
 	.tabs__info{
@@ -843,6 +843,12 @@
 		border-collapse:separate;
 		border-spacing:0;
 		color:#3d3d3d;
+		caption{
+			font-size: 14px;
+			font-weight: bold;
+			padding: 8px 25px;
+			text-align: left;
+		}
 		th{
 			text-align:left;
 			vertical-align:top;
