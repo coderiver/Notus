@@ -1,44 +1,8 @@
-@charset "IBM866";
-/*когда включать версию для айфона*/
-/*когда включать широкую версию*/
-/* HOW TO USE SPRITES*/
-/*.whatever{@include sized-sprite($icons, badge_hit);}*/
-/* TRANSITION */
 /* default layout - EXAMPLE FOR NOW */
-/* line 4, ../sass/layouts.scss */
-.l {
-  display: inline-block;
-  width: 100%;
-}
-/* line 7, ../sass/layouts.scss */
-.l .l-col3-l {
-  float: left;
-  width: 727px;
-}
-/* line 11, ../sass/layouts.scss */
-.l .l-col3-r {
-  float: right;
-  width: 727px;
-}
-/* line 16, ../sass/layouts.scss */
-.l .l-col1-l {
-  float: left;
-  width: 240px;
-  margin-right: 15px;
-}
-/* line 21, ../sass/layouts.scss */
-.l .l-col1-r {
-  float: right;
-  width: 240px;
-  margin-left: 15px;
-}
-/* line 26, ../sass/layouts.scss */
-.l .l-col2-l {
-  float: left;
-  width: 490px;
-}
-/* line 30, ../sass/layouts.scss */
-.l .l-col2-r {
-  float: right;
-  width: 490px;
-}
+.l { display: inline-block; width: 100%; }
+.l .l-col3-l { float: left; width: 727px; }
+.l .l-col3-r { float: right; width: 727px; }
+.l .l-col1-l { float: left; width: 240px; margin-right: 15px; }
+.l .l-col1-r { float: right; width: 240px; margin-left: 15px; }
+.l .l-col2-l { float: left; width: 490px; }
+.l .l-col2-r { float: right; width: 490px; }

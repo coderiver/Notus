@@ -47,20 +47,28 @@
 		position:relative;
 	}
 }
-	.caro-prev, .caro-next{
-		position:absolute;
-		top:49px;
-		cursor:pointer;
+.caro-prev, .caro-next{
+	position:absolute;
+	top:49px;
+	cursor:pointer;
+	&.disabled{
+		cursor: default;
 	}
-	.caro-prev{
-		@include sized-sprite($icons, "arr-1");
-		left:22px;
+}
+.caro-prev{
+	@include sized-sprite($icons, "arr-1_a");
+	left:22px;
+	&.disabled{
+		background-position: sprite-position($icons, 'arr-1');
 	}
-	.caro-next{
-		@include sized-sprite($icons, "arr-2");
-		right:22px;
+}
+.caro-next{
+	@include sized-sprite($icons, "arr-2_a");
+	right:22px;
+	&.disabled{
+		background-position: sprite-position($icons, 'arr-2');
 	}
-
+}
 
 /* tabs */
 .tabs{margin-bottom:18px;

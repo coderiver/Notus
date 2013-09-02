@@ -1,11 +1,11 @@
 @import "compass/css3";
-$break-small: 500px; /*когда включать версию для айфона*/
-$break-large: 1180px; /*когда включать широкую версию*/
+$break-small: 500px; //когда включать версию для айфона
+$break-large: 1180px; //когда включать широкую версию
 $main-width: 1000px;
 
-/* HOW TO USE SPRITES*/
+// HOW TO USE SPRITES
 $icons: sprite-map("icons/*.png");
-/*.whatever{@include sized-sprite($icons, badge_hit);}*/
+//.whatever{@include sized-sprite($icons, badge_hit);}
 
 
 $experimental-support-for-svg: true;
@@ -21,7 +21,7 @@ background: sprite($map, $sprite) no-repeat;
 @include image-size(sprite-file($map, $sprite));
 }
 
-/* TRANSITION */
+// TRANSITION
 @mixin transition($what: all, $length: 1s, $easing: ease-in-out) {
     -moz-transition:    $what $length $easing;
     -webkit-transition: $what $length $easing;

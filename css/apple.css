@@ -1,237 +1,46 @@
-@charset "IBM866";
-/*когда включать версию для айфона*/
-/*когда включать широкую версию*/
-/* HOW TO USE SPRITES*/
-/*.whatever{@include sized-sprite($icons, badge_hit);}*/
-/* TRANSITION */
-/* line 2, ../sass/apple.scss */
-.apple {
-  display: inline-block;
-  width: 100%;
-  background: #fff;
-  border: 1px solid #e3e3e3;
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-/* line 9, ../sass/apple.scss */
-.apple .apple__box {
-  float: left;
-  border: 1px solid #e3e3e3;
-  border-width: 0 1px 1px 0;
-  text-align: center;
-}
-/* line 15, ../sass/apple.scss */
-.apple .apple__media {
-  display: block;
-}
-/* line 17, ../sass/apple.scss */
-.apple .apple__media img {
-  vertical-align: middle;
-}
-/* line 22, ../sass/apple.scss */
-.apple h2 {
-  display: inline;
-  font-weight: normal;
-}
-/* line 25, ../sass/apple.scss */
-.apple h2 a {
-  color: #158edc;
-  text-decoration: underline;
-}
-/* line 28, ../sass/apple.scss */
-.apple h2 a:hover {
-  text-decoration: none;
-}
-/* line 31, ../sass/apple.scss */
-.apple .media__price {
-  color: #5c5c6b;
-}
-/* line 33, ../sass/apple.scss */
-.apple .media__price strong {
-  font-weight: normal;
-}
-/* line 37, ../sass/apple.scss */
-.apple .apple__box_1, .apple .apple__box_5 {
-  width: 361px;
-  height: 407px;
-}
-/* line 40, ../sass/apple.scss */
-.apple .apple__box_1 .apple__media, .apple .apple__box_5 .apple__media {
-  height: 278px;
-  line-height: 278px;
-  margin-top: 34px;
-}
-/* line 45, ../sass/apple.scss */
-.apple .apple__box_1 h2, .apple .apple__box_1 .media__price strong, .apple .apple__box_5 h2, .apple .apple__box_5 .media__price strong {
-  font-size: 24px;
-}
-/* line 46, ../sass/apple.scss */
-.apple .apple__box_1 .media__price, .apple .apple__box_5 .media__price {
-  font-size: 14px;
-}
-/* line 48, ../sass/apple.scss */
-.apple .apple__box_2 {
-  width: 365px;
-  height: 203px;
-  text-align: left;
-  line-height: 203px;
-  border-right: 0;
-}
-/* line 54, ../sass/apple.scss */
-.apple .apple__box_2 .apple__media {
-  height: 203px;
-  line-height: 203px;
-  margin: 0 25px 0 35px;
-}
-/* line 59, ../sass/apple.scss */
-.apple .apple__box_2 .apple__inf {
-  display: inline-block;
-  line-height: 1.2;
-  vertical-align: middle;
-  position: relative;
-  top: -20px;
-}
-/* line 61, ../sass/apple.scss */
-.apple .apple__box_2 .apple__inf h2 {
-  display: block;
-}
-/* line 67, ../sass/apple.scss */
-.apple .apple__box_2 .apple__media {
-  display: inline-block;
-}
-/* line 68, ../sass/apple.scss */
-.apple .apple__box_2 h2 {
-  font-size: 24px;
-}
-/* line 69, ../sass/apple.scss */
-.apple .apple__box_2 .media__price strong {
-  font-size: 19px;
-}
-/* line 70, ../sass/apple.scss */
-.apple .apple__box_2 .media__price {
-  font-size: 13px;
-}
-/* line 72, ../sass/apple.scss */
-.apple .apple__box_3 {
-  width: 180px;
-  height: 247px;
-}
-/* line 75, ../sass/apple.scss */
-.apple .apple__box_3 .apple__media {
-  height: 145px;
-  line-height: 145px;
-  margin-top: 12px;
-}
-/* line 80, ../sass/apple.scss */
-.apple .apple__box_3 h2 {
-  font-size: 11px;
-  display: block;
-}
-/* line 84, ../sass/apple.scss */
-.apple .apple__box_3 .media__price strong {
-  font-size: 17px;
-}
-/* line 85, ../sass/apple.scss */
-.apple .apple__box_3 .media__price {
-  font-size: 11px;
-  display: block;
-  margin-top: 6px;
-}
-/* line 92, ../sass/apple.scss */
-.apple .apple__box_4 {
-  width: 365px;
-  height: 247px;
-  border-right: 0;
-}
-/* line 96, ../sass/apple.scss */
-.apple .apple__box_4 .apple__media {
-  height: 175px;
-  line-height: 175px;
-  margin-top: 18px;
-}
-/* line 101, ../sass/apple.scss */
-.apple .apple__box_4 h2, .apple .apple__box_4 .media__price strong {
-  font-size: 24px;
-}
-/* line 102, ../sass/apple.scss */
-.apple .apple__box_4 .media__price {
-  font-size: 13px;
-}
-/* line 104, ../sass/apple.scss */
-.apple .apple__box_5 {
-  height: 331px;
-  border-bottom: 0;
-}
-/* line 107, ../sass/apple.scss */
-.apple .apple__box_5 .apple__media {
-  height: 264px;
-  line-height: 264px;
-  margin-top: 0;
-}
-/* line 113, ../sass/apple.scss */
-.apple .apple__box_6, .apple .apple__box_7 {
-  width: 182px;
-  height: 223px;
-}
-/* line 116, ../sass/apple.scss */
-.apple .apple__box_6 h2, .apple .apple__box_7 h2 {
-  font-size: 11px;
-}
-/* line 117, ../sass/apple.scss */
-.apple .apple__box_6 .media__price strong, .apple .apple__box_7 .media__price strong {
-  font-size: 17px;
-}
-/* line 118, ../sass/apple.scss */
-.apple .apple__box_6 .media__price, .apple .apple__box_7 .media__price {
-  font-size: 11px;
-  display: block;
-  margin-top: 6px;
-}
-/* line 123, ../sass/apple.scss */
-.apple .apple__box_6 .apple__media, .apple .apple__box_7 .apple__media {
-  height: 117px;
-  line-height: 117px;
-  margin-top: 28px;
-}
-/* line 129, ../sass/apple.scss */
-.apple .apple__box_7 {
-  border-right: 0;
-}
-/* line 130, ../sass/apple.scss */
-.apple .apple__box_8 {
-  width: 365px;
-  height: 107px;
-  text-align: left;
-  border-right: 0;
-  border-bottom: 0;
-}
-/* line 136, ../sass/apple.scss */
-.apple .apple__box_8 .apple__media {
-  display: inline-block;
-  height: 107px;
-  line-height: 107px;
-  margin: 0 45px 0 35px;
-}
-/* line 142, ../sass/apple.scss */
-.apple .apple__box_8 .apple__inf {
-  display: inline-block;
-  vertical-align: middle;
-}
-/* line 146, ../sass/apple.scss */
-.apple .apple__box_8 h2 {
-  font-size: 11px;
-}
-/* line 147, ../sass/apple.scss */
-.apple .apple__box_8 .media__price strong {
-  font-size: 17px;
-}
-/* line 148, ../sass/apple.scss */
-.apple .apple__box_8 .media__price {
-  font-size: 11px;
-  display: block;
-}
+.apple { display: inline-block; width: 100%; background: #fff; border: 1px solid #e3e3e3; border-radius: 5px; margin-bottom: 20px; }
+.apple .apple__box { float: left; border: 1px solid #e3e3e3; border-width: 0 1px 1px 0; text-align: center; }
+.apple .apple__media { display: block; }
+.apple .apple__media img { vertical-align: middle; }
+.apple h2 { display: inline; font-weight: normal; }
+.apple h2 a { color: #158edc; text-decoration: underline; }
+.apple h2 a:hover { text-decoration: none; }
+.apple .media__price { color: #5c5c6b; }
+.apple .media__price strong { font-weight: normal; }
+.apple .apple__box_1, .apple .apple__box_5 { width: 361px; height: 407px; }
+.apple .apple__box_1 .apple__media, .apple .apple__box_5 .apple__media { height: 278px; line-height: 278px; margin-top: 34px; }
+.apple .apple__box_1 h2, .apple .apple__box_1 .media__price strong, .apple .apple__box_5 h2, .apple .apple__box_5 .media__price strong { font-size: 24px; }
+.apple .apple__box_1 .media__price, .apple .apple__box_5 .media__price { font-size: 14px; }
+.apple .apple__box_2 { width: 365px; height: 203px; text-align: left; line-height: 203px; border-right: 0; }
+.apple .apple__box_2 .apple__media { height: 203px; line-height: 203px; margin: 0 25px 0 35px; }
+.apple .apple__box_2 .apple__inf { display: inline-block; line-height: 1.2; vertical-align: middle; position: relative; top: -20px; }
+.apple .apple__box_2 .apple__inf h2 { display: block; }
+.apple .apple__box_2 .apple__media { display: inline-block; }
+.apple .apple__box_2 h2 { font-size: 24px; }
+.apple .apple__box_2 .media__price strong { font-size: 19px; }
+.apple .apple__box_2 .media__price { font-size: 13px; }
+.apple .apple__box_3 { width: 180px; height: 247px; }
+.apple .apple__box_3 .apple__media { height: 145px; line-height: 145px; margin-top: 12px; }
+.apple .apple__box_3 h2 { font-size: 11px; display: block; }
+.apple .apple__box_3 .media__price strong { font-size: 17px; }
+.apple .apple__box_3 .media__price { font-size: 11px; display: block; margin-top: 6px; }
+.apple .apple__box_4 { width: 365px; height: 247px; border-right: 0; }
+.apple .apple__box_4 .apple__media { height: 175px; line-height: 175px; margin-top: 18px; }
+.apple .apple__box_4 h2, .apple .apple__box_4 .media__price strong { font-size: 24px; }
+.apple .apple__box_4 .media__price { font-size: 13px; }
+.apple .apple__box_5 { height: 331px; border-bottom: 0; }
+.apple .apple__box_5 .apple__media { height: 264px; line-height: 264px; margin-top: 0; }
+.apple .apple__box_6, .apple .apple__box_7 { width: 182px; height: 223px; }
+.apple .apple__box_6 h2, .apple .apple__box_7 h2 { font-size: 11px; }
+.apple .apple__box_6 .media__price strong, .apple .apple__box_7 .media__price strong { font-size: 17px; }
+.apple .apple__box_6 .media__price, .apple .apple__box_7 .media__price { font-size: 11px; display: block; margin-top: 6px; }
+.apple .apple__box_6 .apple__media, .apple .apple__box_7 .apple__media { height: 117px; line-height: 117px; margin-top: 28px; }
+.apple .apple__box_7 { border-right: 0; }
+.apple .apple__box_8 { width: 365px; height: 107px; text-align: left; border-right: 0; border-bottom: 0; }
+.apple .apple__box_8 .apple__media { display: inline-block; height: 107px; line-height: 107px; margin: 0 45px 0 35px; }
+.apple .apple__box_8 .apple__inf { display: inline-block; vertical-align: middle; }
+.apple .apple__box_8 h2 { font-size: 11px; }
+.apple .apple__box_8 .media__price strong { font-size: 17px; }
+.apple .apple__box_8 .media__price { font-size: 11px; display: block; }
 
-/* line 154, ../sass/apple.scss */
-.apple-products {
-  margin-bottom: 10px;
-}
+.apple-products { margin-bottom: 10px; }

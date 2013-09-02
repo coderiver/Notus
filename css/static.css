@@ -1,107 +1,20 @@
-@charset "IBM866";
-/*когда включать версию для айфона*/
-/*когда включать широкую версию*/
-/* HOW TO USE SPRITES*/
-/*.whatever{@include sized-sprite($icons, badge_hit);}*/
-/* TRANSITION */
-/* line 2, ../sass/static.scss */
-.product-block .static {
-  padding: 30px 15px 40px 35px;
-  color: #494949;
-  font-size: 12px;
-  line-height: 16px;
-}
+.product-block .static { padding: 30px 15px 40px 35px; color: #494949; font-size: 12px; line-height: 16px; }
 
-/* line 8, ../sass/static.scss */
-.four-priority {
-  width: 240px;
-  height: 211px;
-  margin-bottom: 18px;
-}
+.four-priority { width: 240px; height: 211px; margin-bottom: 18px; }
 
-/* line 13, ../sass/static.scss */
-.breadcrumbs {
-  margin-top: 20px;
-}
+.breadcrumbs { margin-top: 20px; }
 
-/* line 19, ../sass/static.scss */
-.static b {
-  font-size: 12px;
-  color: #494949;
-  display: inline-block;
-  margin: 10px 0;
-}
-/* line 25, ../sass/static.scss */
-.static h3 {
-  font: 18px Arial, sans-serif;
-  color: #0078C6;
-  padding: 0;
-  margin: 0px 0 20px;
-}
-/* line 31, ../sass/static.scss */
-.static h3 + b {
-  margin: 0 0 20px;
-}
-/* line 35, ../sass/static.scss */
-.static h4 {
-  font-size: 12px;
-  color: #007CA4;
-  display: inline-block;
-  margin: 10px 0;
-}
-/* line 41, ../sass/static.scss */
-.static span h4 {
-  font-size: 12px;
-  color: #007CA4;
-  display: inline-block;
-  margin: 0;
-}
-/* line 47, ../sass/static.scss */
-.static p {
-  margin: 15px 0;
-}
-/* line 50, ../sass/static.scss */
-.static p span {
-  color: #E47911;
-  font-weight: bold;
-}
-/* line 54, ../sass/static.scss */
-.static ul {
-  margin-left: 20px;
-  margin-bottom: 15px;
-}
-/* line 57, ../sass/static.scss */
-.static ul li {
-  line-height: 20px;
-}
-/* line 62, ../sass/static.scss */
-.static .conteiner__img img {
-  width: 600px;
-  height: 420px;
-  margin: 0 40px;
-}
+.static b { font-size: 12px; color: #494949; display: inline-block; margin: 10px 0; }
+.static h3 { font: 18px Arial, sans-serif; color: #0078C6; padding: 0; margin: 0px 0 20px; }
+.static h3 + b { margin: 0 0 20px; }
+.static h4 { font-size: 12px; color: #007CA4; display: inline-block; margin: 10px 0; }
+.static span h4 { font-size: 12px; color: #007CA4; display: inline-block; margin: 0; }
+.static p { margin: 15px 0; }
+.static p span { color: #E47911; font-weight: bold; }
+.static ul { margin-left: 20px; margin-bottom: 15px; }
+.static ul li { line-height: 20px; }
+.static .conteiner__img img { width: 600px; height: 420px; margin: 0 40px; }
 
-/* line 71, ../sass/static.scss */
-.wrap-easy-button {
-  text-align: center;
-  margin: 40px 0 20px;
-}
+.wrap-easy-button { text-align: center; margin: 40px 0 20px; }
 
-/* line 75, ../sass/static.scss */
-a.easy-button {
-  background: #bc1212;
-  background: -moz-linear-gradient(top, #bc1212 0%, #ef2804 50%, #b51712 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #bc1212), color-stop(50%, #ef2804), color-stop(100%, #b51712));
-  background: -webkit-linear-gradient(top, #bc1212 0%, #ef2804 50%, #b51712 100%);
-  background: -o-linear-gradient(top, #bc1212 0%, #ef2804 50%, #b51712 100%);
-  background: -ms-linear-gradient(top, #bc1212 0%, #ef2804 50%, #b51712 100%);
-  background: linear-gradient(to bottom, #bc1212 0%, #ef2804 50%, #b51712 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc1212', endColorstr='#b51712',GradientType=0 );
-  padding: 15px 10px;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 8px;
-  border: 1px solid #B51712;
-  font-size: 16px;
-  font-weight: bold;
-}
+a.easy-button { background: #bc1212; background: -moz-linear-gradient(top, #bc1212 0%, #ef2804 50%, #b51712 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #bc1212), color-stop(50%, #ef2804), color-stop(100%, #b51712)); background: -webkit-linear-gradient(top, #bc1212 0%, #ef2804 50%, #b51712 100%); background: -o-linear-gradient(top, #bc1212 0%, #ef2804 50%, #b51712 100%); background: -ms-linear-gradient(top, #bc1212 0%, #ef2804 50%, #b51712 100%); background: linear-gradient(to bottom, #bc1212 0%, #ef2804 50%, #b51712 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc1212', endColorstr='#b51712',GradientType=0 ); padding: 15px 10px; color: #fff; text-decoration: none; border-radius: 8px; border: 1px solid #B51712; font-size: 16px; font-weight: bold; }

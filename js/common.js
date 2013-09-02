@@ -133,6 +133,12 @@ $(document).ready(function() {
 	});
 	$("#gds2 .caro").scrollableAddClones();
 
+	$('#attendant__gallery .caro').scrollable({
+		next:'#attendant__gallery .caro-next',
+		prev:'#attendant__gallery .caro-prev'
+	});
+	$("#attendant__gallery .caro").scrollableAddClones();
+
 
 
 // suggest

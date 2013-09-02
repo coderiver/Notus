@@ -83,8 +83,6 @@ a{
 	border-radius:2px;
 	cursor:pointer;
 	font-family:Arial,sans-serif;
-	
-
 	&:hover{
 	background-color:#2696de;
 	background-position:0 -30px;
@@ -110,6 +108,16 @@ a{
 	color:#606060;
 	text-shadow:rgba(255,255,255,0.9) 0 -1px 0;
 	&:hover{background-color:#d9d9d9;}
+}
+.btn_dark-gray{
+	@include background-image(linear-gradient(top, #9697a1 0, #575866 100%));
+	border-color:#9697a1 #4c4d55 #575866;
+	box-shadow: 1px 1px 0 0 rgba(255, 255, 255, 0.3) inset, -1px -1px 0 0 rgba(255, 255, 255, 0.3) inset;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+	&:hover{
+		background-color: #575866;
+		border-color:#575866;
+	}
 }
 .btn_orange{
 	border-color:#f8890c;
