@@ -399,7 +399,7 @@
 	dl{float:left}
 	dt{
 		float:left;
-		margin: 7px 19px 0 7px;
+		margin: 5px 19px 0 7px;
 	}
 	dd{
 		float:left;
@@ -1688,4 +1688,48 @@
 		border-bottom:1px solid #cacaca;
 		margin-bottom: 12px;
 	}
+}
+
+.product__clarify{
+	margin: 33px 0 0 ;
+	.attendant__show{
+		text-align: left;
+		margin-bottom: 15px;
+	}
+	& + .product__color{
+		margin-top: 22px;
+	}
+}
+.clarify{
+	height: 60px;
+	box-shadow:0 1px 1px rgba(0,0,0,.4);
+	@include background-image(linear-gradient(#f4f4f4, #eeeeee));
+	border-radius:2px;
+	margin-bottom: 26px;
+}
+.clarify__text{
+	float: left;
+	width: 161px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 21px;
+	font-weight: bold;
+	color: #666;
+	overflow: hidden;
+}
+.btn_clarify{
+	height: 28px;
+	width: 159px - 55px;
+	padding:15px 0 15px 55px;
+	position: relative;
+	text-align: left;
+	float: left;
+	font-size: 14px;
+	line-height: 1;
+}
+.ico-mail{
+	position: absolute;
+	@include sized-sprite($icons, "ico-mail");
+	top: 20px;
+	left: 14px;
 }
