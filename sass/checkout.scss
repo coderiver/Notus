@@ -1,0 +1,42 @@
+@import "base";
+.header_min{
+	background: #f8f8f8;
+	position: relative;
+	&:after{
+		height: 20px;
+		content:'';
+		position: absolute;
+		left: 0;
+		right: 0;
+		top:100%;
+		@include background-image(linear-gradient(#e2e2e3, #f8f8f8));
+		box-shadow: 0 1px 0 rgba(0,0,0,.02) inset;
+	}
+	.header__logo{
+		float: none;
+		margin:0 auto;
+		display: block;
+	}
+	.header__info{
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.header__phone{
+		font-size: 19px;
+		float: none;
+		margin: 0;
+		span{
+			font-weight: normal;
+		}
+		&:before{
+			content:'';
+			display: inline-block;
+			@include sized-sprite($icons, 'phone');
+		}
+	}
+	.header__callback{
+		color: #017ecb;
+		border-color: #017ecb;
+	}
+}

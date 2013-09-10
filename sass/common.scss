@@ -288,12 +288,14 @@ a{
 		margin:0 auto;
 		padding: 16px 0 9px 2px;
 		height:72px;
+		position: relative;
 	}
 	.header__logo{
 		@include sized-sprite($icons, logo);
 		float:left;
 		overflow: hidden;
-		text-indent:-9999px;
+		font-size: 0;
+		color: transparent;
 		margin-right:58px;
 		a{
 			height:100%;
@@ -311,25 +313,25 @@ a{
 	.header__info{
 		color:#3c3c3c;
 		overflow: hidden;
-		.header__worktime{
-			float: left;
-			font-size:12px;
-		}
-		.header__phone{
-			font-size:19px;
-			font-weight:bold;
-			margin:-1px 0 0 7px;
-			float:left;
-		}
-		.header__callback{
-			margin:3px 0 0 11px;
-			font-size:13px;
-			color:#3c3c3c;
-			text-decoration:none;
-			border-bottom:1px dotted #3c3c3c;
-			float: left;
-			&:hover{border:none;}
-		}
+	}
+	.header__worktime{
+		float: left;
+		font-size:12px;
+	}
+	.header__phone{
+		font-size:19px;
+		font-weight:bold;
+		margin:-1px 0 0 7px;
+		float:left;
+	}
+	.header__callback{
+		margin:3px 0 0 11px;
+		font-size:13px;
+		color:#3c3c3c;
+		text-decoration:none;
+		border-bottom:1px dotted #3c3c3c;
+		float: left;
+		&:hover{border:none;}
 	}
 	.header__search{
 		border:1px solid #dbdbdb;
