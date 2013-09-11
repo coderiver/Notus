@@ -2,6 +2,7 @@
 .header_min{
 	background: #f8f8f8;
 	position: relative;
+	margin-bottom: 30px;
 	&:after{
 		height: 20px;
 		content:'';
@@ -12,18 +13,26 @@
 		@include background-image(linear-gradient(#e2e2e3, #f8f8f8));
 		box-shadow: 0 1px 0 rgba(0,0,0,.02) inset;
 	}
+	.header__holder{
+		height: 78px;
+		width: 980px;
+		padding: 0;
+	}
 	.header__logo{
 		float: none;
-		margin:0 auto;
+		margin:8px auto 0;
 		display: block;
+		position: relative;
+		left: -20px;
 	}
 	.header__info{
 		position: absolute;
-		top: 0;
-		right: 0;
+		top: 16px;
+		right: 20px;
+		text-align: right;
 	}
 	.header__phone{
-		font-size: 19px;
+		font-size: 18px;
 		float: none;
 		margin: 0;
 		span{
@@ -31,12 +40,99 @@
 		}
 		&:before{
 			content:'';
+			vertical-align: middle;
 			display: inline-block;
 			@include sized-sprite($icons, 'phone');
+			margin-right: 2px;
 		}
 	}
 	.header__callback{
 		color: #017ecb;
 		border-color: #017ecb;
+		float: none;
+		margin: 0;
+		font-size: 12px;
 	}
+	.header__back{
+		font-size: 14px;
+		line-height: 50px;
+		position: absolute;
+		left: 20px;
+		top: 10px;
+		color: #017ecb;
+		&:before{
+			display: inline-block;
+			content:'';
+			 margin-right: 5px;
+			@include sized-sprite($icons, 'arr-14');
+		}
+	}
+}
+
+.resume{
+	background: #fff;
+	border-radius: 7px;
+	border: 1px solid #e3e3e3;
+	box-shadow: 0 2px 3px rgba(0,0,0,.5);
+	&:after{
+		content:' ';
+		display: table;
+		clear: both;
+	}
+}
+.resume__title{
+	font-size: 21px;
+	line-height: 1.333;
+	font: #000;
+	float: left;
+	margin: 18px 0 0 19px;
+}
+.resume__items{
+	float: right;
+	&:after{
+		content:' ';
+		display: table;
+		clear: both;
+	}
+	li{
+		border-left:1px solid #efeff1;
+		width: 194px;
+		text-align: center;
+		font-size: 18px;
+		color: #000;
+		list-style: none;
+		float: left;
+		padding: 11px 0 10px;
+	}
+}
+.resume__subtitle{
+	font-size: 14px;
+	font-weight: normal;
+}
+.resume__price{
+	.resume__subtitle{
+		color: #4b8a00;
+	}
+}
+.resume__delivery{
+	.resume__subtitle{
+		color: #d08900;
+	}
+}
+.resume__amount{
+	.resume__subtitle{
+		color: #008599;
+	}
+}
+.resume__price-icon,
+.resume__delivery-icon,
+.resume__amount-icon{
+	display: inline-block;
+}
+.resume__price-icon{@include sized-sprite($icons, 'price');}
+.resume__delivery-icon{@include sized-sprite($icons, 'delivery3');}
+.resume__amount-icon{@include sized-sprite($icons, 'backet');}
+
+.out_checkout{
+	width: 980px;
 }
