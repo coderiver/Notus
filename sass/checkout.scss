@@ -69,11 +69,13 @@
 	}
 }
 
+
 .resume{
 	background: #fff;
 	border-radius: 7px;
 	border: 1px solid #e3e3e3;
 	box-shadow: 0 2px 3px rgba(0,0,0,.5);
+	margin-bottom: 8px;
 	&:after{
 		content:' ';
 		display: table;
@@ -135,4 +137,170 @@
 
 .out_checkout{
 	width: 980px;
+}
+
+
+.link-save,
+.link-cancel,
+.link-delete{
+	font-size: 12px;
+	border-bottom:1px dotted transparent;
+	cursor: pointer;
+	text-decoration: none;
+	&:hover{
+		border-color: transparent;
+	}
+	&:before{
+		display: inline-block;
+		content:'';
+		vertical-align: middle;
+		position: relative;
+	}
+}
+.link-save{
+	color: #4b8a00;
+	border-color:#4b8a00;
+	font-weight: bold;
+	&:before{
+		@include sized-sprite($icons, 'ico-save');
+		margin-right: 5px;
+	}
+}
+.link-cancel{
+	color: #f16250;
+	border-color:#f16250;
+	font-weight: bold;
+	&:before{
+		@include sized-sprite($icons, 'ico-cancel');
+		top:-1px;
+		margin-right: 4px;
+	}
+}
+.link-delete{
+	color: #ef503b;
+	border-color:#ef503b;
+	&:before{
+		@include sized-sprite($icons, 'delete');
+		margin-right: 4px;
+		top: -1px;
+	}
+}
+
+
+.my-order{
+	border:1px solid #e3e3e3;
+	border-radius:5px;
+	background: #fff;
+	padding: 16px 19px 28px;
+	margin-bottom: 10px;
+}
+.my-order__header{
+	margin-bottom: 10px;
+	&:after{
+		content:' ';
+		display: table;
+		clear: both;
+	}
+}
+.my-order__title{
+	font-size: 21px;
+	font-weight: bold;
+	color: #000;
+	float: left;
+}
+.my-order__btn-holder{
+	float: right;
+	margin: 8px 3px 0 0;
+	& > *{
+		margin-left: 14px;
+	}
+}
+.my-holder__content{
+	border:1px dashed #c4c4c4;
+	border-radius:5px;
+	padding-bottom: 12px;
+}
+.my-order__table{
+	border-collapse: collapse;
+	border: none;
+	width: 100%;
+	font-size: 14px;
+	line-height: 1.5;
+	td{
+		padding-top: 20px;
+		padding-bottom: 12px;
+		vertical-align: top;
+	}
+}
+.my-order__col-media{
+	text-align: center;
+	width: 130px;
+	vertical-align: middle;
+}
+.my-order__col-name{
+	width: 324px;
+}
+.my-order__name{
+	font-size: 14px;
+	font-weight: normal;
+	a{
+		text-decoration: none;
+		color: #000;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+}
+.my-order__price-count{
+	font-size: 12px;
+	color: #636363;
+	display: block;
+}
+.my-order__services{
+	list-style: none;
+	margin: 14px 0 8px;
+	li{
+		margin-bottom: 3px;
+	}
+	label{
+		color: #017ecb;
+		text-decoration: underline;
+		font-size: 12px;
+		&:hover{text-decoration: none;}
+	}
+	input{
+		vertical-align: middle;
+		margin-right: 4px;
+	}
+}
+.my-order__col-price,
+.my-order__col-sum{
+	width: 88px;
+	span{
+		display: block;
+	}
+}
+.my-order__col-count{
+	text-align: center;
+	padding-right: 47px;
+	label{
+		display: block;
+	}
+}
+.my-order__count{
+	height: 18px;
+	width: 28px;
+	text-align: center;
+	border:none;
+	box-shadow:0 1px 3px rgba(0,0,0,.5) inset;
+	font-size: 12px;
+	border-radius:2px;
+}
+.my-order__footer{
+	padding-top: 7px;
+	&:after{
+		content:' ';
+		display: table;
+		clear: both;
+	}
 }
