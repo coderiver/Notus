@@ -124,6 +124,179 @@
 	</div>
 	<!-- END my-order-->
 
+	<!-- BEGIN order-form -->
+	<div class="order-form">
+		<form action="#">
+		<div class="order-form__block">
+			<h3 class="order-form__title">Заполните информацию <br>
+				о получателе</h3>
+			<div class="order-form__content">
+				<div class="row row_error">
+					<label for="">Фамилия, Имя и Отчество получателя*</label>
+					<input type="text" class="input">
+					<span class="order-form__error-mess">Обязательный пункт для заполнения</span>
+				</div>
+				<div class="row row_error">
+					<label for="">Мобильный телефон для связи*</label>
+					<input type="text" class="input">
+					<span class="order-form__error-mess">Обязательный пункт для заполнения</span>
+				</div>
+				<div class="row row_error">
+					<label for="">Электронный адрес (e-mail)</label>
+					<input type="text" class="input">
+					<span class="order-form__error-mess">Пожалуйста введите корректный e-mail</span>
+				</div>
+				<div class="row row_check">
+					<label for=""><input type="checkbox">Я хочу получать СМС уведомления об изменении статуса заказа</label>
+				</div>
+				<div class="row row_check">
+					<label for=""><input type="checkbox">Я являюсь представителем юридического лица</label>
+				</div>
+			</div>
+		</div>
+
+		<div class="order-form__block">
+			<h3 class="order-form__title">Заполните информацию<br>
+				об организации</h3>
+			<div class="order-form__content">
+				<div class="row row_error">
+					<label for="">Наименование организации*</label>
+					<input type="text" class="input">
+					<span class="order-form__error-mess">Обязательный пункт для заполнения</span>
+				</div>
+				<div class="row row_check">
+					<label for=""><input type="checkbox">Я хочу заполнить реквизиты организации здесь</label>
+				</div>
+				<div class="row row_file">
+					<input type="file" class="input_file">
+					<span class="order-form__error-mess">Обязательный пункт для заполнения</span>
+					<div class="file-load">
+						<div class="file-load__loader"></div>
+						<span class="file-load__name"></span>
+						<span class="file-load__cancel"></span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="order-form__block">
+			<h3 class="order-form__title">Выберите регион доставки</h3>
+			<div class="order-form__content">
+				<div class="row row_error">
+					<input type="text" class="input">
+					<span class="order-form__error-mess">Обязательный пункт для заполнения</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="order-form__block">
+			<h3 class="order-form__title">Выберите способ получения</h3>
+			<div class="order-form__content">
+				<div class="row row_radio">
+					<label for=""><input type="radio">Самовывоз из пункта выдачи Notus.ua</label>
+				</div>
+				<div class="row row_radio">
+					<label for=""><input type="radio">Доставка курьером</label>
+				</div>
+				<div class="row row_radio">
+					<label for=""><input type="radio">Доставка “Новой Почтой”</label>
+				</div>
+			</div>
+		</div>
+
+		<div class="order-form__block">
+			<h3 class="order-form__title">Выберите адрес получения</h3>
+			<div class="order-form__content">
+				<strong class="order-form__city">г. Киев</strong>
+				<div class="row row_error">
+					<label for="">Улица*</label>
+					<input type="text" class="input">
+					<span class="order-form__error-mess">Обязательный пункт для заполнения</span>
+				</div>
+				<div class="row row_error">
+					<div class="input-col">
+						<label for="">Дом*</label>
+						<input type="text" class="input">
+					</div>
+					<div class="input-col">
+						<label for="">Строение</label>
+						<input type="text" class="input">
+					</div>
+					<div class="input-col">
+						<label for="">Корпус</label>
+						<input type="text" class="input">
+					</div>
+					<div class="input-col">
+						<label for="">Квартира/Офис</label>
+						<input type="text" class="input">
+					</div>
+					<span class="order-form__error-mess">Обязательный пункт для заполнения</span>
+				</div>
+				<div class="row">
+					<label for="">Хотите еще что-то добавить?
+						<span class="sub-label">Например: этаж, подъезд, код домофона</span>
+					</label>
+					<textarea name="" id="" cols="30" rows="10" class="textarea"></textarea>
+				</div>
+			</div>
+		</div>
+
+		<div class="order-form__block">
+			<h3 class="order-form__title">Выберите способ оплаты</h3>
+			<div class="order-form__content">
+				<div class="row row_radio">
+					<label for=""><input type="radio">Наличными при получении</label>
+				</div>
+				<div class="row row_radio">
+					<label for=""><input type="radio">Предоплата на счет</label>
+				</div>
+			</div>
+		</div>
+
+		<div class="order-form__block">
+			<h3 class="order-form__title">
+				У Вас есть купон или сертификат?
+				<span>Если нет, то пропустите этот пункт</span>
+			</h3>
+			<div class="order-form__content">
+				<div class="row row_check">
+					<label for=""><input type="checkbox">Активировать купон</label>
+				</div>
+				<div class="row row_check">
+					<label for=""><input type="checkbox">ктивировать сертификат</label>
+				</div>
+				<div class="row row_error">
+					<div class="input-col">
+						<label for="">Номер:</label>
+						<input type="text" class="input">
+					</div>
+					<div class="input-col">
+						<label for="">Код:</label>
+						<input type="text" class="input">
+					</div>
+					<div class="input-col">
+						<a href="#">Еще</a>
+					</div>
+					<span class="order-form__error-mess">Обязательный пункт для заполнения</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="order-form__block">
+			<h3 class="order-form__title">
+				Нажмите кнопку "Оформить Заказ", и менеджер контакт-центра свяжется с вами и все уточнит.
+			</h3>
+			<div class="order-form__content">
+				<input type="submit" value="Оформить Заказ" class="order-form__big-btn">
+			</div>
+			<span class="order-form__note">*Поля обязательны для заполнения</span>
+		</div>
+
+		</form>
+	</div>
+	<!-- END order-form -->
+
 	<!-- BEGIN  how-it-works-->
 	<div class="how-it-works">
 		<div class="our-company">
