@@ -334,6 +334,7 @@
 		font-size: 14px;
 		color: #717171;
 		display: block;
+		font-weight: normal;
 	}
 }
 .order-form__content{
@@ -419,6 +420,9 @@
 		.input{
 			border-color: #f26b5a;
 		}
+		.order-phone__prefix{
+			opacity: 0;
+		}
 	}
 	.input, .textarea{
 		border:0;
@@ -454,17 +458,28 @@
 		position: relative;
 	}
 	.textarea{
-		height: 80px;
+		height: 155px;
 		resize:none;
 	}
 	.input-col{
 		display: inline-block;
-		width: 100px;
+		width: 123px;
 		.input{
-			width: 70px;
+			width: 95px;
 		}
 	}
-	.sub-label{}
+	.input-col_big{
+		display: inline-block;
+		width: 156px;
+		.input{
+			width: 126px;
+		}
+	}
+	.sub-label{
+		font-size: 12px;
+		display: block;
+		color: #717171;
+	}
 }
 .order-form__error-mess{
 	display: block;
@@ -482,10 +497,20 @@
 	font-weight: bold;
 	font-size: 36px;
 	background: #69b100;
+	text-shadow: 0 1px 1px rgba(0,0,0,.4);
 	box-shadow:0 1px 1px rgba(0,0,0,.4);
+	border-radius:3px;
+	cursor: pointer;
+	@include background-image(linear-gradient(rgba(white,.7), rgba(white,.0) 70%, rgba(white,.0)));
+	background-repeat: no-repeat;
+	@include transition(background, 0.1s, ease-in);
+	&:hover{
+		background-position: 0 -20px;
+	}
 }
 .order-form__note{
 	display: block;
+	margin-top: 28px;
 }
 .file-load{
 	margin-top: 22px;
@@ -574,4 +599,5 @@
 .order-form__city{
 	display: block;
 	font-size: 14px;
+	margin-bottom: 5px;
 }
