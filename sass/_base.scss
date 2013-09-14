@@ -1,51 +1,13 @@
 @import "compass/css3";
-$break-small: 500px; //когда включать версию для айфона
-$break-large: 1180px; //когда включать широкую версию
+
 $main-width: 1000px;
 
-// HOW TO USE SPRITES
-$icons: sprite-map("icons/*.png", $spacing: 20px);
-// $layout: smart
-//.whatever{@include sized-sprite($icons, badge_hit);}
+$icons: sprite-map("icons/*.png",
+  $spacing: 20px,
+  $layout: smart);
 
-
-$experimental-support-for-svg: true;
-$mysprite-layout:smart;
-
-@mixin image-size($path){
-width: image-width($path);
-height: image-height($path);
-}
-
-@mixin sized-sprite($map, $sprite){
-background: sprite($map, $sprite) no-repeat;
-@include image-size(sprite-file($map, $sprite));
-}
-
-// TRANSITION
-@mixin transition($what: all, $length: 1s, $easing: ease-in-out) {
-    -moz-transition:    $what $length $easing;
-    -webkit-transition: $what $length $easing;
-    -o-transition:      $what $length $easing;
-    -ms-transition:     $what $length $easing;
-    transition:         $what $length $easing;
-}
-@mixin animation($what: all, $length: 1s, $easing: ease-in-out) {
-    -moz-animatiom:    $what $length $easing 0s infinite normal;
-    -webkit-animation: $what $length $easing 0s infinite normal;
-    -o-animation:      $what $length $easing 0s infinite normal;
-    animation:         $what $length $easing 0s infinite normal;
-}
-
-
-@mixin clr{
-  &:after{
-    content: "";
-    display: table;
-    clear: both;
-    }
-}
-
+$break-small: 500px; //когда включать версию для айфона
+$break-large: 1180px; //когда включать широкую версию
 
 @mixin respond-to($media) {
   @if $media == pda {
@@ -56,9 +18,39 @@ background: sprite($map, $sprite) no-repeat;
   }
 }
 
-
+/* TRANSITION */
+@mixin transition($what: all, $length: 1s, $easing: ease-in-out) {
+    -moz-transition:    $what $length $easing;
+    -webkit-transition: $what $length $easing;
+    -o-transition:      $what $length $easing;
+    -ms-transition:     $what $length $easing;
+    transition:         $what $length $easing;
+}
+@mixin animation($what: all, $length: 1s, $easing: ease-in-out, $iteration:infinite, $fillmode:none) {
+    -moz-animatiom:    $what $length $easing 0s $iteration normal $fillmode;
+    -webkit-animation: $what $length $easing 0s $iteration normal $fillmode;
+    -o-animation:      $what $length $easing 0s $iteration normal $fillmode;
+    animation:         $what $length $easing 0s $iteration normal $fillmode;
+}
 @mixin hide-text{
     font: 0/0 a;
     text-shadow: none;
     color: transparent;
+}
+@mixin clr{
+  &:after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    }
+}
+@mixin image-size($path){
+  width: image-width($path);
+  height: image-height($path);
+}
+@mixin sized-sprite($map, $sprite){
+  background: sprite($map, $sprite) no-repeat;
+  @include image-size(sprite-file($map, $sprite));
 }

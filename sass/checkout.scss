@@ -314,7 +314,7 @@
 }
 .order-form__block{
 	border-top: 1px solid #e3e3e3;
-	padding: 25px 60px 25px 20px;
+	padding: 16px 62px 25px 20px;
 	&:after{
 		content:'';
 		display: table;
@@ -338,51 +338,120 @@
 }
 .order-form__content{
 	float: right;
-	width: 500px;
+	width: 502px;
+	padding-top: 6px;
 	.row{
-		margin-bottom: 20px;
+		margin-bottom: 27px;
+		&:last-child{
+			margin-bottom: 0;
+		}
 		label{
 			display: block;
 			font-size: 14px;
+			margin-bottom: 6px;
 		}
 	}
-	.row_check{}
-	.row_radio{}
-	.row_file{}
+	.row_check{
+		margin: 0 0 10px;
+		position: relative;
+		label{
+			position: relative;
+			&:before{
+				content: '';
+				@include sized-sprite($icons, 'check');
+				display: inline-block;
+				vertical-align: middle;
+				margin-right: 6px;
+			}
+		}
+		input:checked + label:before{
+			@include sized-sprite($icons, 'check_active');
+		}
+		input{
+			opacity: 0;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+	}
+	.row_radio{
+		margin: 0 0 20px;
+		position: relative;
+		label{
+			position: relative;
+			font-weight: bold;
+			&:before{
+				content: '';
+				@include sized-sprite($icons, 'radio');
+				display: inline-block;
+				vertical-align: middle;
+				margin-right: 6px;
+			}
+		}
+		input:checked + label:before{
+			@include sized-sprite($icons, 'radio_active');
+		}
+		input{
+			opacity: 0;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+	}
+	.row_file{
+		margin-top: 24px;
+		&.row_error:before{
+			top: 11px;
+		}
+	}
 	.row_error{
+		position: relative;
+		&:before{
+			content: '';
+			position: absolute;
+			left: -29px;
+			top: 34px;
+			@include sized-sprite($icons, 'error-mark');
+		}
 		.order-form__error-mess{
 			display: block;
 		}
 		.input{
-			box-shadow: 0 1px 3px rgba(0,0,0,.5) inset,
-			0 0 0 1px rgba(242, 107, 90,.8) inset;
+			border-color: #f26b5a;
 		}
 	}
 	.input, .textarea{
 		border:0;
 		font-size: 14px;
 		color: #000;
-		box-shadow: 0 1px 3px rgba(0,0,0,.5) inset;
-		height: 36px;
+		box-shadow: 0 1px 1px rgba(0,0,0,.17) inset;
+		height: 34px;
 		padding: 0 10px;
 		width: 480px;
 		border-radius:2px;
+		border:1px solid #fff;
+		font-style: normal;
+		border-color: #aaa #d4d4d4 #f1f1f1;
 	}
 	.input_operator{
 		text-decoration: underline;
-		width: 50px;
+		width: 48px;
 		text-align: center;
 		padding: 0;
-		margin-right: 6px;
+		margin-right: 7px;
 	}
 	.input_phone-num{
 		text-decoration: underline;
-		width: 86px;
+		width: 84px;
 		text-align: center;
 		padding: 0;
 	}
 	.order-phone__prefix{
-		margin-left: -10px;
+		float: left;
+		font-size: 14px;
+		line-height: 36px;
+		margin-left: -33px;
+		position: relative;
 	}
 	.textarea{
 		height: 80px;
@@ -402,6 +471,7 @@
 	color: #ef503b;
 	font-size: 12px;
 	display: none;
+	margin: 6px 0 -11px;
 }
 .order-form__big-btn{
 	height: 78px;
@@ -416,4 +486,92 @@
 }
 .order-form__note{
 	display: block;
+}
+.file-load{
+	margin-top: 22px;
+}
+.file-btn{
+	color:#fff;
+	color: rgba(white,.7);
+	font-size: 16px;
+	font-weight: bold;
+	text-shadow:0 1px 0 rgba(0,0,0,.35);
+	@include background-image(linear-gradient(#b4b5bc, #8a8b95));
+	border-radius: 5px;
+	box-shadow: 0 0 0 1px rgba(white,.45) inset;
+	border: 1px solid #b4b5bc;
+	border-color: #b4b5bc #9b9ca4 #7f7f85;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	width: 303px;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	.input_file{
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		opacity: 0;
+		cursor: pointer;
+	}
+}
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+    -webkit-transform-origin:50% 50%;
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -webkit-transform-origin:50% 50%;
+  }
+}
+@-moz-keyframes rotate {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-o-keyframes rotate {
+  from {
+    -o-transform: rotate(0deg);
+  }
+  to {
+    -o-transform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.file-load__loader{
+	display: inline-block;
+	vertical-align: middle;
+	@include sized-sprite($icons, 'loader2');
+	@include animation(rotate, 2s, linear);
+}
+.file-load__name{
+	font-size: 14px;
+	margin: 0 5px;
+}
+.file-load__cancel{
+	font-size: 14px;
+	color: #017ecb;
+	border-bottom: 1px dotted #017ecb;
+	cursor: pointer;
+	&:hover{
+		border-color: transparent;
+	}
+}
+.order-form__city{
+	display: block;
+	font-size: 14px;
 }

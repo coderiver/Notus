@@ -1,3 +1,4 @@
+/* TRANSITION */
 .apple { display: inline-block; width: 100%; background: #fff; border: 1px solid #e3e3e3; border-radius: 5px; margin-bottom: 20px; }
 .apple .apple__box { float: left; border: 1px solid #e3e3e3; border-width: 0 1px 1px 0; text-align: center; }
 .apple .apple__media { display: block; }

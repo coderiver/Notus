@@ -136,7 +136,7 @@
 					<input type="text" class="input">
 					<span class="order-form__error-mess">Обязательный пункт для заполнения</span>
 				</div>
-				<div class="row row_error">
+				<div class="row">
 					<label for="">Мобильный телефон для связи*</label>
 					<span class="order-phone__prefix">+38</span>
 					<input type="text" class="input input_operator">
@@ -149,10 +149,10 @@
 					<span class="order-form__error-mess">Пожалуйста введите корректный e-mail</span>
 				</div>
 				<div class="row row_check">
-					<label for=""><input type="checkbox">Я хочу получать СМС уведомления об изменении статуса заказа</label>
+					<input type="checkbox" id="check-03"><label for="check-03">Я хочу получать СМС уведомления об изменении статуса заказа</label>
 				</div>
 				<div class="row row_check">
-					<label for=""><input type="checkbox">Я являюсь представителем юридического лица</label>
+					<input type="checkbox" id="check-04"><label for="check-04">Я являюсь представителем юридического лица</label>
 				</div>
 			</div>
 		</div>
@@ -161,7 +161,7 @@
 			<h3 class="order-form__title">Заполните информацию<br>
 				об организации</h3>
 			<div class="order-form__content">
-				<div class="row row_error">
+				<div class="row">
 					<label for="">Наименование организации*</label>
 					<input type="text" class="input">
 					<span class="order-form__error-mess">Обязательный пункт для заполнения</span>
@@ -169,13 +169,16 @@
 				<div class="row row_check">
 					<label for=""><input type="checkbox">Я хочу заполнить реквизиты организации здесь</label>
 				</div>
-				<div class="row row_file">
-					<input type="file" class="input_file">
-					<span class="order-form__error-mess">Обязательный пункт для заполнения</span>
+				<div class="row row_file row_error">
+					<div class="file-btn">
+						<input type="file" class="input_file">
+						<span>Загрузить файл с реквизитами</span>
+					</div>
+					<span class="order-form__error-mess">Файл не прошел валидацию. Максимальный размер файла 1Мб (.doc, .jpg, .pdf, .xls)</span>
 					<div class="file-load">
 						<div class="file-load__loader"></div>
-						<span class="file-load__name"></span>
-						<span class="file-load__cancel"></span>
+						<span class="file-load__name">Загружается: rekvizity.pdf (853 kb)</span>
+						<span class="file-load__cancel">Отменить</span>
 					</div>
 				</div>
 
@@ -185,7 +188,7 @@
 		<div class="order-form__block">
 			<h3 class="order-form__title">Выберите регион доставки</h3>
 			<div class="order-form__content">
-				<div class="row row_error">
+				<div class="row">
 					<input type="text" class="input">
 					<span class="order-form__error-mess">Обязательный пункт для заполнения</span>
 				</div>
@@ -196,13 +199,13 @@
 			<h3 class="order-form__title">Выберите способ получения</h3>
 			<div class="order-form__content">
 				<div class="row row_radio">
-					<label for=""><input type="radio">Самовывоз из пункта выдачи Notus.ua</label>
+					<input type="radio" id="radio-01"><label for="radio-01">Самовывоз из пункта выдачи Notus.ua</label>
 				</div>
 				<div class="row row_radio">
-					<label for=""><input type="radio">Доставка курьером</label>
+					<input type="radio" id="radio-02"><label for="radio-02">Доставка курьером</label>
 				</div>
 				<div class="row row_radio">
-					<label for=""><input type="radio">Доставка “Новой Почтой”</label>
+					<input type="radio" id="radio-03"><label for="radio-03">Доставка “Новой Почтой”</label>
 				</div>
 			</div>
 		</div>
