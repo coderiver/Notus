@@ -2,9 +2,7 @@
 
 $main-width: 1000px;
 
-$icons: sprite-map("icons/*.png",
-  $spacing: 20px,
-  $layout: smart);
+$icons: sprite-map("icons/*.png", $spacing: 20px );
 
 $break-small: 500px; //когда включать версию для айфона
 $break-large: 1180px; //когда включать широкую версию

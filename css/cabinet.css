@@ -8,7 +8,7 @@
 .cabinet .caro-next { right: 0; }
 .cabinet .disabled { opacity: 0.4; }
 
-.stock__remove { background: url('../img/icons-s8ff99cf9a2.png') -50px -62px no-repeat; width: 15px; height: 15px; position: absolute; top: 66px; right: 10px; z-index: 20; cursor: pointer; }
+.stock__remove { background: url('../img/icons-s00dbb642f7.png') 0 -1487px no-repeat; width: 15px; height: 15px; position: absolute; top: 66px; right: 10px; z-index: 20; cursor: pointer; }
 
 .cabinet__block { border-bottom: 1px solid #e3e3e3; padding: 0 15px 20px; margin-bottom: 25px; }
 .cabinet__block:last-child { border: none; }
@@ -62,7 +62,7 @@
 .cabinet__form .col_big { width: 225px; }
 .cabinet__form .col_big .input { width: 207px; }
 .cabinet__form .row-address-inf .col label { margin-bottom: 9px; }
-.cabinet__form .delete { background: url('../img/icons-s8ff99cf9a2.png') -82px -43px no-repeat; width: 9px; height: 9px; position: relative; top: 3px; margin-left: 10px; display: inline-block; vertical-align: top; cursor: pointer; }
+.cabinet__form .delete { background: url('../img/icons-s00dbb642f7.png') 0 -1557px no-repeat; width: 9px; height: 9px; position: relative; top: 3px; margin-left: 10px; display: inline-block; vertical-align: top; cursor: pointer; }
 .cabinet__form .delete:hover { opacity: 0.7; }
 .cabinet__form .row-button { margin: 0 0 28px 135px; }
 .cabinet__form .row-button .btn { padding: 0 22px; height: 29px; line-height: 29px; }
@@ -88,8 +88,8 @@
 .comprare .th-btn .btn { white-space: nowrap; font-size: 11px; position: absolute; height: 21px; line-height: 21px; left: -14px; padding: 0; top: 2px; }
 .comprare td { width: 143px; padding: 11px 16px; vertical-align: top; }
 .comprare .tl-item { width: 120px; padding: 0 0 3px; height: auto; margin-left: 11px; }
-.comprare .tl-item__del { position: absolute; top: 0; right: 0; cursor: pointer; z-index: 20; background: url('../img/icons-s8ff99cf9a2.png') -50px -62px no-repeat; width: 15px; height: 15px; }
-.comprare .tl-item__del:hover { background: url('../img/icons-s8ff99cf9a2.png') -74px -80px no-repeat; width: 15px; height: 15px; }
+.comprare .tl-item__del { position: absolute; top: 0; right: 0; cursor: pointer; z-index: 20; background: url('../img/icons-s00dbb642f7.png') 0 -1487px no-repeat; width: 15px; height: 15px; }
+.comprare .tl-item__del:hover { background: url('../img/icons-s00dbb642f7.png') 0 -1522px no-repeat; width: 15px; height: 15px; }
 .comprare .tl-item__media { width: 114px; height: 125px; line-height: 125px; margin-bottom: 3px; }
 .comprare .tl-item__media img { max-height: 100px; max-width: 114px; }
 .comprare .item__rating { padding-bottom: 10px; }

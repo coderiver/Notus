@@ -13,10 +13,10 @@
 .accordion li li.active a { text-decoration: none; color: #000; }
 .accordion a { color: #158edc; border-bottom: 1px dotted #158edc; text-decoration: none; position: relative; margin-left: 15px; display: inline-block; margin-bottom: 4px; }
 .accordion a:hover { border: none; padding-bottom: 1px; }
-.accordion a i { position: absolute; top: 4px; left: -12px; background: url('../img/icons-s8ff99cf9a2.png') -39px -43px no-repeat; width: 7px; height: 7px; }
+.accordion a i { position: absolute; top: 4px; left: -12px; background: url('../img/icons-s00dbb642f7.png') 0 -597px no-repeat; width: 7px; height: 7px; }
 .accordion .open li a { font-weight: normal; color: #158edc; padding: 0; }
 .accordion .open a { font-weight: bold; color: #000; border: none; padding-bottom: 1px; }
-.accordion .open a i { background: url('../img/icons-s8ff99cf9a2.png') -66px -43px no-repeat; width: 7px; height: 7px; }
+.accordion .open a i { background: url('../img/icons-s00dbb642f7.png') 0 -570px no-repeat; width: 7px; height: 7px; }
 
 /* news-subscribe */
 .news-subscribe { margin-bottom: 25px; }
@@ -24,7 +24,7 @@
 .news-subscribe .input { height: 24px; width: 220px; margin-bottom: 10px; }
 .news-subscribe .btn { height: 24px; line-height: 24px; font-size: 11px; }
 
-.arr-more { background: url('../img/icons-s8ff99cf9a2.png') 0 -62px no-repeat; width: 12px; height: 5px; display: inline-block; margin-left: 2px; }
+.arr-more { background: url('../img/icons-s00dbb642f7.png') 0 -624px no-repeat; width: 12px; height: 5px; display: inline-block; margin-left: 2px; }
 
 /* news-articles */
 .news-articles { background: #fff; border: 1px solid #e3e3e3; border-radius: 5px; color: #3c3c3c; padding: 18px 26px; margin-bottom: 18px; }
