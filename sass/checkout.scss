@@ -335,6 +335,7 @@
 		color: #717171;
 		display: block;
 		font-weight: normal;
+		margin-top: 3px;
 	}
 }
 .order-form__content{
@@ -351,6 +352,9 @@
 			font-size: 14px;
 			margin-bottom: 6px;
 		}
+	}
+	.row_code{
+		margin-top: 25px;
 	}
 	.row_check{
 		margin: 0 0 10px;
@@ -376,11 +380,12 @@
 		}
 	}
 	.row_radio{
-		margin: 0 0 20px;
+		margin: 0 0 14px;
 		position: relative;
 		label{
 			position: relative;
 			font-weight: bold;
+			display: inline-block;
 			&:before{
 				content: '';
 				@include sized-sprite($icons, 'radio');
@@ -587,11 +592,12 @@
 	font-size: 14px;
 	margin: 0 5px;
 }
-.file-load__cancel{
+.file-load__cancel, .order-form__more{
 	font-size: 14px;
 	color: #017ecb;
 	border-bottom: 1px dotted #017ecb;
 	cursor: pointer;
+	text-decoration: none;
 	&:hover{
 		border-color: transparent;
 	}
@@ -600,4 +606,52 @@
 	display: block;
 	font-size: 14px;
 	margin-bottom: 5px;
+}
+
+.tip{
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5px;
+	&.is-open{
+		.tip__ico{
+			background-position: sprite-position($icons, 'tips_active');
+		}
+		.tip__text{
+			display: block;
+		}
+	}
+}
+.tip__ico{
+	cursor: pointer;
+	@include sized-sprite($icons, 'tips');
+	&:hover{
+		background-position: sprite-position($icons, 'tips_active');
+	}
+}
+.tip__text{
+	display: none;
+	position: absolute;
+	top: -30px;
+	left: 23px;
+	border: 1px solid #e3e3e3;
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: 0 2px 3px rgba(0,0,0,.5);
+	font-size: 12px;
+	width: 177px;
+	padding: 9px;
+	line-height: 1.5;
+	z-index: 50;
+	&:before{
+		@include sized-sprite($icons, 'tip-arr');
+		position: absolute;
+		top: 28px;
+		left: -10px;
+		content: '';
+	}
+	strong{
+		display: block;
+		margin-bottom: 5px;
+	}
 }
