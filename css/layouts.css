@@ -1,9 +1,0 @@
-/* TRANSITION */
-/* default layout - EXAMPLE FOR NOW */
-.l { display: inline-block; width: 100%; }
-.l .l-col3-l { float: left; width: 727px; }
-.l .l-col3-r { float: right; width: 727px; }
-.l .l-col1-l { float: left; width: 240px; margin-right: 15px; }
-.l .l-col1-r { float: right; width: 240px; margin-left: 15px; }
-.l .l-col2-l { float: left; width: 490px; }
-.l .l-col2-r { float: right; width: 490px; }
