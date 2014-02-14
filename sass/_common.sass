@@ -39,11 +39,495 @@
 // +font(book, cytiapro-black-webfont)  
 // =book
 // 	font-family: "book",arial,sans-serif 
-	
+
+$font: #383838	
+$bl: #017ecb
+$or: #e17a00
+
 body
 	font-size: 12px 
-	font-family: Arial, sans-serif 
+	font-family: "Helvetica Neue", Arial, sans-serif 
 	line-height: 1.4
+	color: $font 
+	
+a
+	text-decoration: none
 
+input, textarea, button
+	font-family: "Helvetica Neue", Arial, sans-serif 
+	color: $font
+	 
 
 // common blocks
+
+.header__top, .header__down
+	+clr
+.header__top
+	position: relative
+	min-height: 85px 
+.logo
+	position: relative
+	float: left
+	margin: 10px 90px 0 0
+	i
+		display: block
+		+s(logo)
+	span
+		position: absolute
+		top: 45px
+		left: 60px
+		white-space: nowrap
+		color: $font 
+.header__info
+	float: left
+	margin-top: 26px
+.header__time,
+.header__phone
+	display: inline-block
+	font-size: 0
+	color: #000 
+	vertical-align: middle
+	i, span
+		display: inline-block
+		vertical-align: middle
+	i
+		margin-right: 7px
+.header__time
+	margin: 0 17px 0 0
+	i
+		+s(clock)
+	span
+		font-size: 14px 
+.header__phone
+	i
+		+s(phone)
+	span
+		font-weight: bold
+		font-size: 18px
+.header__nav
+	float: right
+	margin-top: 28px
+	li
+		float: left
+		margin-left: 16px
+		&:first-child
+			margin: 0
+	a
+		border-bottom: 1px solid #a3c5e6 
+		color: $bl 
+.header__callback
+	position: absolute
+	top: 53px
+	left: 480px
+	a
+		border-bottom: 1px solid #a3c5e6 
+		color: $bl 
+
+
+.h-cat
+	position: relative
+	float: left
+	margin: -6px 15px 0 0
+	&:hover
+		.h-cat__head
+			+g(#48515b, #2f3842)
+			text-shadow: 0 1px 1px rgba(0,0,0,.3)
+			border-top: #868C93 1px solid
+			border-bottom: 1px solid #666d74  
+			color: #FFF
+			i
+				border-color: white transparent transparent transparent
+		.h-cat__drop
+			display: block
+.h-cat__head
+	position: relative
+	display: table-cell
+	width: 185px
+	height: 45px
+	padding: 0 15px
+	vertical-align: middle
+	font-size: 14px
+	border-radius: 4px 4px 0 0
+	font-weight: bold 
+	line-height: 1.1
+	cursor: pointer
+	z-index: 4 
+	span
+		display: block
+		font-weight: normal
+	i
+		position: relative
+		top: -1px
+		margin-left: 15px
+		display: inline-block
+		width: 0px
+		height: 0px
+		border-style: solid
+		border-width: 6px 5px 0 5px
+		border-color: #000 transparent transparent transparent
+.h-cat__drop
+	display: none
+	position: absolute
+	top: 46px
+	left: 0
+	min-height: 340px
+	border: 1px solid #c3c3c3
+	border-radius: 0 0 4px 4px
+	background-color: #fff
+	box-shadow: 0 3px 8px rgba(0,0,0,.3)
+	font-size: 0
+	white-space: nowrap
+	z-index: 2 
+.h-cat__list, .h-cat__sub
+	display: inline-block
+	vertical-align: top
+	font-size: 12px
+	white-space: normal
+.h-cat__list
+	width: 215px
+	padding: 15px 
+	li
+		margin-top: 13px
+		&:first-child
+			margin: 0
+	a
+		position: relative
+		display: block
+		padding-right: 10px
+		font-weight: bold
+		color: #585967 
+		span
+			display: block
+			font-weight: normal
+			color: #898989 
+		&:hover
+			color: $or 
+			&:after
+				content: ""
+				position: absolute
+				top: 4px
+				right: -10px
+				+s(h-cat-arr) 
+.h-cat__sub
+	position: relative
+	min-width: 420px
+	min-height: 310px
+	padding: 15px 20px 
+	border-left: 1px solid #bfbfbf
+	box-shadow: 5px 0 4px -3px rgba(0, 0, 0, 0.15) inset
+	border-radius: 0 0 4px 0
+	+background-image(linear-gradient(#fff 50%, #d1d3d5))
+.h-cat__sub__pic
+	position: absolute
+	right: -15px
+	bottom: -5px
+	font-size: 0
+	z-index: 2 
+.h-cat__sub-in
+	position: relative
+	z-index: 4 
+.h-cat__layout
+	margin-bottom: 20px
+	+clr
+.h-cat__col
+	float: left
+	width: 45%
+	&:first-child
+		margin-right: 10%
+	.h-cat__list
+		width: auto
+		padding: 0
+		li
+			margin-top: 10px
+			&:first-child
+				margin: 0
+		a
+			&:after
+				display: none 
+.h-cat__title
+	margin-bottom: 13px
+	font-size: 14px
+	font-weight: bold
+	color: $or 
+	a
+		color: $or 
+.h-cat__action	
+	.h-cat__title
+		margin-bottom: 5px
+		font-size: 18px
+		color: #972264
+		a
+			color: #972264 
+.h-cat__content
+	p
+		margin-bottom: 5px
+	a
+		border-bottom: 1px solid #a3c5e6 
+		color: $bl 
+	
+
+
+.h-cart
+	position: relative
+	float: right
+	margin-left: 10px
+.h-cart__head
+	position: relative
+	border-radius: 2px 
+	box-shadow: 0 1px 0 rgba(255,255,255,.36), 0 1px 1px rgba(0,0,0,.4)
+	overflow: hidden
+	cursor: pointer
+	z-index: 4 
+.h-cart__title, .h-cart__money
+	float: left
+	height: 36px
+	line-height: 36px
+.h-cart__title
+	padding: 0 7px
+	+g(#f8f8f8, #ededed)
+	i, span, em
+		display: inline-block
+		vertical-align: middle
+	i
+		margin-right: 7px
+		+s(cart-ico)
+	span
+		font-weight: bold
+		color: #000 
+		font-size: 14px
+		text-shadow: 0 1px 0 rgba(255,255,255,.75)
+	em
+		width: 24px
+		height: 24px
+		line-height: 24px
+		text-align: center
+		margin-left: 7px
+		border-radius: 12px
+		background-color: #0185dd
+		box-shadow: 0 1px 0 rgba(255,255,255,.36), inset 0 1px 1px rgba(0,0,0,.4)
+		font-size: 16px
+		font-weight: bold
+		text-shadow: 0 1px 1px rgba(0,0,0,.3)
+		font-style: normal
+		color: #FFF 
+.h-cart__money
+	float: left
+	+g(#03abe9, #0186dd)
+	span
+		position: relative
+		display: block
+		padding: 0 25px 0 10px
+		font-size: 14px
+		font-weight: bold
+		text-shadow: 0 1px 1px rgba(0,0,0,.3)
+		color: #FFF 
+		&:after
+			content: ""
+			position: absolute
+			top: 15px
+			right: 8px
+			+arr(10,6,#fff,b)
+.h-cart__drop
+	position: absolute
+	top: 100%
+	left: 0
+	right: 0
+	border: 1px solid #c3c3c3
+	border-width: 0 1px 1px
+	border-radius: 0 0 4px 4px
+	background-color: #fff
+	box-shadow: 0 3px 8px rgba(0,0,0,.3)
+	z-index: 2
+.h-cart__prods
+	.item
+		padding: 4px 2px
+		border-top: 1px solid #ededed
+		&:first-child
+			border: none
+
+	
+
+
+
+.search
+	display: table
+.search__btn
+	float: right
+	width: 100px
+	height: 35px
+	border-radius: 3px
+	border-top: #EEEDED 1px solid
+	border-bottom: #e1e0e0 1px solid  
+	box-shadow: 0 1px 3px rgba(0,0,0,.5)
+	+g(#e5e4e4, #d6d5d5) 
+	font-size: 14px
+	font-weight: bold
+	text-shadow: 0 1px 0 rgba(255,255,255,.75)
+	color: #000 
+.search__form
+	margin-right: 105px
+	height: 36px
+	border-radius: 2px
+	background-color: #fff
+	box-shadow: inset 0 1px 3px rgba(0,0,0,.5), 125px 0 0 0 #f0f0f0 inset
+.search__section
+	float: left
+	width: 125px 
+.search__section-head
+	position: relative
+	height: 36px
+	padding: 0 25px 0 15px
+	line-height: 36px
+	overflow: hidden
+	white-space: nowrap
+	text-overflow: ellipsis
+	cursor: pointer 
+	+nosel
+	&:after	
+		content: ""
+		position: absolute
+		top: 17px
+		right: 10px
+		+arr(6,4,$font,b)
+.search__input
+	overflow: hidden
+	input
+		width: 100%
+		height: 36px
+		padding: 0 10px
+		background: none 
+		font-size: 14px
+		+box
+.search__push
+	width: 100%
+	height: 0
+	overflow: hidden
+	visibility: hidden
+
+
+.dropdown
+	position: relative
+	&.is-active
+		z-index: 400 
+		.dropdown__head
+			background: #f0f0f0
+			border-radius: 4px 4px 0 0
+			box-shadow: 0 1px 1px rgba(0,0,0,.4) 
+		.dropdown__ico
+			border-color: transparent
+		.dropdown__list
+			display: block
+.dropdown_city
+	position: absolute
+	top: 50px
+	left: 245px
+	width: 136px
+.dropdown_currency
+	float: right
+	margin-left: 10px
+	.dropdown__head
+		padding: 10px 10px 3px 
+.dropdown__head
+	position: relative
+	padding: 3px 10px
+	cursor: pointer 
+	overflow: hidden
+	+nosel
+	z-index: 4
+.dropdown__title, .dropdown__selected, .dropdown__ico
+	float: left
+	line-height: 16px
+.dropdown__title
+	margin-right: 3px 
+	text-shadow: 0 1px 0 rgba(255,255,255,.75)
+.dropdown__selected
+	margin-right: 7px
+	color: $bl
+	border-bottom: 1px solid #a3c5e6 
+.dropdown__ico
+	padding: 5px 4px
+	border: 1px solid #c6c6c6
+	border-radius: 3px
+	i
+		display: block
+		+arr(6,4,#000,b)
+.dropdown__list
+	display: none
+	position: absolute
+	top: 100%
+	left: 0
+	right: 0
+	max-height: 130px
+	padding-top: 1px
+	border: 1px solid #c6c6c6
+	border-width: 0 1px 1px
+	background: #FFF 
+	border-radius: 0 0 4px 4px
+	overflow: auto
+	z-index: 2
+	li
+		padding: 1px
+		border-top: 1px solid #e3e3e3
+		&:first-child
+			border: none
+	a
+		display: block
+		padding: 2px  7px
+		border: 1px solid transparent
+		border-radius: 4px
+		line-height: 1.2
+		color: $font 
+		&:hover
+			border-top: 1px solid #03a6de
+			border-bottom: 1px solid #017ECB 
+			border-left: 1px solid #0288d0
+			border-right: 1px solid #0288d0
+
+
+
+
+.nav
+	+g(#fff 40%, #e9eaeb)
+	ul
+		padding: 0 5px
+		+clr
+	li
+		float: left
+		margin-left: 20px
+		&:first-child
+			margin: 0
+	a
+		display: block
+		padding: 0 10px
+		height: 37px
+		line-height: 37px
+		color: #000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
