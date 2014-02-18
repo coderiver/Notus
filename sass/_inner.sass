@@ -62,13 +62,13 @@
 
 
 .category
-	margin-left: -10px
+	margin-left: -1%
 	overflow: hidden
 .category_alone
 	margin: 0
 .category__in
-	margin-right: -11%
-	padding: 0 10px
+	margin-right: -3%
+	padding: 0 1%
 	overflow: hidden
 .category__item
 	position: relative
@@ -139,9 +139,9 @@
 	color: $font 
 	text-shadow: 1px 1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, -1px -1px 0 #fff
 .category__item_w1
-	width: 21%
+	width: 23%
 .category__item_w2
-	width: 44%
+	width: 48%
 	&.category__item_h2
 		.category__price
 			position: absolute
@@ -186,23 +186,35 @@
 		font-weight: bold
 	& + .category__price
 		margin-left: 8px
-.category__head
-	padding: 0 10px 10px 
+	
+
+
+
+
+.meta
+	margin-bottom: 15px
 	+clr
-.category__head-left, .category__head-title, .category__head-counter, .category__head-all
+.meta__left
 	float: left
-.category__head-right
+.meta__left
+	.title
+		display: inline-block
+		margin: 0
+		line-height: 1
+		a
+			display: block
+			color: $or
+			font-weight: bold
+			font-size: 24px
+.meta__right
 	float: right
-.category__head-title
-	a
-		color: $or
-		font-weight: bold
-		font-size: 24px
-.category__head-counter
-	padding: 13px 0 0 8px
+	padding-top: 3px
+.meta__counter, .meta__all
+	display: inline-block
+.meta__counter
+	padding: 0 2px
 	color: #585967 
-.category__head-all
-	padding: 13px 0 0 5px
+.meta__all
 	a
 		border-bottom: 1px solid $brd 
 
@@ -212,18 +224,6 @@
 .popular
 	position: relative
 	z-index: 10 
-.popular__head
-	overflow: hidden
-	.title
-		display: table
-		margin: 0
-.popular__head-right
-	float: right
-.popular__head-counter, .popular__head-all
-	float: left
-	padding-top: 7px 
-.popular__head-all
-	padding-left: 5px
 .popular__in
 	position: relative
 .popular__prev, .popular__next
