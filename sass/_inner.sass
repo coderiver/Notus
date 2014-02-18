@@ -1,0 +1,322 @@
+// Normally inner pages styles
+.categories
+	padding-top: 15px
+	margin-bottom: 20px
+	border: 1px solid #d3d3d3
+	border-radius: 5px
+	background-color: #fff
+	+g(#fff, #f8f8f8)
+.categories__title
+	padding: 0 15px 10px
+	font-size: 16px 
+	font-weight: bold
+.categories__list
+	margin-bottom: 20px
+	li
+		&.is-active
+			a
+				background: #f2f2f2
+				border-color: #ffd077  
+				color: $font
+	a
+		display: block
+		padding: 7px 15px 7px 10px
+		border-left: 5px solid transparent 
+		font-weight: bold
+		
+			
+.banner
+	margin-bottom: 20px
+	border: 1px solid #dedede
+	border-radius: 5px
+	font-size: 0
+	overflow: hidden
+	
+
+
+.news
+	padding: 15px 15px 0
+	border: 1px solid #ddd
+	border-radius: 4px
+.news__title
+	margin-bottom: 15px
+	font-size: 16px
+	font-weight: bold
+.news__item
+	margin-bottom: 15px
+.news__name
+	margin-bottom: 10px
+	a
+		font-weight: bold
+.news__content
+	a
+		border-bottom: 1px solid $brd 
+
+
+
+
+
+
+
+
+
+
+.category
+	margin-left: -10px
+	overflow: hidden
+.category_alone
+	margin: 0
+.category__in
+	margin-right: -11%
+	padding: 0 10px
+	overflow: hidden
+.category__item
+	position: relative
+	float: left
+	padding: 10px 15px
+	margin: 0 2% 20px 0 
+	border: 1px solid #ddd
+	border-radius: 5px
+	background-repeat: no-repeat
+	background-position: 100% 50%  
+	+box
+	&:hover
+		&:after
+			content: ""
+			position: absolute
+			top: -1px
+			right: -1px
+			bottom: -1px
+			left: -1px
+			border-top: 2px solid #03a6de
+			border-bottom: 2px solid #017ECB 
+			border-left: 2px solid #0288d0
+			border-right: 2px solid #0288d0
+			box-shadow: 0 6px 16px rgba(0,1,1,.22)
+			border-radius: 5px
+.category__item_today
+	float: none
+	display: block
+	margin: 0 0 20px
+	font-size: 0
+	&:after
+		display: none
+	.category__pic, .category__data
+		display: inline-block
+		width: 50%
+		vertical-align: top
+		font-size: 12px
+	.category__pic
+		position: relative
+		text-align: center
+		font-size: 0
+	.category__price-wrap
+		position: absolute
+		right: 30px
+		bottom: 30px
+		.category__price-old
+			margin-bottom: 5px
+	.category__label
+		color: $or
+		font-weight: bold
+		font-size: 14px
+	.category__title
+		font-weight: bold
+		font-size: 36px 
+		a
+			color: $font 
+	.category__details
+		margin-bottom: 15px
+		color: $font
+	.category__more
+		margin-bottom: 20px
+		a
+			border-bottom: 1px solid $brd 
+.category__title
+	margin-bottom: 10px
+	font-size: 18px
+	font-weight: bold
+	color: $font 
+	text-shadow: 1px 1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, -1px -1px 0 #fff
+.category__item_w1
+	width: 21%
+.category__item_w2
+	width: 44%
+	&.category__item_h2
+		.category__price
+			position: absolute
+			left: 15px
+			bottom: 20px
+.category__item_h1
+	height: 127px 
+.category__item_h2
+	height: 274px
+.category__price,
+.category__price-old
+	display: inline-block
+	vertical-align: middle
+.category__price
+	padding: 1px 10px
+	border: 1px solid #fa0
+	border-radius: 4px
+	background-color: #ffbb15
+	+g(#ffc519, #ffb213)
+	font-size: 19px
+	font-weight: bold
+	color: $font 
+	span
+		font-size: 14px
+		font-weight: normal
+.category__price-old
+	position: relative
+	font-size: 16px
+	color: $font 
+	&:after
+		content: ""
+		position: absolute
+		top: 3px
+		left: 0
+		right: 0
+		bottom: 3px
+		background-image: url(../img/icons/types-red-line.png)
+		background-repeat: no-repeat
+		-webkit-background-size: 100% 100%
+		-o-background-size: 100% 100%
+		background-size: 100% 100%
+		font-weight: bold
+	& + .category__price
+		margin-left: 8px
+.category__head
+	padding: 0 10px 10px 
+	+clr
+.category__head-left, .category__head-title, .category__head-counter, .category__head-all
+	float: left
+.category__head-right
+	float: right
+.category__head-title
+	a
+		color: $or
+		font-weight: bold
+		font-size: 24px
+.category__head-counter
+	padding: 13px 0 0 8px
+	color: #585967 
+.category__head-all
+	padding: 13px 0 0 5px
+	a
+		border-bottom: 1px solid $brd 
+
+
+
+
+.popular
+	position: relative
+	z-index: 10 
+.popular__head
+	overflow: hidden
+	.title
+		display: table
+		margin: 0
+.popular__head-right
+	float: right
+.popular__head-counter, .popular__head-all
+	float: left
+	padding-top: 7px 
+.popular__head-all
+	padding-left: 5px
+.popular__in
+	position: relative
+.popular__prev, .popular__next
+	position: absolute
+	top: 55px
+.popular__prev
+	left: 0
+	+s(popular-prev)
+	&:hover
+		+s(popular-prev-a)
+.popular__next
+	right: 0
+	+s(popular-next)
+	&:hover
+		+s(popular-next-a)
+.popular__list
+	padding: 0 30px
+	font-size: 0
+.popular__el
+	position: relative
+	display: inline-block
+	width: 20%
+	height: 220px 
+	vertical-align: top
+	text-align: center
+	&:hover
+		.item
+			border-top: 2px solid #03a6de
+			border-bottom: 2px solid #017ECB 
+			border-left: 2px solid #0288d0
+			border-right: 2px solid #0288d0
+			box-shadow: 0 6px 16px rgba(0,1,1,.22)
+			background: #FFF 
+		.btn, .label
+			display: inline-block
+	.item
+		position: absolute
+		top: 0
+		left: 0
+		right: 0
+		padding: 15px
+		border: 2px solid transparent
+		border-radius: 5px
+		vertical-align: top
+		text-align: center
+		+box
+	.item__pic
+		margin-bottom: 10px
+	.item__title
+		margin-bottom: 5px
+		font-size: 12px
+		color: $bl 
+	.item__price
+		display: inline-block
+		width: 100px
+		padding: 4px 0
+		background-color: #eee
+		border-radius: 2px
+		border: 1px solid #e0e0e0
+		font-weight: bold
+		font-size: 14px
+		text-shadow: 0 1px 1px #fff 
+	.btn
+		width: 102px
+		margin-bottom: 10px
+		font-size: 14px
+		font-weight: bold
+		box-shadow: 0 1px 1px rgba(0,0,0,.8)
+	.btn, .label
+		display: none
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

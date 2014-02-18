@@ -43,6 +43,7 @@
 $font: #383838	
 $bl: #017ecb
 $or: #e17a00
+$brd: #a3c5e6
 
 body
 	font-size: 12px 
@@ -52,6 +53,7 @@ body
 	
 a
 	text-decoration: none
+	color: $bl 
 
 input, textarea, button
 	font-family: "Helvetica Neue", Arial, sans-serif 
@@ -62,6 +64,8 @@ input, textarea, button
 
 .header__top, .header__down
 	+clr
+.header__down
+	height: 36px
 .header__top
 	position: relative
 	min-height: 85px 
@@ -113,23 +117,23 @@ input, textarea, button
 		&:first-child
 			margin: 0
 	a
-		border-bottom: 1px solid #a3c5e6 
+		border-bottom: 1px solid $brd 
 		color: $bl 
 .header__callback
 	position: absolute
 	top: 53px
 	left: 480px
 	a
-		border-bottom: 1px solid #a3c5e6 
+		border-bottom: 1px solid $brd 
 		color: $bl 
 
 
-.h-cat
+.h-categories
 	position: relative
 	float: left
 	margin: -6px 15px 0 0
 	&:hover
-		.h-cat__head
+		.h-categories__head
 			+g(#48515b, #2f3842)
 			text-shadow: 0 1px 1px rgba(0,0,0,.3)
 			border-top: #868C93 1px solid
@@ -137,9 +141,9 @@ input, textarea, button
 			color: #FFF
 			i
 				border-color: white transparent transparent transparent
-		.h-cat__drop
+		.h-categories__drop
 			display: block
-.h-cat__head
+.h-categories__head
 	position: relative
 	display: table-cell
 	width: 185px
@@ -165,7 +169,7 @@ input, textarea, button
 		border-style: solid
 		border-width: 6px 5px 0 5px
 		border-color: #000 transparent transparent transparent
-.h-cat__drop
+.h-categories__drop
 	display: none
 	position: absolute
 	top: 46px
@@ -178,12 +182,12 @@ input, textarea, button
 	font-size: 0
 	white-space: nowrap
 	z-index: 2 
-.h-cat__list, .h-cat__sub
+.h-categories__list, .h-categories__sub
 	display: inline-block
 	vertical-align: top
 	font-size: 12px
 	white-space: normal
-.h-cat__list
+.h-categories__list
 	width: 215px
 	padding: 15px 
 	li
@@ -208,7 +212,7 @@ input, textarea, button
 				top: 4px
 				right: -10px
 				+s(h-cat-arr) 
-.h-cat__sub
+.h-categories__sub
 	position: relative
 	min-width: 420px
 	min-height: 310px
@@ -217,24 +221,24 @@ input, textarea, button
 	box-shadow: 5px 0 4px -3px rgba(0, 0, 0, 0.15) inset
 	border-radius: 0 0 4px 0
 	+background-image(linear-gradient(#fff 50%, #d1d3d5))
-.h-cat__sub__pic
+.h-categories__sub__pic
 	position: absolute
 	right: -15px
 	bottom: -5px
 	font-size: 0
 	z-index: 2 
-.h-cat__sub-in
+.h-categories__sub-in
 	position: relative
 	z-index: 4 
-.h-cat__layout
+.h-categories__layout
 	margin-bottom: 20px
 	+clr
-.h-cat__col
+.h-categories__col
 	float: left
 	width: 45%
 	&:first-child
 		margin-right: 10%
-	.h-cat__list
+	.h-categories__list
 		width: auto
 		padding: 0
 		li
@@ -244,25 +248,25 @@ input, textarea, button
 		a
 			&:after
 				display: none 
-.h-cat__title
+.h-categories__title
 	margin-bottom: 13px
 	font-size: 14px
 	font-weight: bold
 	color: $or 
 	a
 		color: $or 
-.h-cat__action	
-	.h-cat__title
+.h-categories__action	
+	.h-categories__title
 		margin-bottom: 5px
 		font-size: 18px
 		color: #972264
 		a
 			color: #972264 
-.h-cat__content
+.h-categories__content
 	p
 		margin-bottom: 5px
 	a
-		border-bottom: 1px solid #a3c5e6 
+		border-bottom: 1px solid $brd 
 		color: $bl 
 	
 
@@ -289,9 +293,9 @@ input, textarea, button
 		display: inline-block
 		vertical-align: middle
 	i
-		margin-right: 7px
 		+s(cart-ico)
 	span
+		margin-left: 7px
 		font-weight: bold
 		color: #000 
 		font-size: 14px
@@ -312,21 +316,20 @@ input, textarea, button
 		color: #FFF 
 .h-cart__money
 	float: left
+	padding: 0 10px
 	+g(#03abe9, #0186dd)
+	font-size: 0
+	span, i
+		display: inline-block
+		vertical-align: middle
 	span
-		position: relative
-		display: block
-		padding: 0 25px 0 10px
 		font-size: 14px
 		font-weight: bold
 		text-shadow: 0 1px 1px rgba(0,0,0,.3)
 		color: #FFF 
-		&:after
-			content: ""
-			position: absolute
-			top: 15px
-			right: 8px
-			+arr(10,6,#fff,b)
+	i
+		margin-left: 7px
+		+arr(10,6,#fff,b)
 .h-cart__drop
 	position: absolute
 	top: 100%
@@ -339,11 +342,50 @@ input, textarea, button
 	box-shadow: 0 3px 8px rgba(0,0,0,.3)
 	z-index: 2
 .h-cart__prods
-	.item
+	li
 		padding: 4px 2px
 		border-top: 1px solid #ededed
 		&:first-child
 			border: none
+		&:hover
+			.item
+				border-top: 1px solid #03a6de
+				border-bottom: 1px solid #017ECB 
+				border-left: 1px solid #0288d0
+				border-right: 1px solid #0288d0
+	.item
+		padding: 10px
+		border: 1px solid transparent
+		border-radius: 3px
+	.item__pic
+		float: left
+		margin-right: 10px
+		font-size: 0
+	.item__data
+		display: table
+	.item__title	
+		margin-bottom: 5px
+		color: $bl 
+	.item__details
+		+clr
+	.item__value
+		float: left
+		padding: 2px 0
+	.item__price
+		float: right
+		padding: 2px 4px
+		background: #F1F1F1
+		border-radius: 3px
+		box-shadow: 0 1px 1px rgba(0,0,0,.3)
+		font-weight: bold 
+	.h-cart__more 
+		padding: 10px
+		.btn
+			width: 100%
+			font-weight: bold
+			span
+				font-weight: normal 
+
 
 	
 
@@ -364,7 +406,14 @@ input, textarea, button
 	font-weight: bold
 	text-shadow: 0 1px 0 rgba(255,255,255,.75)
 	color: #000 
+	&:hover
+		background: #e8e8e8
+		box-shadow: 0 1px 1px rgba(0,0,0,.4)
+	&:active
+		+g(#c2c2c2, #d6d6d6)
+		box-shadow: 0 1px 3px rgba(0,0,0,.5)
 .search__form
+	position: relative
 	margin-right: 105px
 	height: 36px
 	border-radius: 2px
@@ -403,6 +452,81 @@ input, textarea, button
 	height: 0
 	overflow: hidden
 	visibility: hidden
+.search__drop
+	position: absolute
+	top: 35px
+	left: 0
+	right: 0
+	background: #FFF
+	box-shadow: 0 4px 8px rgba(0,1,1,.22)
+	border-radius: 0 0 3px 3px 
+	border: 1px solid #d3d3d3
+	z-index: 100 
+	li
+		padding: 5px 10px 
+		border-top: 1px solid #ededed
+		+clr
+		&:first-child
+			border: none
+		&:hover
+			.item
+				border-top: 2px solid #03a6de
+				border-bottom: 2px solid #017ECB 
+				border-left: 2px solid #0288d0
+				border-right: 2px solid #0288d0
+				box-shadow: 0 4px 8px rgba(0,1,1,.25)
+	.item
+		padding: 7px
+		border: 2px solid transparent
+		border-radius: 3px
+	.item__pic
+		float: left
+		margin-right: 15px
+		font-size: 0
+	.item__data
+		display: table
+	.item__title
+		margin-bottom: 10px
+		font-size: 14px
+		font-weight: bold
+		color: $bl 
+	.item__price
+		display: inline-block
+		margin-right: 20px 
+		padding: 5px 20px
+		background: #F1F1F1
+		border-radius: 3px
+		box-shadow: 0 1px 1px rgba(0,0,0,.3)
+		font-weight: bold 
+		font-size: 14px
+	.search__more
+		padding: 10px
+		a
+			border-bottom: 1px solid $brd
+		
+
+
+.login
+	float: right
+	margin-left: 10px
+	padding: 4px 10px 3px
+	cursor: pointer
+.login__title
+	line-height: 1
+.login__in
+	font-size: 0
+	line-height: 1.2
+	span, i
+		display: inline-block
+		vertical-align: middle
+	span
+		margin-right: 7px
+		border-bottom: 1px solid $brd 
+		font-size: 13px
+		font-weight: bold
+		color: $bl
+	i
+		+arr(10,6,$bl,b)
 
 
 .dropdown
@@ -412,7 +536,7 @@ input, textarea, button
 		.dropdown__head
 			background: #f0f0f0
 			border-radius: 4px 4px 0 0
-			box-shadow: 0 1px 1px rgba(0,0,0,.4) 
+			box-shadow: 0 1px 1px rgba(0,0,0,.3) 
 		.dropdown__ico
 			border-color: transparent
 		.dropdown__list
@@ -427,6 +551,13 @@ input, textarea, button
 	margin-left: 10px
 	.dropdown__head
 		padding: 10px 10px 3px 
+	&.dropdown_narrow
+		.dropdown__head
+			padding: 4px 10px 3px 
+.dropdown_narrow
+	.dropdown__title
+		float: none
+		line-height: 1
 .dropdown__head
 	position: relative
 	padding: 3px 10px
@@ -443,7 +574,10 @@ input, textarea, button
 .dropdown__selected
 	margin-right: 7px
 	color: $bl
-	border-bottom: 1px solid #a3c5e6 
+	border-bottom: 1px solid $brd 
+	overflow: hidden
+	white-space: nowrap
+	text-overflow: ellipsis
 .dropdown__ico
 	padding: 5px 4px
 	border: 1px solid #c6c6c6
@@ -457,7 +591,7 @@ input, textarea, button
 	top: 100%
 	left: 0
 	right: 0
-	max-height: 130px
+	max-height: 128px
 	padding-top: 1px
 	border: 1px solid #c6c6c6
 	border-width: 0 1px 1px
@@ -474,7 +608,7 @@ input, textarea, button
 		display: block
 		padding: 2px  7px
 		border: 1px solid transparent
-		border-radius: 4px
+		border-radius: 3px
 		line-height: 1.2
 		color: $font 
 		&:hover
@@ -486,8 +620,11 @@ input, textarea, button
 
 
 
+
 .nav
+	margin-bottom: 30px
 	+g(#fff 40%, #e9eaeb)
+	clear: both
 	ul
 		padding: 0 5px
 		+clr
@@ -502,6 +639,177 @@ input, textarea, button
 		height: 37px
 		line-height: 37px
 		color: #000
+
+
+
+.footer
+	min-width: 1170px 
+	margin-top: 40px
+	+g(#fff, #d9d9d9)
+	color: #484848 
+	.l-center
+		padding: 25px 20px
+		border-top: #D8D6D5 1px solid 
+		+clr
+.footer__left
+	float: left
+	width: 26%
+	margin-right: 5%
+.footer__details
+	float: left
+	width: 25%
+	margin-right: 5%
+.copyright
+	span
+		font-size: 11px
+.footer__info
+	margin-bottom: 20px
+	font-size: 10px
+.footer__design
+	a
+		color: #484848
+		border-bottom: 1px solid #a2a2a2
+.footer__phone
+	font-weight: bold
+	font-size: 27px 
+.footer__time
+	+clr
+	li
+		float: left
+		margin-right: 15px
+		font-size: 14px
+		sup
+			position: relative
+			top: -1px
+			vertical-align: top
+			font-size: 10px
+.footer__contacts
+	float: left
+	width: 20%
+	.social
+		margin-bottom: 20px
+.footer__contacts-list
+	li
+		margin-bottom: 3px
+	a
+		border-bottom: 1px solid #a2a2a2 
+		color: #484848 
+.footer__nav
+	float: right
+	li
+		margin-bottom: 5px
+	a
+		border-bottom: 1px solid #a2a2a2 
+		color: #484848 
+
+
+
+
+.social
+	+clr
+	li
+		float: left
+		margin-left: 10px
+		&:first-child
+			margin: 0
+	a
+		display: block
+.social__rss
+	+s(social-rss)
+.social__tw
+	+s(social-tw)
+.social__fb
+	+s(social-fb)
+.social__vk
+	+s(social-vk)
+
+
+
+
+.title
+	margin-bottom: 20px
+	font-size: 30px
+	font-weight: bold
+.title_level-2
+	font-size: 24px
+.title_level-3
+	font-size: 16px
+
+
+
+.btn
+	display: inline-block
+	padding: 5px 10px
+	+g(#03abe9, #0186dd)
+	border-radius: 3px
+	color: #FFF
+	text-shadow: 0 1px 1px rgba(0,0,0,.3)
+	text-align: center
+	+box
+	box-shadow: 0 1px 1px rgba(0,0,0,.3)
+.btn_big
+	padding: 9px 25px
+	box-shadow: 0 1px 1px rgba(0,0,0,.8)
+	font-size: 24px
+	font-weight: bold
+
+
+
+
+.item
+	display: block
+	color: $font 
+	+clr
+
+
+
+
+
+.label
+	display: inline-block
+	font-size: 0
+	i, span
+		display: inline-block
+		vertical-align: middle
+	i
+		margin-right: 5px 
+	span
+		font-size: 12px
+.label_in-stock
+	color: #689900 
+	i
+		+s(label-in-stock)
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
