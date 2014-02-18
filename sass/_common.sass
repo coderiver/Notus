@@ -65,7 +65,8 @@ input, textarea, button
 .header__top, .header__down
 	+clr
 .header__down
-	height: 36px
+	position: relative
+	padding-left: 230px 
 .header__top
 	position: relative
 	min-height: 85px 
@@ -129,9 +130,9 @@ input, textarea, button
 
 
 .h-categories
-	position: relative
-	float: left
-	margin: -6px 15px 0 0
+	position: absolute
+	top: -6px
+	left: 0
 	&:hover
 		.h-categories__head
 			+g(#48515b, #2f3842)
@@ -393,25 +394,9 @@ input, textarea, button
 
 .search
 	display: table
-.search__btn
-	float: right
-	width: 100px
-	height: 35px
-	border-radius: 3px
-	border-top: #EEEDED 1px solid
-	border-bottom: #e1e0e0 1px solid  
-	box-shadow: 0 1px 3px rgba(0,0,0,.5)
-	+g(#e5e4e4, #d6d5d5) 
-	font-size: 14px
-	font-weight: bold
-	text-shadow: 0 1px 0 rgba(255,255,255,.75)
-	color: #000 
-	&:hover
-		background: #e8e8e8
-		box-shadow: 0 1px 1px rgba(0,0,0,.4)
-	&:active
-		+g(#c2c2c2, #d6d6d6)
-		box-shadow: 0 1px 3px rgba(0,0,0,.5)
+	> .btn-gray
+		float: right
+		width: 100px
 .search__form
 	position: relative
 	margin-right: 105px
@@ -753,6 +738,25 @@ input, textarea, button
 	box-shadow: 0 1px 1px rgba(0,0,0,.8)
 	font-size: 24px
 	font-weight: bold
+
+.btn-gray
+	height: 35px
+	padding: 0 15px
+	border-radius: 3px
+	border-top: #EEEDED 1px solid
+	border-bottom: #e1e0e0 1px solid  
+	box-shadow: 0 1px 3px rgba(0,0,0,.5)
+	+g(#e5e4e4, #d6d5d5) 
+	font-size: 14px
+	font-weight: bold
+	text-shadow: 0 1px 0 rgba(255,255,255,.75)
+	color: #000 
+	&:hover
+		background: #e8e8e8
+		box-shadow: 0 1px 1px rgba(0,0,0,.4)
+	&:active
+		+g(#c2c2c2, #d6d6d6)
+		box-shadow: 0 1px 3px rgba(0,0,0,.5)
 
 
 

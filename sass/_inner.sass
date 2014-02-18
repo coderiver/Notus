@@ -34,23 +34,42 @@
 	
 
 
-.news
-	padding: 15px 15px 0
+.list
+	margin-bottom: 20px
+	padding: 15px
 	border: 1px solid #ddd
 	border-radius: 4px
-.news__title
+.list_category
+	.list__item
+		margin-top: 10px
+.list__title
 	margin-bottom: 15px
 	font-size: 16px
 	font-weight: bold
-.news__item
-	margin-bottom: 15px
-.news__name
+.list__item
+	margin-top: 15px
+	&:first-child
+		margin: 0
+.list__name
 	margin-bottom: 10px
 	a
 		font-weight: bold
-.news__content
+.list__content
 	a
 		border-bottom: 1px solid $brd 
+.list__compare
+	li
+		margin-bottom: 2px
+	a
+		position: relative
+		display: inline-block
+		padding-left: 16px
+		font-weight: bold
+	i
+		position: absolute
+		top: 1px
+		left: 0
+		+s(del-blue)
 
 
 
@@ -299,12 +318,177 @@
 
 
 
+.filter
+	border: 1px solid #d3d3d3
+	border-radius: 5px
+	margin-bottom: 20px
+	+background-image(linear-gradient(bottom, rgba(235,235,235,.35) 0%, rgba(255,255,255,.35) 44.24%, rgba(255,255,255,.35) 100%))
+.filter__item
+	padding: 5px 15px
+	border-bottom: 1px solid #d3d3d3
+	&.is-active
+		padding: 15px 
+		.filter__title
+			i
+				margin-right: 6px
+				border-width: 8px 5px 0 5px
+				border-color: black transparent transparent transparent
+.filter__item_price
+	+g(#e5f5ff, #d7efff)
+.filter__title
+	font-size: 0
+	cursor: pointer
+	i, span, em, a
+		display: inline-block
+	span
+		border-bottom: 1px dotted 
+		font-weight: bold
+		font-size: 14px
+	a
+		border-bottom: 1px solid $brd 
+		font-size: 12px
+	i
+		margin-right: 8px
+		+arr(8,10,#000,r)
+	em
+		margin: 0 5px
+		font-size: 12px
+		color: #909098 
+	.help
+		top: -1px
+		margin-left: 10px
+.filter__content
+	position: relative
+	padding-top: 15px
+.filter__el
+	+clr
+	label
+		display: block
+		margin: 2px 0
+		font-weight: bold
+		color: #585967 
+	input
+		margin-right: 5px
+.filter__col
+	float: left
+	width: 48%
+	&:first-child
+		margin-right: 4%
+.filter__all
+	padding: 15px
+	text-align: center
+	a
+		font-weight: bold
+		border-bottom: 1px solid $brd 
+.filter__go
+	padding: 0 10px 30px
+	text-align: center 
+.filter__price
+	margin-bottom: 15px
+	li
+		margin-bottom: 3px
+	a
+		border-bottom: 1px dotted
+		font-weight: bold 
+		color: #585967 
+
+
+
+.range
+	width: 96%
+.range__dial
+	font-size: 0
+	white-space: nowrap
+	li
+		position: relative
+		display: inline-block
+		width: 33.333%
+		padding-bottom: 7px 
+		&:first-child
+			&:after
+				left: 0
+		&:after
+			content: ""
+			position: absolute
+			bottom: 1px
+			left: -1px
+			width: 1px
+			height: 5px
+			background: #7E7E7E 
+		span
+			position: relative
+			display: block
+			width: 100%
+			right: 50%
+			text-align: center
+			font-size: 8px
+.range__line	
+	position: relative
+	height: 8px
+	margin-bottom: 10px
+	background: #FFF 
+	border-radius: 3px
+	background-color: #fff
+	box-shadow: inset 0 1px 3px rgba(0,0,0,.5)
+.range__line-in
+	position: absolute
+	top: 0
+	height: 8px
+.range__line-bg
+	position: absolute
+	top: 0
+	bottom: 0
+	right: 2px
+	left: 2px
+	background: #fabe47 
+	box-shadow: inset 0 1px 3px rgba(0,0,0,.5)
+.range__line-left,
+.range__line-right
+	position: absolute
+	top: -5px
+.range__line-left
+	left: -1px
+	+s(range-left)
+.range__line-right
+	right: -1px
+	+s(range-right)
+.range__form
+	margin-right: -4%
+	font-size: 0
+	label, span, input
+		display: inline-block
+		margin-right: 5px
+	span
+		font-size: 12px
+		color: #585967 
+	input
+		width: 50px
+		height: 20px
+		padding: 0 5px
+		border-radius: 2px
+		background-color: #fff
+		box-shadow: inset 0 1px 3px rgba(0,0,0,.5)
+		+box
 
 
 
 
 
-
+.help
+	position: relative
+	display: inline-block
+	vertical-align: middle
+.help__ico
+	width: 13px
+	height: 13px
+	border: 1px solid #c6c6c6
+	border-radius: 50%
+	background: #f8f8f8
+	text-align: center
+	line-height: 13px
+	font-size: 10px
+	
+	
 
 
 
