@@ -44,6 +44,8 @@ $font: #383838
 $bl: #017ecb
 $or: #e17a00
 $brd: #a3c5e6
+$yl: #ffbb16
+$cl: #585967
 
 body
 	font-size: 12px 
@@ -133,6 +135,7 @@ input, textarea, button
 	position: absolute
 	top: -6px
 	left: 0
+	z-index: 200 
 	&:hover
 		.h-categories__head
 			+g(#48515b, #2f3842)
@@ -384,6 +387,7 @@ input, textarea, button
 		.btn
 			width: 100%
 			font-weight: bold
+			font-size: 12px
 			span
 				font-weight: normal 
 
@@ -554,7 +558,7 @@ input, textarea, button
 	float: left
 	line-height: 16px
 .dropdown__title
-	margin-right: 3px 
+	margin-right: 6px 
 	text-shadow: 0 1px 0 rgba(255,255,255,.75)
 .dropdown__selected
 	margin-right: 7px
@@ -720,24 +724,34 @@ input, textarea, button
 	font-size: 24px
 .title_level-3
 	font-size: 16px
+.title_level-4
+	margin-bottom: 15px
+	font-size: 14px
+.title_level-5
+	margin-bottom: 10px
+	font-size: 12px
 
 
 
 .btn
 	display: inline-block
-	padding: 5px 10px
+	padding: 4px 10px 6px
 	+g(#03abe9, #0186dd)
 	border-radius: 3px
 	color: #FFF
 	text-shadow: 0 1px 1px rgba(0,0,0,.3)
 	text-align: center
 	+box
-	box-shadow: 0 1px 1px rgba(0,0,0,.3)
+	box-shadow: 0 1px 1px rgba(0,0,0,.5)
+	font-weight: bold
+	font-size: 14px
 .btn_big
 	padding: 9px 25px
-	box-shadow: 0 1px 1px rgba(0,0,0,.8)
 	font-size: 24px
-	font-weight: bold
+.btn_green
+	+g(#a0d200, #69b100)
+.btn_viol
+	+g(#b74a8e, #972264)
 
 .btn-gray
 	height: 35px
@@ -771,21 +785,30 @@ input, textarea, button
 
 
 .label
+	position: relative
 	display: inline-block
-	font-size: 0
-	i, span
-		display: inline-block
-		vertical-align: middle
+	padding-left: 25px
+	font-size: 12px
+	text-align: left
+	line-height: 1
 	i
-		margin-right: 5px 
-	span
-		font-size: 12px
+		position: absolute
+		top: 50%
+		left: 0
+		margin-top: -9px
 .label_in-stock
 	color: #689900 
 	i
 		+s(label-in-stock)
-		
-
+.label_no-stock
+	color: #c12d00 
+	i
+		+s(label_no-stock)
+.label_message
+	padding-left: 30px
+	color: $yl
+	i
+		+s(label-message)
 
 
 
