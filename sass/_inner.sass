@@ -266,14 +266,14 @@
 	top: 55px
 .popular__prev
 	left: 0
-	+s(popular-prev)
+	+s(prev)
 	&:hover
-		+s(popular-prev-a)
+		+s(prev-a)
 .popular__next
 	right: 0
-	+s(popular-next)
+	+s(next)
 	&:hover
-		+s(popular-next-a)
+		+s(next-a)
 .popular__list
 	padding: 0 30px
 	font-size: 0
@@ -626,6 +626,64 @@
 		margin-left: 3px
 		&:first-child
 			margin: 0
+.rating__in, .rating__btn
+	display: inline-block
+	vertical-align: middle
+.rating__in
+	margin-right: 9px
+.rating__btn
+	position: relative
+	width: 14px
+	height: 14px
+	border: 1px solid #dedede
+	border-radius: 4px
+	cursor: pointer
+.rating__arr
+	position: absolute
+	top: 5px
+	left: 4px
+	+arr(6,4,#000,b)
+.rating__links
+	padding-top: 15px
+	font-size: 14px
+	li
+		margin-bottom: 5px
+	a
+		border-bottom: 1px solid $brd 
+.rating__drop
+	position: absolute
+	top: 23px
+	left: 50%
+	min-width: 220px 
+	margin-left: -121px
+	padding: 8px 10px
+	background: #FFF
+	border-radius: 4px
+	border: 1px solid #dedede 
+	cursor: default
+	&:after, &:before
+		content: ""
+		position: absolute
+		top: -6px
+		left: 50%
+		margin-left: -4px
+		+arr(8,6,#dedede,t)
+	&:after
+		top: -5px
+		border-color: transparent transparent #fff transparent
+	li
+		margin-top: 5px
+		overflow: hidden
+		&:first-child
+			margin: 0
+	.rating
+		float: right
+		padding: 0 0 0 10px
+	span
+		display: table
+		font-weight: bold
+		font-size: 12px
+		
 
 
 
@@ -1021,11 +1079,11 @@
 			vertical-align: middle
 			line-height: 46px
 			font-size: 0
-			&:hover
-				border-top: 2px solid #03a6de
-				border-bottom: 2px solid #017ECB 
-				border-left: 2px solid #0288d0
-				border-right: 2px solid #0288d0
+			//&:hover
+			//	border-top: 2px solid #03a6de
+			//	border-bottom: 2px solid #017ECB 
+			//	border-left: 2px solid #0288d0
+			//	border-right: 2px solid #0288d0
 			img
 				vertical-align: middle
 		li
@@ -1266,27 +1324,152 @@
 
 
 
+.gallery
+	margin-bottom: 15px
+.gallery__screen
+	margin-bottom: 15px
+	font-size: 0
+.galery__previews
+	position: relative
+	ul
+		width: 310px
+		margin: 0 auto
+		+clr
+		li
+			float: left
+			margin-left: 10px
+			&:first-child
+				margin: 0
+			&.is-active
+				a
+					&:before
+						content: ""
+						position: absolute
+						top: -5px
+						left: -5px
+						right: -5px
+						bottom: -5px
+						border-top: 2px solid #37b8e5
+						border-bottom: 2px solid #017ECB 
+						border-left: 2px solid #0288d0
+						border-right: 2px solid #0288d0
+						border-radius: 4px
+					&:after
+						content: ""
+						position: absolute
+						top: -5px
+						left: 50%
+						margin-left: -6px
+						+s(gallery-arr)
+			&.is-video
+				a
+					&:before
+						content: ""
+						position: absolute
+						top: 0
+						left: 0
+						right: 0
+						bottom: 0
+						background: rgba(0,0,0,.5) 
+					&:after
+						content: ""
+						position: absolute
+						top: 50%
+						left: 50%
+						margin: -17px 0 0 -17px
+						+s(gallery-play)
+		a
+			position: relative
+			display: block
+			width: 68px
+			height: 68px
+			text-align: center
+			line-height: 74px
+			text-align: center
+			border: 1px solid #dedede
+			font-size: 0
+		img
+			vertical-align: middle
+.gallery__prev, .gallery__next
+	position: absolute
+	top: 50%
+	margin-top: -30px
+.gallery__prev
+	left: 0
+	+s(prev)
+	&:hover
+		+s(prev-a)
+.gallery__next
+	right: 0
+	+s(next)
+	&:hover
+		+s(next-a)
 
 
 
+.share
+	text-align: center
+.share__title, .share__in
+	display: inline-block
+	vertical-align: middle
+.share__title
+	margin-right: 7px
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.product
+	+clr
+.product__left
+	float: left
+	width: 410px
+	margin-right: 50px
+.product__right
+	display: table
+.product__info
+	float: left
+	width: 380px 
+	margin-right: 70px
+	.btn
+		width: 100%
+.product__layout_price
+	border-radius: 3px
+	box-shadow: 0 1px 1px rgba(0,0,0,.4)
+	.btn
+		border-radius: 0 3px 3px 0
+	.price
+		display: block
+		height: 61px
+		padding: 0 15px
+		border: none
+		font-size: 30px
+		text-align: left
+		line-height: 61px
+.product__services
+	display: table
+.product__layout
+	margin-bottom: 10px
+	+clr
+.product__col
+	float: left
+	width: 180px
+	&:first-child
+		width: 200px
+	> .rating
+		padding: 10px
+.product__code
+	text-align: center
+	color: #8d8d8d 
+.product__credit
+	margin-top: 10px
+	span
+		display: block
+		margin-top: -2px
+		padding: 12px 10px 10px
+		background-color: #69083f
+		border-radius: 0 0 2px 2px
+		color: #E8E1AA
+		font-weight: bold 
+		text-align: center
 
 
 
