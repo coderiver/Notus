@@ -1,2 +1,127 @@
 // Normally mainpage styles
- 
+.main
+	display: inline-block
+	width: 100%
+	border: 1px solid #dedede
+	border-radius: 5px
+	vertical-align: top
+	+clr
+.main__col-1, .main__col-2, .main__col-3
+	float: left
+	+box
+.main__col-1, .main__col-2
+	border-right: 1px solid #dedede 
+.main__col-1
+	width: 35%
+.main__col-2
+	width: 40%
+.main__col-3
+	width: 25%
+.main__item
+	position: relative
+	float: left
+	width: 100%
+	background-repeat: no-repeat
+	background-position: 100% 100% 
+	color: #010101
+	&:hover
+		z-index: 2 
+		&:before
+			content: ""
+			position: absolute
+			top: -2px
+			left: -2px
+			right: -2px
+			bottom: -2px
+			border-top: 2px solid #03a6de
+			border-bottom: 2px solid #017ECB 
+			border-left: 2px solid #0288d0
+			border-right: 2px solid #0288d0
+			box-shadow: 0 6px 16px rgba(0,1,1,.22)
+			border-radius: 3px
+.main__item-in
+	position: absolute
+	top: 0
+	left: 0
+	right: 0
+	bottom: 0
+	padding: 10px
+	z-index: 4 
+	>.main__price, >.main__preorder
+		position: absolute
+		left: 10px
+		bottom: 10px
+.main__item_1, .main__item_7
+	border-bottom: 1px solid #dedede
+.main__item_1, .main__item_7, .main__item_8
+	height: 224px
+.main__item_2
+	width: 50%
+	height: 224px
+	border-right: 1px solid #dedede
+	+box
+.main__item_3, .main__item_4
+	width: 50%
+.main__item_3
+	height: 118px
+	border-bottom: 1px solid #dedede 
+.main__item_4
+	height: 105px 
+.main__item_5
+	height: 330px
+	border-bottom: 1px solid #dedede  
+.main__item_6
+	height: 118px
+.main__price-wrap
+	position: absolute
+	left: 10px
+	bottom: 10px
+	text-align: center
+	li
+		&:first-child
+			margin-bottom: 3px
+.main__preorder
+	padding: 1px 10px
+	border: 1px solid #589f00
+	border-radius: 4px
+	background-color: #69b100
+	+background-image(linear-gradient(bottom, rgba(0,0,0,.15) 0%, rgba(255,255,255,.15) 100%))
+	font-weight: bold
+	font-size: 19px
+	color: #FFF 
+.main__desc
+	font-weight: bold
+	font-size: 13px 
+	line-height: 1.2
+	text-shadow: 1px 1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, -1px -1px 0 #fff
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -63,15 +63,28 @@ input, textarea, button
 	 
 
 // common blocks
-
+.header
+	position: relative
+	margin-bottom: 30px
+	&:before	
+		content: ""
+		position: absolute
+		bottom: 0
+		left: 0
+		right: 0
+		height: 37px 
+		+g(#fff 40%, #e9eaeb)
+		z-index: 2 
 .header__top, .header__down
 	+clr
 .header__down
 	position: relative
-	padding-left: 230px 
+	padding: 0 0 10px 230px 
+	z-index: 6 
 .header__top
 	position: relative
 	min-height: 85px 
+	z-index: 8 
 .logo
 	position: relative
 	float: left
@@ -617,9 +630,10 @@ input, textarea, button
 
 
 .nav
-	margin-bottom: 30px
-	+g(#fff 40%, #e9eaeb)
+	position: relative
+	margin-top: -10px
 	clear: both
+	z-index: 4 
 	ul
 		padding: 0 5px
 		+clr
