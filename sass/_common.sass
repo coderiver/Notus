@@ -830,7 +830,8 @@ input, textarea, button
 
 
 
-.label
+
+.label-status
 	position: relative
 	display: inline-block
 	padding-left: 25px
@@ -842,21 +843,100 @@ input, textarea, button
 		top: 50%
 		left: 0
 		margin-top: -9px
-.label_in-stock
+.label-status_in-stock
 	color: #689900 
 	i
 		+s(label-in-stock)
-.label_no-stock
+.label-status_no-stock
 	color: #c12d00 
 	i
 		+s(label_no-stock)
-.label_message
+.label-status_message
 	padding-left: 30px
 	color: $yl
 	i
 		+s(label-message)
 
 
+.label
+	position: absolute
+	top: 4px
+	right: 0
+	height: 16px
+	padding: 0 8px 0 3px
+	line-height: 16px
+	font-size: 10px
+	text-transform: uppercase
+	color: #FFF
+	font-weight: bold
+	&:after, &:before
+		content: ""
+		position: absolute
+		width: 0px
+		height: 0px
+		border-style: solid 
+	&:after
+		bottom: -5px
+		right: 0
+		border-width: 5px 4px 0 0
+	&:before
+		top: 0
+		left: -7px
+		border-width: 8px 7px 8px 0
+.label_action
+	+background-image(linear-gradient(-45deg, #db3064, #c51136))
+	&:after
+		border-color: #9a1437 transparent transparent transparent
+	&:before
+		border-color: transparent #c51136 transparent transparent
+.label_top
+	+background-image(linear-gradient(-45deg, #ffb700, #ff9100))
+	&:after
+		border-color: #a97106 transparent transparent transparent
+	&:before
+		border-color: transparent #ff9100 transparent transparent
+.label_new
+	+background-image(linear-gradient(-45deg, #8acc04, #59aa01))
+	&:after
+		border-color: #59aa01 transparent transparent transparent
+	&:before
+		border-color: transparent #59aa01 transparent transparent
+.label_discount
+	+background-image(linear-gradient(-45deg, #9d22dc, #700bc6))
+	&:after
+		border-color: #49106c transparent transparent transparent
+	&:before
+		border-color: transparent #700bc6 transparent transparent
+.label_gift
+	+background-image(linear-gradient(-45deg, #dc2295, #c60b66))
+	&:after
+		border-color: #770c47 transparent transparent transparent
+	&:before
+		border-color: transparent #c60b66 transparent transparent
+.label_recommended
+	+background-image(linear-gradient(-45deg, #ff7300, #ff4300))
+	&:after
+		border-color: #b7480a transparent transparent transparent
+	&:before
+		border-color: transparent #ff4300 transparent transparent
+.label_prodday
+	+background-image(linear-gradient(-45deg, #029de4, #0070d1))
+	&:after
+		border-color: #08527e transparent transparent transparent
+	&:before
+		border-color: transparent #0070d1 transparent transparent
+.label_utsenka
+	+background-image(linear-gradient(-45deg, #e43002, #d11100))
+	&:after
+		border-color: #781e10 transparent transparent transparent
+	&:before
+		border-color: transparent #d11100 transparent transparent
+.label_low-price
+	+background-image(linear-gradient(-45deg, #27cda9, #0dae7e))
+	&:after
+		border-color: #12745c transparent transparent transparent
+	&:before
+		border-color: transparent #0dae7e transparent transparent
 
 
 

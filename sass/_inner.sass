@@ -304,7 +304,7 @@
 			border-right: 2px solid #0288d0
 			box-shadow: 0 6px 16px rgba(0,1,1,.22)
 			background: #FFF 
-		.btn, .label
+		.btn, .label-status
 			display: inline-block
 	.item
 		position: absolute
@@ -329,7 +329,7 @@
 		font-size: 14px
 		font-weight: bold
 		box-shadow: 0 1px 1px rgba(0,0,0,.8)
-	.btn, .label
+	.btn, .label-status
 		display: none
 	.price
 		width: 100px
@@ -989,85 +989,6 @@
 		left: 0
 		right: 0
 		border: 2px solid transparent
-	.item__label
-		position: absolute
-		top: 4px
-		right: 0
-		height: 16px
-		padding: 0 8px 0 3px
-		line-height: 16px
-		font-size: 10px
-		text-transform: uppercase
-		color: #FFF
-		font-weight: bold
-		&:after, &:before
-			content: ""
-			position: absolute
-			width: 0px
-			height: 0px
-			border-style: solid 
-		&:after
-			bottom: -5px
-			right: 0
-			border-width: 5px 4px 0 0
-		&:before
-			top: 0
-			left: -7px
-			border-width: 8px 7px 8px 0
-	.item__label_action
-		+background-image(linear-gradient(-45deg, #db3064, #c51136))
-		&:after
-			border-color: #9a1437 transparent transparent transparent
-		&:before
-			border-color: transparent #c51136 transparent transparent
-	.item__label_top
-		+background-image(linear-gradient(-45deg, #ffb700, #ff9100))
-		&:after
-			border-color: #a97106 transparent transparent transparent
-		&:before
-			border-color: transparent #ff9100 transparent transparent
-	.item__label_new
-		+background-image(linear-gradient(-45deg, #8acc04, #59aa01))
-		&:after
-			border-color: #59aa01 transparent transparent transparent
-		&:before
-			border-color: transparent #59aa01 transparent transparent
-	.item__label_discount
-		+background-image(linear-gradient(-45deg, #9d22dc, #700bc6))
-		&:after
-			border-color: #49106c transparent transparent transparent
-		&:before
-			border-color: transparent #700bc6 transparent transparent
-	.item__label_gift
-		+background-image(linear-gradient(-45deg, #dc2295, #c60b66))
-		&:after
-			border-color: #770c47 transparent transparent transparent
-		&:before
-			border-color: transparent #c60b66 transparent transparent
-	.item__label_recommended
-		+background-image(linear-gradient(-45deg, #ff7300, #ff4300))
-		&:after
-			border-color: #b7480a transparent transparent transparent
-		&:before
-			border-color: transparent #ff4300 transparent transparent
-	.item__label_prodday
-		+background-image(linear-gradient(-45deg, #029de4, #0070d1))
-		&:after
-			border-color: #08527e transparent transparent transparent
-		&:before
-			border-color: transparent #0070d1 transparent transparent
-	.item__label_utsenka
-		+background-image(linear-gradient(-45deg, #e43002, #d11100))
-		&:after
-			border-color: #781e10 transparent transparent transparent
-		&:before
-			border-color: transparent #d11100 transparent transparent
-	.item__label_low-price
-		+background-image(linear-gradient(-45deg, #27cda9, #0dae7e))
-		&:after
-			border-color: #12745c transparent transparent transparent
-		&:before
-			border-color: transparent #0dae7e transparent transparent
 	.item__toggle
 		display: none
 	.item__pic
@@ -1078,7 +999,7 @@
 		margin-bottom: 10px
 	.item__layout
 		font-size: 0
-		> .label
+		> .label-status
 			margin-bottom: 10px
 	.item__col
 		display: inline-block
@@ -1340,7 +1261,7 @@
 				border-right: 2px solid #0288d0
 				box-shadow: 0 6px 16px rgba(0,1,1,.22)
 				border-radius: 5px
-			.btn, .label
+			.btn, .label-status
 				display: block
 	.item__el-in
 		position: absolute
@@ -1360,7 +1281,7 @@
 		margin-bottom: 10px
 		.price, .btn
 			width: 100%
-	.btn, .label
+	.btn, .label-status
 		display: none
 
 
@@ -1854,7 +1775,7 @@
 	.item__title
 		margin-bottom: 3px
 		font-size: 16px
-	.label
+	.label-status
 		margin-bottom: 7px
 	.item__value
 		.item__text, .dropdown
@@ -2000,7 +1921,7 @@
 		font-weight: bold
 		font-size: 18px
 .lightbox__head
-	.title, .label, .lightbox__code
+	.title, .label-status, .lightbox__code
 		display: inline-block
 		margin-right: 15px
 	.lightbox__code
