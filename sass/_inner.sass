@@ -183,7 +183,8 @@
 	display: inline-block
 	vertical-align: middle
 .category__price, 
-.main__price
+.main__price,
+.price-yellow
 	padding: 1px 10px
 	border: 1px solid #fa0
 	border-radius: 4px
@@ -223,9 +224,14 @@
 
 .meta
 	margin-bottom: 15px
+	padding: 0 15px
 	+clr
 .meta__left
 	float: left
+	.share
+		display: inline-block
+		margin-left: 15px
+		vertical-align: middle
 .meta__left
 	.title
 		display: inline-block
@@ -239,14 +245,24 @@
 .meta__right
 	float: right
 	padding-top: 3px
-.meta__counter, .meta__all, .meta__discount, .meta__more
+.meta__counter, .meta__all, .meta__discount, .meta__more, .meta__money
 	display: inline-block
 .meta__counter
 	padding: 0 2px
 	color: #585967 
-.meta__all, .meta__more
+.meta__all, .meta__more, .meta__money, .meta__all-bold
 	a
 		border-bottom: 1px solid $brd 
+.meta__all-bold
+	font-weight: bold
+.meta__money
+	padding-left: 20px
+	i
+		position: relative
+		top: 3px
+		display: inline-block
+		margin-right: 5px
+		+s(meta-money)
 .meta__desc
 	padding-top: 5px
 	clear: both

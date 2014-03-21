@@ -2,6 +2,7 @@
 .main
 	display: inline-block
 	width: 100%
+	margin-bottom: 25px
 	border: 1px solid #dedede
 	border-radius: 5px
 	vertical-align: top
@@ -60,10 +61,13 @@
 	border-bottom: 1px solid #dedede
 .main__item_1, .main__item_7, .main__item_8
 	height: 224px
+.main__item_1
+	border-radius: 5px 0 0 0
 .main__item_2
 	width: 50%
 	height: 224px
 	border-right: 1px solid #dedede
+	border-radius: 0 0 0 5px
 	+box
 .main__item_3, .main__item_4
 	width: 50%
@@ -77,6 +81,10 @@
 	border-bottom: 1px solid #dedede  
 .main__item_6
 	height: 118px
+.main__item_7
+	border-radius: 0 5px 0 0
+.main__item_8
+	border-radius: 0 0 5px 0
 .main__price-wrap
 	position: absolute
 	left: 10px
@@ -142,25 +150,158 @@
 
 
 
+//sale and pop-reviews
+.sale, .pop-reviews
+	margin: 0 -10px 25px
+	padding: 0 10px
+	overflow: hidden
+.pop-reviews
+	margin: 0 -10px
+	padding: 1px 10px 30px 
+.sale__in, .pop-reviews__in
+	margin-right: -2%
+	font-size: 0
+.sale__item, .pop-reviews__item
+	position: relative
+	display: inline-block
+	width: 32%
+	margin: 0 1% 20px 0
+	border: 1px solid #dedede
+	border-radius: 5px
+	vertical-align: top
+	color: $cl 
+	+box
+.sale__item
+	&:hover
+		&:before
+			content: ""
+			position: absolute
+			top: -1px
+			left: -1px
+			right: -1px
+			bottom: -1px
+			border-top: 2px solid #03a6de
+			border-bottom: 2px solid #017ECB 
+			border-left: 2px solid #0288d0
+			border-right: 2px solid #0288d0
+			box-shadow: 0 6px 16px rgba(0,1,1,.22)
+			border-radius: 5px
+			z-index: 2
+.sale__pic, .pop-reviews__pic
+	height: 190px
+	border-radius: 4px 4px 0 0
+	+cover
+.sale__data, .pop-reviews__data
+	padding: 10px 10px 5px
+	+clr
+.sale__price
+	float: right
+	margin-left: 20px
+	.price-yellow
+		margin-bottom: 3px
+		font-size: 15px
+.sale__discount
+	font-size: 12px
+	text-align: center
+.sale__details
+	overflow: hidden
+	font-size: 12px
+.sale__title, .pop-reviews__title
+	margin-bottom: 5px
+	font-size: 14px
+	color: $bl
+.sale__date
+	i, span
+		display: inline-block
+		vertical-align: middle
+	i
+		margin-right: 5px
+		+s(sale-date)
+.pop-reviews__item
+	height: 280px
+	overflow: hidden
+	&:after
+		content: ""
+		position: absolute
+		bottom: 0
+		left: 8px
+		right: 8px
+		height: 30px
+		+background(linear-gradient(rgba(255,255,255,0) 0%, rgba(255,255,255,.9) 60%, rgba(255,255,255,1) 100%))
+	&:hover
+		overflow: visible
+		&:after
+			display: none
+		.pop-reviews__item-in
+			border-top: 2px solid #03a6de
+			border-bottom: 2px solid #017ECB 
+			border-left: 2px solid #0288d0
+			border-right: 2px solid #0288d0
+			box-shadow: 0 6px 16px rgba(0,1,1,.22)
+			border-radius: 5px
+.pop-reviews__item-in
+	position: absolute
+	top: -2px
+	left: -2px
+	right: -2px
+	border: 2px solid transparent
+	background: #FFF 
+.pop-reviews__text
+	padding-bottom: 3px
+	font-size: 12px
+	color: $cl 
 
 
 
 
 
+//main categories
+.m-category
+	margin-bottom: 25px
+.m-category__section 
+	padding-top: 10px
+	margin-bottom: 20px
+	font-size: 0
+	text-align: center
+	li
+		display: inline-block
+		width: 10%
+		vertical-align: top
+	a
+		display: block
+		padding: 0 10px 
+		font-size: 12px
+	i
+		display: inline-block
+		vertical-align: top
+	span
+		display: block
+		padding-top: 10px
+		line-height: 1.2
+@for $i from 1 through 10
+	.m-category__ico-#{$i}
+		+s(m-cat#{$i})
+.m-category__list
+	padding-left: 15px 
+	+clr
+	>li
+		float: left
+		width: 22%
+		margin-left: 3%
+		&:first-child
+			margin-left: 0
+		li
+			margin-bottom: 3px
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+//social-widget
+.social-widget
+	padding-left: 15px
+	+clr
+.social-widget__item
+	float: left
+	&:first-child
+		margin-right: 30px
 
 
