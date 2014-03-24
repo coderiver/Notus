@@ -289,15 +289,15 @@
 	z-index: 10 
 .popular__in
 	position: relative
-.popular__prev, .popular__next
+.popular__prev, .popular__next, .products__prev, .products__next
 	position: absolute
 	top: 55px
-.popular__prev
+.popular__prev, .products__prev
 	left: 0
 	+s(prev)
 	&:hover
 		+s(prev-a)
-.popular__next
+.popular__next, .products__next 
 	right: 0
 	+s(next)
 	&:hover
@@ -591,17 +591,21 @@
 	padding: 8px
 	border-radius: 3px
 	background: #FFF 
-.topday__timer
+.topday__timer, .timer
 	margin-bottom: 10px
+	display: inline-block
+	vertical-align: top
+	text-align: center
 	strong
 		display: block
 	ul
 		font-size: 0
 	li
 		display: inline-block
-		margin: 0 3px
 		font-size: 12px
 		line-height: 1
+		&:first-child
+			margin-right: 6px
 	span
 		display: block
 		+s(timer)
@@ -700,13 +704,6 @@
 	top: 5px
 	left: 4px
 	+arr(6,4,#000,b)
-.rating__links
-	padding-top: 15px
-	font-size: 14px
-	li
-		margin-bottom: 5px
-	a
-		border-bottom: 1px solid $brd 
 .rating__drop
 	position: absolute
 	top: 23px
@@ -972,6 +969,16 @@
 .products
 	margin-bottom: 20px
 	font-size: 0
+.products_slider, .products_slider-border
+	position: relative
+	padding: 0 50px
+	.products__in
+		.item
+			width: 18%
+.products_slider-border
+	padding: 0 50px 10px
+	margin-bottom: 30px
+	border-bottom: 1px solid #dedede
 .products__in
 	margin-right: -2%
 	.item
@@ -1415,11 +1422,25 @@
 	margin-right: 70px
 	.btn
 		width: 100%
+.product__links
+	padding: 12px 0
+	font-size: 14px
+	li
+		margin-bottom: 5px
+	a
+		border-bottom: 1px solid $brd 
 .product__layout_price
 	border-radius: 3px
 	box-shadow: 0 1px 1px rgba(0,0,0,.4)
 	.btn
 		border-radius: 0 3px 3px 0
+	.btn_yellow
+		padding: 9px 25px 10px
+		color: #FFF
+		text-align: left
+		font-size: 18px
+		text-shadow: 0 1px 1px rgba(0,0,0,.4) 
+		line-height: 1.2
 	.price
 		display: block
 		height: 61px
@@ -1428,6 +1449,39 @@
 		font-size: 30px
 		text-align: left
 		line-height: 61px
+.product__layout_bought
+	border-radius: 3px
+	box-shadow: 0 1px 1px rgba(0,0,0,.4)
+	background: #f4f4f4 
+	.product__col
+		padding: 10px 20px
+		font-size: 14px
+		border-left: 1px solid #bebebe 
+		&:first-child
+			width: 120px
+			padding: 10px 20px 10px 10px
+			border: none
+.product__links-bought
+	li
+		margin-top: 5px
+		&:first-child
+			margin: 0
+	i, span
+		display: inline-block
+		vertical-align: middle
+	i
+		margin-right: 3px
+	span
+		border-bottom: 1px solid $brd 
+		font-size: 14px
+		font-weight: bold
+.product__in-cart
+	padding-top: 4px
+	line-height: 1.3
+.product__ico-cart
+	+s(prod-cart)
+.product__ico-arr
+	+s(prod-arr)
 .product__services
 	display: table
 .product__services-item
@@ -1474,7 +1528,7 @@
 		width: 200px
 	> .rating
 		padding: 10px
-.product__code
+.product__code, .product__status
 	text-align: center
 	color: #8d8d8d 
 .product__credit
@@ -2056,9 +2110,33 @@
 
 
 
-
-
-
+.product-promo
+	padding: 10px
+	margin-bottom: 10px
+	border: 1px solid #017ecb
+	border-radius: 4px
+	+clr
+.product-promo__pic
+	float: left
+	margin-right: 20px
+	img
+		display: block
+.product-promo__in
+	display: table
+	.timer
+		margin: 0
+.product-promo__title
+	margin-bottom: 5px
+	font-size: 18px
+	color: #a61b6b 
+	font-weight: bold
+	line-height: 1.2
+.product-promo__text
+	margin-bottom: 5px
+.product-promo__more
+	text-align: right
+	a
+		border-bottom: 1px solid $brd 
 
 
 
