@@ -79,12 +79,6 @@
 
 
 
-
-
-
-
-
-
 .category
 	margin-left: -1%
 	overflow: hidden
@@ -1150,8 +1144,11 @@
 	padding: 15px
 	border: 1px solid #dedede
 	border-radius: 5px
+	.content
+		font-size: 12px
 .content
-	h1, h2, h3, h4, h5
+	font-size: 14px
+	h1, h2, h3, h4
 		margin-bottom: 7px
 	h1
 		font-size: 30px
@@ -1160,9 +1157,7 @@
 	h3
 		font-size: 18px
 	h4
-		font-size: 14px
-	h5
-		font-size: 12px 
+		font-size: 16px
 	ul
 		padding-left: 35px
 		li
@@ -1528,20 +1523,11 @@
 		width: 200px
 	> .rating
 		padding: 10px
+	.buy-credit
+		margin-top: 10px
 .product__code, .product__status
 	text-align: center
 	color: #8d8d8d 
-.product__credit
-	margin-top: 10px
-	span
-		display: block
-		margin-top: -2px
-		padding: 12px 10px 10px
-		background-color: #69083f
-		border-radius: 0 0 2px 2px
-		color: #E8E1AA
-		font-weight: bold 
-		text-align: center
 .product__size, .product__color
 	span
 		display: block
@@ -2095,7 +2081,7 @@
 		width: 100%
 	.price
 		font-size: 18px
-.lightbox__credit
+.buy-credit
 	.btn
 		width: 100%
 	span
@@ -2140,14 +2126,54 @@
 
 
 
+.descr
+	+clr
+.descr__product
+	float: right
+	width: 230px
+	margin-left: 30px
+	padding: 30px 20px 20px
+	border-radius: 4px
+	background-color: #fff
+	box-shadow: 0 5px 10px rgba(0,1,1,.25)
+	+background-image(linear-gradient(bottom, rgba(235,235,235,.35) 0%, rgba(255,255,255,.35) 44.24%, rgba(255,255,255,.35) 100%))
+	.item
+		text-align: center
+	.item__pic
+		margin-bottom: 40px
+		font-size: 0
+	.item__in
+		width: 175px
+		margin: 0 auto
+	.item__price
+		margin-bottom: 20px 
+		.btn
+			display: block
+	.price
+		display: block
+		font-size: 18px
+	.buy-credit
+		margin-bottom: 25px
+	.label-status
+		margin-bottom: 10px
+	.item__code
+		color: #898989 
+.descr__in
+	overflow: hidden
+	.content
+		margin-bottom: 20px
 
 
 
-
-
-
-
-
+.case
+	font-size: 0
+	text-align: center
+.case__item
+	display: inline-block
+	width: 26%
+	margin: 0 2% 20px
+	vertical-align: top
+	font-size: 14px
 
 
 

@@ -745,13 +745,14 @@ input, textarea, button { font-family: "Helvetica Neue", Arial, sans-serif; colo
 .pager a.pager__next i { right: 10px; background: url('../img/icons-sc5fce31bed.png') 0 -1792px no-repeat; width: 7px; height: 13px; }
 
 .content-wrap { padding: 15px; border: 1px solid #dedede; border-radius: 5px; }
+.content-wrap .content { font-size: 12px; }
 
-.content h1, .content h2, .content h3, .content h4, .content h5 { margin-bottom: 7px; }
+.content { font-size: 14px; }
+.content h1, .content h2, .content h3, .content h4 { margin-bottom: 7px; }
 .content h1 { font-size: 30px; }
 .content h2 { font-size: 24px; }
 .content h3 { font-size: 18px; }
-.content h4 { font-size: 14px; }
-.content h5 { font-size: 12px; }
+.content h4 { font-size: 16px; }
 .content ul { padding-left: 35px; }
 .content ul li { list-style: disc inside; }
 
@@ -889,11 +890,9 @@ input, textarea, button { font-family: "Helvetica Neue", Arial, sans-serif; colo
 .product__col { float: left; width: 180px; }
 .product__col:first-child { width: 200px; }
 .product__col > .rating { padding: 10px; }
+.product__col .buy-credit { margin-top: 10px; }
 
 .product__code, .product__status { text-align: center; color: #8d8d8d; }
-
-.product__credit { margin-top: 10px; }
-.product__credit span { display: block; margin-top: -2px; padding: 12px 10px 10px; background-color: #69083f; border-radius: 0 0 2px 2px; color: #e8e1aa; font-weight: bold; text-align: center; }
 
 .product__size span, .product__color span { display: block; margin-bottom: 5px; font-weight: bold; font-size: 14px; }
 .product__size ul, .product__color ul { font-size: 0; }
@@ -1102,8 +1101,8 @@ input, textarea, button { font-family: "Helvetica Neue", Arial, sans-serif; colo
 .lightbox__price .price, .lightbox__price .btn { width: 100%; }
 .lightbox__price .price { font-size: 18px; }
 
-.lightbox__credit .btn { width: 100%; }
-.lightbox__credit span { display: block; margin-top: -2px; padding: 12px 10px 10px; background-color: #69083f; border-radius: 0 0 2px 2px; color: #e8e1aa; font-weight: bold; text-align: center; }
+.buy-credit .btn { width: 100%; }
+.buy-credit span { display: block; margin-top: -2px; padding: 12px 10px 10px; background-color: #69083f; border-radius: 0 0 2px 2px; color: #e8e1aa; font-weight: bold; text-align: center; }
 
 .product-promo { padding: 10px; margin-bottom: 10px; border: 1px solid #017ecb; border-radius: 4px; *zoom: 1; }
 .product-promo:after { content: " "; display: table; clear: both; }
@@ -1120,6 +1119,27 @@ input, textarea, button { font-family: "Helvetica Neue", Arial, sans-serif; colo
 
 .product-promo__more { text-align: right; }
 .product-promo__more a { border-bottom: 1px solid #a3c5e6; }
+
+.descr { *zoom: 1; }
+.descr:after { content: " "; display: table; clear: both; }
+
+.descr__product { float: right; width: 230px; margin-left: 30px; padding: 30px 20px 20px; border-radius: 4px; background-color: white; box-shadow: 0 5px 10px rgba(0, 1, 1, 0.25); background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, rgba(235, 235, 235, 0.35)), color-stop(44.24%, rgba(255, 255, 255, 0.35)), color-stop(100%, rgba(255, 255, 255, 0.35))); background-image: -webkit-linear-gradient(bottom, rgba(235, 235, 235, 0.35) 0%, rgba(255, 255, 255, 0.35) 44.24%, rgba(255, 255, 255, 0.35) 100%); background-image: -moz-linear-gradient(bottom, rgba(235, 235, 235, 0.35) 0%, rgba(255, 255, 255, 0.35) 44.24%, rgba(255, 255, 255, 0.35) 100%); background-image: -o-linear-gradient(bottom, rgba(235, 235, 235, 0.35) 0%, rgba(255, 255, 255, 0.35) 44.24%, rgba(255, 255, 255, 0.35) 100%); background-image: linear-gradient(bottom, rgba(235, 235, 235, 0.35) 0%, rgba(255, 255, 255, 0.35) 44.24%, rgba(255, 255, 255, 0.35) 100%); }
+.descr__product .item { text-align: center; }
+.descr__product .item__pic { margin-bottom: 40px; font-size: 0; }
+.descr__product .item__in { width: 175px; margin: 0 auto; }
+.descr__product .item__price { margin-bottom: 20px; }
+.descr__product .item__price .btn { display: block; }
+.descr__product .price { display: block; font-size: 18px; }
+.descr__product .buy-credit { margin-bottom: 25px; }
+.descr__product .label-status { margin-bottom: 10px; }
+.descr__product .item__code { color: #898989; }
+
+.descr__in { overflow: hidden; }
+.descr__in .content { margin-bottom: 20px; }
+
+.case { font-size: 0; text-align: center; }
+
+.case__item { display: inline-block; width: 26%; margin: 0 2% 20px; vertical-align: top; font-size: 14px; }
 
 .l-center { min-width: 1130px; max-width: 1400px; margin: 0 auto; padding: 0 10px; }
 
