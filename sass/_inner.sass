@@ -1162,6 +1162,35 @@
 		padding-left: 35px
 		li
 			list-style: disc inside
+	.content__list
+		padding-left: 20px
+		li
+			position: relative
+			padding-left: 15px 
+			margin-bottom: 5px
+			list-style: none
+			&:before
+				content: ""
+				position: absolute
+				top: 7px
+				left: 0
+				+s(content-list)
+		p
+			font-size: 12px
+	.content__list_arr
+		li
+			&:before
+				top: 5px
+				+s(content-list-arr)
+	.content__list-title
+		font-weight: bold
+.content__layout
+	+clr
+.content__column
+	float: left
+	width: 40%
+	&:first-child
+		margin-right: 10%
 
 
 
@@ -2127,6 +2156,7 @@
 
 
 .descr
+	margin-bottom: 25px
 	+clr
 .descr__product
 	float: right
@@ -2159,6 +2189,7 @@
 	.item__code
 		color: #898989 
 .descr__in
+	padding-left: 20px
 	overflow: hidden
 	.content
 		margin-bottom: 20px
@@ -2177,6 +2208,163 @@
 
 
 
+.reviews
+	padding: 30px 0
+	margin-bottom: 25px
+	border: 1px solid #dedede 
+	border-width: 1px 0
+.reviews__in
+	font-size: 0
+.reviews__item
+	display: inline-block
+	width: 36%
+	margin-right: 5%
+	vertical-align: top
+	font-size: 12px
+.reviews__counter
+	margin-bottom: 5px
+	font-weight: bold
+	font-size: 13px
+.reviews__meta
+	margin-bottom: 5px
+	+clr
+	.rating
+		float: right
+.reviews__user
+	display: table
+.reviews__text
+	margin-bottom: 10px
+.reviews__more
+	a
+		border-bottom: 1px solid $brd 
+
+
+
+.reviews-title
+	margin-bottom: 15px
+	.title, .rating
+		display: inline-block
+		margin: 0 10px 0 0
+		vertical-align: middle
+
+
+
+.reviews-most
+	position: relative
+	margin-bottom: 40px
+	+clr
+.reviews-most__item
+	float: left
+	width: 50%
+	+box
+	padding-left: 35px
+	&:first-child
+		padding: 0 35px 0 0
+.reviews-most__title
+	margin-bottom: 10px
+	font-size: 16px
+	font-weight: bold
+.reviews-most__counter
+	margin-bottom: 10px
+	font-weight: bold
+	font-size: 13px
+.reviews-most__rating
+	margin-bottom: 10px
+	>strong, .rating
+		display: inline-block
+		vertical-align: middle
+	>strong
+		margin-right: 8px
+.reviews-most__text
+	a
+		border-bottom: 1px solid $brd 
+		font-weight: bold
+.reviews-most__vs
+	position: absolute
+	top: 0
+	left: 50%
+	bottom: 0
+	width: 1px
+	background: #dedede
+	span
+		position: absolute
+		top: 50%
+		left: 50%
+		margin: -8px 0 0 -22px
+		padding: 1px 4px 3px
+		background: #FFF
+		border: 1px solid #dedede
+		border-radius: 2px 
+		font-size: 10px
+		line-height: 1 
+
+
+.reviews-sort
+	margin-bottom: 20px
+	+clr
+.reviews-sort__sort
+	float: left
+	padding-top: 4px
+	font-size: 14px
+	font-weight: bold
+	a
+		border-bottom: 1px solid $brd 
+		font-weight: normal
+.reviews-sort__write
+	float: right
+	>strong
+		margin-right: 10px
+		font-size: 14px
+
+
+
+.review
+	margin-bottom: 45px
+	+clr
+.review__right
+	float: right
+	width: 230px
+	margin-left: 20px
+	padding-left: 20px
+	border-left: 1px solid #dedede
+	.rating
+		margin-bottom: 15px 
+.review__left
+	display: table 
+.review__experience
+	margin-bottom: 10px
+	strong, span
+		display: inline-block
+	strong
+		margin-right: 3px 
+	span
+		font-weight: bold
+		color: #6a2db5 
+.review__user
+	margin-bottom: 10px
+	strong
+		display: block
+.review__counter-link
+	margin-bottom: 20px
+	a
+		border-bottom: 1px solid $brd 
+.review__share
+	font-size: 0
+	li
+		display: inline-block
+		margin-left: 10px 
+		vertical-align: middle
+		&:first-child
+			margin: 0
+.review__counter-user
+	margin-bottom: 15px
+	font-size: 14px
+	font-weight: bold
+.review__text
+	margin-bottom: 10px
+.review__helpful
+	>strong, .btn-gray
+		margin-right: 10px
 
 
 

@@ -60,7 +60,11 @@ a
 input, textarea, button
 	font-family: "Helvetica Neue", Arial, sans-serif 
 	color: $font
-	 
+
+.is-green
+	color: #65B300
+.is-orange
+	color: #f14625 	 
 
 // common blocks
 .header
@@ -811,6 +815,8 @@ input, textarea, button
 	font-weight: bold
 	text-shadow: 0 1px 0 rgba(255,255,255,.75)
 	color: #000 
+	+box
+	line-height: 33px
 	&:hover
 		background: #e8e8e8
 		box-shadow: 0 1px 1px rgba(0,0,0,.4)
