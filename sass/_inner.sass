@@ -681,9 +681,14 @@
 		margin-left: 3px
 		&:first-child
 			margin: 0
-.rating__in, .rating__btn
+.rating_margin
+	margin-bottom: 30px
+.rating__in, .rating__btn, .rating__status
 	display: inline-block
 	vertical-align: middle
+.rating__status
+	padding-top: 3px
+	font-size: 14px
 .rating__in
 	margin-right: 9px
 .rating__btn
@@ -731,6 +736,28 @@
 		display: table
 		font-weight: bold
 		font-size: 12px
+.rating-details
+	margin-bottom: 30px
+.rating-details__title
+	margin-bottom: 10px
+	i, a
+		display: inline-block
+		vertical-align: middle
+	a
+		border-bottom: 1px solid $brd 
+	i
+		margin-right: 5px
+		+s(rating-details-plus)
+.rating-details__list
+	li
+		padding-left: 20px
+		margin-bottom: 3px
+	span, .rating
+		display: inline-block
+		vertical-align: middle
+	span
+		min-width: 100px
+		margin-right: 10px
 		
 
 
